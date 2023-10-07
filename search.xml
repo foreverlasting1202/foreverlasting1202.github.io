@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>New Start!</title>
-    <url>/2023/10/07/2023-10-7-New-Start!/</url>
+    <title>Hello World!</title>
+    <url>/3000/06/14/2023-10-7-New-Start!/</url>
     <content><![CDATA[<p>又搭了一个新博客。</p>
+<p>这里大概会成为某种自我介绍和导航。</p>
 ]]></content>
       <categories>
         <category>Something</category>
@@ -13,27 +14,31 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/10/07/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>北京理工大学人工智能专业生存手册</title>
+    <url>/2023/10/08/2023-10-8-BITAI/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
+<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
+<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
 ]]></content>
       <categories>
-        <category>Something</category>
+        <category>AI</category>
       </categories>
       <tags>
-        <tag>Something</tag>
+        <tag>生存手册</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>算法竞赛生存手册(伪)</title>
+    <url>/2023/10/08/2023-10-8-CP(fake)/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>说实话，写这个有点抽象的。主要是我毫无成绩吧，写的东西也没啥说服力。只能写出某些自己的心得体会，也可能会扔一些题单博客啥的，能帮到人就算成功。</p>
+]]></content>
+      <categories>
+        <category>CP</category>
+      </categories>
+      <tags>
+        <tag>生存手册</tag>
       </tags>
   </entry>
 </search>
