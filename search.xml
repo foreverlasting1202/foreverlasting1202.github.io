@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World!</title>
-    <url>/3000/06/14/2023-10-7-New-Start!/</url>
-    <content><![CDATA[<p>又搭了一个新博客。</p>
-<p>这里大概会成为某种自我介绍和导航。</p>
-<h3 id="生存手册"><a href="#生存手册" class="headerlink" title="生存手册"></a>生存手册</h3><ol>
-<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-CP(fake)/">算法竞赛生存手册(伪)</a></li>
-<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-BITAI/">北京理工大学人工智能专业生存手册</a></li>
-</ol>
+    <title>关于 AI 里的一些数学证明</title>
+    <url>/2023/11/06/2023-11-6-AI-math/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
+]]></content>
+      <categories>
+        <category>AI</category>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>整理与总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BENIGN OVERFITTING IN CLASSIFICATION PROVABLY COUNTER LABEL NOISE WITH LARGER MODELS</title>
+    <url>/2023/12/18/2023-12-18-2206.00501/</url>
+    <content><![CDATA[<p>。</p>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>Thesis Reading</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>12.18 的一些畅想</title>
+    <url>/2023/12/18/2023-12-18-thoughts/</url>
+    <content><![CDATA[<p>总是活在一些畅想中…</p>
+<p>手捏一份高不成低不就的成绩，畅想自己能往高处走，实际上每次的冲击都只能以中间态告终。到底缺少了些什么呢，未曾知晓。只能无意识地向前走，也不知是被何事推动着了。</p>
 ]]></content>
       <categories>
         <category>Something</category>
@@ -33,17 +55,20 @@
       </tags>
   </entry>
   <entry>
-    <title>关于 AI 里的一些数学证明</title>
-    <url>/2023/11/06/2023-11-6-AI-math/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
+    <title>Hello World!</title>
+    <url>/3000/06/14/2023-10-7-New-Start!/</url>
+    <content><![CDATA[<p>又搭了一个新博客。</p>
+<p>这里大概会成为某种自我介绍和导航。</p>
+<h3 id="生存手册"><a href="#生存手册" class="headerlink" title="生存手册"></a>生存手册</h3><ol>
+<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-CP(fake)/">算法竞赛生存手册(伪)</a></li>
+<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-BITAI/">北京理工大学人工智能专业生存手册</a></li>
+</ol>
 ]]></content>
       <categories>
-        <category>AI</category>
-        <category>Math</category>
+        <category>Something</category>
       </categories>
       <tags>
-        <tag>整理与总结</tag>
+        <tag>Something</tag>
       </tags>
   </entry>
   <entry>
@@ -57,31 +82,6 @@
       </categories>
       <tags>
         <tag>生存手册</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>BENIGN OVERFITTING IN CLASSIFICATION:... Reading</title>
-    <url>/2023/12/18/2023-12-18-2206.00501/</url>
-    <content><![CDATA[<p>。</p>
-]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
-      <tags>
-        <tag>Thesis Reading</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>12.18 的一些畅想</title>
-    <url>/2023/12/18/2023-12-18-thoughts/</url>
-    <content><![CDATA[<p>总是活在一些畅想中…</p>
-<p>手捏一份高不成低不就的成绩，畅想自己能往高处走，实际上每次的冲击都只能以中间态告终。到底缺少了些什么呢，未曾知晓。只能无意识地向前走，也不知是被何事推动着了。</p>
-]]></content>
-      <categories>
-        <category>Something</category>
-      </categories>
-      <tags>
-        <tag>Something</tag>
       </tags>
   </entry>
 </search>
