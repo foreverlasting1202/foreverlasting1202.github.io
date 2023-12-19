@@ -5,13 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>BENIGN OVERFITTING IN CLASSIFICATION PROVABLY COUNTER LABEL NOISE WITH LARGER MODELS - Foreverlasting&#39;s blog</title>
+    <title>Understanding the Unstable Convergence of Gradient Descent - Foreverlasting&#39;s blog</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     
-    <meta name="description" content="Definition(Benign Overfitting)深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。
-"> 
+    <meta name="description" content="现有的大多数 (S)GD 分析依赖于一个条件：cost 函数是 $L-$smooth 的，此时要求步长小于 $\frac{2}{L}$。然而，在机器学习应用中，步长常常不满足这个条件，但  (S)G,"> 
     <meta name="author" content="Foreverlating"> 
     <link rel="alternative" href="atom.xml" title="Foreverlasting&#39;s blog" type="application/atom+xml"> 
     <link rel="icon" href="/img/cov_moon.jpg"> 
@@ -21,18 +20,16 @@
     
     
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="BENIGN OVERFITTING IN CLASSIFICATION PROVABLY COUNTER LABEL NOISE WITH LARGER MODELS - Foreverlasting&#39;s blog"/>
-    <meta name="twitter:description" content="Definition(Benign Overfitting)深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。
-"/>
+    <meta name="twitter:title" content="Understanding the Unstable Convergence of Gradient Descent - Foreverlasting&#39;s blog"/>
+    <meta name="twitter:description" content="现有的大多数 (S)GD 分析依赖于一个条件：cost 函数是 $L-$smooth 的，此时要求步长小于 $\frac{2}{L}$。然而，在机器学习应用中，步长常常不满足这个条件，但  (S)G,"/>
     
     
     
     
     <meta property="og:site_name" content="Foreverlasting&#39;s blog"/>
     <meta property="og:type" content="object"/>
-    <meta property="og:title" content="BENIGN OVERFITTING IN CLASSIFICATION PROVABLY COUNTER LABEL NOISE WITH LARGER MODELS - Foreverlasting&#39;s blog"/>
-    <meta property="og:description" content="Definition(Benign Overfitting)深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。
-"/>
+    <meta property="og:title" content="Understanding the Unstable Convergence of Gradient Descent - Foreverlasting&#39;s blog"/>
+    <meta property="og:description" content="现有的大多数 (S)GD 分析依赖于一个条件：cost 函数是 $L-$smooth 的，此时要求步长小于 $\frac{2}{L}$。然而，在机器学习应用中，步长常常不满足这个条件，但  (S)G,"/>
     
 <link rel="stylesheet" href="/css/diaspora.css">
 
@@ -50,7 +47,7 @@
     <div class="bar" style="width: 0;"></div>
     <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://foreverlasting.top"></a>
     <div title="Play/Pause" class="iconfont icon-play"></div>
-    <h3 class="subtitle">BENIGN OVERFITTING IN CLASSIFICATION PROVABLY COUNTER LABEL NOISE WITH LARGER MODELS</h3>
+    <h3 class="subtitle">Understanding the Unstable Convergence of Gradient Descent</h3>
     <div class="social">
         <div>
         <!--
@@ -67,16 +64,25 @@
     <div class="section">
         <div class="article">
     <div class='main'>
-        <h1 class="title">BENIGN OVERFITTING IN CLASSIFICATION PROVABLY COUNTER LABEL NOISE WITH LARGER MODELS</h1>
+        <h1 class="title">Understanding the Unstable Convergence of Gradient Descent</h1>
         <div class="stuff">
-            <span>December 18, 2023</span>
+            <span>December 19, 2023</span>
             
   <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Thesis-Reading/" rel="tag">Thesis Reading</a></li></ul>
 
 
         </div>
         <div class="content markdown">
-            <h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
+            <p>现有的大多数 (S)GD 分析依赖于一个条件：cost 函数是 $L-$smooth 的，此时要求步长小于 $\frac{2}{L}$。然而，在机器学习应用中，步长常常不满足这个条件，但  (S)GD 仍然能够收敛，尽管不稳定。该文从基本原理出发，调查了这种不稳定收敛现象的主要原因，并探讨了其主要特征及其相互关系。</p>
+<h3 id="梯度下降-GD-Gradient-descent"><a href="#梯度下降-GD-Gradient-descent" class="headerlink" title="梯度下降 (GD, Gradient descent)"></a>梯度下降 (GD, Gradient descent)</h3><p>GD 基于某种迭代的思路，即<br>$$<br>\mathbf{\theta}^{t+1}&#x3D;\mathbf{\theta}^t-\eta \nabla f(\mathbf{\theta}^t).<br>$$<br>基于该迭代，去优化 cost 函数 $f$。</p>
+<p>SGD 的区别就在于没有对所有样本求梯度，而是选取部分来求。</p>
+<p>很多文献在分析 (S)GD 时会假设 $f$ 是 $L-$smooth (Lipschitz-smooth) 的，即<br>$$<br>\Vert \nabla f(\mathbf{\theta})-\nabla f(\mathbf{\theta’})\Vert\leq L\Vert \mathbf{\theta}-\mathbf{\theta’}\Vert, \text{for all $\mathbf{\theta}, \mathbf{\theta’}$}.<br>$$<br>可以简单理解为对导数做了个斜率限制，也在一定程度对二阶导数情况进行了限制。</p>
+<p>在这个假设的基础上，能导出一个小引理。</p>
+<h4 id="下降引理-Descent-Lemma"><a href="#下降引理-Descent-Lemma" class="headerlink" title="下降引理 (Descent Lemma)"></a>下降引理 (Descent Lemma)</h4><p><strong>Lemma</strong>：若函数 $f$ 满足 $L-$smooth，则有<br>$$<br>f(\mathbf{\theta’})\leq f(\mathbf{\theta})+\nabla f(\mathbf{\theta})^{T}(\mathbf{\theta’}-\mathbf{\theta})+\frac{L}{2}\Vert \mathbf{\theta’}-\mathbf{\theta}\Vert^2.<br>$$<br><strong>Proof Idea</strong>：$L-$smooth 给出了某种梯度之差的关系，而要求的是函数之差的关系，一个思路便是直接 Taylor 展开。</p>
+<p><strong>Proof</strong>：对 $f(\mathbf{\theta’})$ 进行 Taylor 展开，然后利用 $L-$smooth 进行放缩，即<br>$$<br>f(\mathbf{\theta’})&#x3D;f(\mathbf{\theta})+\nabla f(\mathbf{\theta})^T(\mathbf{\theta’}-\mathbf{\theta})+\frac{1}{2}(\mathbf{\theta’}-\mathbf{\theta})^T\nabla^2 f(\mathbf{x})(\mathbf{\theta’}-\mathbf{\theta})\<br>\leq f(\mathbf{\theta})+\nabla f(\mathbf{\theta})^T(\mathbf{\theta’}-\mathbf{\theta})+\frac{L}{2}\Vert \mathbf{\theta’}-\mathbf{\theta}\Vert^2. \hfill\blacksquare<br>$$<br>Descent Lemma 的一个作用就是可以在 GD 时给出一个限制，即<br>$$<br>f(\mathbf{\theta}^{t+1})\leq f(\mathbf{\theta}^{t})-\eta (1-L\eta&#x2F;2)\Vert \nabla f(\mathbf{\theta}^t)\Vert^2.<br>$$<br>这个的证明是容易的，代入 GD 的定义和 Descent Lemma 即可。</p>
+<p>这个不等式给出了一个很好的限制，即如果为了每次迭代都能稳定让 cost 下降的话，则要求<br>$$<br>L&lt;\frac{2}{\eta}.<br>$$<br>我们称步长满足该式时为<strong>稳定区域</strong>。</p>
+<p>实际上不稳定收敛的情况十分常见。在二次函数中，似乎稳定区域的限制是必要的。这一观察统一在了大多数凸优化的情况，以及应用神经正切核 (NTK, Neural Tangent Kernel) 的神经网络中。但在一般的非凸 cost 的情况下，尚不清楚稳定区域条件是否必要或合理。</p>
+<p>而在近期的应用中，<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2103.00065">Cohen et al. (2021)</a> 观察到应用 GD 训练 NN 时经常不满足稳定区域条件，但训练仍然在收敛。这种现象被称为不稳定收敛。</p>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
@@ -113,7 +119,7 @@
     </div>
     
         <div class="side">
-            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Definition-Benign-Overfitting"><span class="toc-number">1.</span> <span class="toc-text">Definition(Benign Overfitting)</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D-GD-Gradient-descent"><span class="toc-number">1.</span> <span class="toc-text">梯度下降 (GD, Gradient descent)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8B%E9%99%8D%E5%BC%95%E7%90%86-Descent-Lemma"><span class="toc-number">1.1.</span> <span class="toc-text">下降引理 (Descent Lemma)</span></a></li></ol></li></ol>
         </div>
     
 </div>
