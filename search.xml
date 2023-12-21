@@ -46,20 +46,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于 AI 里的一些数学证明</title>
-    <url>/2023/11/06/2023-11-6-AI-math/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
-]]></content>
-      <categories>
-        <category>AI</category>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>整理与总结</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Understanding the Unstable Convergence of Gradient Descent</title>
     <url>/2023/12/19/2023-12-18-2205.01050/</url>
     <content><![CDATA[<p>这篇论文的<a href="https://arxiv.org/abs/2204.01050">地址</a>，其主要思路和启发应该来自于 <a href="https://arxiv.org/abs/1602.04915">Lee et al., 2016</a>.</p>
@@ -99,15 +85,17 @@
       </tags>
   </entry>
   <entry>
-    <title>BENIGN OVERFITTING IN CLASSIFICATION PROVABLY COUNTER LABEL NOISE WITH LARGER MODELS</title>
-    <url>/2023/12/18/2023-12-18-2206.00501/</url>
-    <content><![CDATA[<h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
+    <title>关于 AI 里的一些数学证明</title>
+    <url>/2023/11/06/2023-11-6-AI-math/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
 ]]></content>
       <categories>
         <category>AI</category>
+        <category>Math</category>
       </categories>
       <tags>
-        <tag>Thesis Reading</tag>
+        <tag>整理与总结</tag>
       </tags>
   </entry>
   <entry>
@@ -130,6 +118,18 @@
       </categories>
       <tags>
         <tag>Something</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BENIGN OVERFITTING IN CLASSIFICATION PROVABLY COUNTER LABEL NOISE WITH LARGER MODELS</title>
+    <url>/2023/12/18/2023-12-18-2206.00501/</url>
+    <content><![CDATA[<h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>Thesis Reading</tag>
       </tags>
   </entry>
 </search>
