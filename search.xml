@@ -18,20 +18,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于 AI 里的一些数学证明</title>
-    <url>/2023/11/06/2023-11-6-AI-math/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
-]]></content>
-      <categories>
-        <category>AI</category>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>整理与总结</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>北京理工大学人工智能专业生存手册</title>
     <url>/2023/10/08/2023-10-8-BITAI/</url>
     <content><![CDATA[<p>会更新吗？如更。</p>
@@ -60,38 +46,56 @@
       </tags>
   </entry>
   <entry>
+    <title>关于 AI 里的一些数学证明</title>
+    <url>/2023/11/06/2023-11-6-AI-math/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
+]]></content>
+      <categories>
+        <category>AI</category>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>整理与总结</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Understanding the Unstable Convergence of Gradient Descent</title>
     <url>/2023/12/19/2023-12-18-2205.01050/</url>
-    <content><![CDATA[<p>现有的大多数 (S)GD 分析依赖于一个条件：cost 函数是 $L-$smooth 的，此时要求步长小于 $\frac{2}{L}$。然而，在机器学习应用中，步长常常不满足这个条件，但  (S)GD 仍然能够收敛，尽管不稳定。该文从基本原理出发，调查了这种不稳定收敛现象的主要原因，并探讨了其主要特征及其相互关系。</p>
+    <content><![CDATA[<p>这篇论文的<a href="https://arxiv.org/abs/2204.01050">地址</a>，其主要思路和启发应该来自于 <a href="https://arxiv.org/abs/1602.04915">Lee et al., 2016</a>.</p>
+<p>Lee 的这篇论文证明了在一些合理的假设下，绝大多数情况下（概率为 $1$，非法情况的测度为 $0$），GD 从随机起点开始在经过足够次数的迭代后会收敛到一个非鞍点的驻点。采取的思路主要是依据 dynamical systems theory 和 Stable Manifold Theorem。而这篇论文进一步探讨不稳定收敛的情况。</p>
+<h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h3><p>现有的大多数 (S)GD 分析依赖于一个条件：cost 函数是 $L-$smooth 的，此时要求步长小于 $\frac{2}{L}$。然而，在机器学习应用中，步长常常不满足这个条件，但  (S)GD 仍然能够收敛，尽管不稳定。该文从基本原理出发，调查了这种不稳定收敛现象的主要原因，并探讨了其主要特征及其相互关系。</p>
 <h3 id="梯度下降-GD-Gradient-descent"><a href="#梯度下降-GD-Gradient-descent" class="headerlink" title="梯度下降 (GD, Gradient descent)"></a>梯度下降 (GD, Gradient descent)</h3><p>GD 基于某种迭代的思路，即<br>$$<br>\mathbf{\theta}^{t+1}&#x3D;\mathbf{\theta}^t-\eta \nabla f(\mathbf{\theta}^t).<br>$$<br>基于该迭代，去优化 cost 函数 $f$。</p>
 <p>SGD 的区别就在于没有对所有样本求梯度，而是选取部分来求。</p>
 <p>很多文献在分析 (S)GD 时会假设 $f$ 是 $L-$smooth (Lipschitz-smooth) 的，即<br>$$<br>\Vert \nabla f(\mathbf{\theta})-\nabla f(\mathbf{\theta’})\Vert\leq L\Vert \mathbf{\theta}-\mathbf{\theta’}\Vert, \text{for all $\mathbf{\theta}, \mathbf{\theta’}$}.<br>$$<br>可以简单理解为对导数做了个斜率限制，也在一定程度对二阶导数情况进行了限制。</p>
 <p>在这个假设的基础上，能导出一个小引理。</p>
-<h4 id="下降引理-Descent-Lemma"><a href="#下降引理-Descent-Lemma" class="headerlink" title="下降引理 (Descent Lemma)"></a>下降引理 (Descent Lemma)</h4><p><strong>Lemma</strong>：若函数 $f$ 满足 $L-$smooth，则有<br>$$<br>f(\mathbf{\theta’})\leq f(\mathbf{\theta})+\nabla f(\mathbf{\theta})^{T}(\mathbf{\theta’}-\mathbf{\theta})+\frac{L}{2}\Vert \mathbf{\theta’}-\mathbf{\theta}\Vert^2.<br>$$<br><strong>Proof Idea</strong>：$L-$smooth 给出了某种梯度之差的关系，而要求的是函数之差的关系，一个思路便是直接 Taylor 展开。</p>
-<p><strong>Proof</strong>：对 $f(\mathbf{\theta’})$ 进行 Taylor 展开，然后利用 $L-$smooth 进行放缩，即<br>$$<br>\begin{align*}<br>f(\mathbf{\theta’})&#x3D;f(\mathbf{\theta})+\nabla f(\mathbf{\theta})^T(\mathbf{\theta’}-\mathbf{\theta})+\frac{1}{2}(\mathbf{\theta’}-\mathbf{\theta})^T\nabla^2 f(\mathbf{x})(\mathbf{\theta’}-\mathbf{\theta})\\<br>\leq f(\mathbf{\theta})+\nabla f(\mathbf{\theta})^T(\mathbf{\theta’}-\mathbf{\theta})+\frac{L}{2}\Vert \mathbf{\theta’}-\mathbf{\theta}\Vert^2. \hfill\blacksquare<br>\end{align*}<br>$$</p>
+<h4 id="下降引理-Descent-Lemma"><a href="#下降引理-Descent-Lemma" class="headerlink" title="下降引理 (Descent Lemma)"></a>下降引理 (Descent Lemma)</h4><p><strong>Description</strong>：若函数 $f$ 满足 $L-$smooth，则有<br>$$<br>f(\mathbf{\theta’})\leq f(\mathbf{\theta})+\nabla f(\mathbf{\theta})^{T}(\mathbf{\theta’}-\mathbf{\theta})+\frac{L}{2}\Vert \mathbf{\theta’}-\mathbf{\theta}\Vert^2.<br>$$<br><strong>Proof Idea</strong>：$L-$smooth 给出了某种梯度之差的关系，而要求的是函数之差的关系，一个思路便是直接 Taylor 展开。</p>
+<p><strong>Proof</strong>：对 $f(\mathbf{\theta’})$ 进行 Taylor 展开，然后利用 $L-$smooth 进行放缩，即<br>$$<br>\begin{align*}<br>f(\mathbf{\theta’})&#x3D;f(\mathbf{\theta})+\nabla f(\mathbf{\theta})^T(\mathbf{\theta’}-\mathbf{\theta})+\frac{1}{2}(\mathbf{\theta’}-\mathbf{\theta})^T\nabla^2 f(\mathbf{x})(\mathbf{\theta’}-\mathbf{\theta})\\<br>\leq f(\mathbf{\theta})+\nabla f(\mathbf{\theta})^T(\mathbf{\theta’}-\mathbf{\theta})+\frac{L}{2}\Vert \mathbf{\theta’}-\mathbf{\theta}\Vert^2.<br>\end{align*}<br>$$</p>
 <p>Descent Lemma 的一个作用就是可以在 GD 时给出一个限制，即<br>$$<br>f(\mathbf{\theta}^{t+1})\leq f(\mathbf{\theta}^{t})-\eta (1-L\eta&#x2F;2)\Vert \nabla f(\mathbf{\theta}^t)\Vert^2.<br>$$<br>这个的证明是容易的，代入 GD 的定义和 Descent Lemma 即可。</p>
 <p>这个不等式给出了一个很好的限制，即如果为了每次迭代都能稳定让 cost 下降的话，则要求<br>$$<br>L&lt;\frac{2}{\eta}.<br>$$<br>我们称步长满足该式时为<strong>稳定区域</strong>。</p>
 <p>实际上不稳定收敛的情况十分常见。在二次函数中，似乎稳定区域的限制是必要的。这一观察统一在了大多数凸优化的情况，以及应用神经正切核 (NTK, Neural Tangent Kernel) 的神经网络中。但在一般的非凸 cost 的情况下，尚不清楚稳定区域条件是否必要或合理。</p>
 <p>而在近期的应用中，<a href="https://arxiv.org/abs/2103.00065">Cohen et al. (2021)</a> 观察到应用 GD 训练 NN 时经常不满足稳定区域条件，但训练仍然在收敛。这种现象被称为不稳定收敛。</p>
-]]></content>
+<h3 id="Unstable-GD-Can’t-Reach-Stationary-Points"><a href="#Unstable-GD-Can’t-Reach-Stationary-Points" class="headerlink" title="Unstable GD Can’t Reach Stationary Points"></a>Unstable GD Can’t Reach Stationary Points</h3><p>有一个通过矩阵求导很容易得到的事实：</p>
+<h4 id="Fact-1"><a href="#Fact-1" class="headerlink" title="Fact 1"></a>Fact 1</h4><p><strong>Description</strong>：对于一个二次 cost 函数 $f(\mathbf{\theta})&#x3D;\frac{1}{2}\theta^TP\theta+\mathbf{q}^T\theta+r$ 而言，当 $P$ 的最大特征值大于阈值 $\frac{2}{\eta}$ 时，GD 会发散。当 $f$ 为凸时，该条件为充要条件。</p>
+<p><strong>Proof Idea</strong>：思路还是比较顺畅的，利用上述性质可以想到求导。</p>
+<p><strong>Proof</strong>：对 $f$ 求导，有<br>$$<br>\nabla f&#x3D;\frac{1}{2}(P+P^T)\theta+\mathbf{q}.<br>$$<br>利用稳定区域的结论，以及 $L-$smooth 的定义，于是<br>$$<br>\Vert \frac{(P+P^T)}{2}(\theta-\theta’)\Vert\leq L\Vert\theta-\theta’\Vert\implies \Vert \frac{P+P^T}{2}\Vert&#x3D;\lambda_{\max}\leq L&lt;\frac{2}{\eta}.<br>$$<br>于是就导出了前半部分的结论。</p>
+<p>后半部分限定了 $P+P^T$ 是正定的，正定限制了特征值均为正数。代入 GD 的迭代式子，即<br>$$<br>\theta^{t+1}&#x3D;(I-\eta(\frac{P+P^T}{2}))\theta^t-\eta \mathbf{q}.<br>$$<br> 此时充要条件的另一部分也就得证了。</p>
+<p>![image-20231220154701704](&#x2F;Users&#x2F;foreverlasting&#x2F;Library&#x2F;Application Support&#x2F;typora-user-images&#x2F;image-20231220154701704.png)</p>
+<p>论文中给出了一个例子，可以明显看到是符合上述的数学证明的。</p>
+<p>在这里先给出一个关于 sharpness 的定义：</p>
+<h4 id="Definition-Sharpness"><a href="#Definition-Sharpness" class="headerlink" title="Definition (Sharpness)"></a>Definition (Sharpness)</h4><p>一个点 $\theta$ 处的 sharpness 被定义为<br>$$<br>\lambda_{\max}(\nabla^2 f(\theta^t)).<br>$$<br>这样来看，我们可以根据之前的信息有这样一个直觉猜测：</p>
+<h4 id="Intuition-1"><a href="#Intuition-1" class="headerlink" title="Intuition 1"></a>Intuition 1</h4><p>当一个驻点的 sharpness 大于 $\frac{2}{\eta}$ 时，GD 没法收敛导这个点。</p>
+<p>接下来，我们能证明这个 Intuition 在某些假设下是能做到绝大多数成立的。</p>
+<h4 id="Assumption-1"><a href="#Assumption-1" class="headerlink" title="Assumption 1"></a>Assumption 1</h4><p>设 $F(\theta)&#x3D;\theta-\eta\nabla f(\theta)$，我们做出以下假设：</p>
+<p>对任意的零测度集合 $S$，$F^{-1}(S)$ 也一定是零测度的。</p>
+<p>更进一步，我们可以假设对任意一个驻点 $\mathbf{p}$，满足 $\frac{1}{\eta}\not\in \lambda(\nabla^2f(\mathbf{p}))$，其中 $\lambda(\nabla^2f(\mathbf{p}))$ 表示的是 $\mathbf{p}$ 处的 $f$ 的 Hessian 矩阵的特征值集合。</p>
+<p>这个假设的目的是为了接下来的定理证明，由此得到 Intuition 的合法性。</p>
+<h4 id="Theorem-1"><a href="#Theorem-1" class="headerlink" title="Theorem 1"></a>Theorem 1</h4>]]></content>
       <categories>
         <category>AI</category>
       </categories>
       <tags>
         <tag>Thesis Reading</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>12.18 的一些畅想</title>
-    <url>/2023/12/18/2023-12-18-thoughts/</url>
-    <content><![CDATA[<p>总是活在一些畅想中…</p>
-<p>手捏一份高不成低不就的成绩，畅想自己能往高处走，实际上每次的冲击都只能以中间态告终。到底缺少了些什么呢，未曾知晓。只能无意识地向前走，也不知是被何事推动着了。</p>
-]]></content>
-      <categories>
-        <category>Something</category>
-      </categories>
-      <tags>
-        <tag>Something</tag>
       </tags>
   </entry>
   <entry>
@@ -104,6 +108,28 @@
       </categories>
       <tags>
         <tag>Thesis Reading</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>12.18 的一些畅想</title>
+    <url>/2023/12/18/2023-12-18-thoughts/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="f5a513da7daf929cc36adad0891c517978a721fb27be0e07037269f9ec5637f7">cc3b4c731d0b315bdb9fb663377e6c706f3d23a9ea693b704452e99fe5575614ca03e4ad8d2ba0543e1a20e2e50f0dbfb83a262d81f2c4743b6984d3a343db7b2495a9e8801f53db57b86c28a50c82eb101b23ab95834bfb8b376665b59b62e854df14836a6df01388e040eaeced7cd9fa4d2792a0d37efd8b7d81902e72e50c6ecefda486fa189291478f988355d5c1c949bbfd288b5f0ce283d0cd9a49aac9805d740f835928f000daae45c9bfc7b40302d8c5879dde97bbdd7ecfc9a83a8e3bb6077e867c4fac6c52870ad5070ff447d76bccbc912e247d1871eb1b05d36feee1b364ec53b16c559595564208988eab4339b91b3db968bedeeb7cd77f47b0009b734e67bfba2b4e43a2a61a96d4c547a3b4b5b400776a9b217bfb6776efc9d6f44762c2a996eb19a6fc181a72715e08d4d71c5fb7e0deea5b7d1bada852d1</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Something</category>
+      </categories>
+      <tags>
+        <tag>Something</tag>
       </tags>
   </entry>
 </search>
