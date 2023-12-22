@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World!</title>
+    <url>/3000/06/14/2023-10-7-New-Start!/</url>
+    <content><![CDATA[<p>又搭了一个新博客。</p>
+<p>这里大概会成为某种自我介绍和导航。</p>
+<h3 id="生存手册"><a href="#生存手册" class="headerlink" title="生存手册"></a>生存手册</h3><ol>
+<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-CP(fake)/">算法竞赛生存手册(伪)</a></li>
+<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-BITAI/">北京理工大学人工智能专业生存手册</a></li>
+</ol>
+<h3 id="知识总结与整理"><a href="#知识总结与整理" class="headerlink" title="知识总结与整理"></a>知识总结与整理</h3><ol>
+<li>[<a href="http://foreverlasting.top/2023/11/06/2023-11-6-AI-math/]">http://foreverlasting.top/2023/11/06/2023-11-6-AI-math/]</a>(关于 AI 里的一些数学证明)</li>
+</ol>
+<h3 id="论文阅读"><a href="#论文阅读" class="headerlink" title="论文阅读"></a>论文阅读</h3><ol>
+<li><a href="http://foreverlasting.top/2023/12/18/2023-12-18-2206.00501/">Benign Overfitting in classification provably counter label noise with larger models</a></li>
+<li><a href="http://foreverlasting.top/2023/12/19/2023-12-18-2205.01050/">Understanding the Unstable Convergence of Gradient Descent</a></li>
+</ol>
+<h3 id="精神状态"><a href="#精神状态" class="headerlink" title="精神状态"></a>精神状态</h3><ol>
+<li><a href="http://foreverlasting.top/2023/12/18/2023-12-18-thoughts/">12.18 精神状态</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Something</category>
+      </categories>
+      <tags>
+        <tag>Something</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>算法竞赛生存手册(伪)</title>
+    <url>/2023/10/08/2023-10-8-CP(fake)/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>说实话，写这个有点抽象的。主要是我毫无成绩吧，写的东西也没啥说服力。只能写出某些自己的心得体会，也可能会扔一些题单博客啥的，能帮到人就算成功。</p>
+]]></content>
+      <categories>
+        <category>CP</category>
+      </categories>
+      <tags>
+        <tag>生存手册</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北京理工大学人工智能专业生存手册</title>
+    <url>/2023/10/08/2023-10-8-BITAI/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
+<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
+<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="形势与政策"><a href="#形势与政策" class="headerlink" title="形势与政策"></a>形势与政策</h3><h3 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h3><h3 id="公选"><a href="#公选" class="headerlink" title="公选"></a>公选</h3><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><h3 id="工程制图C"><a href="#工程制图C" class="headerlink" title="工程制图C"></a>工程制图C</h3><h3 id="大学计算机"><a href="#大学计算机" class="headerlink" title="大学计算机"></a>大学计算机</h3><h3 id="线性代数B"><a href="#线性代数B" class="headerlink" title="线性代数B"></a>线性代数B</h3><h3 id="工科数学分析-I"><a href="#工科数学分析-I" class="headerlink" title="工科数学分析 I"></a>工科数学分析 I</h3><h3 id="知识产权法基础"><a href="#知识产权法基础" class="headerlink" title="知识产权法基础"></a>知识产权法基础</h3><h3 id="学术用途英语一级"><a href="#学术用途英语一级" class="headerlink" title="学术用途英语一级"></a>学术用途英语一级</h3><h3 id="思想道德与法治"><a href="#思想道德与法治" class="headerlink" title="思想道德与法治"></a>思想道德与法治</h3><h3 id="大学生心理素质发展"><a href="#大学生心理素质发展" class="headerlink" title="大学生心理素质发展"></a>大学生心理素质发展</h3><h3 id="军事理论"><a href="#军事理论" class="headerlink" title="军事理论"></a>军事理论</h3><h3 id="军事技能"><a href="#军事技能" class="headerlink" title="军事技能"></a>军事技能</h3><h2 id="大二下"><a href="#大二下" class="headerlink" title="大二下"></a>大二下</h2><h3 id="电路分析基础"><a href="#电路分析基础" class="headerlink" title="电路分析基础"></a>电路分析基础</h3><h3 id="C语言程序设计"><a href="#C语言程序设计" class="headerlink" title="C语言程序设计"></a>C语言程序设计</h3><h3 id="工科数学分析-II"><a href="#工科数学分析-II" class="headerlink" title="工科数学分析 II"></a>工科数学分析 II</h3><h3 id="大学物理AⅠ"><a href="#大学物理AⅠ" class="headerlink" title="大学物理AⅠ"></a>大学物理AⅠ</h3><h3 id="物理实验BⅠ"><a href="#物理实验BⅠ" class="headerlink" title="物理实验BⅠ"></a>物理实验BⅠ</h3><h3 id="学术用途英语二级"><a href="#学术用途英语二级" class="headerlink" title="学术用途英语二级"></a>学术用途英语二级</h3>]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>生存手册</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于 AI 里的一些数学证明</title>
     <url>/2023/11/06/2023-11-6-AI-math/</url>
     <content><![CDATA[<p>会更新吗？如更。</p>
@@ -48,13 +103,14 @@
 <h4 id="Theorem-1"><a href="#Theorem-1" class="headerlink" title="Theorem 1"></a>Theorem 1</h4>]]></content>
       <categories>
         <category>AI</category>
+        <category>Machine Learning</category>
       </categories>
       <tags>
         <tag>Thesis Reading</tag>
       </tags>
   </entry>
   <entry>
-    <title>BENIGN OVERFITTING IN CLASSIFICATION PROVABLY COUNTER LABEL NOISE WITH LARGER MODELS</title>
+    <title>Benign Overfitting in classification provably counter label noise with larger models</title>
     <url>/2023/12/18/2023-12-18-2206.00501/</url>
     <content><![CDATA[<h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
 ]]></content>
@@ -66,35 +122,7 @@
       </tags>
   </entry>
   <entry>
-    <title>北京理工大学人工智能专业生存手册</title>
-    <url>/2023/10/08/2023-10-8-BITAI/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
-<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
-<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="形势与政策"><a href="#形势与政策" class="headerlink" title="形势与政策"></a>形势与政策</h3><h3 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h3><h3 id="公选"><a href="#公选" class="headerlink" title="公选"></a>公选</h3><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><h3 id="工程制图C"><a href="#工程制图C" class="headerlink" title="工程制图C"></a>工程制图C</h3><h3 id="大学计算机"><a href="#大学计算机" class="headerlink" title="大学计算机"></a>大学计算机</h3><h3 id="线性代数B"><a href="#线性代数B" class="headerlink" title="线性代数B"></a>线性代数B</h3><h3 id="工科数学分析-I"><a href="#工科数学分析-I" class="headerlink" title="工科数学分析 I"></a>工科数学分析 I</h3><h3 id="知识产权法基础"><a href="#知识产权法基础" class="headerlink" title="知识产权法基础"></a>知识产权法基础</h3><h3 id="学术用途英语一级"><a href="#学术用途英语一级" class="headerlink" title="学术用途英语一级"></a>学术用途英语一级</h3><h3 id="思想道德与法治"><a href="#思想道德与法治" class="headerlink" title="思想道德与法治"></a>思想道德与法治</h3><h3 id="大学生心理素质发展"><a href="#大学生心理素质发展" class="headerlink" title="大学生心理素质发展"></a>大学生心理素质发展</h3><h3 id="军事理论"><a href="#军事理论" class="headerlink" title="军事理论"></a>军事理论</h3><h3 id="军事技能"><a href="#军事技能" class="headerlink" title="军事技能"></a>军事技能</h3><h2 id="大二下"><a href="#大二下" class="headerlink" title="大二下"></a>大二下</h2><h3 id="电路分析基础"><a href="#电路分析基础" class="headerlink" title="电路分析基础"></a>电路分析基础</h3><h3 id="C语言程序设计"><a href="#C语言程序设计" class="headerlink" title="C语言程序设计"></a>C语言程序设计</h3><h3 id="工科数学分析-II"><a href="#工科数学分析-II" class="headerlink" title="工科数学分析 II"></a>工科数学分析 II</h3><h3 id="大学物理AⅠ"><a href="#大学物理AⅠ" class="headerlink" title="大学物理AⅠ"></a>大学物理AⅠ</h3><h3 id="物理实验BⅠ"><a href="#物理实验BⅠ" class="headerlink" title="物理实验BⅠ"></a>物理实验BⅠ</h3><h3 id="学术用途英语二级"><a href="#学术用途英语二级" class="headerlink" title="学术用途英语二级"></a>学术用途英语二级</h3>]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
-      <tags>
-        <tag>生存手册</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>算法竞赛生存手册(伪)</title>
-    <url>/2023/10/08/2023-10-8-CP(fake)/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>说实话，写这个有点抽象的。主要是我毫无成绩吧，写的东西也没啥说服力。只能写出某些自己的心得体会，也可能会扔一些题单博客啥的，能帮到人就算成功。</p>
-]]></content>
-      <categories>
-        <category>CP</category>
-      </categories>
-      <tags>
-        <tag>生存手册</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>12.18 的一些畅想</title>
+    <title>12.18 精神状态</title>
     <url>/2023/12/18/2023-12-18-thoughts/</url>
     <content><![CDATA[<p>总是活在一些畅想中…</p>
 <p>手捏一份高不成低不就的成绩，畅想自己能往高处走，实际上每次的冲击都只能以中间态告终。到底缺少了些什么呢，未曾知晓。只能无意识地向前走，也不知是被何事推动着了。</p>
@@ -107,20 +135,15 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World!</title>
-    <url>/3000/06/14/2023-10-7-New-Start!/</url>
-    <content><![CDATA[<p>又搭了一个新博客。</p>
-<p>这里大概会成为某种自我介绍和导航。</p>
-<h3 id="生存手册"><a href="#生存手册" class="headerlink" title="生存手册"></a>生存手册</h3><ol>
-<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-CP(fake)/">算法竞赛生存手册(伪)</a></li>
-<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-BITAI/">北京理工大学人工智能专业生存手册</a></li>
-</ol>
+    <title>Review of Computer Vision</title>
+    <url>/2023/12/22/2023-12-22-cv/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
 ]]></content>
       <categories>
-        <category>Something</category>
+        <category>AI</category>
       </categories>
       <tags>
-        <tag>Something</tag>
+        <tag>整理与总结</tag>
       </tags>
   </entry>
 </search>
