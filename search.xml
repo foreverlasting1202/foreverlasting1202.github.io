@@ -29,6 +29,20 @@
       </tags>
   </entry>
   <entry>
+    <title>关于 AI 里的一些数学证明</title>
+    <url>/2023/11/06/2023-11-6-AI-math/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
+]]></content>
+      <categories>
+        <category>AI</category>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>整理与总结</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>北京理工大学人工智能专业生存手册</title>
     <url>/2023/10/08/2023-10-8-BITAI/</url>
     <content><![CDATA[<p>会更新吗？如更。</p>
@@ -41,33 +55,6 @@
       </categories>
       <tags>
         <tag>生存手册</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>算法竞赛生存手册(伪)</title>
-    <url>/2023/10/08/2023-10-8-CP(fake)/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>说实话，写这个有点抽象的。主要是我毫无成绩吧，写的东西也没啥说服力。只能写出某些自己的心得体会，也可能会扔一些题单博客啥的，能帮到人就算成功。</p>
-]]></content>
-      <categories>
-        <category>CP</category>
-      </categories>
-      <tags>
-        <tag>生存手册</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于 AI 里的一些数学证明</title>
-    <url>/2023/11/06/2023-11-6-AI-math/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
-]]></content>
-      <categories>
-        <category>AI</category>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>整理与总结</tag>
       </tags>
   </entry>
   <entry>
@@ -91,7 +78,7 @@
 <p><strong>Proof Idea</strong>：思路还是比较顺畅的，利用上述性质可以想到求导。</p>
 <p><strong>Proof</strong>：对 $f$ 求导，有<br>$$<br>\nabla f&#x3D;\frac{1}{2}(P+P^T)\theta+\mathbf{q}.<br>$$<br>利用稳定区域的结论，以及 $L-$smooth 的定义，于是<br>$$<br>\Vert \frac{(P+P^T)}{2}(\theta-\theta’)\Vert\leq L\Vert\theta-\theta’\Vert\implies \Vert \frac{P+P^T}{2}\Vert&#x3D;\lambda_{\max}\leq L&lt;\frac{2}{\eta}.<br>$$<br>于是就导出了前半部分的结论。</p>
 <p>后半部分限定了 $P+P^T$ 是正定的，正定限制了特征值均为正数。代入 GD 的迭代式子，即<br>$$<br>\theta^{t+1}&#x3D;(I-\eta(\frac{P+P^T}{2}))\theta^t-\eta \mathbf{q}.<br>$$<br> 此时充要条件的另一部分也就得证了。</p>
-<p>![image-20231220154701704](&#x2F;Users&#x2F;foreverlasting&#x2F;Library&#x2F;Application Support&#x2F;typora-user-images&#x2F;image-20231220154701704.png)</p>
+<p><img src="https://s11.ax1x.com/2023/12/22/pi7puQK.png" alt="image-20231220154701704"></p>
 <p>论文中给出了一个例子，可以明显看到是符合上述的数学证明的。</p>
 <p>在这里先给出一个关于 sharpness 的定义：</p>
 <h4 id="Definition-Sharpness"><a href="#Definition-Sharpness" class="headerlink" title="Definition (Sharpness)"></a>Definition (Sharpness)</h4><p>一个点 $\theta$ 处的 sharpness 被定义为<br>$$<br>\lambda_{\max}(\nabla^2 f(\theta^t)).<br>$$<br>这样来看，我们可以根据之前的信息有这样一个直觉猜测：</p>
@@ -123,16 +110,16 @@
       </tags>
   </entry>
   <entry>
-    <title>12.18 精神状态</title>
-    <url>/2023/12/18/2023-12-18-thoughts/</url>
-    <content><![CDATA[<p>总是活在一些畅想中…</p>
-<p>手捏一份高不成低不就的成绩，畅想自己能往高处走，实际上每次的冲击都只能以中间态告终。到底缺少了些什么呢，未曾知晓。只能无意识地向前走，也不知是被何事推动着了。</p>
+    <title>算法竞赛生存手册(伪)</title>
+    <url>/2023/10/08/2023-10-8-CP(fake)/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>说实话，写这个有点抽象的。主要是我毫无成绩吧，写的东西也没啥说服力。只能写出某些自己的心得体会，也可能会扔一些题单博客啥的，能帮到人就算成功。</p>
 ]]></content>
       <categories>
-        <category>Something</category>
+        <category>CP</category>
       </categories>
       <tags>
-        <tag>Something</tag>
+        <tag>生存手册</tag>
       </tags>
   </entry>
   <entry>
@@ -145,6 +132,19 @@
       </categories>
       <tags>
         <tag>整理与总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>12.18 精神状态</title>
+    <url>/2023/12/18/2023-12-18-thoughts/</url>
+    <content><![CDATA[<p>总是活在一些畅想中…</p>
+<p>手捏一份高不成低不就的成绩，畅想自己能往高处走，实际上每次的冲击都只能以中间态告终。到底缺少了些什么呢，未曾知晓。只能无意识地向前走，也不知是被何事推动着了。</p>
+]]></content>
+      <categories>
+        <category>Something</category>
+      </categories>
+      <tags>
+        <tag>Something</tag>
       </tags>
   </entry>
 </search>
