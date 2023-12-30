@@ -57,6 +57,20 @@
       </tags>
   </entry>
   <entry>
+    <title>关于 AI 里的一些数学证明</title>
+    <url>/2023/11/06/2023-11-6-AI-math/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Math</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Understanding the Unstable Convergence of Gradient Descent</title>
     <url>/2023/12/19/2023-12-18-2205.01050/</url>
     <content><![CDATA[<p>这篇论文的<a href="https://arxiv.org/abs/2204.01050">地址</a>，其主要思路和启发应该来自于 <a href="https://arxiv.org/abs/1602.04915">Lee et al., 2016</a>.</p>
@@ -97,20 +111,6 @@
       <tags>
         <tag>AI</tag>
         <tag>Machine Learning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于 AI 里的一些数学证明</title>
-    <url>/2023/11/06/2023-11-6-AI-math/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Math</tag>
       </tags>
   </entry>
   <entry>
@@ -177,7 +177,48 @@
 <p><strong>其他滤波器</strong>: 如位移滤波器，锐化滤波器等。</p>
 <p><img src="https://s11.ax1x.com/2023/12/28/piLP1YD.jpg"></p>
 <p><img src="https://s11.ax1x.com/2023/12/28/piLPtOI.jpg"></p>
-<h3 id="Lecture-3-Resampling-and-Interpolation"><a href="#Lecture-3-Resampling-and-Interpolation" class="headerlink" title="Lecture 3: Resampling and Interpolation"></a>Lecture 3: Resampling and Interpolation</h3><h3 id="Lecture-4-Programming-Basics"><a href="#Lecture-4-Programming-Basics" class="headerlink" title="Lecture 4: Programming Basics"></a>Lecture 4: Programming Basics</h3><h3 id="Lecture-5-Edge-Detection"><a href="#Lecture-5-Edge-Detection" class="headerlink" title="Lecture 5: Edge Detection"></a>Lecture 5: Edge Detection</h3><h3 id="Lecture-6-Line-Detection"><a href="#Lecture-6-Line-Detection" class="headerlink" title="Lecture 6: Line Detection"></a>Lecture 6: Line Detection</h3><h3 id="Lecture-7-Feature-Detector"><a href="#Lecture-7-Feature-Detector" class="headerlink" title="Lecture 7: Feature Detector"></a>Lecture 7: Feature Detector</h3><h3 id="Lecture-8-Feature-Descriptor"><a href="#Lecture-8-Feature-Descriptor" class="headerlink" title="Lecture 8: Feature Descriptor"></a>Lecture 8: Feature Descriptor</h3><h3 id="Lecture-9-Panorama"><a href="#Lecture-9-Panorama" class="headerlink" title="Lecture 9: Panorama"></a>Lecture 9: Panorama</h3><h3 id="Lecture-10-Camera"><a href="#Lecture-10-Camera" class="headerlink" title="Lecture 10: Camera"></a>Lecture 10: Camera</h3><h3 id="Lecture-11-Light-and-Color"><a href="#Lecture-11-Light-and-Color" class="headerlink" title="Lecture 11: Light and Color"></a>Lecture 11: Light and Color</h3>]]></content>
+<h3 id="Lecture-3-Resampling-and-Interpolation"><a href="#Lecture-3-Resampling-and-Interpolation" class="headerlink" title="Lecture 3: Resampling and Interpolation"></a>Lecture 3: Resampling and Interpolation</h3><p><strong>朴素下采样</strong>: 删除原图像的偶数行列。</p>
+<p><strong>走样 (Aliasing，又被称为锯齿)</strong>: 图像信息的损失，绝大多数情况都会产生锯齿形状的图形。</p>
+<p>朴素下采样会带来走样的结果，可以以一个 $\sin(x)$ 举例。</p>
+<p><strong>时间走样 (Temporal aliasing)</strong>: 对视频进行一个固定点采样时，会不知道该点的真实运动情况。比如采样的频率过低但圆盘转动过快，容易判断错误顺逆时针。</p>
+<p><strong>反走样 (Anti-Aliasing, 又被称为抗锯齿)</strong>: 几种方法可以抗锯齿，如超采样 (Over-sampling&#x2F;Super-sampling)，思路是将一个物理像素在逻辑上划分多个子区域，然后对这些子区域的中心进行采样，相当于在<strong>逻辑上增加了像素点</strong>。另一种方法是经典的 Smooth 思想，将原图像模糊化，模糊的程度达到 Nyquist 限制即可。</p>
+<h4 id="高斯金字塔"><a href="#高斯金字塔" class="headerlink" title="高斯金字塔"></a>高斯金字塔</h4><p>通过 Filter 再 Downsampling 不断压缩图像信息而获得的图像集合们，即<br>$$<br>G_{i+1}&#x3D;\text{Downsampling}(\text{Filter}(G_i)).<br>$$</p>
+<p>高层图像的每个位置是相邻大区域的信息整合，不可复原回原图像，差分可以获得原图像的轮廓 (类似 SIFT 中的特征点)。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOKCVg.jpg"></p>
+<p>为了无损构造金字塔，提出了拉普拉斯金字塔。</p>
+<h4 id="拉普拉斯金字塔"><a href="#拉普拉斯金字塔" class="headerlink" title="拉普拉斯金字塔"></a>拉普拉斯金字塔</h4><p>想法是差分，存储差分图像，即<br>$$<br>H_i&#x3D;G_i-\text{Filter}(G_i)\\<br>G_{i+1}&#x3D;\text{Downsampling}(\text{Filter}(G_i))<br>$$<br>其中，$G$ 是高斯金字塔，而 $H$ 则是拉普拉斯金字塔，通过上采样时插值可以一直得到上一层的 $G$。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOKHyV.jpg"></p>
+<p>**图中的 $L$ 是我描述中的 $G$**。</p>
+<p>为什么被称为拉普拉斯金字塔？主要是高斯差分函数可以被近似为拉普拉斯算子。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOM9Qx.jpg"></p>
+<p><strong>Proof (以前在 SIFT 时证明过)</strong>:</p>
+<p>考虑一个尺度归一化拉普拉斯高斯算子 $\sigma^2\nabla^2$，我们可以推导出<br>$$<br>&amp;\frac{\partial G}{\partial \sigma}&#x3D;\frac{-2\sigma^2+x^2+y^2}{2\pi \sigma^5}e^{-(x^2+y^2)&#x2F;2\sigma^2}\\<br>&amp;\nabla^2 G&#x3D;\frac{\partial^2 G}{\partial x^2} + \frac{\partial^2 G}{\partial y^2}&#x3D;\frac{-2\sigma^2+x^2+y^2}{2\pi \sigma^6}e^{-(x^2+y^2)&#x2F;2\sigma^2}<br>$$</p>
+<p>于是就有 $\frac{\partial G}{\partial \sigma}&#x3D;\sigma\nabla^2$.</p>
+<p>另一方面，我们考虑导数定义，即 </p>
+<p>$$<br>\frac{\partial G}{\partial \sigma}&#x3D;\lim_{\Delta\sigma\to 0} \frac{G(x,y,\sigma+\Delta\sigma)-G(x,y,\sigma)}{(\sigma+\Delta\sigma)-\sigma}.<br>$$</p>
+<p>为了能方便地获得较好的近似解，我们考虑用差分替代微小变量，即</p>
+<p>$$<br>\frac{\partial G}{\partial \sigma}\approx \frac{G(x,y,k\sigma)-G(x,y,\sigma)}{k\sigma-\sigma}\implies G(x,y,k\sigma)-G(x,y,\sigma)\approx (k-1)\sigma^2\nabla^2 G<br>$$</p>
+<p>于是就可以使用高斯差分函数来替代尺度归一化的拉普拉斯高斯函数了。</p>
+<p>还有一些其他种类的金字塔，这里不做具体描述。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOMFeO.jpg"></p>
+<p>金字塔的作用较多，如图像压缩，多尺度目标检测，多尺度纹理映射，图像融合等等。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOMefA.jpg"></p>
+<h4 id="傅立叶理论"><a href="#傅立叶理论" class="headerlink" title="傅立叶理论"></a>傅立叶理论</h4><p>傅立叶的思路在于任意函数都可以被一个三角函数级数所表示。</p>
+<p>为了能更好地表达这个级数的信息，只需要去存储频率和幅值。使用傅立叶变换的方式。傅立叶变换的主要原因是三角函数彼此之间的正交性，保证了卷积可以变成乘法。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOQP9s.jpg"></p>
+<p>左为空间域的图，右为频域的图。右图中，对 2D 情况，越靠近中间则频率越低，越亮则表示幅值越高 (用 2D 图像表示了 3D 的函数情况，$(\omega_x,\omega_y,f(\omega_x,\omega_y))$)。因此那三个点就表示了傅立叶级数中的三个频率，亮度表示了它们的幅值。</p>
+<p>傅立叶变换具有可加性，即设 $\mathcal{F}$ 为傅立叶变换，则 $\mathcal{F}(A+B)&#x3D;\mathcal{F}(A)+\mathcal{F}(B)$。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOQVBT.jpg"></p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOQlg1.jpg"></p>
+<p>实际上表达式离散傅立叶变换都可以被表示称矩阵乘法的形式，利用范德蒙德矩阵和蝴蝶变换等可以做到 $\mathcal O(N\log N)$ 求出傅立叶变换，被称为快速傅立叶变换 (FFT)。傅立叶变换具有对偶性 (duality)。</p>
+<p>傅立叶变换的经典思路是卷积转成乘法，即<br>$$<br>\mathcal{F}(A\ast B)&#x3D;\mathcal{F}(A)\mathcal{F}(B)\\<br>\mathcal{F}^{-1}(A B)&#x3D;\mathcal{F}^{-1}(A)\ast\mathcal{F}^{-1}(B)\\<br>$$<br>从傅立叶变换的角度下，重新看待 Filter，即</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOQU4H.jpg"></p>
+<p>从这个角度也能理解为什么高斯核模糊化时效果很好，而正方形核模糊化会产生更大的边缘效应。</p>
+<h4 id="The-Nyquist-Shannon-sampling-theorem"><a href="#The-Nyquist-Shannon-sampling-theorem" class="headerlink" title="The Nyquist-Shannon sampling theorem"></a>The Nyquist-Shannon sampling theorem</h4><p><strong>表达</strong>: 连续的信号若要被离散形式很好地插值出来，则要求 $f_s\geq 2f_{\max}$，其中 $f_s$ 为采样频率，$f_{\max}$ 为最高频率。</p>
+<p>换种表达方式，则是说，下采样时，只要满足该式子，则不会发生走样。</p>
+<p>而高斯滤波器是低通滤波器，它让大量减少高频率片段的占比，所以能防止走样的出现。</p>
+<p>人眼被中频主导。</p>
+<h3 id="Lecture-4-Programming-Basics"><a href="#Lecture-4-Programming-Basics" class="headerlink" title="Lecture 4: Programming Basics"></a>Lecture 4: Programming Basics</h3><h3 id="Lecture-5-Edge-Detection"><a href="#Lecture-5-Edge-Detection" class="headerlink" title="Lecture 5: Edge Detection"></a>Lecture 5: Edge Detection</h3><h3 id="Lecture-6-Line-Detection"><a href="#Lecture-6-Line-Detection" class="headerlink" title="Lecture 6: Line Detection"></a>Lecture 6: Line Detection</h3><h3 id="Lecture-7-Feature-Detector"><a href="#Lecture-7-Feature-Detector" class="headerlink" title="Lecture 7: Feature Detector"></a>Lecture 7: Feature Detector</h3><h3 id="Lecture-8-Feature-Descriptor"><a href="#Lecture-8-Feature-Descriptor" class="headerlink" title="Lecture 8: Feature Descriptor"></a>Lecture 8: Feature Descriptor</h3><h3 id="Lecture-9-Panorama"><a href="#Lecture-9-Panorama" class="headerlink" title="Lecture 9: Panorama"></a>Lecture 9: Panorama</h3><h3 id="Lecture-10-Camera"><a href="#Lecture-10-Camera" class="headerlink" title="Lecture 10: Camera"></a>Lecture 10: Camera</h3><h3 id="Lecture-11-Light-and-Color"><a href="#Lecture-11-Light-and-Color" class="headerlink" title="Lecture 11: Light and Color"></a>Lecture 11: Light and Color</h3>]]></content>
       <categories>
         <category>整理与总结</category>
       </categories>
