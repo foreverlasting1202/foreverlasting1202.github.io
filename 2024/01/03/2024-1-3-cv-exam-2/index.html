@@ -5,16 +5,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Review of Course Computer Vision - Foreverlasting&#39;s blog</title>
+    <title>Review of Course Computer Vision Lecture 2:Filter - Foreverlasting&#39;s blog</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     
     <meta name="description" content="为期末考试复习做个准备。
-Lecture 1: Introduction
-Lecture 2: Filter
-Lecture 3: Resampling and Interpolation
-Lect,"> 
+总文章地址。
+Lecture 2: Filter图像种类
+二进制 (Binary)
+灰度图 (Grayscale)
+有色图 (Color)
+
+对原图像的采样构成了数字图像，,"> 
     <meta name="author" content="Foreverlating"> 
     <link rel="alternative" href="atom.xml" title="Foreverlasting&#39;s blog" type="application/atom+xml"> 
     <link rel="icon" href="/img/cov_moon.jpg"> 
@@ -24,24 +27,30 @@ Lect,">
     
     
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="Review of Course Computer Vision - Foreverlasting&#39;s blog"/>
+    <meta name="twitter:title" content="Review of Course Computer Vision Lecture 2:Filter - Foreverlasting&#39;s blog"/>
     <meta name="twitter:description" content="为期末考试复习做个准备。
-Lecture 1: Introduction
-Lecture 2: Filter
-Lecture 3: Resampling and Interpolation
-Lect,"/>
+总文章地址。
+Lecture 2: Filter图像种类
+二进制 (Binary)
+灰度图 (Grayscale)
+有色图 (Color)
+
+对原图像的采样构成了数字图像，,"/>
     
     
     
     
     <meta property="og:site_name" content="Foreverlasting&#39;s blog"/>
     <meta property="og:type" content="object"/>
-    <meta property="og:title" content="Review of Course Computer Vision - Foreverlasting&#39;s blog"/>
+    <meta property="og:title" content="Review of Course Computer Vision Lecture 2:Filter - Foreverlasting&#39;s blog"/>
     <meta property="og:description" content="为期末考试复习做个准备。
-Lecture 1: Introduction
-Lecture 2: Filter
-Lecture 3: Resampling and Interpolation
-Lect,"/>
+总文章地址。
+Lecture 2: Filter图像种类
+二进制 (Binary)
+灰度图 (Grayscale)
+有色图 (Color)
+
+对原图像的采样构成了数字图像，,"/>
     
 <link rel="stylesheet" href="/css/diaspora.css">
 
@@ -59,7 +68,7 @@ Lect,"/>
     <div class="bar" style="width: 0;"></div>
     <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://foreverlasting.top"></a>
     <div title="Play/Pause" class="iconfont icon-play"></div>
-    <h3 class="subtitle">Review of Course Computer Vision</h3>
+    <h3 class="subtitle">Review of Course Computer Vision Lecture 2:Filter</h3>
     <div class="social">
         <div>
         <!--
@@ -76,9 +85,9 @@ Lect,"/>
     <div class="section">
         <div class="article">
     <div class='main'>
-        <h1 class="title">Review of Course Computer Vision</h1>
+        <h1 class="title">Review of Course Computer Vision Lecture 2:Filter</h1>
         <div class="stuff">
-            <span>December 22, 2023</span>
+            <span>January 03, 2024</span>
             
   <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/AI/" rel="tag">AI</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Computer-Vision/" rel="tag">Computer Vision</a></li></ul>
 
@@ -86,22 +95,28 @@ Lect,"/>
         </div>
         <div class="content markdown">
             <p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-1/">Lecture 1: Introduction</a></p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-2/">Lecture 2: Filter</a></p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-3/">Lecture 3: Resampling and Interpolation</a></p>
-<p>Lecture 4: Programming Basics: python 基础，有点简单，略。</p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-5/">Lecture 5: Edge Detection</a></p>
-<p>Lecture 6: Line Detection</p>
-<p>Lecture 7: Feature Detector</p>
-<p>Lecture 8: Feature Descriptor</p>
-<p>Lecture 9: Panorama</p>
-<p>Lecture 10: Camera</p>
-<p>Lecture 11: Light and Color</p>
-<p>Lecture 12: Visual recognition</p>
-<p>Lecture 13: Detection</p>
-<p>Lecture 14: Segmentation</p>
-<p>Lecture 15: Motion</p>
-<p>Lecture 16: Tracking</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-2-Filter"><a href="#Lecture-2-Filter" class="headerlink" title="Lecture 2: Filter"></a>Lecture 2: Filter</h3><h4 id="图像种类"><a href="#图像种类" class="headerlink" title="图像种类"></a>图像种类</h4><ol>
+<li>二进制 (Binary)</li>
+<li>灰度图 (Grayscale)</li>
+<li>有色图 (Color)</li>
+</ol>
+<p>对原图像的采样构成了数字图像，存在误差。</p>
+<p>分辨率 (Resolution) 是采样的参数，定义为 DPI (dots per inch) 或者像素密度。</p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLp0kF.jpg"></p>
+<p>采样之后，再对像素值进行量化 (Quantization)。</p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLpWTO.jpg"></p>
+<h4 id="Transformations-图像变换"><a href="#Transformations-图像变换" class="headerlink" title="Transformations (图像变换)"></a>Transformations (图像变换)</h4><p>图像变换的种类：Filtering, Warping, …</p>
+<p>图像变换方式：单点变化 (Point operation, point processing), 邻域变化 (Neighborhood operation, filtering)</p>
+<h5 id="Point-Processing"><a href="#Point-Processing" class="headerlink" title="Point Processing"></a>Point Processing</h5><p><img src="https://s11.ax1x.com/2023/12/28/piL9Rvn.jpg"></p>
+<h5 id="Filtering"><a href="#Filtering" class="headerlink" title="Filtering"></a>Filtering</h5><p><strong>Linear shift-invariant image filtering</strong>: 用二维核矩阵（如平均值矩阵等），对图像做点积操作（对应位置相乘），不断移动而获取新矩阵的每个位置的新像素，以此来整合邻域信息。</p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLCErt.jpg"></p>
+<p><strong>Convolution</strong>: 卷积即下标之和为要求的值，公式为<br>$$<br>(f\ast g)(x, y)&#x3D;\sum_{i&#x3D;-1}^{1}\sum_{j&#x3D;-1}^1 f(i,j)I(x-i,y-j).<br>$$<br>其中，$f$ 为一个 $3\times 3$ 的卷积核，$I$ 是原图像。</p>
+<p><strong>可分离滤波器 (Separable filters)</strong>: 指的是滤波器 $f$ 矩阵可被表示成向量的乘积 $vw^T$，意义在于优化卷积的时间复杂度，这是由于矩阵乘法和卷积具有结合律和分配律。公式表达为<br>$$<br>(f\ast g)(x, y)&#x3D;\sum_{i&#x3D;-1}^{1}\sum_{j&#x3D;-1}^1 f(i,j)I(x-i,y-j)&#x3D;\sum_{i&#x3D;-1}^1\sum_{j&#x3D;-1}^1 v_iw_jI(x-i,y-j)\\<br>&#x3D;\sum_{i&#x3D;-1}^1v_i\sum_{j&#x3D;-1}^1 w_jI(x-i,y-j).<br>$$<br>此时考虑所有的 $x,y$，对 $I$ 固定的第一维，可以预处理出第二维的所有信息，再处理第一维，这样的复杂度是 $\mathcal O(NM^2)$，其中 $N\times N$ 是滤波器大小，$M\times M$ 是 $I$ 的大小。若不可分离，则需要 $\mathcal O(N^2M^2)$ 的复杂度。</p>
+<p><strong>高斯滤波器</strong>: $f(i,j)&#x3D;\frac{1}{2\pi\sigma^2}e^{-\frac{i^2+j^2}{2\sigma^2}}$，是一个低通滤波器，离中心越远贡献越小，具有极好的性质。$\sigma$ 被称为尺度，是人为设定的参数，常常只使用 $2\sigma\sim 3\sigma$ 大小的高斯矩阵作为滤波器（因为其他位置数值过于接近 $0$，直接忽略）。</p>
+<p><strong>其他滤波器</strong>: 如位移滤波器，锐化滤波器等。</p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLP1YD.jpg"></p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLPtOI.jpg"></p>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
@@ -134,7 +149,7 @@ Lect,"/>
     </div>
     
         <div class="side">
-            
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Lecture-2-Filter"><span class="toc-number">1.</span> <span class="toc-text">Lecture 2: Filter</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%BE%E5%83%8F%E7%A7%8D%E7%B1%BB"><span class="toc-number">1.1.</span> <span class="toc-text">图像种类</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Transformations-%E5%9B%BE%E5%83%8F%E5%8F%98%E6%8D%A2"><span class="toc-number">1.2.</span> <span class="toc-text">Transformations (图像变换)</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#Point-Processing"><span class="toc-number">1.2.1.</span> <span class="toc-text">Point Processing</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Filtering"><span class="toc-number">1.2.2.</span> <span class="toc-text">Filtering</span></a></li></ol></li></ol></li></ol>
         </div>
     
 </div>

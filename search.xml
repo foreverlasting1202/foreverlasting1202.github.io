@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World!</title>
-    <url>/3000/06/14/2023-10-7-New-Start!/</url>
-    <content><![CDATA[<p>又搭了一个新博客。</p>
-<p>这里大概会成为某种自我介绍和导航。</p>
-<h3 id="生存手册"><a href="#生存手册" class="headerlink" title="生存手册"></a>生存手册</h3><ol>
-<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-CP(fake)/">算法竞赛生存手册(伪)</a></li>
-<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-BITAI/">北京理工大学人工智能专业生存手册</a></li>
-</ol>
-<h3 id="知识总结与整理"><a href="#知识总结与整理" class="headerlink" title="知识总结与整理"></a>知识总结与整理</h3><ol>
-<li><a href="http://foreverlasting.top/2023/11/06/2023-11-6-AI-math/">关于 AI 里的一些数学证明</a></li>
-<li><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">Review of Course: Computer Vision</a></li>
-</ol>
-<h3 id="论文阅读"><a href="#论文阅读" class="headerlink" title="论文阅读"></a>论文阅读</h3><ol>
-<li><a href="http://foreverlasting.top/2023/12/18/2023-12-18-2206.00501/">Benign Overfitting in classification provably counter label noise with larger models</a></li>
-<li><a href="http://foreverlasting.top/2023/12/19/2023-12-18-2205.01050/">Understanding the Unstable Convergence of Gradient Descent</a></li>
-</ol>
-<h3 id="精神状态"><a href="#精神状态" class="headerlink" title="精神状态"></a>精神状态</h3><ol>
-<li><a href="http://foreverlasting.top/2023/12/18/2023-12-18-thoughts/">12.18 精神状态</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Something</category>
-      </categories>
-      <tags>
-        <tag>Something</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>北京理工大学人工智能专业生存手册</title>
     <url>/2023/10/08/2023-10-8-BITAI/</url>
     <content><![CDATA[<p>会更新吗？如更。</p>
@@ -57,6 +29,34 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World!</title>
+    <url>/3000/06/14/2023-10-7-New-Start!/</url>
+    <content><![CDATA[<p>又搭了一个新博客。</p>
+<p>这里大概会成为某种自我介绍和导航。</p>
+<h3 id="生存手册"><a href="#生存手册" class="headerlink" title="生存手册"></a>生存手册</h3><ol>
+<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-CP(fake)/">算法竞赛生存手册(伪)</a></li>
+<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-BITAI/">北京理工大学人工智能专业生存手册</a></li>
+</ol>
+<h3 id="知识总结与整理"><a href="#知识总结与整理" class="headerlink" title="知识总结与整理"></a>知识总结与整理</h3><ol>
+<li><a href="http://foreverlasting.top/2023/11/06/2023-11-6-AI-math/">关于 AI 里的一些数学证明</a></li>
+<li><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">Review of Course: Computer Vision</a></li>
+</ol>
+<h3 id="论文阅读"><a href="#论文阅读" class="headerlink" title="论文阅读"></a>论文阅读</h3><ol>
+<li><a href="http://foreverlasting.top/2023/12/18/2023-12-18-2206.00501/">Benign Overfitting in classification provably counter label noise with larger models</a></li>
+<li><a href="http://foreverlasting.top/2023/12/19/2023-12-18-2205.01050/">Understanding the Unstable Convergence of Gradient Descent</a></li>
+</ol>
+<h3 id="精神状态"><a href="#精神状态" class="headerlink" title="精神状态"></a>精神状态</h3><ol>
+<li><a href="http://foreverlasting.top/2023/12/18/2023-12-18-thoughts/">12.18 精神状态</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Something</category>
+      </categories>
+      <tags>
+        <tag>Something</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于 AI 里的一些数学证明</title>
     <url>/2023/11/06/2023-11-6-AI-math/</url>
     <content><![CDATA[<p>会更新吗？如更。</p>
@@ -68,31 +68,6 @@
       <tags>
         <tag>AI</tag>
         <tag>Math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>12.18 精神状态</title>
-    <url>/2023/12/18/2023-12-18-thoughts/</url>
-    <content><![CDATA[<p>总是活在一些畅想中…</p>
-<p>手捏一份高不成低不就的成绩，畅想自己能往高处走，实际上每次的冲击都只能以中间态告终。到底缺少了些什么呢，未曾知晓。只能无意识地向前走，也不知是被何事推动着了。</p>
-]]></content>
-      <categories>
-        <category>Something</category>
-      </categories>
-      <tags>
-        <tag>Something</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Benign Overfitting in classification provably counter label noise with larger models</title>
-    <url>/2023/12/18/2023-12-18-2206.00501/</url>
-    <content><![CDATA[<h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
-]]></content>
-      <categories>
-        <category>Thesis Reading</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -139,9 +114,51 @@
       </tags>
   </entry>
   <entry>
-    <title>Review of Course:Computer Vision</title>
+    <title>Benign Overfitting in classification provably counter label noise with larger models</title>
+    <url>/2023/12/18/2023-12-18-2206.00501/</url>
+    <content><![CDATA[<h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
+]]></content>
+      <categories>
+        <category>Thesis Reading</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision</title>
     <url>/2023/12/22/2023-12-22-cv-exam/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-1/">Lecture 1: Introduction</a></p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-2/">Lecture 2: Filter</a></p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-3/">Lecture 3: Resampling and Interpolation</a></p>
+<p>Lecture 4: Programming Basics: python 基础，有点简单，略。</p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-5/">Lecture 5: Edge Detection</a></p>
+<p>Lecture 6: Line Detection</p>
+<p>Lecture 7: Feature Detector</p>
+<p>Lecture 8: Feature Descriptor</p>
+<p>Lecture 9: Panorama</p>
+<p>Lecture 10: Camera</p>
+<p>Lecture 11: Light and Color</p>
+<p>Lecture 12: Visual recognition</p>
+<p>Lecture 13: Detection</p>
+<p>Lecture 14: Segmentation</p>
+<p>Lecture 15: Motion</p>
+<p>Lecture 16: Tracking</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 1:Introduction</title>
+    <url>/2024/01/03/2024-1-3-cv-exam-1/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
 <h3 id="Lecture-1-Introduction"><a href="#Lecture-1-Introduction" class="headerlink" title="Lecture 1: Introduction"></a>Lecture 1: Introduction</h3><h4 id="数字化图像"><a href="#数字化图像" class="headerlink" title="数字化图像"></a>数字化图像</h4><p>每个图像被表示为一个二维矩阵，每个位置上的值被称为像素，大小为 $0\sim 255$。对于灰度图而言，像素的大小决定该位置的亮度；对于有色图而言，每个位置存放的都是一个像素向量，向量的每个值分别表示<strong>对应颜色</strong>的亮度。</p>
 <h4 id="图像信息"><a href="#图像信息" class="headerlink" title="图像信息"></a>图像信息</h4><p><strong>图像特征 (Image Features)</strong> : What should we look at?</p>
 <p><strong>语义分割 (semantic segmentation)</strong> : What can we understand?</p>
@@ -156,6 +173,20 @@
 <li>Login without a password</li>
 <li>…</li>
 </ol>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 2:Filter</title>
+    <url>/2024/01/03/2024-1-3-cv-exam-2/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
 <h3 id="Lecture-2-Filter"><a href="#Lecture-2-Filter" class="headerlink" title="Lecture 2: Filter"></a>Lecture 2: Filter</h3><h4 id="图像种类"><a href="#图像种类" class="headerlink" title="图像种类"></a>图像种类</h4><ol>
 <li>二进制 (Binary)</li>
 <li>灰度图 (Grayscale)</li>
@@ -177,6 +208,41 @@
 <p><strong>其他滤波器</strong>: 如位移滤波器，锐化滤波器等。</p>
 <p><img src="https://s11.ax1x.com/2023/12/28/piLP1YD.jpg"></p>
 <p><img src="https://s11.ax1x.com/2023/12/28/piLPtOI.jpg"></p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 5:Edge Detection</title>
+    <url>/2024/01/03/2024-1-3-cv-exam-5/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-5-Edge-Detection"><a href="#Lecture-5-Edge-Detection" class="headerlink" title="Lecture 5: Edge Detection"></a>Lecture 5: Edge Detection</h3><p><strong>目标</strong>: 识别突然的变化。</p>
+<p><strong>产生原因</strong>: 物体表面的不连续，形状变化 (surface normal discontinuity), 物体与背景即深度的差异 (depth discontinuity), 表面颜色不连续 (surface color discontinuity), 光照强度不连续 (Illumination discontinuity).</p>
+<p><strong>检测思路</strong>: 求导，离散图像则改为差分。</p>
+<p><strong>离散求导的三种方式</strong>:</p>
+<ol>
+<li>Backward: $\frac</li>
+</ol>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 3:Resampling and Interpolation</title>
+    <url>/2024/01/03/2024-1-3-cv-exam-3/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
 <h3 id="Lecture-3-Resampling-and-Interpolation"><a href="#Lecture-3-Resampling-and-Interpolation" class="headerlink" title="Lecture 3: Resampling and Interpolation"></a>Lecture 3: Resampling and Interpolation</h3><p><strong>朴素下采样</strong>: 删除原图像的偶数行列。</p>
 <p><strong>走样 (Aliasing，又被称为锯齿)</strong>: 图像信息的损失，绝大多数情况都会产生锯齿形状的图形。</p>
 <p>朴素下采样会带来走样的结果，可以以一个 $\sin(x)$ 举例。</p>
@@ -218,14 +284,6 @@
 <p>换种表达方式，则是说，下采样时，只要满足该式子，则不会发生走样。</p>
 <p>而高斯滤波器是低通滤波器，它让大量减少高频率片段的占比，所以能防止走样的出现。</p>
 <p>人眼被中频主导。</p>
-<h3 id="Lecture-4-Programming-Basics"><a href="#Lecture-4-Programming-Basics" class="headerlink" title="Lecture 4: Programming Basics"></a>Lecture 4: Programming Basics</h3><p>python 基础，有点简单，略。</p>
-<h3 id="Lecture-5-Edge-Detection"><a href="#Lecture-5-Edge-Detection" class="headerlink" title="Lecture 5: Edge Detection"></a>Lecture 5: Edge Detection</h3><p><strong>目标</strong>: 识别突然的变化。</p>
-<p><strong>产生原因</strong>: 物体表面的不连续，形状变化 (surface normal discontinuity), 物体与背景即深度的差异 (depth discontinuity), 表面颜色不连续 (surface color discontinuity), 光照强度不连续 (Illumination discontinuity).</p>
-<p><strong>检测思路</strong>: 求导，离散图像则改为差分。</p>
-<p><strong>离散求导的三种方式</strong>:</p>
-<ol>
-<li>Backward: $\frac</li>
-</ol>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -233,6 +291,19 @@
       <tags>
         <tag>AI</tag>
         <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>12.18 精神状态</title>
+    <url>/2023/12/18/2023-12-18-thoughts/</url>
+    <content><![CDATA[<p>总是活在一些畅想中…</p>
+<p>手捏一份高不成低不就的成绩，畅想自己能往高处走，实际上每次的冲击都只能以中间态告终。到底缺少了些什么呢，未曾知晓。只能无意识地向前走，也不知是被何事推动着了。</p>
+]]></content>
+      <categories>
+        <category>Something</category>
+      </categories>
+      <tags>
+        <tag>Something</tag>
       </tags>
   </entry>
 </search>
