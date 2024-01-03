@@ -95,7 +95,7 @@ Lecture 3: Resampling and Interpolation朴素下采样: 删除原图像的偶数
 <p>为了无损构造金字塔，提出了拉普拉斯金字塔。</p>
 <h4 id="拉普拉斯金字塔"><a href="#拉普拉斯金字塔" class="headerlink" title="拉普拉斯金字塔"></a>拉普拉斯金字塔</h4><p>想法是差分，存储差分图像，即<br>$$<br>H_i&#x3D;G_i-\text{Filter}(G_i)\\<br>G_{i+1}&#x3D;\text{Downsampling}(\text{Filter}(G_i))<br>$$<br>其中，$G$ 是高斯金字塔，而 $H$ 则是拉普拉斯金字塔，通过上采样时插值可以一直得到上一层的 $G$。</p>
 <p><img src="https://s11.ax1x.com/2023/12/30/piOKHyV.jpg"></p>
-<p>**图中的 $L$ 是我描述中的 $G$**。</p>
+<p><strong>图中的 $L$ 是我描述中的 $G$。</strong></p>
 <p>为什么被称为拉普拉斯金字塔？主要是高斯差分函数可以被近似为拉普拉斯算子。</p>
 <p><img src="https://s11.ax1x.com/2023/12/30/piOM9Qx.jpg"></p>
 <p><strong>Proof (以前在 SIFT 时证明过)</strong>:</p>

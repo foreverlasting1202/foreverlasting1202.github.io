@@ -12,7 +12,7 @@
     
     <meta name="description" content="为期末考试复习做个准备。
 总文章地址。
-Lecture 6: Line Detection"> 
+Lecture 6: Line Detection不使用边缘检测的原因: 时间复杂度的影响，固定形状的检测 (尤其是线性) 的时间复杂度往往优于未知形状的检测,"> 
     <meta name="author" content="Foreverlating"> 
     <link rel="alternative" href="atom.xml" title="Foreverlasting&#39;s blog" type="application/atom+xml"> 
     <link rel="icon" href="/img/cov_moon.jpg"> 
@@ -25,7 +25,7 @@ Lecture 6: Line Detection">
     <meta name="twitter:title" content="Review of Course Computer Vision Lecture 6:Line Detection - Foreverlasting&#39;s blog"/>
     <meta name="twitter:description" content="为期末考试复习做个准备。
 总文章地址。
-Lecture 6: Line Detection"/>
+Lecture 6: Line Detection不使用边缘检测的原因: 时间复杂度的影响，固定形状的检测 (尤其是线性) 的时间复杂度往往优于未知形状的检测,"/>
     
     
     
@@ -35,7 +35,7 @@ Lecture 6: Line Detection"/>
     <meta property="og:title" content="Review of Course Computer Vision Lecture 6:Line Detection - Foreverlasting&#39;s blog"/>
     <meta property="og:description" content="为期末考试复习做个准备。
 总文章地址。
-Lecture 6: Line Detection"/>
+Lecture 6: Line Detection不使用边缘检测的原因: 时间复杂度的影响，固定形状的检测 (尤其是线性) 的时间复杂度往往优于未知形状的检测,"/>
     
 <link rel="stylesheet" href="/css/diaspora.css">
 
@@ -81,7 +81,11 @@ Lecture 6: Line Detection"/>
         <div class="content markdown">
             <p>为期末考试复习做个准备。</p>
 <p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-6-Line-Detection"><a href="#Lecture-6-Line-Detection" class="headerlink" title="Lecture 6: Line Detection"></a>Lecture 6: Line Detection</h3>
+<h3 id="Lecture-6-Line-Detection"><a href="#Lecture-6-Line-Detection" class="headerlink" title="Lecture 6: Line Detection"></a>Lecture 6: Line Detection</h3><p><strong>不使用边缘检测的原因</strong>: 时间复杂度的影响，固定形状的检测 (尤其是线性) 的时间复杂度往往优于未知形状的检测。</p>
+<h4 id="Hough-transform"><a href="#Hough-transform" class="headerlink" title="Hough transform"></a>Hough transform</h4><p>Hough transform 可以检测所有已知方程的曲线，即解高次方程的参数 (本质上是坐标系的转换)，不过接下来我们主要讨论直线检测。</p>
+<p><strong>思路</strong>: 一个主要的想法就是坐标系的转换，考虑有一条直线是 $y&#x3D;ax+b$，此时将 $(x,y)$ 坐标系转换成 $(a,b)$ 坐标系，即 $b&#x3D;-ax+y$。那么若 $(x_i,y_i)$ 在 $y&#x3D;ax+b$ 上，则在 $(a,b)$ 坐标系上，$(x,y)$ 对应的直线能经过 $(a,b)$ 这个点。</p>
+<p>根据这个想法，我们能给出一个做法，即对所有 $(x_i,y_i)$，考虑在 $(a,b)$ 上求直线交点。</p>
+
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
                 <source type="audio/mpeg" src="">
@@ -113,7 +117,7 @@ Lecture 6: Line Detection"/>
     </div>
     
         <div class="side">
-            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Lecture-6-Line-Detection"><span class="toc-number">1.</span> <span class="toc-text">Lecture 6: Line Detection</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Lecture-6-Line-Detection"><span class="toc-number">1.</span> <span class="toc-text">Lecture 6: Line Detection</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Hough-transform"><span class="toc-number">1.1.</span> <span class="toc-text">Hough transform</span></a></li></ol></li></ol>
         </div>
     
 </div>
