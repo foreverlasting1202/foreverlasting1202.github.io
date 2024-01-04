@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Review of Course Computer Vision Lecture 12:Visual Recognition - Foreverlasting&#39;s blog</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    
+    <meta name="description" content="为期末考试复习做个准备。
+总文章地址。
+Lecture 12: Visual Recognition目标检测目标检测的下游任务形式比较多，比如 Classification 或者 Searching,"> 
+    <meta name="author" content="Foreverlating"> 
+    <link rel="alternative" href="atom.xml" title="Foreverlasting&#39;s blog" type="application/atom+xml"> 
+    <link rel="icon" href="/img/cov_moon.jpg"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Review of Course Computer Vision Lecture 12:Visual Recognition - Foreverlasting&#39;s blog"/>
+    <meta name="twitter:description" content="为期末考试复习做个准备。
+总文章地址。
+Lecture 12: Visual Recognition目标检测目标检测的下游任务形式比较多，比如 Classification 或者 Searching,"/>
+    
+    
+    
+    
+    <meta property="og:site_name" content="Foreverlasting&#39;s blog"/>
+    <meta property="og:type" content="object"/>
+    <meta property="og:title" content="Review of Course Computer Vision Lecture 12:Visual Recognition - Foreverlasting&#39;s blog"/>
+    <meta property="og:description" content="为期末考试复习做个准备。
+总文章地址。
+Lecture 12: Visual Recognition目标检测目标检测的下游任务形式比较多，比如 Classification 或者 Searching,"/>
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <script>window.searchDbPath = "/search.xml";</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Foreverlasting&#39;s blog</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://foreverlasting.top"></a>
+    <div title="Play/Pause" class="iconfont icon-play"></div>
+    <h3 class="subtitle">Review of Course Computer Vision Lecture 12:Visual Recognition</h3>
+    <div class="social">
+        <div>
+        <!--
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        -->
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">Review of Course Computer Vision Lecture 12:Visual Recognition</h1>
+        <div class="stuff">
+            <span>January 04, 2024</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/AI/" rel="tag">AI</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Computer-Vision/" rel="tag">Computer Vision</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-12-Visual-Recognition"><a href="#Lecture-12-Visual-Recognition" class="headerlink" title="Lecture 12: Visual Recognition"></a>Lecture 12: Visual Recognition</h3><h4 id="目标检测"><a href="#目标检测" class="headerlink" title="目标检测"></a>目标检测</h4><p>目标检测的下游任务形式比较多，比如 Classification 或者 Searching 等。</p>
+<p>这个任务可能会非常难，比如以下情况。</p>
+<p><img src="https://pic.imgdb.cn/item/6596d47d871b83018abe9969.jpg"></p>
+<p>目标检测主要分成四种任务：</p>
+<ol>
+<li>对图像或视频分类。</li>
+<li>检测和定位目标。</li>
+<li>语义分割和获取几何属性。</li>
+<li>对人的行为和事件分类。</li>
+</ol>
+<p>难点非常多，首先目标种类繁多，另一方面图片也可能随着各种变换 (光线，时间等) 而变换畸变，也会有遮挡和像上图一样的背景色融合，同一件物品也会有不同的形态。</p>
+<h4 id="KNN"><a href="#KNN" class="headerlink" title="KNN"></a>KNN</h4><p>KNN, K-nearest neighbor，处理的是对于一个点要找距离它第 $K$ 近的点。</p>
+<p><img src="https://pic.imgdb.cn/item/6596d637871b83018ac6f1b1.jpg"></p>
+<p>比如上图中，训练集中的 $\mathbf{x}$ 是该图像对应的向量，$y$ 是标签，对于询问的图像，求出对应的向量 $\mathbf{x}$，然后只需要找到前 $k$ 近的其它向量，就能大致知道询问的图像是哪一类了。</p>
+<p>这里我们使用最为暴力的做法解决这个问题，对于每个 test 的图像，直接与所有 train 的图像求 $L_2$ 距离 (欧几里得距离)，找出前 $k$ 近的图像，查询其中出现最多的标签是谁，那就认为 test 的这个图像的标签是谁。</p>
+<p>但实际上 $k$ 并不好挑选，若 $k$ 太小，则会对噪声过于敏感；若太大，则很容易选择不正确的标签。</p>
+<p>一般都是利用传统 ML 中的交叉验证法 (cross validation) 来选取 $k$ 值。</p>
+<p>枚举每一个 $k$ 值，对于训练集，我们进行多次不同的划分，划分成一部分训练集，一部分验证集。对于每个验证集里的点，对着训练集进行正确性检验。最后选择平均表现最好的 $k$ 值作为实际应用的 $k$ 值。</p>
+<p>另一方面，对对应的向量不做合适处理的话，容易出现一些反直觉的现象。</p>
+<p><img src="https://pic.imgdb.cn/item/6596d8a4871b83018ad2e243.jpg"></p>
+<p>为此，我们对所有对应的向量归一化即可。</p>
+<p>同时 KNN 会遇到维度灾难 (Curse of Dimensionality)。而且时间复杂度很糟糕，每次测试要遍历所有点，而训练时是 $\mathcal O(1)$。</p>
+<p>KNN 的优势：简单而且有效。</p>
+<p>劣势：</p>
+<ol>
+<li>测试时暴力搜索的时间复杂度过高 (实际上可以使用 KDT 优化)。</li>
+<li>空间复杂度也较高 (训练集需要一直存储)。</li>
+<li>对高维数据不方便处理。</li>
+</ol>
+<p>当然实际上有更多的做法，比如：</p>
+<p><img src="https://pic.imgdb.cn/item/6596d9b8871b83018ad80ccc.jpg"></p>
+<h4 id="Bias-and-Variance"><a href="#Bias-and-Variance" class="headerlink" title="Bias and Variance"></a>Bias and Variance</h4><p>Variance (方差)，指的是如果使用不同的训练数据，目标函数的估计值将更改的量。</p>
+<p><strong>低方差</strong>：预测目标函数的估计值随训练数据集的变化而略有变化。</p>
+<p><strong>高方差</strong>：随着训练数据集的变化，预测目标函数的估计值将发生较大变化。</p>
+<p><strong>低方差机器学习算法</strong>: 回归，线性判别分析和逻辑回归。</p>
+<p><strong>高方差机器学习算法</strong>: 决策树，k-邻近和支持向量机。</p>
+<p>Bias (偏差)，指的是模型所做的简化假设，以使目标函数更易于学习。</p>
+<p><strong>低偏差</strong>：预测目标函数使用的假设少。</p>
+<p><strong>高偏差</strong>：预测目标函数使用的假设多。</p>
+<p><strong>低偏差机器学习算法</strong>: 决策树，k-邻近和支持向量机。</p>
+<p><strong>高偏差机器学习算法</strong>: 线性回归，线性判别分析和逻辑回归。</p>
+<p>Underfitting，欠拟合，一般是 high bias and low variance.</p>
+<p>Overfitting, 过拟合，一般是 low bias and high variance.</p>
+<p><img src="https://pic.imgdb.cn/item/6596db51871b83018adfa725.jpg"></p>
+<p>选择机器学习算法前需要考虑：</p>
+<p><img src="https://pic.imgdb.cn/item/6596dbd5871b83018ae20265.jpg"></p>
+<h4 id="A-simple-object-recognition-pipeline"><a href="#A-simple-object-recognition-pipeline" class="headerlink" title="A simple object recognition pipeline"></a>A simple object recognition pipeline</h4><p><img src="https://pic.imgdb.cn/item/6596dc7b871b83018ae4fa44.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596dc7c871b83018ae4fb0d.jpg"></p>
+<h4 id="Visual-bag-of-words-method"><a href="#Visual-bag-of-words-method" class="headerlink" title="Visual bag of words: method"></a>Visual bag of words: method</h4><p>我们希望将一张图像分割成多个特征，每个特征有对应的单词，以此来描述这个图像。虽然实际上这是不考虑特征相对位置的办法，但基本上还是足够使用的。</p>
+<p><img src="https://pic.imgdb.cn/item/6596dda8871b83018aea3aa5.jpg"></p>
+<p>为此，我们先举一些例子，比如纹理识别。</p>
+<p>Texture 都是由一些本原纹理 (textons) 组成的。</p>
+<p><img src="https://pic.imgdb.cn/item/6596de3e871b83018aecdd4f.jpg"></p>
+<p>我们统计出图像的每个子部分的出现次数，便能知道这个纹理图像的基本分类情况了。</p>
+<p><img src="https://pic.imgdb.cn/item/6596de7b871b83018aedfb64.jpg"></p>
+<p>类似地，我们能对其它类型的图像也做类似的分割。</p>
+<p><img src="https://pic.imgdb.cn/item/6596dec5871b83018aef3ded.jpg"></p>
+<p>基于以上的思路，我们能得到一个基本的算法：对于图像集的每个图像，分别分离出它的特征，然后构建出一个特征字典。对于要查询的图像，我们分离出其的特征，并建出相关的直方图。对于满足直方图某些阈值条件的特征，我们往字典里搜寻最接近的特征。</p>
+<p>具体步骤如下：</p>
+<ol>
+<li>分离出特征。<img src="https://pic.imgdb.cn/item/6596dff6871b83018af458a6.jpg"></li>
+<li>构建可视化字典。<img src="https://pic.imgdb.cn/item/6596e021871b83018af50aad.jpg"></li>
+<li>利用可视化字典量化特征。</li>
+<li>对图像用特征的出现频率表达。<img src="https://pic.imgdb.cn/item/6596e057871b83018af5df70.jpg"></li>
+</ol>
+<p>接下来我们将对每个步骤都进行一些讲解。</p>
+<h4 id="特征分离"><a href="#特征分离" class="headerlink" title="特征分离"></a>特征分离</h4><p>这有多种方法，都将在这个 CV 复习中讲到。</p>
+<p>比较传统的是网格法，把一个图像划分成若干个格子，检测格子内容。</p>
+<p>还有经典的特征点提取，或者随机采样，以及语义分割等等。</p>
+<h4 id="构建可视化字典"><a href="#构建可视化字典" class="headerlink" title="构建可视化字典"></a>构建可视化字典</h4><p>构建可视化字典一般采用某种聚类算法。</p>
+<p>我们将所有提取出的特征用向量表示，然后通过聚类获得分类，并且以此分类构建出了字典。</p>
+<p><img src="https://pic.imgdb.cn/item/6596e1bb871b83018afb91d5.jpg"></p>
+<p>如何选择字典大小？一种是自动的聚类自行分割出了大小，另一种就是自行设定了字典大小。</p>
+<p>自己设定的字典大小如果太小，则很难明确地表达所有特征；如果太大，容易过拟合。</p>
+<p>有一种叫字典树的办法在计算上比较有效，具体内容这里不赘述。</p>
+<h4 id="量化特征"><a href="#量化特征" class="headerlink" title="量化特征"></a>量化特征</h4><p>聚类方便了量化特征，我们直接选取类的中心作为该类的特征即可。这样的话，查询一个向量也只需找最近的向量即可。</p>
+<h4 id="图像表示"><a href="#图像表示" class="headerlink" title="图像表示"></a>图像表示</h4><p>利用直方图求出的对应向量表达即可。方法有 TF-IDF, 加权 BOF 等。<img src="https://pic.imgdb.cn/item/6596e328871b83018a011cce.jpg"></p>
+<h4 id="Image-classification"><a href="#Image-classification" class="headerlink" title="Image classification"></a>Image classification</h4><p>我们想用 bag of words 的办法做图像分类。</p>
+<p>一个很基本的思路是使用 BoW 向量进行聚类，这样就能将图像划分成多类。test 的图像使用各种分类器判断归于哪一类即可。</p>
+<p>这样的思路在做大规模的图像检索时效果会比较明显。</p>
+<p>具体实现上，在处理完之前的那些信息后，会构建一张反向的映射表，即每个 word 在哪些图像中出现过。</p>
+<p>这样我们在查询一个图像时，直接利用这张表快速检索到相关图像，然后做匹配。</p>
+<p><strong>重点</strong>: 实际上我们知道一个单词出现频率极大无比并不是好事，这反而说明这个单词不能称为特征。所以一般在求向量时会根据出现频率进行加权，即 TF-IDF 或加权 BOF 等方法。</p>
+<p>这种检索办法的优势：</p>
+<ol>
+<li>对 CD 封面，电影海报检索效果很好。</li>
+<li>实时检索。</li>
+</ol>
+<p>同时也可以对动作行为等进行检索。</p>
+<p><img src="https://pic.imgdb.cn/item/6596e6ad871b83018a0d71f7.jpg"></p>
+<p>另一方面，可以划分层次不同，多种划分方式合起来一起表达和检索，类似金字塔。</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title="0" data-url="/music.163.com/style/swf/widget.swf?sid=25729599&type=2&auto=1&width=320&height=66"></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+        
+    <div id="gitalk-container" class="comment link"
+		data-enable="true"
+        data-ae="true"
+        data-ci="d54c1ac5b5906c8278d9"
+        data-cs="36a0fdbc2fbb7c66a6067452269ef8171e8ff867"
+        data-r="blogtalk"
+        data-o="foreverlasting1202"
+        data-a="foreverlasting1202"
+        data-d="false"
+    >...</div>
+
+
+    </div>
+    
+        <div class="side">
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Lecture-12-Visual-Recognition"><span class="toc-number">1.</span> <span class="toc-text">Lecture 12: Visual Recognition</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B"><span class="toc-number">1.1.</span> <span class="toc-text">目标检测</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#KNN"><span class="toc-number">1.2.</span> <span class="toc-text">KNN</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Bias-and-Variance"><span class="toc-number">1.3.</span> <span class="toc-text">Bias and Variance</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#A-simple-object-recognition-pipeline"><span class="toc-number">1.4.</span> <span class="toc-text">A simple object recognition pipeline</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Visual-bag-of-words-method"><span class="toc-number">1.5.</span> <span class="toc-text">Visual bag of words: method</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%89%B9%E5%BE%81%E5%88%86%E7%A6%BB"><span class="toc-number">1.6.</span> <span class="toc-text">特征分离</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9E%84%E5%BB%BA%E5%8F%AF%E8%A7%86%E5%8C%96%E5%AD%97%E5%85%B8"><span class="toc-number">1.7.</span> <span class="toc-text">构建可视化字典</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%87%8F%E5%8C%96%E7%89%B9%E5%BE%81"><span class="toc-number">1.8.</span> <span class="toc-text">量化特征</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%BE%E5%83%8F%E8%A1%A8%E7%A4%BA"><span class="toc-number">1.9.</span> <span class="toc-text">图像表示</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Image-classification"><span class="toc-number">1.10.</span> <span class="toc-text">Image classification</span></a></li></ol></li></ol>
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+
+</html>
