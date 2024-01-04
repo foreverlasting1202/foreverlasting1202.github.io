@@ -5,16 +5,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Review of Course Computer Vision - Foreverlasting&#39;s blog</title>
+    <title>Review of Course Computer Vision Lecture 7:Feature Detector - Foreverlasting&#39;s blog</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     
     <meta name="description" content="为期末考试复习做个准备。
-Lecture 1: Introduction
-Lecture 2: Filter
-Lecture 3: Resampling and Interpolation
-Lect,"> 
+总文章地址。
+Lecture 7: Feature Detector我们想要完成图像匹配的事情，比如有一个建筑物在两张不同的图中都出现了，我们要匹配上这两张图中的建筑物。
+,"> 
     <meta name="author" content="Foreverlating"> 
     <link rel="alternative" href="atom.xml" title="Foreverlasting&#39;s blog" type="application/atom+xml"> 
     <link rel="icon" href="/img/cov_moon.jpg"> 
@@ -24,24 +23,22 @@ Lect,">
     
     
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="Review of Course Computer Vision - Foreverlasting&#39;s blog"/>
+    <meta name="twitter:title" content="Review of Course Computer Vision Lecture 7:Feature Detector - Foreverlasting&#39;s blog"/>
     <meta name="twitter:description" content="为期末考试复习做个准备。
-Lecture 1: Introduction
-Lecture 2: Filter
-Lecture 3: Resampling and Interpolation
-Lect,"/>
+总文章地址。
+Lecture 7: Feature Detector我们想要完成图像匹配的事情，比如有一个建筑物在两张不同的图中都出现了，我们要匹配上这两张图中的建筑物。
+,"/>
     
     
     
     
     <meta property="og:site_name" content="Foreverlasting&#39;s blog"/>
     <meta property="og:type" content="object"/>
-    <meta property="og:title" content="Review of Course Computer Vision - Foreverlasting&#39;s blog"/>
+    <meta property="og:title" content="Review of Course Computer Vision Lecture 7:Feature Detector - Foreverlasting&#39;s blog"/>
     <meta property="og:description" content="为期末考试复习做个准备。
-Lecture 1: Introduction
-Lecture 2: Filter
-Lecture 3: Resampling and Interpolation
-Lect,"/>
+总文章地址。
+Lecture 7: Feature Detector我们想要完成图像匹配的事情，比如有一个建筑物在两张不同的图中都出现了，我们要匹配上这两张图中的建筑物。
+,"/>
     
 <link rel="stylesheet" href="/css/diaspora.css">
 
@@ -59,7 +56,7 @@ Lect,"/>
     <div class="bar" style="width: 0;"></div>
     <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://foreverlasting.top"></a>
     <div title="Play/Pause" class="iconfont icon-play"></div>
-    <h3 class="subtitle">Review of Course Computer Vision</h3>
+    <h3 class="subtitle">Review of Course Computer Vision Lecture 7:Feature Detector</h3>
     <div class="social">
         <div>
         <!--
@@ -76,9 +73,9 @@ Lect,"/>
     <div class="section">
         <div class="article">
     <div class='main'>
-        <h1 class="title">Review of Course Computer Vision</h1>
+        <h1 class="title">Review of Course Computer Vision Lecture 7:Feature Detector</h1>
         <div class="stuff">
-            <span>December 22, 2023</span>
+            <span>January 04, 2024</span>
             
   <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/AI/" rel="tag">AI</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Computer-Vision/" rel="tag">Computer Vision</a></li></ul>
 
@@ -86,22 +83,48 @@ Lect,"/>
         </div>
         <div class="content markdown">
             <p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-1/">Lecture 1: Introduction</a></p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-2/">Lecture 2: Filter</a></p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-3/">Lecture 3: Resampling and Interpolation</a></p>
-<p>Lecture 4: Programming Basics: python 基础，有点简单，略。</p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-5/">Lecture 5: Edge Detection</a></p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-6/">Lecture 6: Line Detection</a></p>
-<p>Lecture 7: Feature Detector</p>
-<p>Lecture 8: Feature Descriptor</p>
-<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-9/">Lecture 9: Panorama</a></p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-10/">Lecture 10: Camera</a></p>
-<p>Lecture 11: Light and Color</p>
-<p>Lecture 12: Visual recognition</p>
-<p>Lecture 13: Detection</p>
-<p>Lecture 14: Segmentation</p>
-<p>Lecture 15: Motion</p>
-<p>Lecture 16: Tracking</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-7-Feature-Detector"><a href="#Lecture-7-Feature-Detector" class="headerlink" title="Lecture 7: Feature Detector"></a>Lecture 7: Feature Detector</h3><p>我们想要完成图像匹配的事情，比如有一个建筑物在两张不同的图中都出现了，我们要匹配上这两张图中的建筑物。</p>
+<p>又或者我们想拍摄全景图，此时需要合并两张相邻的图，那么就要完成提取特征再特征匹配后，把这些特征点位置对应上，然后将图像融合在一起。</p>
+<p>还有许多用处，这里不再赘述。</p>
+<p>局部特征比起全局特征的优势在于，局部特征在被遮挡、运动等时候上依旧能保持相应的特征，而全局特征更考察整体的色度等，容易随着图像变化而发生比较大的变化。</p>
+<p>局部特征的优势：</p>
+<ol>
+<li>Locality：对于遮蔽的鲁棒性。</li>
+<li>Quantity：一张图像内有成百上千。</li>
+<li>Distinctiveness：比较能在大的图像库里能识别出来。</li>
+<li>Efficiency：能够实时使用。</li>
+</ol>
+<p>于是特征点需要在一些变化下保持不变，比如 translation, rotation, scale, brightness, exposure 等。</p>
+<p>目标：可重复性检测；精确地局部化；比较能作为区分的点。</p>
+<p>实际上可以看作寻找二维函数的信号变化。</p>
+<h4 id="Harris-corner-detection"><a href="#Harris-corner-detection" class="headerlink" title="Harris corner detection"></a>Harris corner detection</h4><p>第一步是寻找 Corners。</p>
+<p>Corners 是可重复和可区分的。一般使用一个滑动的窗口来寻找 Corners。</p>
+<p><img src="https://pic.imgdb.cn/item/65965135871b83018acbd2d5.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65965150871b83018acc1a4f.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65965173871b83018acc7849.jpg"></p>
+<p>窗口的思路在于将窗口里的每个像素点和某个位移后的窗口作差平方后加权和，以这个数值来判断是否为 Corners，即<br>$$<br>E(u,v)&#x3D;\sum_{x,y} w(x,y)(I(x+u,y+v)-I(x,y))^2.<br>$$<br>其中 $(u,v)$ 为位移量，$I(x,y)$ 是 $(x,y)$ 这个点的像素值，$w(x,y)$ 为某一加权函数。</p>
+<p><img src="https://pic.imgdb.cn/item/6596525d871b83018acf1440.jpg"></p>
+<p>如何证明正确性？考虑 Taylor 展开，即 $I(x+u,y+v)\approx I(x,y)+(\frac{\partial I}{\partial x},\frac{\partial I}{\partial y})(u,v)^T$，不妨假设 $w(x,y)$ 为常值函数，于是<br>$$<br>E(u,v)&#x3D;\sum_{x,y} w(x,y)(I(x+u,y+v)-I(x,y))^2\\<br>\approx \sum_{x,y} (\frac{\partial I}{\partial x}u+\frac{\partial I}{\partial y}v)^2\\<br>&#x3D;u^2\sum_{x,y} (\frac{\partial I}{\partial x})^2+v^2\sum_{x,y} (\frac{\partial I}{\partial y})^2+2uv\sum_{x,y} \frac{\partial I}{\partial x}\frac{\partial I}{\partial y}\\<br>&#x3D;\begin{pmatrix}u &amp; v\end{pmatrix}\begin{pmatrix}A &amp; B\\B &amp; C\end{pmatrix}\begin{pmatrix}u &amp; v\end{pmatrix}^T.<br>$$<br>其中，$A&#x3D;\sum_{x,y}(\frac{\partial I}{\partial x})^2, B&#x3D;\sum_{x,y}\frac{\partial I}{\partial x}\frac{\partial I}{\partial y}, C&#x3D;\sum_{x,y} (\frac{\partial I}{\partial y})^2$。</p>
+<p>设中间矩阵为 $H$，我们能有以下的一些情况。</p>
+<p><img src="https://pic.imgdb.cn/item/659654bb871b83018ad5d363.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/659654bc871b83018ad5d3de.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/659654bc871b83018ad5d43f.jpg"></p>
+<p>注意到 $H$ 是实对称矩阵，所以其一定能被对角化，即 $H&#x3D;R^{-1}\begin{pmatrix}\lambda_1 &amp; 0\\0 &amp; \lambda_2\end{pmatrix}R$。旋转图像显然不会改成特征值。</p>
+<p><img src="https://pic.imgdb.cn/item/659656c7871b83018adbab0f.jpg"></p>
+<p>于是就可以根据 $\lambda_1$ 和 $\lambda_2$ 来判断区域情况了。</p>
+<p>真实情况中我们不可能对这个矩阵去求出特征值，所以会利用行列式和迹。</p>
+<p>$2\times 2$ 的矩阵的行列式和迹是容易求的，即 $\det(H)&#x3D;h_{1,1}h_{2,2}-h_{1,2}h_{2,1}, \mathrm{trace}(H)&#x3D;h_{1,1}+h_{2,2}$。</p>
+<p>此时利用 $\det(H)$ 和 $\mathrm{trace}(H)$ 的一些运算来获得一些判断规则，比如<br>$$<br>\theta&#x3D;\det(H)-\alpha \mathrm{trace}^2(H),\\<br>R&#x3D;\frac{\det(H)}{\mathrm{trace}(H)+\epsilon}.<br>$$<br>等等。其中，$\alpha$ 一般取 $0.04$ 到 $0.06$ 之间的某个常数。</p>
+<p><img src="https://pic.imgdb.cn/item/65965b72871b83018ae97dca.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65965bf3871b83018aeaf1b6.jpg"></p>
+<p>Harris corner detection 满足 Translation invariance, Rotation invariance, Partially invariant to affine intensity change, Not invariant to image scale。</p>
+<p><img src="https://pic.imgdb.cn/item/65965d9b871b83018aefa850.jpg"></p>
+<p>上图可见，尺度变化确实会影响检测。需要我们再次发明尺度不变的检测方法。</p>
+<h4 id="Scale-invariant-detection"><a href="#Scale-invariant-detection" class="headerlink" title="Scale invariant detection"></a>Scale invariant detection</h4><p>高斯相关的卷积核都是保持尺度不变性的。</p>
+<p>一种方法被称为 SIFT，构建的是多组多层的高斯差分金字塔，每一组内的图像大小相等，但尺度不同，不同组间由下采样构成，卷积核使用高斯差分函数。在不同层考虑寻找局部最大值 (自己这一层相邻的八个，上一层的九个，下一层的九个），将其作为一个局部特征点，记为三元组 $(x,y,\sigma)$，$\sigma$ 为那一层的尺度 (scale)。这些特征点用来备选，以其他一些方法进行拟合或者删除部分。</p>
+<p><img src="https://pic.imgdb.cn/item/65966293871b83018afd5218.jpg"></p>
+<p>另一种方法构建的是 Harris-Laplacian 金字塔，卷积核使用拉普拉斯函数，层内使用 Harris detector 来寻找特征点。对于这些点，类似高斯差分金字塔的办法，若不是局部最大值，则去除。</p>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
@@ -134,7 +157,7 @@ Lect,"/>
     </div>
     
         <div class="side">
-            
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Lecture-7-Feature-Detector"><span class="toc-number">1.</span> <span class="toc-text">Lecture 7: Feature Detector</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Harris-corner-detection"><span class="toc-number">1.1.</span> <span class="toc-text">Harris corner detection</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Scale-invariant-detection"><span class="toc-number">1.2.</span> <span class="toc-text">Scale invariant detection</span></a></li></ol></li></ol>
         </div>
     
 </div>

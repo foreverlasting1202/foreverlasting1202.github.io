@@ -29,6 +29,21 @@
       </tags>
   </entry>
   <entry>
+    <title>北京理工大学人工智能专业生存手册</title>
+    <url>/2023/10/08/2023-10-8-BITAI/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
+<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
+<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="形势与政策"><a href="#形势与政策" class="headerlink" title="形势与政策"></a>形势与政策</h3><h3 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h3><h3 id="公选"><a href="#公选" class="headerlink" title="公选"></a>公选</h3><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><h3 id="工程制图C"><a href="#工程制图C" class="headerlink" title="工程制图C"></a>工程制图C</h3><h3 id="大学计算机"><a href="#大学计算机" class="headerlink" title="大学计算机"></a>大学计算机</h3><h3 id="线性代数B"><a href="#线性代数B" class="headerlink" title="线性代数B"></a>线性代数B</h3><h3 id="工科数学分析-I"><a href="#工科数学分析-I" class="headerlink" title="工科数学分析 I"></a>工科数学分析 I</h3><h3 id="知识产权法基础"><a href="#知识产权法基础" class="headerlink" title="知识产权法基础"></a>知识产权法基础</h3><h3 id="学术用途英语一级"><a href="#学术用途英语一级" class="headerlink" title="学术用途英语一级"></a>学术用途英语一级</h3><h3 id="思想道德与法治"><a href="#思想道德与法治" class="headerlink" title="思想道德与法治"></a>思想道德与法治</h3><h3 id="大学生心理素质发展"><a href="#大学生心理素质发展" class="headerlink" title="大学生心理素质发展"></a>大学生心理素质发展</h3><h3 id="军事理论"><a href="#军事理论" class="headerlink" title="军事理论"></a>军事理论</h3><h3 id="军事技能"><a href="#军事技能" class="headerlink" title="军事技能"></a>军事技能</h3><h2 id="大二下"><a href="#大二下" class="headerlink" title="大二下"></a>大二下</h2><h3 id="电路分析基础"><a href="#电路分析基础" class="headerlink" title="电路分析基础"></a>电路分析基础</h3><h3 id="C语言程序设计"><a href="#C语言程序设计" class="headerlink" title="C语言程序设计"></a>C语言程序设计</h3><h3 id="工科数学分析-II"><a href="#工科数学分析-II" class="headerlink" title="工科数学分析 II"></a>工科数学分析 II</h3><h3 id="大学物理AⅠ"><a href="#大学物理AⅠ" class="headerlink" title="大学物理AⅠ"></a>大学物理AⅠ</h3><h3 id="物理实验BⅠ"><a href="#物理实验BⅠ" class="headerlink" title="物理实验BⅠ"></a>物理实验BⅠ</h3><h3 id="学术用途英语二级"><a href="#学术用途英语二级" class="headerlink" title="学术用途英语二级"></a>学术用途英语二级</h3>]]></content>
+      <categories>
+        <category>生存手册</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>算法竞赛生存手册(伪)</title>
     <url>/2023/10/08/2023-10-8-CP(fake)/</url>
     <content><![CDATA[<p>会更新吗？如更。</p>
@@ -42,18 +57,17 @@
       </tags>
   </entry>
   <entry>
-    <title>北京理工大学人工智能专业生存手册</title>
-    <url>/2023/10/08/2023-10-8-BITAI/</url>
+    <title>关于 AI 里的一些数学证明</title>
+    <url>/2023/11/06/2023-11-6-AI-math/</url>
     <content><![CDATA[<p>会更新吗？如更。</p>
-<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
-<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
-<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="形势与政策"><a href="#形势与政策" class="headerlink" title="形势与政策"></a>形势与政策</h3><h3 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h3><h3 id="公选"><a href="#公选" class="headerlink" title="公选"></a>公选</h3><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><h3 id="工程制图C"><a href="#工程制图C" class="headerlink" title="工程制图C"></a>工程制图C</h3><h3 id="大学计算机"><a href="#大学计算机" class="headerlink" title="大学计算机"></a>大学计算机</h3><h3 id="线性代数B"><a href="#线性代数B" class="headerlink" title="线性代数B"></a>线性代数B</h3><h3 id="工科数学分析-I"><a href="#工科数学分析-I" class="headerlink" title="工科数学分析 I"></a>工科数学分析 I</h3><h3 id="知识产权法基础"><a href="#知识产权法基础" class="headerlink" title="知识产权法基础"></a>知识产权法基础</h3><h3 id="学术用途英语一级"><a href="#学术用途英语一级" class="headerlink" title="学术用途英语一级"></a>学术用途英语一级</h3><h3 id="思想道德与法治"><a href="#思想道德与法治" class="headerlink" title="思想道德与法治"></a>思想道德与法治</h3><h3 id="大学生心理素质发展"><a href="#大学生心理素质发展" class="headerlink" title="大学生心理素质发展"></a>大学生心理素质发展</h3><h3 id="军事理论"><a href="#军事理论" class="headerlink" title="军事理论"></a>军事理论</h3><h3 id="军事技能"><a href="#军事技能" class="headerlink" title="军事技能"></a>军事技能</h3><h2 id="大二下"><a href="#大二下" class="headerlink" title="大二下"></a>大二下</h2><h3 id="电路分析基础"><a href="#电路分析基础" class="headerlink" title="电路分析基础"></a>电路分析基础</h3><h3 id="C语言程序设计"><a href="#C语言程序设计" class="headerlink" title="C语言程序设计"></a>C语言程序设计</h3><h3 id="工科数学分析-II"><a href="#工科数学分析-II" class="headerlink" title="工科数学分析 II"></a>工科数学分析 II</h3><h3 id="大学物理AⅠ"><a href="#大学物理AⅠ" class="headerlink" title="大学物理AⅠ"></a>大学物理AⅠ</h3><h3 id="物理实验BⅠ"><a href="#物理实验BⅠ" class="headerlink" title="物理实验BⅠ"></a>物理实验BⅠ</h3><h3 id="学术用途英语二级"><a href="#学术用途英语二级" class="headerlink" title="学术用途英语二级"></a>学术用途英语二级</h3>]]></content>
+<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
+]]></content>
       <categories>
-        <category>生存手册</category>
+        <category>整理与总结</category>
       </categories>
       <tags>
         <tag>AI</tag>
+        <tag>Math</tag>
       </tags>
   </entry>
   <entry>
@@ -125,6 +139,35 @@
       </tags>
   </entry>
   <entry>
+    <title>Review of Course Computer Vision</title>
+    <url>/2023/12/22/2023-12-22-cv-exam/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-1/">Lecture 1: Introduction</a></p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-2/">Lecture 2: Filter</a></p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-3/">Lecture 3: Resampling and Interpolation</a></p>
+<p>Lecture 4: Programming Basics: python 基础，有点简单，略。</p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-5/">Lecture 5: Edge Detection</a></p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-6/">Lecture 6: Line Detection</a></p>
+<p>Lecture 7: Feature Detector</p>
+<p>Lecture 8: Feature Descriptor</p>
+<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-9/">Lecture 9: Panorama</a></p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-10/">Lecture 10: Camera</a></p>
+<p>Lecture 11: Light and Color</p>
+<p>Lecture 12: Visual recognition</p>
+<p>Lecture 13: Detection</p>
+<p>Lecture 14: Segmentation</p>
+<p>Lecture 15: Motion</p>
+<p>Lecture 16: Tracking</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Review of Course Computer Vision Lecture 1:Introduction</title>
     <url>/2024/01/03/2024-1-3-cv-exam-1/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
@@ -150,49 +193,6 @@
       <tags>
         <tag>AI</tag>
         <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision</title>
-    <url>/2023/12/22/2023-12-22-cv-exam/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-1/">Lecture 1: Introduction</a></p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-2/">Lecture 2: Filter</a></p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-3/">Lecture 3: Resampling and Interpolation</a></p>
-<p>Lecture 4: Programming Basics: python 基础，有点简单，略。</p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-5/">Lecture 5: Edge Detection</a></p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-6/">Lecture 6: Line Detection</a></p>
-<p>Lecture 7: Feature Detector</p>
-<p>Lecture 8: Feature Descriptor</p>
-<p>Lecture 9: Panorama</p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-10/">Lecture 10: Camera</a></p>
-<p>Lecture 11: Light and Color</p>
-<p>Lecture 12: Visual recognition</p>
-<p>Lecture 13: Detection</p>
-<p>Lecture 14: Segmentation</p>
-<p>Lecture 15: Motion</p>
-<p>Lecture 16: Tracking</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于 AI 里的一些数学证明</title>
-    <url>/2023/11/06/2023-11-6-AI-math/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Math</tag>
       </tags>
   </entry>
   <entry>
@@ -490,6 +490,76 @@
 <li>只能处理预先估计 $w$ 的情况的数据，不然算法成本太大。</li>
 <li>现实中 $w$ 可能非常小（可能需要选择随机子集来解决）。</li>
 </ol>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 7:Feature Detector</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-7/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-7-Feature-Detector"><a href="#Lecture-7-Feature-Detector" class="headerlink" title="Lecture 7: Feature Detector"></a>Lecture 7: Feature Detector</h3><p>我们想要完成图像匹配的事情，比如有一个建筑物在两张不同的图中都出现了，我们要匹配上这两张图中的建筑物。</p>
+<p>又或者我们想拍摄全景图，此时需要合并两张相邻的图，那么就要完成提取特征再特征匹配后，把这些特征点位置对应上，然后将图像融合在一起。</p>
+<p>还有许多用处，这里不再赘述。</p>
+<p>局部特征比起全局特征的优势在于，局部特征在被遮挡、运动等时候上依旧能保持相应的特征，而全局特征更考察整体的色度等，容易随着图像变化而发生比较大的变化。</p>
+<p>局部特征的优势：</p>
+<ol>
+<li>Locality：对于遮蔽的鲁棒性。</li>
+<li>Quantity：一张图像内有成百上千。</li>
+<li>Distinctiveness：比较能在大的图像库里能识别出来。</li>
+<li>Efficiency：能够实时使用。</li>
+</ol>
+<p>于是特征点需要在一些变化下保持不变，比如 translation, rotation, scale, brightness, exposure 等。</p>
+<p>目标：可重复性检测；精确地局部化；比较能作为区分的点。</p>
+<p>实际上可以看作寻找二维函数的信号变化。</p>
+<h4 id="Harris-corner-detection"><a href="#Harris-corner-detection" class="headerlink" title="Harris corner detection"></a>Harris corner detection</h4><p>第一步是寻找 Corners。</p>
+<p>Corners 是可重复和可区分的。一般使用一个滑动的窗口来寻找 Corners。</p>
+<p><img src="https://pic.imgdb.cn/item/65965135871b83018acbd2d5.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65965150871b83018acc1a4f.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65965173871b83018acc7849.jpg"></p>
+<p>窗口的思路在于将窗口里的每个像素点和某个位移后的窗口作差平方后加权和，以这个数值来判断是否为 Corners，即<br>$$<br>E(u,v)&#x3D;\sum_{x,y} w(x,y)(I(x+u,y+v)-I(x,y))^2.<br>$$<br>其中 $(u,v)$ 为位移量，$I(x,y)$ 是 $(x,y)$ 这个点的像素值，$w(x,y)$ 为某一加权函数。</p>
+<p><img src="https://pic.imgdb.cn/item/6596525d871b83018acf1440.jpg"></p>
+<p>如何证明正确性？考虑 Taylor 展开，即 $I(x+u,y+v)\approx I(x,y)+(\frac{\partial I}{\partial x},\frac{\partial I}{\partial y})(u,v)^T$，不妨假设 $w(x,y)$ 为常值函数，于是<br>$$<br>E(u,v)&#x3D;\sum_{x,y} w(x,y)(I(x+u,y+v)-I(x,y))^2\\<br>\approx \sum_{x,y} (\frac{\partial I}{\partial x}u+\frac{\partial I}{\partial y}v)^2\\<br>&#x3D;u^2\sum_{x,y} (\frac{\partial I}{\partial x})^2+v^2\sum_{x,y} (\frac{\partial I}{\partial y})^2+2uv\sum_{x,y} \frac{\partial I}{\partial x}\frac{\partial I}{\partial y}\\<br>&#x3D;\begin{pmatrix}u &amp; v\end{pmatrix}\begin{pmatrix}A &amp; B\\B &amp; C\end{pmatrix}\begin{pmatrix}u &amp; v\end{pmatrix}^T.<br>$$<br>其中，$A&#x3D;\sum_{x,y}(\frac{\partial I}{\partial x})^2, B&#x3D;\sum_{x,y}\frac{\partial I}{\partial x}\frac{\partial I}{\partial y}, C&#x3D;\sum_{x,y} (\frac{\partial I}{\partial y})^2$。</p>
+<p>设中间矩阵为 $H$，我们能有以下的一些情况。</p>
+<p><img src="https://pic.imgdb.cn/item/659654bb871b83018ad5d363.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/659654bc871b83018ad5d3de.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/659654bc871b83018ad5d43f.jpg"></p>
+<p>注意到 $H$ 是实对称矩阵，所以其一定能被对角化，即 $H&#x3D;R^{-1}\begin{pmatrix}\lambda_1 &amp; 0\\0 &amp; \lambda_2\end{pmatrix}R$。旋转图像显然不会改成特征值。</p>
+<p><img src="https://pic.imgdb.cn/item/659656c7871b83018adbab0f.jpg"></p>
+<p>于是就可以根据 $\lambda_1$ 和 $\lambda_2$ 来判断区域情况了。</p>
+<p>真实情况中我们不可能对这个矩阵去求出特征值，所以会利用行列式和迹。</p>
+<p>$2\times 2$ 的矩阵的行列式和迹是容易求的，即 $\det(H)&#x3D;h_{1,1}h_{2,2}-h_{1,2}h_{2,1}, \mathrm{trace}(H)&#x3D;h_{1,1}+h_{2,2}$。</p>
+<p>此时利用 $\det(H)$ 和 $\mathrm{trace}(H)$ 的一些运算来获得一些判断规则，比如<br>$$<br>\theta&#x3D;\det(H)-\alpha \mathrm{trace}^2(H),\\<br>R&#x3D;\frac{\det(H)}{\mathrm{trace}(H)+\epsilon}.<br>$$<br>等等。其中，$\alpha$ 一般取 $0.04$ 到 $0.06$ 之间的某个常数。</p>
+<p><img src="https://pic.imgdb.cn/item/65965b72871b83018ae97dca.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65965bf3871b83018aeaf1b6.jpg"></p>
+<p>Harris corner detection 满足 Translation invariance, Rotation invariance, Partially invariant to affine intensity change, Not invariant to image scale。</p>
+<p><img src="https://pic.imgdb.cn/item/65965d9b871b83018aefa850.jpg"></p>
+<p>上图可见，尺度变化确实会影响检测。需要我们再次发明尺度不变的检测方法。</p>
+<h4 id="Scale-invariant-detection"><a href="#Scale-invariant-detection" class="headerlink" title="Scale invariant detection"></a>Scale invariant detection</h4><p>高斯相关的卷积核都是保持尺度不变性的。</p>
+<p>一种方法被称为 SIFT，构建的是多组多层的高斯差分金字塔，每一组内的图像大小相等，但尺度不同，不同组间由下采样构成，卷积核使用高斯差分函数。在不同层考虑寻找局部最大值 (自己这一层相邻的八个，上一层的九个，下一层的九个），将其作为一个局部特征点，记为三元组 $(x,y,\sigma)$，$\sigma$ 为那一层的尺度 (scale)。这些特征点用来备选，以其他一些方法进行拟合或者删除部分。</p>
+<p><img src="https://pic.imgdb.cn/item/65966293871b83018afd5218.jpg"></p>
+<p>另一种方法构建的是 Harris-Laplacian 金字塔，卷积核使用拉普拉斯函数，层内使用 Harris detector 来寻找特征点。对于这些点，类似高斯差分金字塔的办法，若不是局部最大值，则去除。</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 9:Panorama</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-9/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-9-Panorama"><a href="#Lecture-9-Panorama" class="headerlink" title="Lecture 9: Panorama"></a>Lecture 9: Panorama</h3><p><strong>关键点</strong>: 关键点就是那些同一场景但在不同光线角度等的不同图像中仍然能保持可以检测的点。</p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
