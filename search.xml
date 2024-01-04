@@ -29,21 +29,6 @@
       </tags>
   </entry>
   <entry>
-    <title>北京理工大学人工智能专业生存手册</title>
-    <url>/2023/10/08/2023-10-8-BITAI/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
-<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
-<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="形势与政策"><a href="#形势与政策" class="headerlink" title="形势与政策"></a>形势与政策</h3><h3 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h3><h3 id="公选"><a href="#公选" class="headerlink" title="公选"></a>公选</h3><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><h3 id="工程制图C"><a href="#工程制图C" class="headerlink" title="工程制图C"></a>工程制图C</h3><h3 id="大学计算机"><a href="#大学计算机" class="headerlink" title="大学计算机"></a>大学计算机</h3><h3 id="线性代数B"><a href="#线性代数B" class="headerlink" title="线性代数B"></a>线性代数B</h3><h3 id="工科数学分析-I"><a href="#工科数学分析-I" class="headerlink" title="工科数学分析 I"></a>工科数学分析 I</h3><h3 id="知识产权法基础"><a href="#知识产权法基础" class="headerlink" title="知识产权法基础"></a>知识产权法基础</h3><h3 id="学术用途英语一级"><a href="#学术用途英语一级" class="headerlink" title="学术用途英语一级"></a>学术用途英语一级</h3><h3 id="思想道德与法治"><a href="#思想道德与法治" class="headerlink" title="思想道德与法治"></a>思想道德与法治</h3><h3 id="大学生心理素质发展"><a href="#大学生心理素质发展" class="headerlink" title="大学生心理素质发展"></a>大学生心理素质发展</h3><h3 id="军事理论"><a href="#军事理论" class="headerlink" title="军事理论"></a>军事理论</h3><h3 id="军事技能"><a href="#军事技能" class="headerlink" title="军事技能"></a>军事技能</h3><h2 id="大二下"><a href="#大二下" class="headerlink" title="大二下"></a>大二下</h2><h3 id="电路分析基础"><a href="#电路分析基础" class="headerlink" title="电路分析基础"></a>电路分析基础</h3><h3 id="C语言程序设计"><a href="#C语言程序设计" class="headerlink" title="C语言程序设计"></a>C语言程序设计</h3><h3 id="工科数学分析-II"><a href="#工科数学分析-II" class="headerlink" title="工科数学分析 II"></a>工科数学分析 II</h3><h3 id="大学物理AⅠ"><a href="#大学物理AⅠ" class="headerlink" title="大学物理AⅠ"></a>大学物理AⅠ</h3><h3 id="物理实验BⅠ"><a href="#物理实验BⅠ" class="headerlink" title="物理实验BⅠ"></a>物理实验BⅠ</h3><h3 id="学术用途英语二级"><a href="#学术用途英语二级" class="headerlink" title="学术用途英语二级"></a>学术用途英语二级</h3>]]></content>
-      <categories>
-        <category>生存手册</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>算法竞赛生存手册(伪)</title>
     <url>/2023/10/08/2023-10-8-CP(fake)/</url>
     <content><![CDATA[<p>会更新吗？如更。</p>
@@ -57,17 +42,18 @@
       </tags>
   </entry>
   <entry>
-    <title>关于 AI 里的一些数学证明</title>
-    <url>/2023/11/06/2023-11-6-AI-math/</url>
+    <title>北京理工大学人工智能专业生存手册</title>
+    <url>/2023/10/08/2023-10-8-BITAI/</url>
     <content><![CDATA[<p>会更新吗？如更。</p>
-<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
-]]></content>
+<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
+<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
+<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="形势与政策"><a href="#形势与政策" class="headerlink" title="形势与政策"></a>形势与政策</h3><h3 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h3><h3 id="公选"><a href="#公选" class="headerlink" title="公选"></a>公选</h3><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><h3 id="工程制图C"><a href="#工程制图C" class="headerlink" title="工程制图C"></a>工程制图C</h3><h3 id="大学计算机"><a href="#大学计算机" class="headerlink" title="大学计算机"></a>大学计算机</h3><h3 id="线性代数B"><a href="#线性代数B" class="headerlink" title="线性代数B"></a>线性代数B</h3><h3 id="工科数学分析-I"><a href="#工科数学分析-I" class="headerlink" title="工科数学分析 I"></a>工科数学分析 I</h3><h3 id="知识产权法基础"><a href="#知识产权法基础" class="headerlink" title="知识产权法基础"></a>知识产权法基础</h3><h3 id="学术用途英语一级"><a href="#学术用途英语一级" class="headerlink" title="学术用途英语一级"></a>学术用途英语一级</h3><h3 id="思想道德与法治"><a href="#思想道德与法治" class="headerlink" title="思想道德与法治"></a>思想道德与法治</h3><h3 id="大学生心理素质发展"><a href="#大学生心理素质发展" class="headerlink" title="大学生心理素质发展"></a>大学生心理素质发展</h3><h3 id="军事理论"><a href="#军事理论" class="headerlink" title="军事理论"></a>军事理论</h3><h3 id="军事技能"><a href="#军事技能" class="headerlink" title="军事技能"></a>军事技能</h3><h2 id="大二下"><a href="#大二下" class="headerlink" title="大二下"></a>大二下</h2><h3 id="电路分析基础"><a href="#电路分析基础" class="headerlink" title="电路分析基础"></a>电路分析基础</h3><h3 id="C语言程序设计"><a href="#C语言程序设计" class="headerlink" title="C语言程序设计"></a>C语言程序设计</h3><h3 id="工科数学分析-II"><a href="#工科数学分析-II" class="headerlink" title="工科数学分析 II"></a>工科数学分析 II</h3><h3 id="大学物理AⅠ"><a href="#大学物理AⅠ" class="headerlink" title="大学物理AⅠ"></a>大学物理AⅠ</h3><h3 id="物理实验BⅠ"><a href="#物理实验BⅠ" class="headerlink" title="物理实验BⅠ"></a>物理实验BⅠ</h3><h3 id="学术用途英语二级"><a href="#学术用途英语二级" class="headerlink" title="学术用途英语二级"></a>学术用途英语二级</h3>]]></content>
       <categories>
-        <category>整理与总结</category>
+        <category>生存手册</category>
       </categories>
       <tags>
         <tag>AI</tag>
-        <tag>Math</tag>
       </tags>
   </entry>
   <entry>
@@ -114,6 +100,20 @@
       </tags>
   </entry>
   <entry>
+    <title>关于 AI 里的一些数学证明</title>
+    <url>/2023/11/06/2023-11-6-AI-math/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Math</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Benign Overfitting in classification provably counter label noise with larger models</title>
     <url>/2023/12/18/2023-12-18-2206.00501/</url>
     <content><![CDATA[<h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
@@ -145,12 +145,12 @@
 <p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-1/">Lecture 1: Introduction</a></p>
 <p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-2/">Lecture 2: Filter</a></p>
 <p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-3/">Lecture 3: Resampling and Interpolation</a></p>
-<p>Lecture 4: Programming Basics: python 基础，有点简单，略。</p>
+<p>Lecture 4: Programming Basics: Python 基础，有点简单，略。</p>
 <p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-5/">Lecture 5: Edge Detection</a></p>
 <p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-6/">Lecture 6: Line Detection</a></p>
-<p>Lecture 7: Feature Detector</p>
-<p>Lecture 8: Feature Descriptor</p>
-<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-9/">Lecture 9: Panorama</a></p>
+<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-7/">Lecture 7: Feature Detector</a></p>
+<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-8/">Lecture 8: Feature Descriptor</a></p>
+<p>Lecture 9: Panorama: 实际上是个复习章节，没有任何内容。</p>
 <p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-10/">Lecture 10: Camera</a></p>
 <p>Lecture 11: Light and Color</p>
 <p>Lecture 12: Visual recognition</p>
@@ -186,6 +186,41 @@
 <li>Login without a password</li>
 <li>…</li>
 </ol>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 2:Filter</title>
+    <url>/2024/01/03/2024-1-3-cv-exam-2/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-2-Filter"><a href="#Lecture-2-Filter" class="headerlink" title="Lecture 2: Filter"></a>Lecture 2: Filter</h3><h4 id="图像种类"><a href="#图像种类" class="headerlink" title="图像种类"></a>图像种类</h4><ol>
+<li>二进制 (Binary)</li>
+<li>灰度图 (Grayscale)</li>
+<li>有色图 (Color)</li>
+</ol>
+<p>对原图像的采样构成了数字图像，存在误差。</p>
+<p>分辨率 (Resolution) 是采样的参数，定义为 DPI (dots per inch) 或者像素密度。</p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLp0kF.jpg"></p>
+<p>采样之后，再对像素值进行量化 (Quantization)。</p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLpWTO.jpg"></p>
+<h4 id="Transformations-图像变换"><a href="#Transformations-图像变换" class="headerlink" title="Transformations (图像变换)"></a>Transformations (图像变换)</h4><p>图像变换的种类：Filtering, Warping, …</p>
+<p>图像变换方式：单点变化 (Point operation, point processing), 邻域变化 (Neighborhood operation, filtering)</p>
+<h5 id="Point-Processing"><a href="#Point-Processing" class="headerlink" title="Point Processing"></a>Point Processing</h5><p><img src="https://s11.ax1x.com/2023/12/28/piL9Rvn.jpg"></p>
+<h5 id="Filtering"><a href="#Filtering" class="headerlink" title="Filtering"></a>Filtering</h5><p><strong>Linear shift-invariant image filtering</strong>: 用二维核矩阵（如平均值矩阵等），对图像做点积操作（对应位置相乘），不断移动而获取新矩阵的每个位置的新像素，以此来整合邻域信息。</p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLCErt.jpg"></p>
+<p><strong>Convolution</strong>: 卷积即下标之和为要求的值，公式为<br>$$<br>(f\ast g)(x, y)&#x3D;\sum_{i&#x3D;-1}^{1}\sum_{j&#x3D;-1}^1 f(i,j)I(x-i,y-j).<br>$$<br>其中，$f$ 为一个 $3\times 3$ 的卷积核，$I$ 是原图像。</p>
+<p><strong>可分离滤波器 (Separable filters)</strong>: 指的是滤波器 $f$ 矩阵可被表示成向量的乘积 $vw^T$，意义在于优化卷积的时间复杂度，这是由于矩阵乘法和卷积具有结合律和分配律。公式表达为<br>$$<br>(f\ast g)(x, y)&#x3D;\sum_{i&#x3D;-1}^{1}\sum_{j&#x3D;-1}^1 f(i,j)I(x-i,y-j)&#x3D;\sum_{i&#x3D;-1}^1\sum_{j&#x3D;-1}^1 v_iw_jI(x-i,y-j)\\<br>&#x3D;\sum_{i&#x3D;-1}^1v_i\sum_{j&#x3D;-1}^1 w_jI(x-i,y-j).<br>$$<br>此时考虑所有的 $x,y$，对 $I$ 固定的第一维，可以预处理出第二维的所有信息，再处理第一维，这样的复杂度是 $\mathcal O(NM^2)$，其中 $N\times N$ 是滤波器大小，$M\times M$ 是 $I$ 的大小。若不可分离，则需要 $\mathcal O(N^2M^2)$ 的复杂度。</p>
+<p><strong>高斯滤波器</strong>: $f(i,j)&#x3D;\frac{1}{2\pi\sigma^2}e^{-\frac{i^2+j^2}{2\sigma^2}}$，是一个低通滤波器，离中心越远贡献越小，具有极好的性质。$\sigma$ 被称为尺度，是人为设定的参数，常常只使用 $2\sigma\sim 3\sigma$ 大小的高斯矩阵作为滤波器（因为其他位置数值过于接近 $0$，直接忽略）。</p>
+<p><strong>其他滤波器</strong>: 如位移滤波器，锐化滤波器等。</p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLP1YD.jpg"></p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLPtOI.jpg"></p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -271,41 +306,6 @@
 <li>Alpha Blending: 思路是平均颜色。$\alpha$ 为零时为完全透明。<img src="https://cdn.luogu.com.cn/upload/image_hosting/o4acx1zd.png"></li>
 <li>Poisson Image Editing：将图像看作连续函数，融合图像就是最小化两个连续函数分界点处的差别，可以用求导等操作做成最优化问题。</li>
 </ol>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 2:Filter</title>
-    <url>/2024/01/03/2024-1-3-cv-exam-2/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-2-Filter"><a href="#Lecture-2-Filter" class="headerlink" title="Lecture 2: Filter"></a>Lecture 2: Filter</h3><h4 id="图像种类"><a href="#图像种类" class="headerlink" title="图像种类"></a>图像种类</h4><ol>
-<li>二进制 (Binary)</li>
-<li>灰度图 (Grayscale)</li>
-<li>有色图 (Color)</li>
-</ol>
-<p>对原图像的采样构成了数字图像，存在误差。</p>
-<p>分辨率 (Resolution) 是采样的参数，定义为 DPI (dots per inch) 或者像素密度。</p>
-<p><img src="https://s11.ax1x.com/2023/12/28/piLp0kF.jpg"></p>
-<p>采样之后，再对像素值进行量化 (Quantization)。</p>
-<p><img src="https://s11.ax1x.com/2023/12/28/piLpWTO.jpg"></p>
-<h4 id="Transformations-图像变换"><a href="#Transformations-图像变换" class="headerlink" title="Transformations (图像变换)"></a>Transformations (图像变换)</h4><p>图像变换的种类：Filtering, Warping, …</p>
-<p>图像变换方式：单点变化 (Point operation, point processing), 邻域变化 (Neighborhood operation, filtering)</p>
-<h5 id="Point-Processing"><a href="#Point-Processing" class="headerlink" title="Point Processing"></a>Point Processing</h5><p><img src="https://s11.ax1x.com/2023/12/28/piL9Rvn.jpg"></p>
-<h5 id="Filtering"><a href="#Filtering" class="headerlink" title="Filtering"></a>Filtering</h5><p><strong>Linear shift-invariant image filtering</strong>: 用二维核矩阵（如平均值矩阵等），对图像做点积操作（对应位置相乘），不断移动而获取新矩阵的每个位置的新像素，以此来整合邻域信息。</p>
-<p><img src="https://s11.ax1x.com/2023/12/28/piLCErt.jpg"></p>
-<p><strong>Convolution</strong>: 卷积即下标之和为要求的值，公式为<br>$$<br>(f\ast g)(x, y)&#x3D;\sum_{i&#x3D;-1}^{1}\sum_{j&#x3D;-1}^1 f(i,j)I(x-i,y-j).<br>$$<br>其中，$f$ 为一个 $3\times 3$ 的卷积核，$I$ 是原图像。</p>
-<p><strong>可分离滤波器 (Separable filters)</strong>: 指的是滤波器 $f$ 矩阵可被表示成向量的乘积 $vw^T$，意义在于优化卷积的时间复杂度，这是由于矩阵乘法和卷积具有结合律和分配律。公式表达为<br>$$<br>(f\ast g)(x, y)&#x3D;\sum_{i&#x3D;-1}^{1}\sum_{j&#x3D;-1}^1 f(i,j)I(x-i,y-j)&#x3D;\sum_{i&#x3D;-1}^1\sum_{j&#x3D;-1}^1 v_iw_jI(x-i,y-j)\\<br>&#x3D;\sum_{i&#x3D;-1}^1v_i\sum_{j&#x3D;-1}^1 w_jI(x-i,y-j).<br>$$<br>此时考虑所有的 $x,y$，对 $I$ 固定的第一维，可以预处理出第二维的所有信息，再处理第一维，这样的复杂度是 $\mathcal O(NM^2)$，其中 $N\times N$ 是滤波器大小，$M\times M$ 是 $I$ 的大小。若不可分离，则需要 $\mathcal O(N^2M^2)$ 的复杂度。</p>
-<p><strong>高斯滤波器</strong>: $f(i,j)&#x3D;\frac{1}{2\pi\sigma^2}e^{-\frac{i^2+j^2}{2\sigma^2}}$，是一个低通滤波器，离中心越远贡献越小，具有极好的性质。$\sigma$ 被称为尺度，是人为设定的参数，常常只使用 $2\sigma\sim 3\sigma$ 大小的高斯矩阵作为滤波器（因为其他位置数值过于接近 $0$，直接忽略）。</p>
-<p><strong>其他滤波器</strong>: 如位移滤波器，锐化滤波器等。</p>
-<p><img src="https://s11.ax1x.com/2023/12/28/piLP1YD.jpg"></p>
-<p><img src="https://s11.ax1x.com/2023/12/28/piLPtOI.jpg"></p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -416,6 +416,59 @@
 </ol>
 <p>在 Canny 中，若使用高斯类卷积核，此时的参数 $\sigma$ 影响 (卷积核大小改变) 如下图。</p>
 <p><img src="https://s11.ax1x.com/2024/01/03/pijTcGt.jpg"></p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 8:Feature Descriptor and Matching</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-8/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-8-Feature-Descriptor-and-Matching"><a href="#Lecture-8-Feature-Descriptor-and-Matching" class="headerlink" title="Lecture 8: Feature Descriptor and Matching"></a>Lecture 8: Feature Descriptor and Matching</h3><p>在检测出关键点后，我们需要用一个向量去描述关键点，这样利用向量的相似性进行匹配。</p>
+<p>这个向量我们称之为描述符，其需要满足两个条件：</p>
+<ol>
+<li>Invariance：不会随着光照等条件的变换而变换。</li>
+<li>Discriminability：和不是该关键点的描述符相差较大。</li>
+</ol>
+<p>一些简单的想法，比如直接用这个像素点，或者用其邻域，但实际上这些也就只能保证平移不变性。</p>
+<h4 id="MOPS"><a href="#MOPS" class="headerlink" title="MOPS"></a>MOPS</h4><p>MOPS, Multiscale Oriented Patches descriptor。</p>
+<p>如何选取方向呢？</p>
+<p>一个思路是，选取特征点对应的 Hessian 矩阵中最大的特征值对应的特征向量方向；另一个思路是简化平滑后的梯度方向。</p>
+<p>根据这个方向，我们旋转该特征点相关的窗口，这样就能获得一个旋转不变性的窗口了。</p>
+<p>具体来说，以特征点为中心选择一个 $40\times 40$ 的窗口，根据上述的方向旋转到水平位置，然后利用滤波器采样成 $8\times 8$ 的窗口，再对窗口进行灰度化，即先全部减去均值，再除以标准差。这样就让窗口变成了零均值且方差为 $1$ 了，保证了仿射不变性。</p>
+<h4 id="SIFT"><a href="#SIFT" class="headerlink" title="SIFT"></a>SIFT</h4><p>SIFT, Scale Invariant Feature Transform。</p>
+<p>SIFT 以特征点为中心选取一个与尺度有关的窗口，同样通过上述的求角度方法旋转。然后划分成 $4\times 4$ 的部分，将 $360^{\circ}$ 划分成 $8$ 份，每个部分用直方图统计出每份的权重，这样就有 $128&#x3D;4\times 4\times 8$ 个维度，于是就得到了特征向量。但为了去除一些不可靠的光照因素，这些光照因素会导致梯度极大，所以我们先对特征向量归一化后，再将 $&gt;0.2$ 的部分取为 $0.2$，再做归一化而保证了光照不变性。</p>
+<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e03b5.jpg"></p>
+<p>具体实现上为了去除噪声的影响会复杂很多。</p>
+<h4 id="HoG"><a href="#HoG" class="headerlink" title="HoG"></a>HoG</h4><p>HoG, Histogram of Oriented Gradients。</p>
+<p>HoG 是一个描述整个图像的算法，它在一开始同样采取了灰度化，然后同样将窗口划分成若干个小块，每个小块利用梯度方向直方图进行统计，然后得到特征描述向量。</p>
+<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e040d.jpg"></p>
+<p>和 SIFT 基本相似，只不过它描述的是整个图像，而且它的归一化是提前的，直接根据图像归一化。</p>
+<h4 id="Matching"><a href="#Matching" class="headerlink" title="Matching"></a>Matching</h4><p>匹配方式一般是，对于每个关键点，找 $L_2$ 距离最近和次近的关键点，以这两个距离的比例来判断是否匹配。</p>
+<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e0304.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e04c9.jpg"></p>
+<p>如何评估匹配效果？计算匹配正确的点对中满足 ratio distance 限制的比例以及匹配错误的点对中满足 ratio distance 限制的比例，前者是 recall，后者是 1-specificity。</p>
+<p>ROC curve 是在改变 ratio distance 阈值下，上面两个值构成的曲线。</p>
+<p><img src="https://pic.imgdb.cn/item/65969843871b83018a9d5c28.jpg"></p>
+<h4 id="Alignment"><a href="#Alignment" class="headerlink" title="Alignment"></a>Alignment</h4><p>Alignment 做的是图像配准的工作，即计算图像 A 经过什么样的变换可以得到图像 B。</p>
+<p>在完成关键点匹配后，我们很容易算出平移变换的向量。</p>
+<p><img src="https://pic.imgdb.cn/item/659698ee871b83018a9fd9e8.jpg"></p>
+<p>当然实际上存在损失，定义 $r_{\mathbf{x}_i}(\mathbf{x}_t)&#x3D;\mathbf{x}_i+\mathbf{x}_t-\mathbf{x’}<em>i$，类似地 $r</em>{\mathbf{y}_i}(\mathbf{y}_t)$ 也有相同的定义。</p>
+<p>于是损失函数则是<br>$$<br>C(\mathbf{x}<em>t,\mathbf{y}<em>t)&#x3D;\sum</em>{i&#x3D;1}^n (r^2</em>{\mathbf{x}_i}(\mathbf{x}<em>t)+r^2</em>{\mathbf{y}_i}(\mathbf{y}_t)).<br>$$<br>等价于要去最小化该函数。</p>
+<p>实际上，写成矩阵形式后容易求出解析解，即</p>
+<p><img src="https://pic.imgdb.cn/item/659699ec871b83018aa37907.jpg"></p>
+<p>等价于最小化 $\Vert \mathbf{At-b}\Vert$，解出 $\mathbf{t&#x3D;(A^{T}A)^{-1}A^{T}b}$。</p>
+<p>类似地，可以完成对仿射变换的定义：</p>
+<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb686.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb716.jpg"></p>
+<p>单应性变换也可以有类似的变换：</p>
+<p><img src="https://pic.imgdb.cn/item/65969d5f871b83018ab0cbfe.jpg"></p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -545,21 +598,6 @@
 <p>一种方法被称为 SIFT，构建的是多组多层的高斯差分金字塔，每一组内的图像大小相等，但尺度不同，不同组间由下采样构成，卷积核使用高斯差分函数。在不同层考虑寻找局部最大值 (自己这一层相邻的八个，上一层的九个，下一层的九个），将其作为一个局部特征点，记为三元组 $(x,y,\sigma)$，$\sigma$ 为那一层的尺度 (scale)。这些特征点用来备选，以其他一些方法进行拟合或者删除部分。</p>
 <p><img src="https://pic.imgdb.cn/item/65966293871b83018afd5218.jpg"></p>
 <p>另一种方法构建的是 Harris-Laplacian 金字塔，卷积核使用拉普拉斯函数，层内使用 Harris detector 来寻找特征点。对于这些点，类似高斯差分金字塔的办法，若不是局部最大值，则去除。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 9:Panorama</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-9/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-9-Panorama"><a href="#Lecture-9-Panorama" class="headerlink" title="Lecture 9: Panorama"></a>Lecture 9: Panorama</h3><p><strong>关键点</strong>: 关键点就是那些同一场景但在不同光线角度等的不同图像中仍然能保持可以检测的点。</p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
