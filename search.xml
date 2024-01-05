@@ -57,20 +57,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于 AI 里的一些数学证明</title>
-    <url>/2023/11/06/2023-11-6-AI-math/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Math</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Understanding the Unstable Convergence of Gradient Descent</title>
     <url>/2023/12/19/2023-12-18-2205.01050/</url>
     <content><![CDATA[<p>这篇论文的<a href="https://arxiv.org/abs/2204.01050">地址</a>，其主要思路和启发应该来自于 <a href="https://arxiv.org/abs/1602.04915">Lee et al., 2016</a>.</p>
@@ -126,16 +112,17 @@
       </tags>
   </entry>
   <entry>
-    <title>12.18 精神状态</title>
-    <url>/2023/12/18/2023-12-18-thoughts/</url>
-    <content><![CDATA[<p>总是活在一些畅想中…</p>
-<p>手捏一份高不成低不就的成绩，畅想自己能往高处走，实际上每次的冲击都只能以中间态告终。到底缺少了些什么呢，未曾知晓。只能无意识地向前走，也不知是被何事推动着了。</p>
+    <title>关于 AI 里的一些数学证明</title>
+    <url>/2023/11/06/2023-11-6-AI-math/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
 ]]></content>
       <categories>
-        <category>Something</category>
+        <category>整理与总结</category>
       </categories>
       <tags>
-        <tag>Something</tag>
+        <tag>AI</tag>
+        <tag>Math</tag>
       </tags>
   </entry>
   <entry>
@@ -165,6 +152,47 @@
       <tags>
         <tag>AI</tag>
         <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 1:Introduction</title>
+    <url>/2024/01/03/2024-1-3-cv-exam-1/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-1-Introduction"><a href="#Lecture-1-Introduction" class="headerlink" title="Lecture 1: Introduction"></a>Lecture 1: Introduction</h3><h4 id="数字化图像"><a href="#数字化图像" class="headerlink" title="数字化图像"></a>数字化图像</h4><p>每个图像被表示为一个二维矩阵，每个位置上的值被称为像素，大小为 $0\sim 255$。对于灰度图而言，像素的大小决定该位置的亮度；对于有色图而言，每个位置存放的都是一个像素向量，向量的每个值分别表示<strong>对应颜色</strong>的亮度。</p>
+<h4 id="图像信息"><a href="#图像信息" class="headerlink" title="图像信息"></a>图像信息</h4><p><strong>图像特征 (Image Features)</strong> : What should we look at?</p>
+<p><strong>语义分割 (semantic segmentation)</strong> : What can we understand?</p>
+<h4 id="计算机视觉用途"><a href="#计算机视觉用途" class="headerlink" title="计算机视觉用途"></a>计算机视觉用途</h4><ol>
+<li>Earth viewers (3D modeling)</li>
+<li>Optical character recognition (OCR)</li>
+<li>Face detection</li>
+<li>Face analysis and recognition</li>
+<li>Object recognition (in supermarkets)</li>
+<li>Face recognition</li>
+<li>Vision-based biometrics</li>
+<li>Login without a password</li>
+<li>…</li>
+</ol>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>12.18 精神状态</title>
+    <url>/2023/12/18/2023-12-18-thoughts/</url>
+    <content><![CDATA[<p>总是活在一些畅想中…</p>
+<p>手捏一份高不成低不就的成绩，畅想自己能往高处走，实际上每次的冲击都只能以中间态告终。到底缺少了些什么呢，未曾知晓。只能无意识地向前走，也不知是被何事推动着了。</p>
+]]></content>
+      <categories>
+        <category>Something</category>
+      </categories>
+      <tags>
+        <tag>Something</tag>
       </tags>
   </entry>
   <entry>
@@ -242,34 +270,6 @@
 <li>Create a Laplacian pyramid, blend each level.</li>
 <li>Alpha Blending: 思路是平均颜色。$\alpha$ 为零时为完全透明。<img src="https://cdn.luogu.com.cn/upload/image_hosting/o4acx1zd.png"></li>
 <li>Poisson Image Editing：将图像看作连续函数，融合图像就是最小化两个连续函数分界点处的差别，可以用求导等操作做成最优化问题。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 1:Introduction</title>
-    <url>/2024/01/03/2024-1-3-cv-exam-1/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-1-Introduction"><a href="#Lecture-1-Introduction" class="headerlink" title="Lecture 1: Introduction"></a>Lecture 1: Introduction</h3><h4 id="数字化图像"><a href="#数字化图像" class="headerlink" title="数字化图像"></a>数字化图像</h4><p>每个图像被表示为一个二维矩阵，每个位置上的值被称为像素，大小为 $0\sim 255$。对于灰度图而言，像素的大小决定该位置的亮度；对于有色图而言，每个位置存放的都是一个像素向量，向量的每个值分别表示<strong>对应颜色</strong>的亮度。</p>
-<h4 id="图像信息"><a href="#图像信息" class="headerlink" title="图像信息"></a>图像信息</h4><p><strong>图像特征 (Image Features)</strong> : What should we look at?</p>
-<p><strong>语义分割 (semantic segmentation)</strong> : What can we understand?</p>
-<h4 id="计算机视觉用途"><a href="#计算机视觉用途" class="headerlink" title="计算机视觉用途"></a>计算机视觉用途</h4><ol>
-<li>Earth viewers (3D modeling)</li>
-<li>Optical character recognition (OCR)</li>
-<li>Face detection</li>
-<li>Face analysis and recognition</li>
-<li>Object recognition (in supermarkets)</li>
-<li>Face recognition</li>
-<li>Vision-based biometrics</li>
-<li>Login without a password</li>
-<li>…</li>
 </ol>
 ]]></content>
       <categories>
@@ -371,28 +371,70 @@
       </tags>
   </entry>
   <entry>
-    <title>Review of Course Computer Vision Lecture 11:Light and color</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-11/</url>
+    <title>Review of Course Computer Vision Lecture 6:Line Detection</title>
+    <url>/2024/01/03/2024-1-3-cv-exam-6/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
 <p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-11-Light-and-color"><a href="#Lecture-11-Light-and-color" class="headerlink" title="Lecture 11: Light and color"></a>Lecture 11: Light and color</h3><p>像素值：像素的强度，$I(p)&#x3D;c(p)l(p)r(p)$，其中 $c(p)$ 为相机的光谱反应 (传感器特性)，$l(p)$ 为光强，$r(p)$ 为光从物体表面到相机的反射强度。</p>
-<p>光子的轨迹：Absorption (吸收，即光线被完全吸收)，Diffuse reflection (漫反射，即不平整平面导致向多个方向反射)，Specular reflection (镜面反射)，Transparency (透射，即穿过平面沿原轨迹传播)，Refraction (折射)，Fluorescence (某种漫反射，但改变了波长)，Subsurface scattering (次表面散射)，Phosphorescence (磷光)，Interreflection (内部反射)。</p>
-<h4 id="Diffuse-reflection"><a href="#Diffuse-reflection" class="headerlink" title="Diffuse reflection"></a>Diffuse reflection</h4><p>漫反射遵循 Lambert’s Law。</p>
-<p><img src="https://pic.imgdb.cn/item/6596ba4a871b83018a3b9ad8.jpg"></p>
-<p>其中，BRDF 为双向反射分布函数。</p>
-<h4 id="Specular-reflection"><a href="#Specular-reflection" class="headerlink" title="Specular reflection"></a>Specular reflection</h4><p><img src="https://pic.imgdb.cn/item/6596ba89871b83018a3cdeec.jpg"></p>
-<h4 id="Phong-illumination-model"><a href="#Phong-illumination-model" class="headerlink" title="Phong illumination model"></a>Phong illumination model</h4><p><img src="https://pic.imgdb.cn/item/6596bb0a871b83018a3f6a48.jpg"></p>
-<p>其中，Ambient 为背景亮度。</p>
-<h3 id="RGB-模型"><a href="#RGB-模型" class="headerlink" title="RGB 模型"></a>RGB 模型</h3><p>考虑一张图像是三维的，第三维表示通道，即 R, G, B 分别的强度是多少。</p>
-<h4 id="Eye-anatomy"><a href="#Eye-anatomy" class="headerlink" title="Eye anatomy"></a>Eye anatomy</h4><p>人的眼球是个相机。</p>
-<p><img src="https://pic.imgdb.cn/item/6596bc3c871b83018a458019.jpg"></p>
-<p>retina 是视网膜，optics of the eye 是晶状体。</p>
-<h4 id="Color-perception"><a href="#Color-perception" class="headerlink" title="Color perception"></a>Color perception</h4><p>人眼只能识别电磁波很少的一部分。在这部分里，人眼的敏感程度也是不同的，同时对光线的吸收程度也是不同的。</p>
-<p><img src="https://pic.imgdb.cn/item/6596cf25871b83018aa4f0e4.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596cfc1871b83018aa7e659.jpg"></p>
-<p>Tetrachromatism: 四色性</p>
-<p>Dichromat: 二色性</p>
-<p>Light response is nonlinear。人类的视觉系统在感知时是对数尺度，同时自适应，对弱光更敏感。</p>
+<h3 id="Lecture-6-Line-Detection"><a href="#Lecture-6-Line-Detection" class="headerlink" title="Lecture 6: Line Detection"></a>Lecture 6: Line Detection</h3><p><strong>不使用边缘检测的原因</strong>: 时间复杂度的影响，固定形状的检测 (尤其是线性) 的时间复杂度往往优于未知形状的检测。</p>
+<h4 id="Hough-transform"><a href="#Hough-transform" class="headerlink" title="Hough transform"></a>Hough transform</h4><p>Hough transform 可以检测所有已知方程的曲线，即解高次方程的参数 (本质上是坐标系的转换)，不过接下来我们主要讨论直线检测。</p>
+<p><strong>思路</strong>: 一个主要的想法就是坐标系的转换，考虑有一条直线是 $y&#x3D;ax+b$，此时将 $(x,y)$ 坐标系转换成 $(a,b)$ 坐标系，即 $b&#x3D;-ax+y$。那么若 $(x_i,y_i)$ 在 $y&#x3D;ax+b$ 上，则在 $(a,b)$ 坐标系上，$(x,y)$ 对应的直线能经过 $(a,b)$ 这个点。</p>
+<p>根据这个想法，我们能给出一个做法，即对所有 $(x_i,y_i)$，考虑在 $(a,b)$ 坐标系上求直线交点。</p>
+<p>离散空间内求交点就是考虑将平面划分成若干个小正方形，求小正方形经过的次数。</p>
+<p><img src="https://s11.ax1x.com/2024/01/04/pivYqVs.jpg"></p>
+<p><img src="https://s11.ax1x.com/2024/01/04/pivYjP0.jpg"></p>
+<p>然后将超过阈值的格点认为是直线，可以发现这样检测的时间复杂度是线性的。</p>
+<p>另一种办法就是使用极坐标系，即<br>$$<br>x&#x3D;\rho \cos\theta, y&#x3D;\rho\sin\theta\implies x\cos\theta+y\sin\theta&#x3D;\rho.<br>$$<br>转换成极坐标的好处在于统一了直线时 $a\to \infty$ 的情况，也就是 $x&#x3D;p$ 这样的直线。</p>
+<p>但转换成极坐标系 $(\theta,\rho)$ 后，不再是直线求交点，而是 $x_i\cos\theta+y_i\sin\theta&#x3D;\rho$ 这样的曲线求交点，但不改变思路，仍然是数离散方格即可，此时 $\theta\in [0,2\pi]$，那么求交就是容易的了。</p>
+<p>Hough transform 的优势如下：</p>
+<ol>
+<li>概念简单。</li>
+<li>实施方便。</li>
+<li>容易处理丢失和被遮掩的数据。</li>
+<li>可以解决所有固定曲线的问题，不仅仅是直线。</li>
+</ol>
+<p>劣势如下：</p>
+<ol>
+<li>曲线参数变多时，计算变得复杂。</li>
+<li>每次只能检测一种固定曲线。</li>
+<li>由于每次检测的是直线，但实际上图像中很多时候都是线段，甚至有线段共线的情况，这些都无法检测。</li>
+</ol>
+<h4 id="RANSAC"><a href="#RANSAC" class="headerlink" title="RANSAC"></a>RANSAC</h4><p>RANSAC, Random Sample Consensus，随机采样一致算法。</p>
+<p>RANSAC 做了几个基本的假设：</p>
+<ol>
+<li>模型数据由局内点 (inliers) 构成，比如模型是直线，局内点就是直线上的点。</li>
+<li>局外点 (outliers) 是不能适应该模型的数据。</li>
+<li>其余数据都是噪声。</li>
+</ol>
+<p>局外点产生的原因有：噪声的极值；对数据的错误假设；测量的错误等。</p>
+<p>我们要避免使用这些非局内点来构造模型，具体思路是反复迭代，步骤如下：</p>
+<ol>
+<li>随机选择一个初始数据集来当作模型的数据。</li>
+<li>通过数据集计算模型参数。</li>
+<li>计算其他数据与当前模型的距离并找到其他局内点。</li>
+<li>如果当前数据集足够大，计算当前模型内的误差大小，判断误差是否在可接受范围。</li>
+<li>重复上述若干轮。</li>
+</ol>
+<p>始终保留足够大的数据集作为最终结果。</p>
+<p>接下来我们拿该算法去求直线。</p>
+<p><img src="https://pic.imgdb.cn/item/6596217b871b83018a4a792e.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596217b871b83018a4a7991.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596217c871b83018a4a79dc.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596217c871b83018a4a7a28.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596217c871b83018a4a7afc.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/659621ae871b83018a4b0799.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/659621ae871b83018a4b07df.jpg"></p>
+<p>假定 $w$ 为局内点与总点数的比例，初始选择 $n$ 个点，迭代 $k$ 轮，则 $k$ 次采样中至少有一轮是正确的概率为 $1-(1-w^n)^k$。</p>
+<p>具体实现中，$n$ 可以多次改变。</p>
+<p>RANSAC 优势：</p>
+<ol>
+<li>通用，泛化，适合各种模型。</li>
+<li>容易计算正确的概率。</li>
+</ol>
+<p>劣势：</p>
+<ol>
+<li>只能处理预先估计 $w$ 的情况的数据，不然算法成本太大。</li>
+<li>现实中 $w$ 可能非常小（可能需要选择随机子集来解决）。</li>
+</ol>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -458,69 +500,133 @@
       </tags>
   </entry>
   <entry>
-    <title>Review of Course Computer Vision Lecture 6:Line Detection</title>
-    <url>/2024/01/03/2024-1-3-cv-exam-6/</url>
+    <title>Review of Course Computer Vision Lecture 15:Motion</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-15/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
 <p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-6-Line-Detection"><a href="#Lecture-6-Line-Detection" class="headerlink" title="Lecture 6: Line Detection"></a>Lecture 6: Line Detection</h3><p><strong>不使用边缘检测的原因</strong>: 时间复杂度的影响，固定形状的检测 (尤其是线性) 的时间复杂度往往优于未知形状的检测。</p>
-<h4 id="Hough-transform"><a href="#Hough-transform" class="headerlink" title="Hough transform"></a>Hough transform</h4><p>Hough transform 可以检测所有已知方程的曲线，即解高次方程的参数 (本质上是坐标系的转换)，不过接下来我们主要讨论直线检测。</p>
-<p><strong>思路</strong>: 一个主要的想法就是坐标系的转换，考虑有一条直线是 $y&#x3D;ax+b$，此时将 $(x,y)$ 坐标系转换成 $(a,b)$ 坐标系，即 $b&#x3D;-ax+y$。那么若 $(x_i,y_i)$ 在 $y&#x3D;ax+b$ 上，则在 $(a,b)$ 坐标系上，$(x,y)$ 对应的直线能经过 $(a,b)$ 这个点。</p>
-<p>根据这个想法，我们能给出一个做法，即对所有 $(x_i,y_i)$，考虑在 $(a,b)$ 坐标系上求直线交点。</p>
-<p>离散空间内求交点就是考虑将平面划分成若干个小正方形，求小正方形经过的次数。</p>
-<p><img src="https://s11.ax1x.com/2024/01/04/pivYqVs.jpg"></p>
-<p><img src="https://s11.ax1x.com/2024/01/04/pivYjP0.jpg"></p>
-<p>然后将超过阈值的格点认为是直线，可以发现这样检测的时间复杂度是线性的。</p>
-<p>另一种办法就是使用极坐标系，即<br>$$<br>x&#x3D;\rho \cos\theta, y&#x3D;\rho\sin\theta\implies x\cos\theta+y\sin\theta&#x3D;\rho.<br>$$<br>转换成极坐标的好处在于统一了直线时 $a\to \infty$ 的情况，也就是 $x&#x3D;p$ 这样的直线。</p>
-<p>但转换成极坐标系 $(\theta,\rho)$ 后，不再是直线求交点，而是 $x_i\cos\theta+y_i\sin\theta&#x3D;\rho$ 这样的曲线求交点，但不改变思路，仍然是数离散方格即可，此时 $\theta\in [0,2\pi]$，那么求交就是容易的了。</p>
-<p>Hough transform 的优势如下：</p>
+<h3 id="Lecture-15-Motion"><a href="#Lecture-15-Motion" class="headerlink" title="Lecture 15: Motion"></a>Lecture 15: Motion</h3><p>视频中的每个像素等价于三维坐标 $(x,y,t)$，表示在图像的 $(x,y)$ 位置，时间为 $t$。</p>
+<p><strong>光流</strong>: 图像中带光图案的明显运动。</p>
+<p>光流不一定是物体运动，也可能是光的运动。</p>
+<p>我们想要基于光流，来恢复每个物体的运动情况。</p>
+<p>想要分析光流，我们一般基于以下三个假设：</p>
 <ol>
-<li>概念简单。</li>
-<li>实施方便。</li>
-<li>容易处理丢失和被遮掩的数据。</li>
-<li>可以解决所有固定曲线的问题，不仅仅是直线。</li>
+<li>Small motion：点的移动幅度不会太大。</li>
+<li>Spatial coherence：空间上是一致的，每个点的移动会和它附近的点类似。</li>
+<li>Brightness constancy：每个点在不同时间的像素值是相同的。</li>
 </ol>
-<p>劣势如下：</p>
+<h4 id="Brightness-constancy"><a href="#Brightness-constancy" class="headerlink" title="Brightness constancy"></a>Brightness constancy</h4><p>第三个条件比较强硬，它带出了一个整体性的条件。利用 Taylor 展开，我们有<br>$$<br>I(x,y,t)&#x3D;I(x+u(x,y),y+v(x,y),t+1)\approx I(x,y,t)+[I_x,I_y,I_t][u,v,1]^T\\<br>\implies I_xu+I_yv+I_t\approx 0\\<br>\implies \nabla I(x,y) [u,v]^T+I_t\approx 0.<br>$$<br><img src="https://pic.imgdb.cn/item/6596a333871b83018ac809f4.jpg"></p>
+<p>可以发现方程的未知数有两个 $u,v$，但方程只有一条，这意味着会解出若干个解，那也就很难获得光流了。</p>
+<p>如何解决这个问题就是重中之重，我们想办法添加一些方程？</p>
+<h4 id="Spatial-coherence"><a href="#Spatial-coherence" class="headerlink" title="Spatial coherence"></a>Spatial coherence</h4><p>根据 Spatial coherence，我们可以假定像素邻域内所有点的光流都是相同的 $(u,v)$，于是能写出一条方程。</p>
+<p>假设我们使用的是 $5\times 5$ 的窗口，则有<br>$$<br>\nabla I(p_i) [u,v]^T+I_t(p_i)&#x3D;0.<br>$$<br>容易写成某种矩阵的形式，并尝试做出解析解，即</p>
+<p><img src="https://pic.imgdb.cn/item/6596a57d871b83018ad1796e.jpg"></p>
+<p>这条方程被称作 Lucas-Kanade equation，其若要有解则需要：</p>
 <ol>
-<li>曲线参数变多时，计算变得复杂。</li>
-<li>每次只能检测一种固定曲线。</li>
-<li>由于每次检测的是直线，但实际上图像中很多时候都是线段，甚至有线段共线的情况，这些都无法检测。</li>
+<li>$A^TA$ 要求可逆。</li>
+<li>$A^T A$ 不能太小，即两个特征值都不能太小，这是因为噪声所以必须要这一点。</li>
+<li>$A^TA$ 的特征值之比不能太大，这里的比值要求大的特征值作为分子。</li>
 </ol>
-<h4 id="RANSAC"><a href="#RANSAC" class="headerlink" title="RANSAC"></a>RANSAC</h4><p>RANSAC, Random Sample Consensus，随机采样一致算法。</p>
-<p>RANSAC 做了几个基本的假设：</p>
+<p>可以发现这个方程有点类似于 Harris Corner Detector 中的方程。</p>
+<p><img src="https://pic.imgdb.cn/item/6596a74b871b83018ad93d43.jpg"></p>
+<p>上图为 Harris Corner Detector 的 $\lambda_1,\lambda_2$ 要求的特征和 Corner 处的比较相似。</p>
+<h4 id="Small-motion"><a href="#Small-motion" class="headerlink" title="Small motion"></a>Small motion</h4><p>光流还有一个假设，即 Small motion，我们来分析一下这个假设。</p>
+<p>Small motion 也可以被写成一条方程，即<br>$$<br>0&#x3D;I(x+u,y+v)-I_t(x,y)\approx I(x,y)+I_xu+I_yv-I_t(x,y).<br>$$<br>牛顿迭代法可以解决这个问题，不过超出了课程内容，这里使用 Lucas-Kanade equation 姑且解决一下。</p>
+<p>Lucas-Kanade equation 可以被看作是只迭代了一轮的牛顿迭代法，步骤如下：</p>
 <ol>
-<li>模型数据由局内点 (inliers) 构成，比如模型是直线，局内点就是直线上的点。</li>
-<li>局外点 (outliers) 是不能适应该模型的数据。</li>
-<li>其余数据都是噪声。</li>
+<li>利用 Lucas-Kanade equation 计算每个像素点的速度 $(u,v)$。</li>
+<li>利用上面算出的速度来进行图像扭转 (warping)，从 $I(t-1)$ 扭转到 $I(t)$。扭转到的像素利用 Small motion 得到。</li>
+<li>重复步骤，直到收敛。因为不一定整张图像同时成立，而且有损失。</li>
 </ol>
-<p>局外点产生的原因有：噪声的极值；对数据的错误假设；测量的错误等。</p>
-<p>我们要避免使用这些非局内点来构造模型，具体思路是反复迭代，步骤如下：</p>
+<p>接下来讨论 Lucas-Kanade equation 的损失情况。</p>
+<p>产生损失的原因：</p>
 <ol>
-<li>随机选择一个初始数据集来当作模型的数据。</li>
-<li>通过数据集计算模型参数。</li>
-<li>计算其他数据与当前模型的距离并找到其他局内点。</li>
-<li>如果当前数据集足够大，计算当前模型内的误差大小，判断误差是否在可接受范围。</li>
-<li>重复上述若干轮。</li>
+<li>我们假定了 $A^TA$ 是可逆的，但实际上不一定可逆。</li>
+<li>我们假定了没有噪声。</li>
+<li>光流的三大假设不一定都满足，比如 Spatial coherence 选取的窗口大小没法任意，需要调整以获得合适的大小。</li>
 </ol>
-<p>始终保留足够大的数据集作为最终结果。</p>
-<p>接下来我们拿该算法去求直线。</p>
-<p><img src="https://pic.imgdb.cn/item/6596217b871b83018a4a792e.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596217b871b83018a4a7991.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596217c871b83018a4a79dc.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596217c871b83018a4a7a28.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596217c871b83018a4a7afc.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/659621ae871b83018a4b0799.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/659621ae871b83018a4b07df.jpg"></p>
-<p>假定 $w$ 为局内点与总点数的比例，初始选择 $n$ 个点，迭代 $k$ 轮，则 $k$ 次采样中至少有一轮是正确的概率为 $1-(1-w^n)^k$。</p>
-<p>具体实现中，$n$ 可以多次改变。</p>
-<p>RANSAC 优势：</p>
+<h4 id="Pyramids-for-large-motion"><a href="#Pyramids-for-large-motion" class="headerlink" title="Pyramids for large motion"></a>Pyramids for large motion</h4><p>我们先尝试解决 Small motion 失效的情况。</p>
+<p>很明显，所有的 Small 和 Large 是和分辨率相关的，所以有一个想法就是改变分辨率，于是会使用高斯金字塔。</p>
+<p><img src="https://pic.imgdb.cn/item/6596aed7871b83018afc33a9.jpg"></p>
+<h4 id="Horn-Schunk-method"><a href="#Horn-Schunk-method" class="headerlink" title="Horn-Schunk method"></a>Horn-Schunk method</h4><p>Horn-Schunk 的主要思路是引入了平滑性假设，然后最小化全局能量函数。定义全局能量函数为<br>$$<br>E&#x3D;\int\int [(I_xu+I_yv+I_t)^2+\alpha^2(\Vert \nabla u\Vert^2+\Vert \nabla u\Vert^2)]\mathrm{d}x\mathrm{d}y.<br>$$<br>第一部分是 Brightness constancy，第二部分是 smoothness constraint (平滑性假设)，$\alpha$ 是某一参数，来平衡二者的。</p>
+<p>平滑性假设的引入是考虑了 Spatial coherence 的思路，像素函数越简单就越会让 Spatial coherence 成立，那么根据 Taylor 展开，我们会想到让高阶导数尽量不存在，所以有了这样的假设。这里是让二阶导尽量小。</p>
+<p>最小化 $E$ 的方式显然是求导，最终得到<br>$$<br>I_x(I_xu+I_yv+I_t)&#x3D;\alpha^2 \nabla^2 u\\<br>I_y(I_xu+I_yv+I_t)&#x3D;\alpha^2 \nabla^2 v<br>$$<br>注意到又遇见了 $\nabla^2$ 这个拉普拉斯算子，离散情况下我们可以使用邻域的均值减去自己获得，即<br>$$<br>\nabla^2 u(x,y)&#x3D;\overline{u}(x,y)-u(x,y).<br>$$<br>代入后，得到最终表达式：<br>$$<br>(I^2_x+\alpha^2)u+I_xI_yv&#x3D;\alpha^2 \overline{u}-I_xI_t\\<br>I_xI_yu+(I^2_y+\alpha^2)v&#x3D;\alpha^2 \overline{v}-I_yI_t<br>$$<br>当然，因为 $\overline{u}$ 和 $u$ 之间互相限制，方便的解法是迭代（实际上可以做消元等等），于是有迭代方程：</p>
+<p><img src="https://pic.imgdb.cn/item/6596b21d871b83018a0fecf8.jpg"></p>
+<p>Michael Black method 在 Horn-Schunk method 的基础上，将 $\Vert \nabla u\Vert^2+\Vert \nabla u\Vert^2$ 更改成了另一个函数，这里不再赘述。</p>
+<h4 id="Motion-Segmentation"><a href="#Motion-Segmentation" class="headerlink" title="Motion Segmentation"></a>Motion Segmentation</h4><p>基于语义分割，我们重新考虑 motion。</p>
+<p><strong>Affine motion</strong>: 仿射运动给出了比较简单的公式：<br>$$<br>u(x,y)&#x3D;a_1+a_2x+a_3y\\<br>v(x,y)&#x3D;a_4+a_5x+a_6y<br>$$<br>代入 Brightness constancy，则有<br>$$<br>I_x(a_1+a_2x+a_3y)+I_y(a_4+a_5x+a_6y)+I_t&#x3D;0.<br>$$<br>于是能定义损失函数为<br>$$<br>E(\vec{a})&#x3D;\sum [I_x(a_1+a_2x+a_3y)+I_y(a_4+a_5x+a_6y)+I_t]^2.<br>$$<br>利用上述信息，我们考虑每个 layer 的 motion 情况：</p>
 <ol>
-<li>通用，泛化，适合各种模型。</li>
-<li>容易计算正确的概率。</li>
+<li>将图像分块，利用 $E$ 损失函数计算每个块的仿射运动情况，这样能排除高的残差损失。</li>
+<li>将每个 motion 映射到 motion 参数空间。<img src="https://pic.imgdb.cn/item/6596b559871b83018a2268a3.jpg"></li>
+<li>执行聚类算法 (K-means) 以完成语义分割工作。<img src="https://pic.imgdb.cn/item/6596b55a871b83018a226a39.jpg"></li>
+<li>让每个像素点归于最佳的物体。</li>
+<li>执行区域的滤波以满足 spatial constraints。</li>
+<li>重新每个区域的仿射运动。</li>
+<li>重新执行 4, 5, 6。</li>
 </ol>
-<p>劣势：</p>
+<p><img src="https://pic.imgdb.cn/item/6596b5ff871b83018a25b4bb.jpg"></p>
+<p>Motion 的应用广泛，比如检测 3D 建筑，检测物体运动，移动物体的语义分割，合成动态纹理，一组图像更改成超分辨率，认知事件和活动。</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 13:Object Detection</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-13/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-13-Object-Detection"><a href="#Lecture-13-Object-Detection" class="headerlink" title="Lecture 13: Object Detection"></a>Lecture 13: Object Detection</h3><p>目标检测就是检测并定位目标，且分类。</p>
+<p>几个难点：</p>
 <ol>
-<li>只能处理预先估计 $w$ 的情况的数据，不然算法成本太大。</li>
-<li>现实中 $w$ 可能非常小（可能需要选择随机子集来解决）。</li>
+<li>光照的不同。</li>
+<li>视角的不同。</li>
+<li>形状的畸变。</li>
+<li>相同种类但也形状各异。</li>
+</ol>
+<p>过去有许多目标检测的比赛，不过看起来现在都基本停办了。</p>
+<p>接下来给出一些标准的定义。</p>
+<p>True Positive: The overlap of the prediction with the ground truth is <strong>more</strong> than 0.5。</p>
+<p>False Positive: The overlap of the prediction with the ground truth is <strong>less</strong> than 0.5。</p>
+<p>False Negative: The objects that our model doesn’t find。</p>
+<p>True Negative: There is no object and our model doesn’t find。</p>
+<p><img src="https://pic.imgdb.cn/item/6596ec46871b83018a1f72e2.jpg"></p>
+<p>Precision: 多少个目标检测是正确的。</p>
+<p>Recall: 多少个目标被正确地检测了出来。</p>
+<p>我们的算法会对一个检测评分。而如果要认可这个检测，我们应设置阈值，大于该阈值时才认可该检测。若阈值过小，则 recall 会极高无比，precision 则会极低；若阈值过大，recall 会极低，但 precision 会极高。以下是不同的阈值 recall 和 precision 的图表。</p>
+<p><img src="https://pic.imgdb.cn/item/6596ed6b871b83018a22d4d5.jpg"></p>
+<h4 id="A-simple-object-detector"><a href="#A-simple-object-detector" class="headerlink" title="A simple object detector"></a>A simple object detector</h4><p>一个简单的思路是使用 HOG 和滤波器来检测。</p>
+<p>预先地，我们对每个目标会求出其的 HOG 特征图模板。</p>
+<p><img src="https://pic.imgdb.cn/item/6596eea4871b83018a268798.jpg"></p>
+<p>在这个基础上，我们使用滑动窗口，对每个窗口进行 HOG 来提取特征图，来比较特征图模板。若比较吻合，则认为找到了该目标。</p>
+<p>但实际上由于窗口大小被固定了，我们好像不好去找所有目标。所以需要多尺度窗口。</p>
+<p>一个比较容易想到的思路就是创建 HOG 金字塔。</p>
+<p><img src="https://pic.imgdb.cn/item/6596efb9871b83018a29a514.jpg"></p>
+<p>这种检测方法叫做 Dalal-Triggs Detector。</p>
+<h4 id="Deformable-parts-model"><a href="#Deformable-parts-model" class="headerlink" title="Deformable parts model"></a>Deformable parts model</h4><p>上文提到的检测方法是需要物体模板的，但很多时候物体会畸变，此时就没有特征模板能使用了。</p>
+<p>也就是说，整体性考虑物体已经不能处理畸变情况了，我们将考虑局部特征。</p>
+<p>Deformable parts model 的思路就是将一个目标看作多个部分的集合，每个部分都是局部特征。</p>
+<p>一般将这种模型构建成星型模型的形式，比如检测人，人有头有左手右手等等，此时星的根是整个人，头和其它部位都是叶子。</p>
+<p><img src="https://pic.imgdb.cn/item/6596f157871b83018a2e2cbf.jpg"></p>
+<p>于是，每个模型就有多种特征图，一种是全局特征图，也就是目标的整体特征图，一种是目标的各个部位的局部特征图。一般而言，局部特征图的分辨率会更高，这样就能检测到更多细节。</p>
+<p><img src="https://pic.imgdb.cn/item/6596f205871b83018a302a47.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596f21f871b83018a306d81.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596f247871b83018a30e253.jpg"></p>
+<p>一个模型可以被描述成这样一个向量 $(F_0,P_1,\cdots,P_n,b)$，其中 $F_0$ 是根滤波器 (全局滤波器)，$P_1,\cdots,P_n$ 分别是局部模型，$b$ 是偏差。$P_i$ 可以被描述成一个三维向量 $(F_i,v_i,d_i)$，其中 $F_i$ 是对应的局部滤波器；$v_i$ 是向量，表示目标位置 (不畸变时的位置) 与根位置的相对位置差；$d_i$ 表示目标位置 (不畸变时的位置) 所有可能的替换的畸变损失函数。</p>
+<p><img src="https://pic.imgdb.cn/item/6596f408871b83018a358df4.jpg"></p>
+<p>此时定义检测的评估分数为<br>$$<br>\mathrm{score}&#x3D;\sum_{i&#x3D;0}^n F_i\phi(p_i,H)-\sum_{i&#x3D;1}^n d_i(\Delta x_i,\Delta y_i,\Delta x_i^2, \Delta y_i^2).<br>$$<br>前半部分是容易理解的，即所有局部滤波器和全部滤波器的分数和。</p>
+<p>后半部分中，$\Delta x_i$ 表示在 $x$ 方向上，第 $i$ 个部分实际上应该在的位置和现在的位置之差，$\Delta y_i$ 定义类似，$d_i$ 是个设定的函数。</p>
+<h4 id="Detection-pipeline"><a href="#Detection-pipeline" class="headerlink" title="Detection pipeline"></a>Detection pipeline</h4><p>检测步骤如下：</p>
+<ol>
+<li>确定全局和局部滤波器 $F_i$。</li>
+<li>计算输入图像的 HOG 特征图。<img src="https://pic.imgdb.cn/item/6596f616871b83018a3ae47c.jpg"></li>
+<li>应用滤波器们 $F_i\phi(p_i,H),i&#x3D;0,1,\cdots,n$。<img src="https://pic.imgdb.cn/item/6596f659871b83018a3b96f4.jpg"></li>
+<li>计算畸变带来的损失，即上文中的 $v_i&#x3D;(\Delta x_i,\Delta y_i)$ 以及 $d_i(\Delta x_i,\Delta y_i, \Delta x_i^2, \Delta y_i^2)$。</li>
+<li>计算每个部分的分数，即 $\mathrm{score}&#x3D;F_i\phi(p_i,H)-d_i(\Delta x_i,\Delta y_i, \Delta x_i^2, \Delta y_i^2)$。<img src="https://pic.imgdb.cn/item/6596f723871b83018a3d7a51.jpg"></li>
+<li>求和，即 $\mathrm{score}&#x3D;\sum_{i&#x3D;0}^n F_i\phi(p_i,H)-\sum_{i&#x3D;1}^n d_i(\Delta x_i,\Delta y_i,\Delta x_i^2, \Delta y_i^2).$<img src="https://pic.imgdb.cn/item/6596f749871b83018a3dd529.jpg"></li>
 </ol>
 ]]></content>
       <categories>
@@ -637,168 +743,28 @@
       </tags>
   </entry>
   <entry>
-    <title>Review of Course Computer Vision Lecture 13:Object Detection</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-13/</url>
+    <title>Review of Course Computer Vision Lecture 11:Light and color</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-11/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
 <p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-13-Object-Detection"><a href="#Lecture-13-Object-Detection" class="headerlink" title="Lecture 13: Object Detection"></a>Lecture 13: Object Detection</h3><p>目标检测就是检测并定位目标，且分类。</p>
-<p>几个难点：</p>
-<ol>
-<li>光照的不同。</li>
-<li>视角的不同。</li>
-<li>形状的畸变。</li>
-<li>相同种类但也形状各异。</li>
-</ol>
-<p>过去有许多目标检测的比赛，不过看起来现在都基本停办了。</p>
-<p>接下来给出一些标准的定义。</p>
-<p>True Positive: The overlap of the prediction with the ground truth is <strong>more</strong> than 0.5。</p>
-<p>False Positive: The overlap of the prediction with the ground truth is <strong>less</strong> than 0.5。</p>
-<p>False Negative: The objects that our model doesn’t find。</p>
-<p>True Negative: There is no object and our model doesn’t find。</p>
-<p><img src="https://pic.imgdb.cn/item/6596ec46871b83018a1f72e2.jpg"></p>
-<p>Precision: 多少个目标检测是正确的。</p>
-<p>Recall: 多少个目标被正确地检测了出来。</p>
-<p>我们的算法会对一个检测评分。而如果要认可这个检测，我们应设置阈值，大于该阈值时才认可该检测。若阈值过小，则 recall 会极高无比，precision 则会极低；若阈值过大，recall 会极低，但 precision 会极高。以下是不同的阈值 recall 和 precision 的图表。</p>
-<p><img src="https://pic.imgdb.cn/item/6596ed6b871b83018a22d4d5.jpg"></p>
-<h4 id="A-simple-object-detector"><a href="#A-simple-object-detector" class="headerlink" title="A simple object detector"></a>A simple object detector</h4><p>一个简单的思路是使用 HOG 和滤波器来检测。</p>
-<p>预先地，我们对每个目标会求出其的 HOG 特征图模板。</p>
-<p><img src="https://pic.imgdb.cn/item/6596eea4871b83018a268798.jpg"></p>
-<p>在这个基础上，我们使用滑动窗口，对每个窗口进行 HOG 来提取特征图，来比较特征图模板。若比较吻合，则认为找到了该目标。</p>
-<p>但实际上由于窗口大小被固定了，我们好像不好去找所有目标。所以需要多尺度窗口。</p>
-<p>一个比较容易想到的思路就是创建 HOG 金字塔。</p>
-<p><img src="https://pic.imgdb.cn/item/6596efb9871b83018a29a514.jpg"></p>
-<p>这种检测方法叫做 Dalal-Triggs Detector。</p>
-<h4 id="Deformable-parts-model"><a href="#Deformable-parts-model" class="headerlink" title="Deformable parts model"></a>Deformable parts model</h4><p>上文提到的检测方法是需要物体模板的，但很多时候物体会畸变，此时就没有特征模板能使用了。</p>
-<p>也就是说，整体性考虑物体已经不能处理畸变情况了，我们将考虑局部特征。</p>
-<p>Deformable parts model 的思路就是将一个目标看作多个部分的集合，每个部分都是局部特征。</p>
-<p>一般将这种模型构建成星型模型的形式，比如检测人，人有头有左手右手等等，此时星的根是整个人，头和其它部位都是叶子。</p>
-<p><img src="https://pic.imgdb.cn/item/6596f157871b83018a2e2cbf.jpg"></p>
-<p>于是，每个模型就有多种特征图，一种是全局特征图，也就是目标的整体特征图，一种是目标的各个部位的局部特征图。一般而言，局部特征图的分辨率会更高，这样就能检测到更多细节。</p>
-<p><img src="https://pic.imgdb.cn/item/6596f205871b83018a302a47.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596f21f871b83018a306d81.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596f247871b83018a30e253.jpg"></p>
-<p>一个模型可以被描述成这样一个向量 $(F_0,P_1,\cdots,P_n,b)$，其中 $F_0$ 是根滤波器 (全局滤波器)，$P_1,\cdots,P_n$ 分别是局部模型，$b$ 是偏差。$P_i$ 可以被描述成一个三维向量 $(F_i,v_i,d_i)$，其中 $F_i$ 是对应的局部滤波器；$v_i$ 是向量，表示目标位置 (不畸变时的位置) 与根位置的相对位置差；$d_i$ 表示目标位置 (不畸变时的位置) 所有可能的替换的畸变损失函数。</p>
-<p><img src="https://pic.imgdb.cn/item/6596f408871b83018a358df4.jpg"></p>
-<p>此时定义检测的评估分数为<br>$$<br>\mathrm{score}&#x3D;\sum_{i&#x3D;0}^n F_i\phi(p_i,H)-\sum_{i&#x3D;1}^n d_i(\Delta x_i,\Delta y_i,\Delta x_i^2, \Delta y_i^2).<br>$$<br>前半部分是容易理解的，即所有局部滤波器和全部滤波器的分数和。</p>
-<p>后半部分中，$\Delta x_i$ 表示在 $x$ 方向上，第 $i$ 个部分实际上应该在的位置和现在的位置之差，$\Delta y_i$ 定义类似，$d_i$ 是个设定的函数。</p>
-<h4 id="Detection-pipeline"><a href="#Detection-pipeline" class="headerlink" title="Detection pipeline"></a>Detection pipeline</h4><p>检测步骤如下：</p>
-<ol>
-<li>确定全局和局部滤波器 $F_i$。</li>
-<li>计算输入图像的 HOG 特征图。<img src="https://pic.imgdb.cn/item/6596f616871b83018a3ae47c.jpg"></li>
-<li>应用滤波器们 $F_i\phi(p_i,H),i&#x3D;0,1,\cdots,n$。<img src="https://pic.imgdb.cn/item/6596f659871b83018a3b96f4.jpg"></li>
-<li>计算畸变带来的损失，即上文中的 $v_i&#x3D;(\Delta x_i,\Delta y_i)$ 以及 $d_i(\Delta x_i,\Delta y_i, \Delta x_i^2, \Delta y_i^2)$。</li>
-<li>计算每个部分的分数，即 $\mathrm{score}&#x3D;F_i\phi(p_i,H)-d_i(\Delta x_i,\Delta y_i, \Delta x_i^2, \Delta y_i^2)$。<img src="https://pic.imgdb.cn/item/6596f723871b83018a3d7a51.jpg"></li>
-<li>求和，即 $\mathrm{score}&#x3D;\sum_{i&#x3D;0}^n F_i\phi(p_i,H)-\sum_{i&#x3D;1}^n d_i(\Delta x_i,\Delta y_i,\Delta x_i^2, \Delta y_i^2).$<img src="https://pic.imgdb.cn/item/6596f749871b83018a3dd529.jpg"></li>
-</ol>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 7:Feature Detector</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-7/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-7-Feature-Detector"><a href="#Lecture-7-Feature-Detector" class="headerlink" title="Lecture 7: Feature Detector"></a>Lecture 7: Feature Detector</h3><p>我们想要完成图像匹配的事情，比如有一个建筑物在两张不同的图中都出现了，我们要匹配上这两张图中的建筑物。</p>
-<p>又或者我们想拍摄全景图，此时需要合并两张相邻的图，那么就要完成提取特征再特征匹配后，把这些特征点位置对应上，然后将图像融合在一起。</p>
-<p>还有许多用处，这里不再赘述。</p>
-<p>局部特征比起全局特征的优势在于，局部特征在被遮挡、运动等时候上依旧能保持相应的特征，而全局特征更考察整体的色度等，容易随着图像变化而发生比较大的变化。</p>
-<p>局部特征的优势：</p>
-<ol>
-<li>Locality：对于遮蔽的鲁棒性。</li>
-<li>Quantity：一张图像内有成百上千。</li>
-<li>Distinctiveness：比较能在大的图像库里能识别出来。</li>
-<li>Efficiency：能够实时使用。</li>
-</ol>
-<p>于是特征点需要在一些变化下保持不变，比如 translation, rotation, scale, brightness, exposure 等。</p>
-<p>目标：可重复性检测；精确地局部化；比较能作为区分的点。</p>
-<p>实际上可以看作寻找二维函数的信号变化。</p>
-<h4 id="Harris-corner-detection"><a href="#Harris-corner-detection" class="headerlink" title="Harris corner detection"></a>Harris corner detection</h4><p>第一步是寻找 Corners。</p>
-<p>Corners 是可重复和可区分的。一般使用一个滑动的窗口来寻找 Corners。</p>
-<p><img src="https://pic.imgdb.cn/item/65965135871b83018acbd2d5.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/65965150871b83018acc1a4f.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/65965173871b83018acc7849.jpg"></p>
-<p>窗口的思路在于将窗口里的每个像素点和某个位移后的窗口作差平方后加权和，以这个数值来判断是否为 Corners，即<br>$$<br>E(u,v)&#x3D;\sum_{x,y} w(x,y)(I(x+u,y+v)-I(x,y))^2.<br>$$<br>其中 $(u,v)$ 为位移量，$I(x,y)$ 是 $(x,y)$ 这个点的像素值，$w(x,y)$ 为某一加权函数。</p>
-<p><img src="https://pic.imgdb.cn/item/6596525d871b83018acf1440.jpg"></p>
-<p>如何证明正确性？考虑 Taylor 展开，即 $I(x+u,y+v)\approx I(x,y)+(\frac{\partial I}{\partial x},\frac{\partial I}{\partial y})(u,v)^T$，不妨假设 $w(x,y)$ 为常值函数，于是<br>$$<br>E(u,v)&#x3D;\sum_{x,y} w(x,y)(I(x+u,y+v)-I(x,y))^2\\<br>\approx \sum_{x,y} (\frac{\partial I}{\partial x}u+\frac{\partial I}{\partial y}v)^2\\<br>&#x3D;u^2\sum_{x,y} (\frac{\partial I}{\partial x})^2+v^2\sum_{x,y} (\frac{\partial I}{\partial y})^2+2uv\sum_{x,y} \frac{\partial I}{\partial x}\frac{\partial I}{\partial y}\\<br>&#x3D;\begin{pmatrix}u &amp; v\end{pmatrix}\begin{pmatrix}A &amp; B\\B &amp; C\end{pmatrix}\begin{pmatrix}u &amp; v\end{pmatrix}^T.<br>$$<br>其中，$A&#x3D;\sum_{x,y}(\frac{\partial I}{\partial x})^2, B&#x3D;\sum_{x,y}\frac{\partial I}{\partial x}\frac{\partial I}{\partial y}, C&#x3D;\sum_{x,y} (\frac{\partial I}{\partial y})^2$。</p>
-<p>Thus，$E(u,v)$ is locally approximated as a quadratic error function。</p>
-<p>设中间矩阵为 $H$，我们能有以下的一些情况。</p>
-<p><img src="https://pic.imgdb.cn/item/659654bb871b83018ad5d363.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/659654bc871b83018ad5d3de.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/659654bc871b83018ad5d43f.jpg"></p>
-<p>注意到 $H$ 是实对称矩阵，所以其一定能被对角化，即 $H&#x3D;R^{-1}\begin{pmatrix}\lambda_1 &amp; 0\\0 &amp; \lambda_2\end{pmatrix}R$。旋转图像显然不会改成特征值。</p>
-<p><img src="https://pic.imgdb.cn/item/659656c7871b83018adbab0f.jpg"></p>
-<p>于是就可以根据 $\lambda_1$ 和 $\lambda_2$ 来判断区域情况了。</p>
-<p>真实情况中我们不可能对这个矩阵去求出特征值，所以会利用行列式和迹。</p>
-<p>$2\times 2$ 的矩阵的行列式和迹是容易求的，即 $\det(H)&#x3D;h_{1,1}h_{2,2}-h_{1,2}h_{2,1}, \mathrm{trace}(H)&#x3D;h_{1,1}+h_{2,2}$。</p>
-<p>此时利用 $\det(H)$ 和 $\mathrm{trace}(H)$ 的一些运算来获得一些判断规则，比如<br>$$<br>\theta&#x3D;\det(H)-\alpha \mathrm{trace}^2(H),\\<br>R&#x3D;\frac{\det(H)}{\mathrm{trace}(H)+\epsilon}.<br>$$<br>等等。其中，$\alpha$ 一般取 $0.04$ 到 $0.06$ 之间的某个常数。</p>
-<p><img src="https://pic.imgdb.cn/item/65965b72871b83018ae97dca.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/65965bf3871b83018aeaf1b6.jpg"></p>
-<p>Harris corner detection 满足 Translation invariance, Rotation invariance, Partially invariant to affine intensity change, Not invariant to image scale。</p>
-<p><img src="https://pic.imgdb.cn/item/65965d9b871b83018aefa850.jpg"></p>
-<p>上图可见，尺度变化确实会影响检测。需要我们再次发明尺度不变的检测方法。</p>
-<h4 id="Scale-invariant-detection"><a href="#Scale-invariant-detection" class="headerlink" title="Scale invariant detection"></a>Scale invariant detection</h4><p>高斯相关的卷积核都是保持尺度不变性的。</p>
-<p>一种方法被称为 SIFT，构建的是多组多层的高斯差分金字塔，每一组内的图像大小相等，但尺度不同，不同组间由下采样构成，卷积核使用高斯差分函数。在不同层考虑寻找局部最大值 (自己这一层相邻的八个，上一层的九个，下一层的九个），将其作为一个局部特征点，记为三元组 $(x,y,\sigma)$，$\sigma$ 为那一层的尺度 (scale)。这些特征点用来备选，以其他一些方法进行拟合或者删除部分。</p>
-<p><img src="https://pic.imgdb.cn/item/65966293871b83018afd5218.jpg"></p>
-<p>另一种方法构建的是 Harris-Laplacian 金字塔，卷积核使用拉普拉斯函数，层内使用 Harris detector 来寻找特征点。对于这些点，类似高斯差分金字塔的办法，若不是局部最大值，则去除。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 8:Feature Descriptor and Matching</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-8/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-8-Feature-Descriptor-and-Matching"><a href="#Lecture-8-Feature-Descriptor-and-Matching" class="headerlink" title="Lecture 8: Feature Descriptor and Matching"></a>Lecture 8: Feature Descriptor and Matching</h3><p>在检测出关键点后，我们需要用一个向量去描述关键点，这样利用向量的相似性进行匹配。</p>
-<p>这个向量我们称之为描述符，其需要满足两个条件：</p>
-<ol>
-<li>Invariance：不会随着光照等条件的变换而变换。</li>
-<li>Discriminability：和不是该关键点的描述符相差较大。</li>
-</ol>
-<p>一些简单的想法，比如直接用这个像素点，或者用其邻域，但实际上这些也就只能保证平移不变性。</p>
-<h4 id="MOPS"><a href="#MOPS" class="headerlink" title="MOPS"></a>MOPS</h4><p>MOPS, Multiscale Oriented Patches descriptor。</p>
-<p>如何选取方向呢？</p>
-<p>一个思路是，选取特征点对应的 Hessian 矩阵中最大的特征值对应的特征向量方向；另一个思路是简化平滑后的梯度方向。</p>
-<p>根据这个方向，我们旋转该特征点相关的窗口，这样就能获得一个旋转不变性的窗口了。</p>
-<p>具体来说，以特征点为中心选择一个 $40\times 40$ 的窗口，根据上述的方向旋转到水平位置，然后利用滤波器采样成 $8\times 8$ 的窗口，再对窗口进行灰度化，即先全部减去均值，再除以标准差。这样就让窗口变成了零均值且方差为 $1$ 了，保证了仿射不变性。</p>
-<h4 id="SIFT"><a href="#SIFT" class="headerlink" title="SIFT"></a>SIFT</h4><p>SIFT, Scale Invariant Feature Transform。</p>
-<p>SIFT 以特征点为中心选取一个与尺度有关的窗口，同样通过上述的求角度方法旋转。然后划分成 $4\times 4$ 的部分，将 $360^{\circ}$ 划分成 $8$ 份，每个部分用直方图统计出每份的权重，这样就有 $128&#x3D;4\times 4\times 8$ 个维度，于是就得到了特征向量。但为了去除一些不可靠的光照因素，这些光照因素会导致梯度极大，所以我们先对特征向量归一化后，再将 $&gt;0.2$ 的部分取为 $0.2$，再做归一化而保证了光照不变性。</p>
-<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e03b5.jpg"></p>
-<p>具体实现上为了去除噪声的影响会复杂很多。</p>
-<h4 id="HoG"><a href="#HoG" class="headerlink" title="HoG"></a>HoG</h4><p>HoG, Histogram of Oriented Gradients。</p>
-<p>HoG 是一个描述整个图像的算法，它在一开始同样采取了灰度化，然后同样将窗口划分成若干个小块，每个小块利用梯度方向直方图进行统计，然后得到特征描述向量。</p>
-<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e040d.jpg"></p>
-<p>和 SIFT 基本相似，只不过它描述的是整个图像，而且它的归一化是提前的，直接根据图像归一化。</p>
-<h4 id="Matching"><a href="#Matching" class="headerlink" title="Matching"></a>Matching</h4><p>匹配方式一般是，对于每个关键点，找 $L_2$ 距离最近和次近的关键点，以这两个距离的比例来判断是否匹配。</p>
-<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e0304.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e04c9.jpg"></p>
-<p>如何评估匹配效果？计算匹配正确的点对中满足 ratio distance 限制的比例以及匹配错误的点对中满足 ratio distance 限制的比例，前者是 recall，后者是 1-specificity。</p>
-<p>ROC curve 是在改变 ratio distance 阈值下，上面两个值构成的曲线。</p>
-<p><img src="https://pic.imgdb.cn/item/65969843871b83018a9d5c28.jpg"></p>
-<h4 id="Alignment"><a href="#Alignment" class="headerlink" title="Alignment"></a>Alignment</h4><p>Alignment 做的是图像配准的工作，即计算图像 A 经过什么样的变换可以得到图像 B。</p>
-<p>在完成关键点匹配后，我们很容易算出平移变换的向量。</p>
-<p><img src="https://pic.imgdb.cn/item/659698ee871b83018a9fd9e8.jpg"></p>
-<p>当然实际上存在损失，定义 $&#x3D;\mathbf{x}_i+\mathbf{x}_t-\mathbf{x’}<em>i$，类似地 $r</em>{\mathbf{y}_i}(\mathbf{y}_t)$ 也有相同的定义。</p>
-<p>于是损失函数则是<br>$$<br>C(\mathbf{x}<em>t,\mathbf{y}<em>t)&#x3D;\sum</em>{i&#x3D;1}^n (+r^2</em>{\mathbf{y}_i}(\mathbf{y}_t)).<br>$$<br>等价于要去最小化该函数。</p>
-<p>实际上，写成矩阵形式后容易求出解析解，即</p>
-<p><img src="https://pic.imgdb.cn/item/659699ec871b83018aa37907.jpg"></p>
-<p>等价于最小化 $\Vert \mathbf{At-b}\Vert$，解出 $\mathbf{t&#x3D;(A^{T}A)^{-1}A^{T}b}$。</p>
-<p>类似地，可以完成对仿射变换的定义：</p>
-<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb686.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb716.jpg"></p>
-<p>单应性变换也可以有类似的变换：</p>
-<p><img src="https://pic.imgdb.cn/item/65969d5f871b83018ab0cbfe.jpg"></p>
+<h3 id="Lecture-11-Light-and-color"><a href="#Lecture-11-Light-and-color" class="headerlink" title="Lecture 11: Light and color"></a>Lecture 11: Light and color</h3><p>像素值：像素的强度，$I(p)&#x3D;c(p)l(p)r(p)$，其中 $c(p)$ 为相机的光谱反应 (传感器特性)，$l(p)$ 为光强，$r(p)$ 为光从物体表面到相机的反射强度。</p>
+<p>光子的轨迹：Absorption (吸收，即光线被完全吸收)，Diffuse reflection (漫反射，即不平整平面导致向多个方向反射)，Specular reflection (镜面反射)，Transparency (透射，即穿过平面沿原轨迹传播)，Refraction (折射)，Fluorescence (某种漫反射，但改变了波长)，Subsurface scattering (次表面散射)，Phosphorescence (磷光)，Interreflection (内部反射)。</p>
+<h4 id="Diffuse-reflection"><a href="#Diffuse-reflection" class="headerlink" title="Diffuse reflection"></a>Diffuse reflection</h4><p>漫反射遵循 Lambert’s Law。</p>
+<p><img src="https://pic.imgdb.cn/item/6596ba4a871b83018a3b9ad8.jpg"></p>
+<p>其中，BRDF 为双向反射分布函数。</p>
+<h4 id="Specular-reflection"><a href="#Specular-reflection" class="headerlink" title="Specular reflection"></a>Specular reflection</h4><p><img src="https://pic.imgdb.cn/item/6596ba89871b83018a3cdeec.jpg"></p>
+<h4 id="Phong-illumination-model"><a href="#Phong-illumination-model" class="headerlink" title="Phong illumination model"></a>Phong illumination model</h4><p><img src="https://pic.imgdb.cn/item/6596bb0a871b83018a3f6a48.jpg"></p>
+<p>其中，Ambient 为背景亮度。</p>
+<h3 id="RGB-模型"><a href="#RGB-模型" class="headerlink" title="RGB 模型"></a>RGB 模型</h3><p>考虑一张图像是三维的，第三维表示通道，即 R, G, B 分别的强度是多少。</p>
+<h4 id="Eye-anatomy"><a href="#Eye-anatomy" class="headerlink" title="Eye anatomy"></a>Eye anatomy</h4><p>人的眼球是个相机。</p>
+<p><img src="https://pic.imgdb.cn/item/6596bc3c871b83018a458019.jpg"></p>
+<p>retina 是视网膜，optics of the eye 是晶状体。</p>
+<h4 id="Color-perception"><a href="#Color-perception" class="headerlink" title="Color perception"></a>Color perception</h4><p>人眼只能识别电磁波很少的一部分。在这部分里，人眼的敏感程度也是不同的，同时对光线的吸收程度也是不同的。</p>
+<p><img src="https://pic.imgdb.cn/item/6596cf25871b83018aa4f0e4.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596cfc1871b83018aa7e659.jpg"></p>
+<p>Tetrachromatism: 四色性</p>
+<p>Dichromat: 二色性</p>
+<p>Light response is nonlinear。人类的视觉系统在感知时是对数尺度，同时自适应，对弱光更敏感。</p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -931,6 +897,114 @@
       </tags>
   </entry>
   <entry>
+    <title>Review of Course Computer Vision Lecture 7:Feature Detector</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-7/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-7-Feature-Detector"><a href="#Lecture-7-Feature-Detector" class="headerlink" title="Lecture 7: Feature Detector"></a>Lecture 7: Feature Detector</h3><p>我们想要完成图像匹配的事情，比如有一个建筑物在两张不同的图中都出现了，我们要匹配上这两张图中的建筑物。</p>
+<p>又或者我们想拍摄全景图，此时需要合并两张相邻的图，那么就要完成提取特征再特征匹配后，把这些特征点位置对应上，然后将图像融合在一起。</p>
+<p>还有许多用处，这里不再赘述。</p>
+<p>局部特征比起全局特征的优势在于，局部特征在被遮挡、运动等时候上依旧能保持相应的特征，而全局特征更考察整体的色度等，容易随着图像变化而发生比较大的变化。</p>
+<p>局部特征的优势：</p>
+<ol>
+<li>Locality：对于遮蔽的鲁棒性。</li>
+<li>Quantity：一张图像内有成百上千。</li>
+<li>Distinctiveness：比较能在大的图像库里能识别出来。</li>
+<li>Efficiency：能够实时使用。</li>
+</ol>
+<p>于是特征点需要在一些变化下保持不变，比如 translation, rotation, scale, brightness, exposure 等。</p>
+<p>目标：可重复性检测；精确地局部化；比较能作为区分的点。</p>
+<p>实际上可以看作寻找二维函数的信号变化。</p>
+<h4 id="Harris-corner-detection"><a href="#Harris-corner-detection" class="headerlink" title="Harris corner detection"></a>Harris corner detection</h4><p>第一步是寻找 Corners。</p>
+<p>Corners 是可重复和可区分的。一般使用一个滑动的窗口来寻找 Corners。</p>
+<p><img src="https://pic.imgdb.cn/item/65965135871b83018acbd2d5.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65965150871b83018acc1a4f.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65965173871b83018acc7849.jpg"></p>
+<p>窗口的思路在于将窗口里的每个像素点和某个位移后的窗口作差平方后加权和，以这个数值来判断是否为 Corners，即<br>$$<br>E(u,v)&#x3D;\sum_{x,y} w(x,y)(I(x+u,y+v)-I(x,y))^2.<br>$$<br>其中 $(u,v)$ 为位移量，$I(x,y)$ 是 $(x,y)$ 这个点的像素值，$w(x,y)$ 为某一加权函数。</p>
+<p><img src="https://pic.imgdb.cn/item/6596525d871b83018acf1440.jpg"></p>
+<p>如何证明正确性？考虑 Taylor 展开，即 $I(x+u,y+v)\approx I(x,y)+(\frac{\partial I}{\partial x},\frac{\partial I}{\partial y})(u,v)^T$，不妨假设 $w(x,y)$ 为常值函数，于是<br>$$<br>E(u,v)&#x3D;\sum_{x,y} w(x,y)(I(x+u,y+v)-I(x,y))^2\\<br>\approx \sum_{x,y} (\frac{\partial I}{\partial x}u+\frac{\partial I}{\partial y}v)^2\\<br>&#x3D;u^2\sum_{x,y} (\frac{\partial I}{\partial x})^2+v^2\sum_{x,y} (\frac{\partial I}{\partial y})^2+2uv\sum_{x,y} \frac{\partial I}{\partial x}\frac{\partial I}{\partial y}\\<br>&#x3D;\begin{pmatrix}u &amp; v\end{pmatrix}\begin{pmatrix}A &amp; B\\B &amp; C\end{pmatrix}\begin{pmatrix}u &amp; v\end{pmatrix}^T.<br>$$<br>其中，$A&#x3D;\sum_{x,y}(\frac{\partial I}{\partial x})^2, B&#x3D;\sum_{x,y}\frac{\partial I}{\partial x}\frac{\partial I}{\partial y}, C&#x3D;\sum_{x,y} (\frac{\partial I}{\partial y})^2$。</p>
+<p>Thus，$E(u,v)$ is locally approximated as a quadratic error function。</p>
+<p>设中间矩阵为 $H$，我们能有以下的一些情况。</p>
+<p><img src="https://pic.imgdb.cn/item/659654bb871b83018ad5d363.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/659654bc871b83018ad5d3de.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/659654bc871b83018ad5d43f.jpg"></p>
+<p>注意到 $H$ 是实对称矩阵，所以其一定能被对角化，即 $H&#x3D;R^{-1}\begin{pmatrix}\lambda_1 &amp; 0\\0 &amp; \lambda_2\end{pmatrix}R$。旋转图像显然不会改成特征值。</p>
+<p><img src="https://pic.imgdb.cn/item/659656c7871b83018adbab0f.jpg"></p>
+<p>于是就可以根据 $\lambda_1$ 和 $\lambda_2$ 来判断区域情况了。</p>
+<p>真实情况中我们不可能对这个矩阵去求出特征值，所以会利用行列式和迹。</p>
+<p>$2\times 2$ 的矩阵的行列式和迹是容易求的，即 $\det(H)&#x3D;h_{1,1}h_{2,2}-h_{1,2}h_{2,1}, \mathrm{trace}(H)&#x3D;h_{1,1}+h_{2,2}$。</p>
+<p>此时利用 $\det(H)$ 和 $\mathrm{trace}(H)$ 的一些运算来获得一些判断规则，比如<br>$$<br>\theta&#x3D;\det(H)-\alpha \mathrm{trace}^2(H),\\<br>R&#x3D;\frac{\det(H)}{\mathrm{trace}(H)+\epsilon}.<br>$$<br>等等。其中，$\alpha$ 一般取 $0.04$ 到 $0.06$ 之间的某个常数。</p>
+<p><img src="https://pic.imgdb.cn/item/65965b72871b83018ae97dca.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65965bf3871b83018aeaf1b6.jpg"></p>
+<p>Harris corner detection 满足 Translation invariance, Rotation invariance, Partially invariant to affine intensity change, Not invariant to image scale。</p>
+<p><img src="https://pic.imgdb.cn/item/65965d9b871b83018aefa850.jpg"></p>
+<p>上图可见，尺度变化确实会影响检测。需要我们再次发明尺度不变的检测方法。</p>
+<h4 id="Scale-invariant-detection"><a href="#Scale-invariant-detection" class="headerlink" title="Scale invariant detection"></a>Scale invariant detection</h4><p>高斯相关的卷积核都是保持尺度不变性的。</p>
+<p>一种方法被称为 SIFT，构建的是多组多层的高斯差分金字塔，每一组内的图像大小相等，但尺度不同，不同组间由下采样构成，卷积核使用高斯差分函数。在不同层考虑寻找局部最大值 (自己这一层相邻的八个，上一层的九个，下一层的九个），将其作为一个局部特征点，记为三元组 $(x,y,\sigma)$，$\sigma$ 为那一层的尺度 (scale)。这些特征点用来备选，以其他一些方法进行拟合或者删除部分。</p>
+<p><img src="https://pic.imgdb.cn/item/65966293871b83018afd5218.jpg"></p>
+<p>另一种方法构建的是 Harris-Laplacian 金字塔，卷积核使用拉普拉斯函数，层内使用 Harris detector 来寻找特征点。对于这些点，类似高斯差分金字塔的办法，若不是局部最大值，则去除。</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 8:Feature Descriptor and Matching</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-8/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-8-Feature-Descriptor-and-Matching"><a href="#Lecture-8-Feature-Descriptor-and-Matching" class="headerlink" title="Lecture 8: Feature Descriptor and Matching"></a>Lecture 8: Feature Descriptor and Matching</h3><p>在检测出关键点后，我们需要用一个向量去描述关键点，这样利用向量的相似性进行匹配。</p>
+<p>这个向量我们称之为描述符，其需要满足两个条件：</p>
+<ol>
+<li>Invariance：不会随着光照等条件的变换而变换。</li>
+<li>Discriminability：和不是该关键点的描述符相差较大。</li>
+</ol>
+<p>一些简单的想法，比如直接用这个像素点，或者用其邻域，但实际上这些也就只能保证平移不变性。</p>
+<h4 id="MOPS"><a href="#MOPS" class="headerlink" title="MOPS"></a>MOPS</h4><p>MOPS, Multiscale Oriented Patches descriptor。</p>
+<p>如何选取方向呢？</p>
+<p>一个思路是，选取特征点对应的 Hessian 矩阵中最大的特征值对应的特征向量方向；另一个思路是简化平滑后的梯度方向。</p>
+<p>根据这个方向，我们旋转该特征点相关的窗口，这样就能获得一个旋转不变性的窗口了。</p>
+<p>具体来说，以特征点为中心选择一个 $40\times 40$ 的窗口，根据上述的方向旋转到水平位置，然后利用滤波器采样成 $8\times 8$ 的窗口，再对窗口进行灰度化，即先全部减去均值，再除以标准差。这样就让窗口变成了零均值且方差为 $1$ 了，保证了仿射不变性。</p>
+<h4 id="SIFT"><a href="#SIFT" class="headerlink" title="SIFT"></a>SIFT</h4><p>SIFT, Scale Invariant Feature Transform。</p>
+<p>SIFT 以特征点为中心选取一个与尺度有关的窗口，同样通过上述的求角度方法旋转。然后划分成 $4\times 4$ 的部分，将 $360^{\circ}$ 划分成 $8$ 份，每个部分用直方图统计出每份的权重，这样就有 $128&#x3D;4\times 4\times 8$ 个维度，于是就得到了特征向量。但为了去除一些不可靠的光照因素，这些光照因素会导致梯度极大，所以我们先对特征向量归一化后，再将 $&gt;0.2$ 的部分取为 $0.2$，再做归一化而保证了光照不变性。</p>
+<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e03b5.jpg"></p>
+<p>具体实现上为了去除噪声的影响会复杂很多。</p>
+<h4 id="HoG"><a href="#HoG" class="headerlink" title="HoG"></a>HoG</h4><p>HoG, Histogram of Oriented Gradients。</p>
+<p>HoG 是一个描述整个图像的算法，它在一开始同样采取了灰度化，然后同样将窗口划分成若干个小块，每个小块利用梯度方向直方图进行统计，然后得到特征描述向量。</p>
+<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e040d.jpg"></p>
+<p>和 SIFT 基本相似，只不过它描述的是整个图像，而且它的归一化是提前的，直接根据图像归一化。</p>
+<h4 id="Matching"><a href="#Matching" class="headerlink" title="Matching"></a>Matching</h4><p>匹配方式一般是，对于每个关键点，找 $L_2$ 距离最近和次近的关键点，以这两个距离的比例来判断是否匹配。</p>
+<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e0304.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e04c9.jpg"></p>
+<p>如何评估匹配效果？计算匹配正确的点对中满足 ratio distance 限制的比例以及匹配错误的点对中满足 ratio distance 限制的比例，前者是 recall，后者是 1-specificity。</p>
+<p>ROC curve 是在改变 ratio distance 阈值下，上面两个值构成的曲线。</p>
+<p><img src="https://pic.imgdb.cn/item/65969843871b83018a9d5c28.jpg"></p>
+<h4 id="Alignment"><a href="#Alignment" class="headerlink" title="Alignment"></a>Alignment</h4><p>Alignment 做的是图像配准的工作，即计算图像 A 经过什么样的变换可以得到图像 B。</p>
+<p>在完成关键点匹配后，我们很容易算出平移变换的向量。</p>
+<p><img src="https://pic.imgdb.cn/item/659698ee871b83018a9fd9e8.jpg"></p>
+<p>$$<br>C(\mathbf{x}<em>t,\mathbf{y}<em>t)&#x3D;\sum</em>{i&#x3D;1}^n (r^2</em>{\mathbf{x}_i}(\mathbf{x}<em>t)+r^2</em>{\mathbf{y}_i}(\mathbf{y}_t)).<br>$$<br>等价于要去最小化该函数。</p>
+<p>实际上，写成矩阵形式后容易求出解析解，即</p>
+<p><img src="https://pic.imgdb.cn/item/659699ec871b83018aa37907.jpg"></p>
+<p>等价于最小化 $\Vert \mathbf{At-b}\Vert$，解出 $\mathbf{t&#x3D;(A^{T}A)^{-1}A^{T}b}$。</p>
+<p>类似地，可以完成对仿射变换的定义：</p>
+<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb686.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb716.jpg"></p>
+<p>单应性变换也可以有类似的变换：</p>
+<p><img src="https://pic.imgdb.cn/item/65969d5f871b83018ab0cbfe.jpg"></p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Review of Course Computer Vision Lecture 16:Tracking</title>
     <url>/2024/01/05/2024-1-5-cv-exam-16/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
@@ -984,81 +1058,6 @@
 <li>设立初始模板 $T(\mathbf{x})$ 的邻域大小，太小不仅会纳入噪声，而且会错过大幅度的 motion；太大可能会遇到 occlusion (遮挡)，一般选择 $15\times 15$ 或 $31\times 31$。</li>
 <li>求 $T(\mathbf{x})$ 需要某种窗函数，比如汉明窗，高斯窗等。</li>
 </ol>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 15:Motion</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-15/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-15-Motion"><a href="#Lecture-15-Motion" class="headerlink" title="Lecture 15: Motion"></a>Lecture 15: Motion</h3><p>视频中的每个像素等价于三维坐标 $(x,y,t)$，表示在图像的 $(x,y)$ 位置，时间为 $t$。</p>
-<p><strong>光流</strong>: 图像中带光图案的明显运动。</p>
-<p>光流不一定是物体运动，也可能是光的运动。</p>
-<p>我们想要基于光流，来恢复每个物体的运动情况。</p>
-<p>想要分析光流，我们一般基于以下三个假设：</p>
-<ol>
-<li>Small motion：点的移动幅度不会太大。</li>
-<li>Spatial coherence：空间上是一致的，每个点的移动会和它附近的点类似。</li>
-<li>Brightness constancy：每个点在不同时间的像素值是相同的。</li>
-</ol>
-<h4 id="Brightness-constancy"><a href="#Brightness-constancy" class="headerlink" title="Brightness constancy"></a>Brightness constancy</h4><p>第三个条件比较强硬，它带出了一个整体性的条件。利用 Taylor 展开，我们有<br>$$<br>I(x,y,t)&#x3D;I(x+u(x,y),y+v(x,y),t+1)\approx I(x,y,t)+[I_x,I_y,I_t][u,v,1]^T\\<br>\implies I_xu+I_yv+I_t\approx 0\\<br>\implies \nabla I(x,y) [u,v]^T+I_t\approx 0.<br>$$<br><img src="https://pic.imgdb.cn/item/6596a333871b83018ac809f4.jpg"></p>
-<p>可以发现方程的未知数有两个 $u,v$，但方程只有一条，这意味着会解出若干个解，那也就很难获得光流了。</p>
-<p>如何解决这个问题就是重中之重，我们想办法添加一些方程？</p>
-<h4 id="Spatial-coherence"><a href="#Spatial-coherence" class="headerlink" title="Spatial coherence"></a>Spatial coherence</h4><p>根据 Spatial coherence，我们可以假定像素邻域内所有点的光流都是相同的 $(u,v)$，于是能写出一条方程。</p>
-<p>假设我们使用的是 $5\times 5$ 的窗口，则有<br>$$<br>\nabla I(p_i) [u,v]^T+I_t(p_i)&#x3D;0.<br>$$<br>容易写成某种矩阵的形式，并尝试做出解析解，即</p>
-<p><img src="https://pic.imgdb.cn/item/6596a57d871b83018ad1796e.jpg"></p>
-<p>这条方程被称作 Lucas-Kanade equation，其若要有解则需要：</p>
-<ol>
-<li>$A^TA$ 要求可逆。</li>
-<li>$A^T A$ 不能太小，即两个特征值都不能太小，这是因为噪声所以必须要这一点。</li>
-<li>$A^TA$ 的特征值之比不能太大，这里的比值要求大的特征值作为分子。</li>
-</ol>
-<p>可以发现这个方程有点类似于 Harris Corner Detector 中的方程。</p>
-<p><img src="https://pic.imgdb.cn/item/6596a74b871b83018ad93d43.jpg"></p>
-<p>上图为 Harris Corner Detector 的 $\lambda_1,\lambda_2$ 要求的特征和 Corner 处的比较相似。</p>
-<h4 id="Small-motion"><a href="#Small-motion" class="headerlink" title="Small motion"></a>Small motion</h4><p>光流还有一个假设，即 Small motion，我们来分析一下这个假设。</p>
-<p>Small motion 也可以被写成一条方程，即<br>$$<br>0&#x3D;I(x+u,y+v)-I_t(x,y)\approx I(x,y)+I_xu+I_yv-I_t(x,y).<br>$$<br>牛顿迭代法可以解决这个问题，不过超出了课程内容，这里使用 Lucas-Kanade equation 姑且解决一下。</p>
-<p>Lucas-Kanade equation 可以被看作是只迭代了一轮的牛顿迭代法，步骤如下：</p>
-<ol>
-<li>利用 Lucas-Kanade equation 计算每个像素点的速度 $(u,v)$。</li>
-<li>利用上面算出的速度来进行图像扭转 (warping)，从 $I(t-1)$ 扭转到 $I(t)$。扭转到的像素利用 Small motion 得到。</li>
-<li>重复步骤，直到收敛。因为不一定整张图像同时成立，而且有损失。</li>
-</ol>
-<p>接下来讨论 Lucas-Kanade equation 的损失情况。</p>
-<p>产生损失的原因：</p>
-<ol>
-<li>我们假定了 $A^TA$ 是可逆的，但实际上不一定可逆。</li>
-<li>我们假定了没有噪声。</li>
-<li>光流的三大假设不一定都满足，比如 Spatial coherence 选取的窗口大小没法任意，需要调整以获得合适的大小。</li>
-</ol>
-<h4 id="Pyramids-for-large-motion"><a href="#Pyramids-for-large-motion" class="headerlink" title="Pyramids for large motion"></a>Pyramids for large motion</h4><p>我们先尝试解决 Small motion 失效的情况。</p>
-<p>很明显，所有的 Small 和 Large 是和分辨率相关的，所以有一个想法就是改变分辨率，于是会使用高斯金字塔。</p>
-<p><img src="https://pic.imgdb.cn/item/6596aed7871b83018afc33a9.jpg"></p>
-<h4 id="Horn-Schunk-method"><a href="#Horn-Schunk-method" class="headerlink" title="Horn-Schunk method"></a>Horn-Schunk method</h4><p>Horn-Schunk 的主要思路是引入了平滑性假设，然后最小化全局能量函数。定义全局能量函数为<br>$$<br>E&#x3D;\int\int [(I_xu+I_yv+I_t)^2+\alpha^2(\Vert \nabla u\Vert^2+\Vert \nabla u\Vert^2)]\mathrm{d}x\mathrm{d}y.<br>$$<br>第一部分是 Brightness constancy，第二部分是 smoothness constraint (平滑性假设)，$\alpha$ 是某一参数，来平衡二者的。</p>
-<p>平滑性假设的引入是考虑了 Spatial coherence 的思路，像素函数越简单就越会让 Spatial coherence 成立，那么根据 Taylor 展开，我们会想到让高阶导数尽量不存在，所以有了这样的假设。这里是让二阶导尽量小。</p>
-<p>最小化 $E$ 的方式显然是求导，最终得到<br>$$<br>I_x(I_xu+I_yv+I_t)&#x3D;\alpha^2 \nabla^2 u\\<br>I_y(I_xu+I_yv+I_t)&#x3D;\alpha^2 \nabla^2 v<br>$$<br>注意到又遇见了 $\nabla^2$ 这个拉普拉斯算子，离散情况下我们可以使用邻域的均值减去自己获得，即<br>$$<br>\nabla^2 u(x,y)&#x3D;\overline{u}(x,y)-u(x,y).<br>$$<br>代入后，得到最终表达式：<br>$$<br>(I^2_x+\alpha^2)u+I_xI_yv&#x3D;\alpha^2 \overline{u}-I_xI_t\\<br>I_xI_yu+(I^2_y+\alpha^2)v&#x3D;\alpha^2 \overline{v}-I_yI_t<br>$$<br>当然，因为 $\overline{u}$ 和 $u$ 之间互相限制，方便的解法是迭代（实际上可以做消元等等），于是有迭代方程：</p>
-<p><img src="https://pic.imgdb.cn/item/6596b21d871b83018a0fecf8.jpg"></p>
-<p>Michael Black method 在 Horn-Schunk method 的基础上，将 $\Vert \nabla u\Vert^2+\Vert \nabla u\Vert^2$ 更改成了另一个函数，这里不再赘述。</p>
-<h4 id="Motion-Segmentation"><a href="#Motion-Segmentation" class="headerlink" title="Motion Segmentation"></a>Motion Segmentation</h4><p>基于语义分割，我们重新考虑 motion。</p>
-<p><strong>Affine motion</strong>: 仿射运动给出了比较简单的公式：<br>$$<br>u(x,y)&#x3D;a_1+a_2x+a_3y\\<br>v(x,y)&#x3D;a_4+a_5x+a_6y<br>$$<br>代入 Brightness constancy，则有<br>$$<br>I_x(a_1+a_2x+a_3y)+I_y(a_4+a_5x+a_6y)+I_t&#x3D;0.<br>$$<br>于是能定义损失函数为<br>$$<br>E(\vec{a})&#x3D;\sum [I_x(a_1+a_2x+a_3y)+I_y(a_4+a_5x+a_6y)+I_t]^2.<br>$$<br>利用上述信息，我们考虑每个 layer 的 motion 情况：</p>
-<ol>
-<li>将图像分块，利用 $E$ 损失函数计算每个块的仿射运动情况，这样能排除高的残差损失。</li>
-<li>将每个 motion 映射到 motion 参数空间。<img src="https://pic.imgdb.cn/item/6596b559871b83018a2268a3.jpg"></li>
-<li>执行聚类算法 (K-means) 以完成语义分割工作。<img src="https://pic.imgdb.cn/item/6596b55a871b83018a226a39.jpg"></li>
-<li>让每个像素点归于最佳的物体。</li>
-<li>执行区域的滤波以满足 spatial constraints。</li>
-<li>重新每个区域的仿射运动。</li>
-<li>重新执行 4, 5, 6。</li>
-</ol>
-<p><img src="https://pic.imgdb.cn/item/6596b5ff871b83018a25b4bb.jpg"></p>
-<p>Motion 的应用广泛，比如检测 3D 建筑，检测物体运动，移动物体的语义分割，合成动态纹理，一组图像更改成超分辨率，认知事件和活动。</p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
