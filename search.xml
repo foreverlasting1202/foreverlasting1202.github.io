@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>北京理工大学人工智能专业生存手册</title>
-    <url>/2023/10/08/2023-10-8-BITAI/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
-<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
-<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="形势与政策"><a href="#形势与政策" class="headerlink" title="形势与政策"></a>形势与政策</h3><h3 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h3><h3 id="公选"><a href="#公选" class="headerlink" title="公选"></a>公选</h3><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><h3 id="工程制图C"><a href="#工程制图C" class="headerlink" title="工程制图C"></a>工程制图C</h3><h3 id="大学计算机"><a href="#大学计算机" class="headerlink" title="大学计算机"></a>大学计算机</h3><h3 id="线性代数B"><a href="#线性代数B" class="headerlink" title="线性代数B"></a>线性代数B</h3><h3 id="工科数学分析-I"><a href="#工科数学分析-I" class="headerlink" title="工科数学分析 I"></a>工科数学分析 I</h3><h3 id="知识产权法基础"><a href="#知识产权法基础" class="headerlink" title="知识产权法基础"></a>知识产权法基础</h3><h3 id="学术用途英语一级"><a href="#学术用途英语一级" class="headerlink" title="学术用途英语一级"></a>学术用途英语一级</h3><h3 id="思想道德与法治"><a href="#思想道德与法治" class="headerlink" title="思想道德与法治"></a>思想道德与法治</h3><h3 id="大学生心理素质发展"><a href="#大学生心理素质发展" class="headerlink" title="大学生心理素质发展"></a>大学生心理素质发展</h3><h3 id="军事理论"><a href="#军事理论" class="headerlink" title="军事理论"></a>军事理论</h3><h3 id="军事技能"><a href="#军事技能" class="headerlink" title="军事技能"></a>军事技能</h3><h2 id="大二下"><a href="#大二下" class="headerlink" title="大二下"></a>大二下</h2><h3 id="电路分析基础"><a href="#电路分析基础" class="headerlink" title="电路分析基础"></a>电路分析基础</h3><h3 id="C语言程序设计"><a href="#C语言程序设计" class="headerlink" title="C语言程序设计"></a>C语言程序设计</h3><h3 id="工科数学分析-II"><a href="#工科数学分析-II" class="headerlink" title="工科数学分析 II"></a>工科数学分析 II</h3><h3 id="大学物理AⅠ"><a href="#大学物理AⅠ" class="headerlink" title="大学物理AⅠ"></a>大学物理AⅠ</h3><h3 id="物理实验BⅠ"><a href="#物理实验BⅠ" class="headerlink" title="物理实验BⅠ"></a>物理实验BⅠ</h3><h3 id="学术用途英语二级"><a href="#学术用途英语二级" class="headerlink" title="学术用途英语二级"></a>学术用途英语二级</h3>]]></content>
-      <categories>
-        <category>生存手册</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World!</title>
     <url>/3000/06/14/2023-10-7-New-Start!/</url>
     <content><![CDATA[<p>又搭了一个新博客。</p>
@@ -41,20 +26,6 @@
       </categories>
       <tags>
         <tag>Something</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于 AI 里的一些数学证明</title>
-    <url>/2023/11/06/2023-11-6-AI-math/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Math</tag>
       </tags>
   </entry>
   <entry>
@@ -114,15 +85,32 @@
       </tags>
   </entry>
   <entry>
-    <title>Benign Overfitting in classification provably counter label noise with larger models</title>
-    <url>/2023/12/18/2023-12-18-2206.00501/</url>
-    <content><![CDATA[<h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
-]]></content>
+    <title>北京理工大学人工智能专业生存手册</title>
+    <url>/2023/10/08/2023-10-8-BITAI/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
+<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
+<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="形势与政策"><a href="#形势与政策" class="headerlink" title="形势与政策"></a>形势与政策</h3><h3 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h3><h3 id="公选"><a href="#公选" class="headerlink" title="公选"></a>公选</h3><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><h3 id="工程制图C"><a href="#工程制图C" class="headerlink" title="工程制图C"></a>工程制图C</h3><h3 id="大学计算机"><a href="#大学计算机" class="headerlink" title="大学计算机"></a>大学计算机</h3><h3 id="线性代数B"><a href="#线性代数B" class="headerlink" title="线性代数B"></a>线性代数B</h3><h3 id="工科数学分析-I"><a href="#工科数学分析-I" class="headerlink" title="工科数学分析 I"></a>工科数学分析 I</h3><h3 id="知识产权法基础"><a href="#知识产权法基础" class="headerlink" title="知识产权法基础"></a>知识产权法基础</h3><h3 id="学术用途英语一级"><a href="#学术用途英语一级" class="headerlink" title="学术用途英语一级"></a>学术用途英语一级</h3><h3 id="思想道德与法治"><a href="#思想道德与法治" class="headerlink" title="思想道德与法治"></a>思想道德与法治</h3><h3 id="大学生心理素质发展"><a href="#大学生心理素质发展" class="headerlink" title="大学生心理素质发展"></a>大学生心理素质发展</h3><h3 id="军事理论"><a href="#军事理论" class="headerlink" title="军事理论"></a>军事理论</h3><h3 id="军事技能"><a href="#军事技能" class="headerlink" title="军事技能"></a>军事技能</h3><h2 id="大二下"><a href="#大二下" class="headerlink" title="大二下"></a>大二下</h2><h3 id="电路分析基础"><a href="#电路分析基础" class="headerlink" title="电路分析基础"></a>电路分析基础</h3><h3 id="C语言程序设计"><a href="#C语言程序设计" class="headerlink" title="C语言程序设计"></a>C语言程序设计</h3><h3 id="工科数学分析-II"><a href="#工科数学分析-II" class="headerlink" title="工科数学分析 II"></a>工科数学分析 II</h3><h3 id="大学物理AⅠ"><a href="#大学物理AⅠ" class="headerlink" title="大学物理AⅠ"></a>大学物理AⅠ</h3><h3 id="物理实验BⅠ"><a href="#物理实验BⅠ" class="headerlink" title="物理实验BⅠ"></a>物理实验BⅠ</h3><h3 id="学术用途英语二级"><a href="#学术用途英语二级" class="headerlink" title="学术用途英语二级"></a>学术用途英语二级</h3>]]></content>
       <categories>
-        <category>Thesis Reading</category>
+        <category>生存手册</category>
       </categories>
       <tags>
         <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于 AI 里的一些数学证明</title>
+    <url>/2023/11/06/2023-11-6-AI-math/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Math</tag>
       </tags>
   </entry>
   <entry>
@@ -158,6 +146,191 @@
 <p><a href="http://foreverlasting.top/2024/01/05/2024-1-5-cv-exam-14/">Lecture 14: Segmentation</a></p>
 <p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-15/">Lecture 15: Motion</a></p>
 <p><a href="http://foreverlasting.top/2024/01/05/2024-1-5-cv-exam-16/">Lecture 16: Tracking</a></p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Benign Overfitting in classification provably counter label noise with larger models</title>
+    <url>/2023/12/18/2023-12-18-2206.00501/</url>
+    <content><![CDATA[<h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
+]]></content>
+      <categories>
+        <category>Thesis Reading</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 1:Introduction</title>
+    <url>/2024/01/03/2024-1-3-cv-exam-1/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-1-Introduction"><a href="#Lecture-1-Introduction" class="headerlink" title="Lecture 1: Introduction"></a>Lecture 1: Introduction</h3><h4 id="数字化图像"><a href="#数字化图像" class="headerlink" title="数字化图像"></a>数字化图像</h4><p>每个图像被表示为一个二维矩阵，每个位置上的值被称为像素，大小为 $0\sim 255$。对于灰度图而言，像素的大小决定该位置的亮度；对于有色图而言，每个位置存放的都是一个像素向量，向量的每个值分别表示<strong>对应颜色</strong>的亮度。</p>
+<h4 id="图像信息"><a href="#图像信息" class="headerlink" title="图像信息"></a>图像信息</h4><p><strong>图像特征 (Image Features)</strong> : What should we look at?</p>
+<p><strong>语义分割 (semantic segmentation)</strong> : What can we understand?</p>
+<h4 id="计算机视觉用途"><a href="#计算机视觉用途" class="headerlink" title="计算机视觉用途"></a>计算机视觉用途</h4><ol>
+<li>Earth viewers (3D modeling)</li>
+<li>Optical character recognition (OCR)</li>
+<li>Face detection</li>
+<li>Face analysis and recognition</li>
+<li>Object recognition (in supermarkets)</li>
+<li>Face recognition</li>
+<li>Vision-based biometrics</li>
+<li>Login without a password</li>
+<li>…</li>
+</ol>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 5:Edge Detection</title>
+    <url>/2024/01/03/2024-1-3-cv-exam-5/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-5-Edge-Detection"><a href="#Lecture-5-Edge-Detection" class="headerlink" title="Lecture 5: Edge Detection"></a>Lecture 5: Edge Detection</h3><p><strong>目标</strong>: 识别突然的变化。</p>
+<p><strong>产生原因</strong>: 物体表面的不连续，形状变化 (surface normal discontinuity), 物体与背景即深度的差异 (depth discontinuity), 表面颜色不连续 (surface color discontinuity), 光照强度不连续 (Illumination discontinuity).</p>
+<p><strong>检测思路</strong>: 求导，离散图像则改为差分。</p>
+<p><strong>离散求导的三种方式</strong>:</p>
+<ol>
+<li>Backward: $\frac{\mathrm{d}f}{\mathrm{d}x}&#x3D;f(x)-f(x-1)$.</li>
+<li>Forward: $\frac{\mathrm{d}f}{\mathrm{d}x}&#x3D;f(x+1)-f(x)$.</li>
+<li>Central: $\frac{\mathrm{d}f}{\mathrm{d}x}&#x3D;\frac{f(x+1)-f(x-1)}{2}$.</li>
+</ol>
+<p>可以类似地改写成求导向量的形式，如 $[1,0,-1]$ 等。</p>
+<p>对于二维情况，只需要把求导向量改写成矩阵形式即可。</p>
+<h4 id="简单边缘检测器"><a href="#简单边缘检测器" class="headerlink" title="简单边缘检测器"></a>简单边缘检测器</h4><p><strong>边缘特征化</strong>: 边缘在像素密度函数突然变化的点。</p>
+<p>边缘强度 (Edge Strength) 可以被梯度大小表示。</p>
+<p><img src="https://s11.ax1x.com/2024/01/01/piXRL4O.jpg"></p>
+<p>但检测存在噪声，我们很难简单地检测出边缘。</p>
+<p><img src="https://s11.ax1x.com/2024/01/01/piXWMV0.jpg"></p>
+<p>可以发现，从图中我们很明显可以发现边缘应该在大的那个转折点，但求导后却有若干个。解决办法是 smoothing 图像。</p>
+<p><img src="https://s11.ax1x.com/2024/01/03/pijc1MR.jpg"></p>
+<p>$g$ 为 $\sigma&#x3D;50$ 的高斯滤波器，可以发现在与 $f$ 卷积后很好地去除了噪声的影响。</p>
+<p>同时这里关于卷积有个小定理，即 $\frac{\partial}{\partial x}(f\ast g)&#x3D;f\ast \frac{\partial g}{\partial x}$，所以实际上边缘检测可以等价于拿着求导过的高斯滤波器去卷积操作。</p>
+<p>由此我们可以得到一些关于卷积核求导后的图像。</p>
+<p><img src="https://s11.ax1x.com/2024/01/03/pijctIO.jpg"></p>
+<p>但过大的卷积核会严重模糊边缘，而过小的会让噪声影响较大。为了平衡二者，思路是使用多个 scales 去检测边缘。</p>
+<p>另一种滤波器是考虑二阶导，即拉普拉斯滤波器。离散求二阶导使用类似 $[1,-2,1]$ 向量即可。而在用它作滤波器时，一般结合高斯滤波器，即设高斯函数为 $G$，我们就使用 $\nabla^2 G$ 作为滤波器来使用。此时检测边缘则是考虑二阶导为零，也就是 zero crossings。此时比一阶导更为精确，但同时更不便利。</p>
+<p><strong>设计一个合适的检测器需要以下三个条件</strong>: Good detection (the optimal detector must minimize the probability of false positives (detecting spurious edges caused by noise))，Good localization (the edges detected must be as close as possible to the true edges)，Single response (that is, minimize the number of local maxima around the true edge)。</p>
+<p><img src="https://s11.ax1x.com/2024/01/03/pijg6XR.jpg"></p>
+<h4 id="Sobel-edge-detector"><a href="#Sobel-edge-detector" class="headerlink" title="Sobel edge detector"></a>Sobel edge detector</h4><p>Sobel operator 是两个 $3\times 3$ 的核去执行卷积并近似得到导数，其本质是 smooth 和求导的结合。<br>$$<br>\mathbf{G}_x&#x3D;\begin{pmatrix}+1 &amp; 0 &amp; -1\\ +2 &amp; 0 &amp; -2\\ +1 &amp; 0 &amp; -1\end{pmatrix}&#x3D;\begin{pmatrix}1\\2\\1\end{pmatrix}\begin{pmatrix}+1 &amp; 0 &amp; -1 \end{pmatrix},\\<br>\mathbf{G}_y&#x3D;\begin{pmatrix}+1 &amp; +2 &amp; +1\\ 0 &amp; 0 &amp; 0\\ -1 &amp; -2 &amp; -1\end{pmatrix}&#x3D;\begin{pmatrix}1\\0\\-1\end{pmatrix}\begin{pmatrix}1 &amp; 2 &amp; 1 \end{pmatrix}.<br>$$<br>这样的操作减少了噪声的影响。</p>
+<p><img src="https://s11.ax1x.com/2024/01/03/pijoEp6.jpg"></p>
+<p><strong>基于卷积的边缘检测缺点</strong>: Poor Localization (由于是相邻像素同时影响，导致很难接近最近的边)；只能维护垂直和水平，不容易察觉到斜边缘；没有充分利用边缘的梯度方向；最后输出的边缘二值图，只是简单地利用阈值进行处理，显然如果阈值过大，则会损失很多边缘信息；如果阈值过小，则会有很多噪声。</p>
+<p>类似于 Sobel 的算子还有：</p>
+<p><img src="https://s11.ax1x.com/2024/01/03/pijofE9.jpg"></p>
+<p>同时 Sobel 算子可以拓展得更大，利用二项式系数即可 (更改平滑算子，从 $(1,1)$ 到 $(1,2,1)$ 到 $(1,3,3,1),\cdots$，差分算子是 $n-2$ 阶系数的差分，即 $(1,-1)$ 到 $(1,0,-1)$ 到 $(1,1,-1,-1)$ 到 $(1,2,0,-2,-1),\cdots$)。</p>
+<h4 id="Canny-edge-detector"><a href="#Canny-edge-detector" class="headerlink" title="Canny edge detector"></a>Canny edge detector</h4><p>其特点是解决了基于卷积的几种边缘检测的缺点，大致步骤如下：</p>
+<ol>
+<li>Suppress Noise：利用某种卷积核 (如 Sobel 等) 来模糊图像以减少噪声的影响。</li>
+<li>Compute gradient magnitude and direction：利用 $\mathbf{G}_x$ 和 $\mathbf{G}_y$ 分别求出梯度后，再利用 $L&#x3D;\sqrt{\mathbf{G}_x^2+\mathbf{G}_y^2}$ 以及 $\theta&#x3D;\arctan(\frac{\mathbf{G}_y}{\mathbf{G}_x})$ 来算出梯度大小和方向。</li>
+<li>Apply Non-Maximum Suppression：非极大值抑制，对于每一个点，如果它的梯度大小不大于它梯度方向上相邻的两个点，则不认为这个点在边缘上。<img src="https://s11.ax1x.com/2024/01/03/pijTDVH.jpg"></li>
+<li>Use hysteresis and connectivity analysis to detect edges：设定两个阈值，分别称为高阈值和低阈值。以下规则来确定是否为边缘：若大于高阈值则被确认为阈值；若低于低阈值则被去除；否则只有这些点能按某一路径与确定边缘点相连时，才可以作为边缘点被接受，组成这一路径的所有点的边缘强度都比低阈值要大。大致思路就是延长边缘线，这样就能找出轮廓。<img src="https://s11.ax1x.com/2024/01/03/pijTrad.jpg"></li>
+</ol>
+<p>在 Canny 中，若使用高斯类卷积核，此时的参数 $\sigma$ 影响 (卷积核大小改变) 如下图。</p>
+<p><img src="https://s11.ax1x.com/2024/01/03/pijTcGt.jpg"></p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 2:Filter</title>
+    <url>/2024/01/03/2024-1-3-cv-exam-2/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-2-Filter"><a href="#Lecture-2-Filter" class="headerlink" title="Lecture 2: Filter"></a>Lecture 2: Filter</h3><h4 id="图像种类"><a href="#图像种类" class="headerlink" title="图像种类"></a>图像种类</h4><ol>
+<li>二进制 (Binary)</li>
+<li>灰度图 (Grayscale)</li>
+<li>有色图 (Color)</li>
+</ol>
+<p>对原图像的采样构成了数字图像，存在误差。</p>
+<p>分辨率 (Resolution) 是采样的参数，定义为 DPI (dots per inch) 或者像素密度。</p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLp0kF.jpg"></p>
+<p>采样之后，再对像素值进行量化 (Quantization)。</p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLpWTO.jpg"></p>
+<h4 id="Transformations-图像变换"><a href="#Transformations-图像变换" class="headerlink" title="Transformations (图像变换)"></a>Transformations (图像变换)</h4><p>图像变换的种类：Filtering, Warping, …</p>
+<p>图像变换方式：单点变化 (Point operation, point processing), 邻域变化 (Neighborhood operation, filtering)</p>
+<h5 id="Point-Processing"><a href="#Point-Processing" class="headerlink" title="Point Processing"></a>Point Processing</h5><p><img src="https://s11.ax1x.com/2023/12/28/piL9Rvn.jpg"></p>
+<h5 id="Filtering"><a href="#Filtering" class="headerlink" title="Filtering"></a>Filtering</h5><p><strong>Linear shift-invariant image filtering</strong>: 用二维核矩阵（如平均值矩阵等），对图像做点积操作（对应位置相乘），不断移动而获取新矩阵的每个位置的新像素，以此来整合邻域信息。</p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLCErt.jpg"></p>
+<p><strong>Convolution</strong>: 卷积即下标之和为要求的值，公式为<br>$$<br>(f\ast g)(x, y)&#x3D;\sum_{i&#x3D;-1}^{1}\sum_{j&#x3D;-1}^1 f(i,j)I(x-i,y-j).<br>$$<br>其中，$f$ 为一个 $3\times 3$ 的卷积核，$I$ 是原图像。</p>
+<p><strong>可分离滤波器 (Separable filters)</strong>: 指的是滤波器 $f$ 矩阵可被表示成向量的乘积 $vw^T$，意义在于优化卷积的时间复杂度，这是由于矩阵乘法和卷积具有结合律和分配律。公式表达为<br>$$<br>(f\ast g)(x, y)&#x3D;\sum_{i&#x3D;-1}^{1}\sum_{j&#x3D;-1}^1 f(i,j)I(x-i,y-j)&#x3D;\sum_{i&#x3D;-1}^1\sum_{j&#x3D;-1}^1 v_iw_jI(x-i,y-j)\\<br>&#x3D;\sum_{i&#x3D;-1}^1v_i\sum_{j&#x3D;-1}^1 w_jI(x-i,y-j).<br>$$<br>此时考虑所有的 $x,y$，对 $I$ 固定的第一维，可以预处理出第二维的所有信息，再处理第一维，这样的复杂度是 $\mathcal O(NM^2)$，其中 $N\times N$ 是滤波器大小，$M\times M$ 是 $I$ 的大小。若不可分离，则需要 $\mathcal O(N^2M^2)$ 的复杂度。</p>
+<p><strong>高斯滤波器</strong>: $f(i,j)&#x3D;\frac{1}{2\pi\sigma^2}e^{-\frac{i^2+j^2}{2\sigma^2}}$，是一个低通滤波器，离中心越远贡献越小，具有极好的性质。$\sigma$ 被称为尺度，是人为设定的参数，常常只使用 $2\sigma\sim 3\sigma$ 大小的高斯矩阵作为滤波器（因为其他位置数值过于接近 $0$，直接忽略）。</p>
+<p><strong>其他滤波器</strong>: 如位移滤波器，锐化滤波器等。</p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLP1YD.jpg"></p>
+<p><img src="https://s11.ax1x.com/2023/12/28/piLPtOI.jpg"></p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 3:Resampling and Interpolation</title>
+    <url>/2024/01/03/2024-1-3-cv-exam-3/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-3-Resampling-and-Interpolation"><a href="#Lecture-3-Resampling-and-Interpolation" class="headerlink" title="Lecture 3: Resampling and Interpolation"></a>Lecture 3: Resampling and Interpolation</h3><p><strong>朴素下采样</strong>: 删除原图像的偶数行列。</p>
+<p><strong>走样 (Aliasing，又被称为锯齿)</strong>: 图像信息的损失，绝大多数情况都会产生锯齿形状的图形。</p>
+<p>朴素下采样会带来走样的结果，可以以一个 $\sin(x)$ 举例。</p>
+<p><strong>时间走样 (Temporal aliasing)</strong>: 对视频进行一个固定点采样时，会不知道该点的真实运动情况。比如采样的频率过低但圆盘转动过快，容易判断错误顺逆时针。</p>
+<p><strong>反走样 (Anti-Aliasing, 又被称为抗锯齿)</strong>: 几种方法可以抗锯齿，如超采样 (Over-sampling&#x2F;Super-sampling)，思路是将一个物理像素在逻辑上划分多个子区域，然后对这些子区域的中心进行采样，相当于在<strong>逻辑上增加了像素点</strong>。另一种方法是经典的 Smooth 思想，将原图像模糊化，模糊的程度达到 Nyquist 限制即可。</p>
+<h4 id="高斯金字塔"><a href="#高斯金字塔" class="headerlink" title="高斯金字塔"></a>高斯金字塔</h4><p>通过 Filter 再 Downsampling 不断压缩图像信息而获得的图像集合们，即<br>$$<br>G_{i+1}&#x3D;\text{Downsampling}(\text{Filter}(G_i)).<br>$$</p>
+<p>高层图像的每个位置是相邻大区域的信息整合，不可复原回原图像，差分可以获得原图像的轮廓 (类似 SIFT 中的特征点)。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOKCVg.jpg"></p>
+<p>为了无损构造金字塔，提出了拉普拉斯金字塔。</p>
+<h4 id="拉普拉斯金字塔"><a href="#拉普拉斯金字塔" class="headerlink" title="拉普拉斯金字塔"></a>拉普拉斯金字塔</h4><p>想法是差分，存储差分图像，即<br>$$<br>H_i&#x3D;G_i-\text{Filter}(G_i)\\<br>G_{i+1}&#x3D;\text{Downsampling}(\text{Filter}(G_i))<br>$$<br>其中，$G$ 是高斯金字塔，而 $H$ 则是拉普拉斯金字塔，通过上采样时插值可以一直得到上一层的 $G$。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOKHyV.jpg"></p>
+<p><strong>图中的 $L$ 是我描述中的 $G$。</strong></p>
+<p>为什么被称为拉普拉斯金字塔？主要是高斯差分函数可以被近似为拉普拉斯算子。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOM9Qx.jpg"></p>
+<p><strong>Proof (以前在 SIFT 时证明过)</strong>:</p>
+<p>考虑一个尺度归一化拉普拉斯高斯算子 $\sigma^2\nabla^2$，我们可以推导出<br>$$<br>\frac{\partial G}{\partial \sigma}&#x3D;\frac{-2\sigma^2+x^2+y^2}{2\pi \sigma^5}e^{-(x^2+y^2)&#x2F;2\sigma^2}\\<br>\nabla^2 G&#x3D;\frac{\partial^2 G}{\partial x^2} + \frac{\partial^2 G}{\partial y^2}&#x3D;\frac{-2\sigma^2+x^2+y^2}{2\pi \sigma^6}e^{-(x^2+y^2)&#x2F;2\sigma^2}<br>$$</p>
+<p>于是就有 $\frac{\partial G}{\partial \sigma}&#x3D;\sigma\nabla^2$.</p>
+<p>另一方面，我们考虑导数定义，即 </p>
+<p>$$<br>\frac{\partial G}{\partial \sigma}&#x3D;\lim_{\Delta\sigma\to 0} \frac{G(x,y,\sigma+\Delta\sigma)-G(x,y,\sigma)}{(\sigma+\Delta\sigma)-\sigma}.<br>$$</p>
+<p>为了能方便地获得较好的近似解，我们考虑用差分替代微小变量，即</p>
+<p>$$<br>\frac{\partial G}{\partial \sigma}\approx \frac{G(x,y,k\sigma)-G(x,y,\sigma)}{k\sigma-\sigma}\implies G(x,y,k\sigma)-G(x,y,\sigma)\approx (k-1)\sigma^2\nabla^2 G<br>$$</p>
+<p>于是就可以使用高斯差分函数来替代尺度归一化的拉普拉斯高斯函数了。</p>
+<p>还有一些其他种类的金字塔，这里不做具体描述。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOMFeO.jpg"></p>
+<p>金字塔的作用较多，如图像压缩，多尺度目标检测，多尺度纹理映射，图像融合等等。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOMefA.jpg"></p>
+<h4 id="傅立叶理论"><a href="#傅立叶理论" class="headerlink" title="傅立叶理论"></a>傅立叶理论</h4><p>傅立叶的思路在于任意函数都可以被一个三角函数级数所表示。</p>
+<p>为了能更好地表达这个级数的信息，只需要去存储频率和幅值。使用傅立叶变换的方式。傅立叶变换的主要原因是三角函数彼此之间的正交性，保证了卷积可以变成乘法。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOQP9s.jpg"></p>
+<p>左为空间域的图，右为频域的图。右图中，对 2D 情况，越靠近中间则频率越低，越亮则表示幅值越高 (用 2D 图像表示了 3D 的函数情况，$(\omega_x,\omega_y,f(\omega_x,\omega_y))$)。因此那三个点就表示了傅立叶级数中的三个频率，亮度表示了它们的幅值。</p>
+<p>傅立叶变换具有可加性，即设 $\mathcal{F}$ 为傅立叶变换，则 $\mathcal{F}(A+B)&#x3D;\mathcal{F}(A)+\mathcal{F}(B)$。</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOQVBT.jpg"></p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOQlg1.jpg"></p>
+<p>实际上表达式离散傅立叶变换都可以被表示称矩阵乘法的形式，利用范德蒙德矩阵和蝴蝶变换等可以做到 $\mathcal O(N\log N)$ 求出傅立叶变换，被称为快速傅立叶变换 (FFT)。傅立叶变换具有对偶性 (duality)。</p>
+<p>傅立叶变换的经典思路是卷积转成乘法，即<br>$$<br>\mathcal{F}(A\ast B)&#x3D;\mathcal{F}(A)\mathcal{F}(B)\\<br>\mathcal{F}^{-1}(A B)&#x3D;\mathcal{F}^{-1}(A)\ast\mathcal{F}^{-1}(B)\\<br>$$<br>从傅立叶变换的角度下，重新看待 Filter，即</p>
+<p><img src="https://s11.ax1x.com/2023/12/30/piOQU4H.jpg"></p>
+<p>从这个角度也能理解为什么高斯核模糊化时效果很好，而正方形核模糊化会产生更大的边缘效应。</p>
+<h4 id="The-Nyquist-Shannon-sampling-theorem"><a href="#The-Nyquist-Shannon-sampling-theorem" class="headerlink" title="The Nyquist-Shannon sampling theorem"></a>The Nyquist-Shannon sampling theorem</h4><p><strong>表达</strong>: 连续的信号若要被离散形式很好地插值出来，则要求 $f_s\geq 2f_{\max}$，其中 $f_s$ 为采样频率，$f_{\max}$ 为最高频率。</p>
+<p>换种表达方式，则是说，下采样时，只要满足该式子，则不会发生走样。</p>
+<p>而高斯滤波器是低通滤波器，它让大量减少高频率片段的占比，所以能防止走样的出现。</p>
+<p>人眼被中频主导。</p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -243,151 +416,6 @@
 <li>Alpha Blending: 思路是平均颜色。$\alpha$ 为零时为完全透明。<img src="https://cdn.luogu.com.cn/upload/image_hosting/o4acx1zd.png"></li>
 <li>Poisson Image Editing：将图像看作连续函数，融合图像就是最小化两个连续函数分界点处的差别，可以用求导等操作做成最优化问题。</li>
 </ol>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 3:Resampling and Interpolation</title>
-    <url>/2024/01/03/2024-1-3-cv-exam-3/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-3-Resampling-and-Interpolation"><a href="#Lecture-3-Resampling-and-Interpolation" class="headerlink" title="Lecture 3: Resampling and Interpolation"></a>Lecture 3: Resampling and Interpolation</h3><p><strong>朴素下采样</strong>: 删除原图像的偶数行列。</p>
-<p><strong>走样 (Aliasing，又被称为锯齿)</strong>: 图像信息的损失，绝大多数情况都会产生锯齿形状的图形。</p>
-<p>朴素下采样会带来走样的结果，可以以一个 $\sin(x)$ 举例。</p>
-<p><strong>时间走样 (Temporal aliasing)</strong>: 对视频进行一个固定点采样时，会不知道该点的真实运动情况。比如采样的频率过低但圆盘转动过快，容易判断错误顺逆时针。</p>
-<p><strong>反走样 (Anti-Aliasing, 又被称为抗锯齿)</strong>: 几种方法可以抗锯齿，如超采样 (Over-sampling&#x2F;Super-sampling)，思路是将一个物理像素在逻辑上划分多个子区域，然后对这些子区域的中心进行采样，相当于在<strong>逻辑上增加了像素点</strong>。另一种方法是经典的 Smooth 思想，将原图像模糊化，模糊的程度达到 Nyquist 限制即可。</p>
-<h4 id="高斯金字塔"><a href="#高斯金字塔" class="headerlink" title="高斯金字塔"></a>高斯金字塔</h4><p>通过 Filter 再 Downsampling 不断压缩图像信息而获得的图像集合们，即<br>$$<br>G_{i+1}&#x3D;\text{Downsampling}(\text{Filter}(G_i)).<br>$$</p>
-<p>高层图像的每个位置是相邻大区域的信息整合，不可复原回原图像，差分可以获得原图像的轮廓 (类似 SIFT 中的特征点)。</p>
-<p><img src="https://s11.ax1x.com/2023/12/30/piOKCVg.jpg"></p>
-<p>为了无损构造金字塔，提出了拉普拉斯金字塔。</p>
-<h4 id="拉普拉斯金字塔"><a href="#拉普拉斯金字塔" class="headerlink" title="拉普拉斯金字塔"></a>拉普拉斯金字塔</h4><p>想法是差分，存储差分图像，即<br>$$<br>H_i&#x3D;G_i-\text{Filter}(G_i)\\<br>G_{i+1}&#x3D;\text{Downsampling}(\text{Filter}(G_i))<br>$$<br>其中，$G$ 是高斯金字塔，而 $H$ 则是拉普拉斯金字塔，通过上采样时插值可以一直得到上一层的 $G$。</p>
-<p><img src="https://s11.ax1x.com/2023/12/30/piOKHyV.jpg"></p>
-<p><strong>图中的 $L$ 是我描述中的 $G$。</strong></p>
-<p>为什么被称为拉普拉斯金字塔？主要是高斯差分函数可以被近似为拉普拉斯算子。</p>
-<p><img src="https://s11.ax1x.com/2023/12/30/piOM9Qx.jpg"></p>
-<p><strong>Proof (以前在 SIFT 时证明过)</strong>:</p>
-<p>考虑一个尺度归一化拉普拉斯高斯算子 $\sigma^2\nabla^2$，我们可以推导出<br>$$<br>\frac{\partial G}{\partial \sigma}&#x3D;\frac{-2\sigma^2+x^2+y^2}{2\pi \sigma^5}e^{-(x^2+y^2)&#x2F;2\sigma^2}\\<br>\nabla^2 G&#x3D;\frac{\partial^2 G}{\partial x^2} + \frac{\partial^2 G}{\partial y^2}&#x3D;\frac{-2\sigma^2+x^2+y^2}{2\pi \sigma^6}e^{-(x^2+y^2)&#x2F;2\sigma^2}<br>$$</p>
-<p>于是就有 $\frac{\partial G}{\partial \sigma}&#x3D;\sigma\nabla^2$.</p>
-<p>另一方面，我们考虑导数定义，即 </p>
-<p>$$<br>\frac{\partial G}{\partial \sigma}&#x3D;\lim_{\Delta\sigma\to 0} \frac{G(x,y,\sigma+\Delta\sigma)-G(x,y,\sigma)}{(\sigma+\Delta\sigma)-\sigma}.<br>$$</p>
-<p>为了能方便地获得较好的近似解，我们考虑用差分替代微小变量，即</p>
-<p>$$<br>\frac{\partial G}{\partial \sigma}\approx \frac{G(x,y,k\sigma)-G(x,y,\sigma)}{k\sigma-\sigma}\implies G(x,y,k\sigma)-G(x,y,\sigma)\approx (k-1)\sigma^2\nabla^2 G<br>$$</p>
-<p>于是就可以使用高斯差分函数来替代尺度归一化的拉普拉斯高斯函数了。</p>
-<p>还有一些其他种类的金字塔，这里不做具体描述。</p>
-<p><img src="https://s11.ax1x.com/2023/12/30/piOMFeO.jpg"></p>
-<p>金字塔的作用较多，如图像压缩，多尺度目标检测，多尺度纹理映射，图像融合等等。</p>
-<p><img src="https://s11.ax1x.com/2023/12/30/piOMefA.jpg"></p>
-<h4 id="傅立叶理论"><a href="#傅立叶理论" class="headerlink" title="傅立叶理论"></a>傅立叶理论</h4><p>傅立叶的思路在于任意函数都可以被一个三角函数级数所表示。</p>
-<p>为了能更好地表达这个级数的信息，只需要去存储频率和幅值。使用傅立叶变换的方式。傅立叶变换的主要原因是三角函数彼此之间的正交性，保证了卷积可以变成乘法。</p>
-<p><img src="https://s11.ax1x.com/2023/12/30/piOQP9s.jpg"></p>
-<p>左为空间域的图，右为频域的图。右图中，对 2D 情况，越靠近中间则频率越低，越亮则表示幅值越高 (用 2D 图像表示了 3D 的函数情况，$(\omega_x,\omega_y,f(\omega_x,\omega_y))$)。因此那三个点就表示了傅立叶级数中的三个频率，亮度表示了它们的幅值。</p>
-<p>傅立叶变换具有可加性，即设 $\mathcal{F}$ 为傅立叶变换，则 $\mathcal{F}(A+B)&#x3D;\mathcal{F}(A)+\mathcal{F}(B)$。</p>
-<p><img src="https://s11.ax1x.com/2023/12/30/piOQVBT.jpg"></p>
-<p><img src="https://s11.ax1x.com/2023/12/30/piOQlg1.jpg"></p>
-<p>实际上表达式离散傅立叶变换都可以被表示称矩阵乘法的形式，利用范德蒙德矩阵和蝴蝶变换等可以做到 $\mathcal O(N\log N)$ 求出傅立叶变换，被称为快速傅立叶变换 (FFT)。傅立叶变换具有对偶性 (duality)。</p>
-<p>傅立叶变换的经典思路是卷积转成乘法，即<br>$$<br>\mathcal{F}(A\ast B)&#x3D;\mathcal{F}(A)\mathcal{F}(B)\\<br>\mathcal{F}^{-1}(A B)&#x3D;\mathcal{F}^{-1}(A)\ast\mathcal{F}^{-1}(B)\\<br>$$<br>从傅立叶变换的角度下，重新看待 Filter，即</p>
-<p><img src="https://s11.ax1x.com/2023/12/30/piOQU4H.jpg"></p>
-<p>从这个角度也能理解为什么高斯核模糊化时效果很好，而正方形核模糊化会产生更大的边缘效应。</p>
-<h4 id="The-Nyquist-Shannon-sampling-theorem"><a href="#The-Nyquist-Shannon-sampling-theorem" class="headerlink" title="The Nyquist-Shannon sampling theorem"></a>The Nyquist-Shannon sampling theorem</h4><p><strong>表达</strong>: 连续的信号若要被离散形式很好地插值出来，则要求 $f_s\geq 2f_{\max}$，其中 $f_s$ 为采样频率，$f_{\max}$ 为最高频率。</p>
-<p>换种表达方式，则是说，下采样时，只要满足该式子，则不会发生走样。</p>
-<p>而高斯滤波器是低通滤波器，它让大量减少高频率片段的占比，所以能防止走样的出现。</p>
-<p>人眼被中频主导。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 2:Filter</title>
-    <url>/2024/01/03/2024-1-3-cv-exam-2/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-2-Filter"><a href="#Lecture-2-Filter" class="headerlink" title="Lecture 2: Filter"></a>Lecture 2: Filter</h3><h4 id="图像种类"><a href="#图像种类" class="headerlink" title="图像种类"></a>图像种类</h4><ol>
-<li>二进制 (Binary)</li>
-<li>灰度图 (Grayscale)</li>
-<li>有色图 (Color)</li>
-</ol>
-<p>对原图像的采样构成了数字图像，存在误差。</p>
-<p>分辨率 (Resolution) 是采样的参数，定义为 DPI (dots per inch) 或者像素密度。</p>
-<p><img src="https://s11.ax1x.com/2023/12/28/piLp0kF.jpg"></p>
-<p>采样之后，再对像素值进行量化 (Quantization)。</p>
-<p><img src="https://s11.ax1x.com/2023/12/28/piLpWTO.jpg"></p>
-<h4 id="Transformations-图像变换"><a href="#Transformations-图像变换" class="headerlink" title="Transformations (图像变换)"></a>Transformations (图像变换)</h4><p>图像变换的种类：Filtering, Warping, …</p>
-<p>图像变换方式：单点变化 (Point operation, point processing), 邻域变化 (Neighborhood operation, filtering)</p>
-<h5 id="Point-Processing"><a href="#Point-Processing" class="headerlink" title="Point Processing"></a>Point Processing</h5><p><img src="https://s11.ax1x.com/2023/12/28/piL9Rvn.jpg"></p>
-<h5 id="Filtering"><a href="#Filtering" class="headerlink" title="Filtering"></a>Filtering</h5><p><strong>Linear shift-invariant image filtering</strong>: 用二维核矩阵（如平均值矩阵等），对图像做点积操作（对应位置相乘），不断移动而获取新矩阵的每个位置的新像素，以此来整合邻域信息。</p>
-<p><img src="https://s11.ax1x.com/2023/12/28/piLCErt.jpg"></p>
-<p><strong>Convolution</strong>: 卷积即下标之和为要求的值，公式为<br>$$<br>(f\ast g)(x, y)&#x3D;\sum_{i&#x3D;-1}^{1}\sum_{j&#x3D;-1}^1 f(i,j)I(x-i,y-j).<br>$$<br>其中，$f$ 为一个 $3\times 3$ 的卷积核，$I$ 是原图像。</p>
-<p><strong>可分离滤波器 (Separable filters)</strong>: 指的是滤波器 $f$ 矩阵可被表示成向量的乘积 $vw^T$，意义在于优化卷积的时间复杂度，这是由于矩阵乘法和卷积具有结合律和分配律。公式表达为<br>$$<br>(f\ast g)(x, y)&#x3D;\sum_{i&#x3D;-1}^{1}\sum_{j&#x3D;-1}^1 f(i,j)I(x-i,y-j)&#x3D;\sum_{i&#x3D;-1}^1\sum_{j&#x3D;-1}^1 v_iw_jI(x-i,y-j)\\<br>&#x3D;\sum_{i&#x3D;-1}^1v_i\sum_{j&#x3D;-1}^1 w_jI(x-i,y-j).<br>$$<br>此时考虑所有的 $x,y$，对 $I$ 固定的第一维，可以预处理出第二维的所有信息，再处理第一维，这样的复杂度是 $\mathcal O(NM^2)$，其中 $N\times N$ 是滤波器大小，$M\times M$ 是 $I$ 的大小。若不可分离，则需要 $\mathcal O(N^2M^2)$ 的复杂度。</p>
-<p><strong>高斯滤波器</strong>: $f(i,j)&#x3D;\frac{1}{2\pi\sigma^2}e^{-\frac{i^2+j^2}{2\sigma^2}}$，是一个低通滤波器，离中心越远贡献越小，具有极好的性质。$\sigma$ 被称为尺度，是人为设定的参数，常常只使用 $2\sigma\sim 3\sigma$ 大小的高斯矩阵作为滤波器（因为其他位置数值过于接近 $0$，直接忽略）。</p>
-<p><strong>其他滤波器</strong>: 如位移滤波器，锐化滤波器等。</p>
-<p><img src="https://s11.ax1x.com/2023/12/28/piLP1YD.jpg"></p>
-<p><img src="https://s11.ax1x.com/2023/12/28/piLPtOI.jpg"></p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 5:Edge Detection</title>
-    <url>/2024/01/03/2024-1-3-cv-exam-5/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-5-Edge-Detection"><a href="#Lecture-5-Edge-Detection" class="headerlink" title="Lecture 5: Edge Detection"></a>Lecture 5: Edge Detection</h3><p><strong>目标</strong>: 识别突然的变化。</p>
-<p><strong>产生原因</strong>: 物体表面的不连续，形状变化 (surface normal discontinuity), 物体与背景即深度的差异 (depth discontinuity), 表面颜色不连续 (surface color discontinuity), 光照强度不连续 (Illumination discontinuity).</p>
-<p><strong>检测思路</strong>: 求导，离散图像则改为差分。</p>
-<p><strong>离散求导的三种方式</strong>:</p>
-<ol>
-<li>Backward: $\frac{\mathrm{d}f}{\mathrm{d}x}&#x3D;f(x)-f(x-1)$.</li>
-<li>Forward: $\frac{\mathrm{d}f}{\mathrm{d}x}&#x3D;f(x+1)-f(x)$.</li>
-<li>Central: $\frac{\mathrm{d}f}{\mathrm{d}x}&#x3D;\frac{f(x+1)-f(x-1)}{2}$.</li>
-</ol>
-<p>可以类似地改写成求导向量的形式，如 $[1,0,-1]$ 等。</p>
-<p>对于二维情况，只需要把求导向量改写成矩阵形式即可。</p>
-<h4 id="简单边缘检测器"><a href="#简单边缘检测器" class="headerlink" title="简单边缘检测器"></a>简单边缘检测器</h4><p><strong>边缘特征化</strong>: 边缘在像素密度函数突然变化的点。</p>
-<p>边缘强度 (Edge Strength) 可以被梯度大小表示。</p>
-<p><img src="https://s11.ax1x.com/2024/01/01/piXRL4O.jpg"></p>
-<p>但检测存在噪声，我们很难简单地检测出边缘。</p>
-<p><img src="https://s11.ax1x.com/2024/01/01/piXWMV0.jpg"></p>
-<p>可以发现，从图中我们很明显可以发现边缘应该在大的那个转折点，但求导后却有若干个。解决办法是 smoothing 图像。</p>
-<p><img src="https://s11.ax1x.com/2024/01/03/pijc1MR.jpg"></p>
-<p>$g$ 为 $\sigma&#x3D;50$ 的高斯滤波器，可以发现在与 $f$ 卷积后很好地去除了噪声的影响。</p>
-<p>同时这里关于卷积有个小定理，即 $\frac{\partial}{\partial x}(f\ast g)&#x3D;f\ast \frac{\partial g}{\partial x}$，所以实际上边缘检测可以等价于拿着求导过的高斯滤波器去卷积操作。</p>
-<p>由此我们可以得到一些关于卷积核求导后的图像。</p>
-<p><img src="https://s11.ax1x.com/2024/01/03/pijctIO.jpg"></p>
-<p>但过大的卷积核会严重模糊边缘，而过小的会让噪声影响较大。为了平衡二者，思路是使用多个 scales 去检测边缘。</p>
-<p>另一种滤波器是考虑二阶导，即拉普拉斯滤波器。离散求二阶导使用类似 $[1,-2,1]$ 向量即可。而在用它作滤波器时，一般结合高斯滤波器，即设高斯函数为 $G$，我们就使用 $\nabla^2 G$ 作为滤波器来使用。此时检测边缘则是考虑二阶导为零，也就是 zero crossings。此时比一阶导更为精确，但同时更不便利。</p>
-<p><strong>设计一个合适的检测器需要以下三个条件</strong>: Good detection (the optimal detector must minimize the probability of false positives (detecting spurious edges caused by noise))，Good localization (the edges detected must be as close as possible to the true edges)，Single response (that is, minimize the number of local maxima around the true edge)。</p>
-<p><img src="https://s11.ax1x.com/2024/01/03/pijg6XR.jpg"></p>
-<h4 id="Sobel-edge-detector"><a href="#Sobel-edge-detector" class="headerlink" title="Sobel edge detector"></a>Sobel edge detector</h4><p>Sobel operator 是两个 $3\times 3$ 的核去执行卷积并近似得到导数，其本质是 smooth 和求导的结合。<br>$$<br>\mathbf{G}_x&#x3D;\begin{pmatrix}+1 &amp; 0 &amp; -1\\ +2 &amp; 0 &amp; -2\\ +1 &amp; 0 &amp; -1\end{pmatrix}&#x3D;\begin{pmatrix}1\\2\\1\end{pmatrix}\begin{pmatrix}+1 &amp; 0 &amp; -1 \end{pmatrix},\\<br>\mathbf{G}_y&#x3D;\begin{pmatrix}+1 &amp; +2 &amp; +1\\ 0 &amp; 0 &amp; 0\\ -1 &amp; -2 &amp; -1\end{pmatrix}&#x3D;\begin{pmatrix}1\\0\\-1\end{pmatrix}\begin{pmatrix}1 &amp; 2 &amp; 1 \end{pmatrix}.<br>$$<br>这样的操作减少了噪声的影响。</p>
-<p><img src="https://s11.ax1x.com/2024/01/03/pijoEp6.jpg"></p>
-<p><strong>基于卷积的边缘检测缺点</strong>: Poor Localization (由于是相邻像素同时影响，导致很难接近最近的边)；只能维护垂直和水平，不容易察觉到斜边缘；没有充分利用边缘的梯度方向；最后输出的边缘二值图，只是简单地利用阈值进行处理，显然如果阈值过大，则会损失很多边缘信息；如果阈值过小，则会有很多噪声。</p>
-<p>类似于 Sobel 的算子还有：</p>
-<p><img src="https://s11.ax1x.com/2024/01/03/pijofE9.jpg"></p>
-<p>同时 Sobel 算子可以拓展得更大，利用二项式系数即可 (更改平滑算子，从 $(1,1)$ 到 $(1,2,1)$ 到 $(1,3,3,1),\cdots$，差分算子是 $n-2$ 阶系数的差分，即 $(1,-1)$ 到 $(1,0,-1)$ 到 $(1,1,-1,-1)$ 到 $(1,2,0,-2,-1),\cdots$)。</p>
-<h4 id="Canny-edge-detector"><a href="#Canny-edge-detector" class="headerlink" title="Canny edge detector"></a>Canny edge detector</h4><p>其特点是解决了基于卷积的几种边缘检测的缺点，大致步骤如下：</p>
-<ol>
-<li>Suppress Noise：利用某种卷积核 (如 Sobel 等) 来模糊图像以减少噪声的影响。</li>
-<li>Compute gradient magnitude and direction：利用 $\mathbf{G}_x$ 和 $\mathbf{G}_y$ 分别求出梯度后，再利用 $L&#x3D;\sqrt{\mathbf{G}_x^2+\mathbf{G}_y^2}$ 以及 $\theta&#x3D;\arctan(\frac{\mathbf{G}_y}{\mathbf{G}_x})$ 来算出梯度大小和方向。</li>
-<li>Apply Non-Maximum Suppression：非极大值抑制，对于每一个点，如果它的梯度大小不大于它梯度方向上相邻的两个点，则不认为这个点在边缘上。<img src="https://s11.ax1x.com/2024/01/03/pijTDVH.jpg"></li>
-<li>Use hysteresis and connectivity analysis to detect edges：设定两个阈值，分别称为高阈值和低阈值。以下规则来确定是否为边缘：若大于高阈值则被确认为阈值；若低于低阈值则被去除；否则只有这些点能按某一路径与确定边缘点相连时，才可以作为边缘点被接受，组成这一路径的所有点的边缘强度都比低阈值要大。大致思路就是延长边缘线，这样就能找出轮廓。<img src="https://s11.ax1x.com/2024/01/03/pijTrad.jpg"></li>
-</ol>
-<p>在 Canny 中，若使用高斯类卷积核，此时的参数 $\sigma$ 影响 (卷积核大小改变) 如下图。</p>
-<p><img src="https://s11.ax1x.com/2024/01/03/pijTcGt.jpg"></p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -504,97 +532,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Review of Course Computer Vision Lecture 1:Introduction</title>
-    <url>/2024/01/03/2024-1-3-cv-exam-1/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-1-Introduction"><a href="#Lecture-1-Introduction" class="headerlink" title="Lecture 1: Introduction"></a>Lecture 1: Introduction</h3><h4 id="数字化图像"><a href="#数字化图像" class="headerlink" title="数字化图像"></a>数字化图像</h4><p>每个图像被表示为一个二维矩阵，每个位置上的值被称为像素，大小为 $0\sim 255$。对于灰度图而言，像素的大小决定该位置的亮度；对于有色图而言，每个位置存放的都是一个像素向量，向量的每个值分别表示<strong>对应颜色</strong>的亮度。</p>
-<h4 id="图像信息"><a href="#图像信息" class="headerlink" title="图像信息"></a>图像信息</h4><p><strong>图像特征 (Image Features)</strong> : What should we look at?</p>
-<p><strong>语义分割 (semantic segmentation)</strong> : What can we understand?</p>
-<h4 id="计算机视觉用途"><a href="#计算机视觉用途" class="headerlink" title="计算机视觉用途"></a>计算机视觉用途</h4><ol>
-<li>Earth viewers (3D modeling)</li>
-<li>Optical character recognition (OCR)</li>
-<li>Face detection</li>
-<li>Face analysis and recognition</li>
-<li>Object recognition (in supermarkets)</li>
-<li>Face recognition</li>
-<li>Vision-based biometrics</li>
-<li>Login without a password</li>
-<li>…</li>
-</ol>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 13:Object Detection</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-13/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-13-Object-Detection"><a href="#Lecture-13-Object-Detection" class="headerlink" title="Lecture 13: Object Detection"></a>Lecture 13: Object Detection</h3><p>目标检测就是检测并定位目标，且分类。</p>
-<p>几个难点：</p>
-<ol>
-<li>光照的不同。</li>
-<li>视角的不同。</li>
-<li>形状的畸变。</li>
-<li>相同种类但也形状各异。</li>
-</ol>
-<p>过去有许多目标检测的比赛，不过看起来现在都基本停办了。</p>
-<p>接下来给出一些标准的定义。</p>
-<p>True Positive: The overlap of the prediction with the ground truth is <strong>more</strong> than 0.5。</p>
-<p>False Positive: The overlap of the prediction with the ground truth is <strong>less</strong> than 0.5。</p>
-<p>False Negative: The objects that our model doesn’t find。</p>
-<p>True Negative: There is no object and our model doesn’t find。</p>
-<p><img src="https://pic.imgdb.cn/item/6596ec46871b83018a1f72e2.jpg"></p>
-<p>Precision: 多少个目标检测是正确的。</p>
-<p>Recall: 多少个目标被正确地检测了出来。</p>
-<p>我们的算法会对一个检测评分。而如果要认可这个检测，我们应设置阈值，大于该阈值时才认可该检测。若阈值过小，则 recall 会极高无比，precision 则会极低；若阈值过大，recall 会极低，但 precision 会极高。以下是不同的阈值 recall 和 precision 的图表。</p>
-<p><img src="https://pic.imgdb.cn/item/6596ed6b871b83018a22d4d5.jpg"></p>
-<h4 id="A-simple-object-detector"><a href="#A-simple-object-detector" class="headerlink" title="A simple object detector"></a>A simple object detector</h4><p>一个简单的思路是使用 HOG 和滤波器来检测。</p>
-<p>预先地，我们对每个目标会求出其的 HOG 特征图模板。</p>
-<p><img src="https://pic.imgdb.cn/item/6596eea4871b83018a268798.jpg"></p>
-<p>在这个基础上，我们使用滑动窗口，对每个窗口进行 HOG 来提取特征图，来比较特征图模板。若比较吻合，则认为找到了该目标。</p>
-<p>但实际上由于窗口大小被固定了，我们好像不好去找所有目标。所以需要多尺度窗口。</p>
-<p>一个比较容易想到的思路就是创建 HOG 金字塔。</p>
-<p><img src="https://pic.imgdb.cn/item/6596efb9871b83018a29a514.jpg"></p>
-<p>这种检测方法叫做 Dalal-Triggs Detector。</p>
-<h4 id="Deformable-parts-model"><a href="#Deformable-parts-model" class="headerlink" title="Deformable parts model"></a>Deformable parts model</h4><p>上文提到的检测方法是需要物体模板的，但很多时候物体会畸变，此时就没有特征模板能使用了。</p>
-<p>也就是说，整体性考虑物体已经不能处理畸变情况了，我们将考虑局部特征。</p>
-<p>Deformable parts model 的思路就是将一个目标看作多个部分的集合，每个部分都是局部特征。</p>
-<p>一般将这种模型构建成星型模型的形式，比如检测人，人有头有左手右手等等，此时星的根是整个人，头和其它部位都是叶子。</p>
-<p><img src="https://pic.imgdb.cn/item/6596f157871b83018a2e2cbf.jpg"></p>
-<p>于是，每个模型就有多种特征图，一种是全局特征图，也就是目标的整体特征图，一种是目标的各个部位的局部特征图。一般而言，局部特征图的分辨率会更高，这样就能检测到更多细节。</p>
-<p><img src="https://pic.imgdb.cn/item/6596f205871b83018a302a47.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596f21f871b83018a306d81.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596f247871b83018a30e253.jpg"></p>
-<p>一个模型可以被描述成这样一个向量 $(F_0,P_1,\cdots,P_n,b)$，其中 $F_0$ 是根滤波器 (全局滤波器)，$P_1,\cdots,P_n$ 分别是局部模型，$b$ 是偏差。$P_i$ 可以被描述成一个三维向量 $(F_i,v_i,d_i)$，其中 $F_i$ 是对应的局部滤波器；$v_i$ 是向量，表示目标位置 (不畸变时的位置) 与根位置的相对位置差；$d_i$ 表示目标位置 (不畸变时的位置) 所有可能的替换的畸变损失函数。</p>
-<p><img src="https://pic.imgdb.cn/item/6596f408871b83018a358df4.jpg"></p>
-<p>此时定义检测的评估分数为<br>$$<br>\mathrm{score}&#x3D;\sum_{i&#x3D;0}^n F_i\phi(p_i,H)-\sum_{i&#x3D;1}^n d_i(\Delta x_i,\Delta y_i,\Delta x_i^2, \Delta y_i^2).<br>$$<br>前半部分是容易理解的，即所有局部滤波器和全部滤波器的分数和。</p>
-<p>后半部分中，$\Delta x_i$ 表示在 $x$ 方向上，第 $i$ 个部分实际上应该在的位置和现在的位置之差，$\Delta y_i$ 定义类似，$d_i$ 是个设定的函数。</p>
-<h4 id="Detection-pipeline"><a href="#Detection-pipeline" class="headerlink" title="Detection pipeline"></a>Detection pipeline</h4><p>检测步骤如下：</p>
-<ol>
-<li>确定全局和局部滤波器 $F_i$。</li>
-<li>计算输入图像的 HOG 特征图。<img src="https://pic.imgdb.cn/item/6596f616871b83018a3ae47c.jpg"></li>
-<li>应用滤波器们 $F_i\phi(p_i,H),i&#x3D;0,1,\cdots,n$。<img src="https://pic.imgdb.cn/item/6596f659871b83018a3b96f4.jpg"></li>
-<li>计算畸变带来的损失，即上文中的 $v_i&#x3D;(\Delta x_i,\Delta y_i)$ 以及 $d_i(\Delta x_i,\Delta y_i, \Delta x_i^2, \Delta y_i^2)$。</li>
-<li>计算每个部分的分数，即 $\mathrm{score}&#x3D;F_i\phi(p_i,H)-d_i(\Delta x_i,\Delta y_i, \Delta x_i^2, \Delta y_i^2)$。<img src="https://pic.imgdb.cn/item/6596f723871b83018a3d7a51.jpg"></li>
-<li>求和，即 $\mathrm{score}&#x3D;\sum_{i&#x3D;0}^n F_i\phi(p_i,H)-\sum_{i&#x3D;1}^n d_i(\Delta x_i,\Delta y_i,\Delta x_i^2, \Delta y_i^2).$<img src="https://pic.imgdb.cn/item/6596f749871b83018a3dd529.jpg"></li>
-</ol>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Review of Course Computer Vision Lecture 12:Visual Recognition</title>
     <url>/2024/01/04/2024-1-4-cv-exam-12/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
@@ -700,6 +637,69 @@
       </tags>
   </entry>
   <entry>
+    <title>Review of Course Computer Vision Lecture 13:Object Detection</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-13/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-13-Object-Detection"><a href="#Lecture-13-Object-Detection" class="headerlink" title="Lecture 13: Object Detection"></a>Lecture 13: Object Detection</h3><p>目标检测就是检测并定位目标，且分类。</p>
+<p>几个难点：</p>
+<ol>
+<li>光照的不同。</li>
+<li>视角的不同。</li>
+<li>形状的畸变。</li>
+<li>相同种类但也形状各异。</li>
+</ol>
+<p>过去有许多目标检测的比赛，不过看起来现在都基本停办了。</p>
+<p>接下来给出一些标准的定义。</p>
+<p>True Positive: The overlap of the prediction with the ground truth is <strong>more</strong> than 0.5。</p>
+<p>False Positive: The overlap of the prediction with the ground truth is <strong>less</strong> than 0.5。</p>
+<p>False Negative: The objects that our model doesn’t find。</p>
+<p>True Negative: There is no object and our model doesn’t find。</p>
+<p><img src="https://pic.imgdb.cn/item/6596ec46871b83018a1f72e2.jpg"></p>
+<p>Precision: 多少个目标检测是正确的。</p>
+<p>Recall: 多少个目标被正确地检测了出来。</p>
+<p>我们的算法会对一个检测评分。而如果要认可这个检测，我们应设置阈值，大于该阈值时才认可该检测。若阈值过小，则 recall 会极高无比，precision 则会极低；若阈值过大，recall 会极低，但 precision 会极高。以下是不同的阈值 recall 和 precision 的图表。</p>
+<p><img src="https://pic.imgdb.cn/item/6596ed6b871b83018a22d4d5.jpg"></p>
+<h4 id="A-simple-object-detector"><a href="#A-simple-object-detector" class="headerlink" title="A simple object detector"></a>A simple object detector</h4><p>一个简单的思路是使用 HOG 和滤波器来检测。</p>
+<p>预先地，我们对每个目标会求出其的 HOG 特征图模板。</p>
+<p><img src="https://pic.imgdb.cn/item/6596eea4871b83018a268798.jpg"></p>
+<p>在这个基础上，我们使用滑动窗口，对每个窗口进行 HOG 来提取特征图，来比较特征图模板。若比较吻合，则认为找到了该目标。</p>
+<p>但实际上由于窗口大小被固定了，我们好像不好去找所有目标。所以需要多尺度窗口。</p>
+<p>一个比较容易想到的思路就是创建 HOG 金字塔。</p>
+<p><img src="https://pic.imgdb.cn/item/6596efb9871b83018a29a514.jpg"></p>
+<p>这种检测方法叫做 Dalal-Triggs Detector。</p>
+<h4 id="Deformable-parts-model"><a href="#Deformable-parts-model" class="headerlink" title="Deformable parts model"></a>Deformable parts model</h4><p>上文提到的检测方法是需要物体模板的，但很多时候物体会畸变，此时就没有特征模板能使用了。</p>
+<p>也就是说，整体性考虑物体已经不能处理畸变情况了，我们将考虑局部特征。</p>
+<p>Deformable parts model 的思路就是将一个目标看作多个部分的集合，每个部分都是局部特征。</p>
+<p>一般将这种模型构建成星型模型的形式，比如检测人，人有头有左手右手等等，此时星的根是整个人，头和其它部位都是叶子。</p>
+<p><img src="https://pic.imgdb.cn/item/6596f157871b83018a2e2cbf.jpg"></p>
+<p>于是，每个模型就有多种特征图，一种是全局特征图，也就是目标的整体特征图，一种是目标的各个部位的局部特征图。一般而言，局部特征图的分辨率会更高，这样就能检测到更多细节。</p>
+<p><img src="https://pic.imgdb.cn/item/6596f205871b83018a302a47.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596f21f871b83018a306d81.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596f247871b83018a30e253.jpg"></p>
+<p>一个模型可以被描述成这样一个向量 $(F_0,P_1,\cdots,P_n,b)$，其中 $F_0$ 是根滤波器 (全局滤波器)，$P_1,\cdots,P_n$ 分别是局部模型，$b$ 是偏差。$P_i$ 可以被描述成一个三维向量 $(F_i,v_i,d_i)$，其中 $F_i$ 是对应的局部滤波器；$v_i$ 是向量，表示目标位置 (不畸变时的位置) 与根位置的相对位置差；$d_i$ 表示目标位置 (不畸变时的位置) 所有可能的替换的畸变损失函数。</p>
+<p><img src="https://pic.imgdb.cn/item/6596f408871b83018a358df4.jpg"></p>
+<p>此时定义检测的评估分数为<br>$$<br>\mathrm{score}&#x3D;\sum_{i&#x3D;0}^n F_i\phi(p_i,H)-\sum_{i&#x3D;1}^n d_i(\Delta x_i,\Delta y_i,\Delta x_i^2, \Delta y_i^2).<br>$$<br>前半部分是容易理解的，即所有局部滤波器和全部滤波器的分数和。</p>
+<p>后半部分中，$\Delta x_i$ 表示在 $x$ 方向上，第 $i$ 个部分实际上应该在的位置和现在的位置之差，$\Delta y_i$ 定义类似，$d_i$ 是个设定的函数。</p>
+<h4 id="Detection-pipeline"><a href="#Detection-pipeline" class="headerlink" title="Detection pipeline"></a>Detection pipeline</h4><p>检测步骤如下：</p>
+<ol>
+<li>确定全局和局部滤波器 $F_i$。</li>
+<li>计算输入图像的 HOG 特征图。<img src="https://pic.imgdb.cn/item/6596f616871b83018a3ae47c.jpg"></li>
+<li>应用滤波器们 $F_i\phi(p_i,H),i&#x3D;0,1,\cdots,n$。<img src="https://pic.imgdb.cn/item/6596f659871b83018a3b96f4.jpg"></li>
+<li>计算畸变带来的损失，即上文中的 $v_i&#x3D;(\Delta x_i,\Delta y_i)$ 以及 $d_i(\Delta x_i,\Delta y_i, \Delta x_i^2, \Delta y_i^2)$。</li>
+<li>计算每个部分的分数，即 $\mathrm{score}&#x3D;F_i\phi(p_i,H)-d_i(\Delta x_i,\Delta y_i, \Delta x_i^2, \Delta y_i^2)$。<img src="https://pic.imgdb.cn/item/6596f723871b83018a3d7a51.jpg"></li>
+<li>求和，即 $\mathrm{score}&#x3D;\sum_{i&#x3D;0}^n F_i\phi(p_i,H)-\sum_{i&#x3D;1}^n d_i(\Delta x_i,\Delta y_i,\Delta x_i^2, \Delta y_i^2).$<img src="https://pic.imgdb.cn/item/6596f749871b83018a3dd529.jpg"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Review of Course Computer Vision Lecture 7:Feature Detector</title>
     <url>/2024/01/04/2024-1-4-cv-exam-7/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
@@ -746,6 +746,59 @@
 <p>一种方法被称为 SIFT，构建的是多组多层的高斯差分金字塔，每一组内的图像大小相等，但尺度不同，不同组间由下采样构成，卷积核使用高斯差分函数。在不同层考虑寻找局部最大值 (自己这一层相邻的八个，上一层的九个，下一层的九个），将其作为一个局部特征点，记为三元组 $(x,y,\sigma)$，$\sigma$ 为那一层的尺度 (scale)。这些特征点用来备选，以其他一些方法进行拟合或者删除部分。</p>
 <p><img src="https://pic.imgdb.cn/item/65966293871b83018afd5218.jpg"></p>
 <p>另一种方法构建的是 Harris-Laplacian 金字塔，卷积核使用拉普拉斯函数，层内使用 Harris detector 来寻找特征点。对于这些点，类似高斯差分金字塔的办法，若不是局部最大值，则去除。</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 8:Feature Descriptor and Matching</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-8/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-8-Feature-Descriptor-and-Matching"><a href="#Lecture-8-Feature-Descriptor-and-Matching" class="headerlink" title="Lecture 8: Feature Descriptor and Matching"></a>Lecture 8: Feature Descriptor and Matching</h3><p>在检测出关键点后，我们需要用一个向量去描述关键点，这样利用向量的相似性进行匹配。</p>
+<p>这个向量我们称之为描述符，其需要满足两个条件：</p>
+<ol>
+<li>Invariance：不会随着光照等条件的变换而变换。</li>
+<li>Discriminability：和不是该关键点的描述符相差较大。</li>
+</ol>
+<p>一些简单的想法，比如直接用这个像素点，或者用其邻域，但实际上这些也就只能保证平移不变性。</p>
+<h4 id="MOPS"><a href="#MOPS" class="headerlink" title="MOPS"></a>MOPS</h4><p>MOPS, Multiscale Oriented Patches descriptor。</p>
+<p>如何选取方向呢？</p>
+<p>一个思路是，选取特征点对应的 Hessian 矩阵中最大的特征值对应的特征向量方向；另一个思路是简化平滑后的梯度方向。</p>
+<p>根据这个方向，我们旋转该特征点相关的窗口，这样就能获得一个旋转不变性的窗口了。</p>
+<p>具体来说，以特征点为中心选择一个 $40\times 40$ 的窗口，根据上述的方向旋转到水平位置，然后利用滤波器采样成 $8\times 8$ 的窗口，再对窗口进行灰度化，即先全部减去均值，再除以标准差。这样就让窗口变成了零均值且方差为 $1$ 了，保证了仿射不变性。</p>
+<h4 id="SIFT"><a href="#SIFT" class="headerlink" title="SIFT"></a>SIFT</h4><p>SIFT, Scale Invariant Feature Transform。</p>
+<p>SIFT 以特征点为中心选取一个与尺度有关的窗口，同样通过上述的求角度方法旋转。然后划分成 $4\times 4$ 的部分，将 $360^{\circ}$ 划分成 $8$ 份，每个部分用直方图统计出每份的权重，这样就有 $128&#x3D;4\times 4\times 8$ 个维度，于是就得到了特征向量。但为了去除一些不可靠的光照因素，这些光照因素会导致梯度极大，所以我们先对特征向量归一化后，再将 $&gt;0.2$ 的部分取为 $0.2$，再做归一化而保证了光照不变性。</p>
+<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e03b5.jpg"></p>
+<p>具体实现上为了去除噪声的影响会复杂很多。</p>
+<h4 id="HoG"><a href="#HoG" class="headerlink" title="HoG"></a>HoG</h4><p>HoG, Histogram of Oriented Gradients。</p>
+<p>HoG 是一个描述整个图像的算法，它在一开始同样采取了灰度化，然后同样将窗口划分成若干个小块，每个小块利用梯度方向直方图进行统计，然后得到特征描述向量。</p>
+<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e040d.jpg"></p>
+<p>和 SIFT 基本相似，只不过它描述的是整个图像，而且它的归一化是提前的，直接根据图像归一化。</p>
+<h4 id="Matching"><a href="#Matching" class="headerlink" title="Matching"></a>Matching</h4><p>匹配方式一般是，对于每个关键点，找 $L_2$ 距离最近和次近的关键点，以这两个距离的比例来判断是否匹配。</p>
+<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e0304.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e04c9.jpg"></p>
+<p>如何评估匹配效果？计算匹配正确的点对中满足 ratio distance 限制的比例以及匹配错误的点对中满足 ratio distance 限制的比例，前者是 recall，后者是 1-specificity。</p>
+<p>ROC curve 是在改变 ratio distance 阈值下，上面两个值构成的曲线。</p>
+<p><img src="https://pic.imgdb.cn/item/65969843871b83018a9d5c28.jpg"></p>
+<h4 id="Alignment"><a href="#Alignment" class="headerlink" title="Alignment"></a>Alignment</h4><p>Alignment 做的是图像配准的工作，即计算图像 A 经过什么样的变换可以得到图像 B。</p>
+<p>在完成关键点匹配后，我们很容易算出平移变换的向量。</p>
+<p><img src="https://pic.imgdb.cn/item/659698ee871b83018a9fd9e8.jpg"></p>
+<p>当然实际上存在损失，定义 $r_{x_i}(\mathbf{x}_t)&#x3D;\mathbf{x}_i+\mathbf{x}_t-\mathbf{x’}<em>i$，类似地 $r</em>{\mathbf{y}_i}(\mathbf{y}_t)$ 也有相同的定义。</p>
+<p>于是损失函数则是<br>$$<br>C(\mathbf{x}<em>t,\mathbf{y}<em>t)&#x3D;\sum</em>{i&#x3D;1}^n (r^2</em>{\mathbf{x}_i}(\mathbf{x}<em>t)+r^2</em>{\mathbf{y}_i}(\mathbf{y}_t)).<br>$$<br>等价于要去最小化该函数。</p>
+<p>实际上，写成矩阵形式后容易求出解析解，即</p>
+<p><img src="https://pic.imgdb.cn/item/659699ec871b83018aa37907.jpg"></p>
+<p>等价于最小化 $\Vert \mathbf{At-b}\Vert$，解出 $\mathbf{t&#x3D;(A^{T}A)^{-1}A^{T}b}$。</p>
+<p>类似地，可以完成对仿射变换的定义：</p>
+<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb686.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb716.jpg"></p>
+<p>单应性变换也可以有类似的变换：</p>
+<p><img src="https://pic.imgdb.cn/item/65969d5f871b83018ab0cbfe.jpg"></p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -821,59 +874,6 @@
 </ol>
 <p><img src="https://pic.imgdb.cn/item/6596b5ff871b83018a25b4bb.jpg"></p>
 <p>Motion 的应用广泛，比如检测 3D 建筑，检测物体运动，移动物体的语义分割，合成动态纹理，一组图像更改成超分辨率，认知事件和活动。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 8:Feature Descriptor and Matching</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-8/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-8-Feature-Descriptor-and-Matching"><a href="#Lecture-8-Feature-Descriptor-and-Matching" class="headerlink" title="Lecture 8: Feature Descriptor and Matching"></a>Lecture 8: Feature Descriptor and Matching</h3><p>在检测出关键点后，我们需要用一个向量去描述关键点，这样利用向量的相似性进行匹配。</p>
-<p>这个向量我们称之为描述符，其需要满足两个条件：</p>
-<ol>
-<li>Invariance：不会随着光照等条件的变换而变换。</li>
-<li>Discriminability：和不是该关键点的描述符相差较大。</li>
-</ol>
-<p>一些简单的想法，比如直接用这个像素点，或者用其邻域，但实际上这些也就只能保证平移不变性。</p>
-<h4 id="MOPS"><a href="#MOPS" class="headerlink" title="MOPS"></a>MOPS</h4><p>MOPS, Multiscale Oriented Patches descriptor。</p>
-<p>如何选取方向呢？</p>
-<p>一个思路是，选取特征点对应的 Hessian 矩阵中最大的特征值对应的特征向量方向；另一个思路是简化平滑后的梯度方向。</p>
-<p>根据这个方向，我们旋转该特征点相关的窗口，这样就能获得一个旋转不变性的窗口了。</p>
-<p>具体来说，以特征点为中心选择一个 $40\times 40$ 的窗口，根据上述的方向旋转到水平位置，然后利用滤波器采样成 $8\times 8$ 的窗口，再对窗口进行灰度化，即先全部减去均值，再除以标准差。这样就让窗口变成了零均值且方差为 $1$ 了，保证了仿射不变性。</p>
-<h4 id="SIFT"><a href="#SIFT" class="headerlink" title="SIFT"></a>SIFT</h4><p>SIFT, Scale Invariant Feature Transform。</p>
-<p>SIFT 以特征点为中心选取一个与尺度有关的窗口，同样通过上述的求角度方法旋转。然后划分成 $4\times 4$ 的部分，将 $360^{\circ}$ 划分成 $8$ 份，每个部分用直方图统计出每份的权重，这样就有 $128&#x3D;4\times 4\times 8$ 个维度，于是就得到了特征向量。但为了去除一些不可靠的光照因素，这些光照因素会导致梯度极大，所以我们先对特征向量归一化后，再将 $&gt;0.2$ 的部分取为 $0.2$，再做归一化而保证了光照不变性。</p>
-<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e03b5.jpg"></p>
-<p>具体实现上为了去除噪声的影响会复杂很多。</p>
-<h4 id="HoG"><a href="#HoG" class="headerlink" title="HoG"></a>HoG</h4><p>HoG, Histogram of Oriented Gradients。</p>
-<p>HoG 是一个描述整个图像的算法，它在一开始同样采取了灰度化，然后同样将窗口划分成若干个小块，每个小块利用梯度方向直方图进行统计，然后得到特征描述向量。</p>
-<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e040d.jpg"></p>
-<p>和 SIFT 基本相似，只不过它描述的是整个图像，而且它的归一化是提前的，直接根据图像归一化。</p>
-<h4 id="Matching"><a href="#Matching" class="headerlink" title="Matching"></a>Matching</h4><p>匹配方式一般是，对于每个关键点，找 $L_2$ 距离最近和次近的关键点，以这两个距离的比例来判断是否匹配。</p>
-<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e0304.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e04c9.jpg"></p>
-<p>如何评估匹配效果？计算匹配正确的点对中满足 ratio distance 限制的比例以及匹配错误的点对中满足 ratio distance 限制的比例，前者是 recall，后者是 1-specificity。</p>
-<p>ROC curve 是在改变 ratio distance 阈值下，上面两个值构成的曲线。</p>
-<p><img src="https://pic.imgdb.cn/item/65969843871b83018a9d5c28.jpg"></p>
-<h4 id="Alignment"><a href="#Alignment" class="headerlink" title="Alignment"></a>Alignment</h4><p>Alignment 做的是图像配准的工作，即计算图像 A 经过什么样的变换可以得到图像 B。</p>
-<p>在完成关键点匹配后，我们很容易算出平移变换的向量。</p>
-<p><img src="https://pic.imgdb.cn/item/659698ee871b83018a9fd9e8.jpg"></p>
-<p>当然实际上存在损失，定义 $r_{\mathbf{x}_i}(\mathbf{x}_t)&#x3D;\mathbf{x}_i+\mathbf{x}_t-\mathbf{x}<em>i$，类似地 $r</em>{\mathbf{y}_i}(\mathbf{y}_t)$ 也有相同的定义。</p>
-<p>于是损失函数则是<br>$$<br>C(\mathbf{x}<em>t,\mathbf{y}<em>t)&#x3D;\sum</em>{i&#x3D;1}^n (r^2</em>{\mathbf{x}_i}(\mathbf{x}<em>t)+r^2</em>{\mathbf{y}_i}(\mathbf{y}_t)).<br>$$<br>等价于要去最小化该函数。</p>
-<p>实际上，写成矩阵形式后容易求出解析解，即</p>
-<p><img src="https://pic.imgdb.cn/item/659699ec871b83018aa37907.jpg"></p>
-<p>等价于最小化 $\Vert \mathbf{At-b}\Vert$，解出 $\mathbf{t&#x3D;(A^{T}A)^{-1}A^{T}b}$。</p>
-<p>类似地，可以完成对仿射变换的定义：</p>
-<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb686.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb716.jpg"></p>
-<p>单应性变换也可以有类似的变换：</p>
-<p><img src="https://pic.imgdb.cn/item/65969d5f871b83018ab0cbfe.jpg"></p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
