@@ -96,7 +96,7 @@ Lecture 5: Edge Detection目标: 识别突然的变化。
 <p>可以类似地改写成求导向量的形式，如 $[1,0,-1]$ 等。</p>
 <p>对于二维情况，只需要把求导向量改写成矩阵形式即可。</p>
 <h4 id="简单边缘检测器"><a href="#简单边缘检测器" class="headerlink" title="简单边缘检测器"></a>简单边缘检测器</h4><p><strong>边缘特征化</strong>: 边缘在像素密度函数突然变化的点。</p>
-<p>边缘长度 (Edge Strength) 可以被梯度大小表示。</p>
+<p>边缘强度 (Edge Strength) 可以被梯度大小表示。</p>
 <p><img src="https://s11.ax1x.com/2024/01/01/piXRL4O.jpg"></p>
 <p>但检测存在噪声，我们很难简单地检测出边缘。</p>
 <p><img src="https://s11.ax1x.com/2024/01/01/piXWMV0.jpg"></p>
@@ -110,7 +110,7 @@ Lecture 5: Edge Detection目标: 识别突然的变化。
 <p>另一种滤波器是考虑二阶导，即拉普拉斯滤波器。离散求二阶导使用类似 $[1,-2,1]$ 向量即可。而在用它作滤波器时，一般结合高斯滤波器，即设高斯函数为 $G$，我们就使用 $\nabla^2 G$ 作为滤波器来使用。此时检测边缘则是考虑二阶导为零，也就是 zero crossings。此时比一阶导更为精确，但同时更不便利。</p>
 <p><strong>设计一个合适的检测器需要以下三个条件</strong>: Good detection (the optimal detector must minimize the probability of false positives (detecting spurious edges caused by noise))，Good localization (the edges detected must be as close as possible to the true edges)，Single response (that is, minimize the number of local maxima around the true edge)。</p>
 <p><img src="https://s11.ax1x.com/2024/01/03/pijg6XR.jpg"></p>
-<h4 id="Sobel-edge-detector"><a href="#Sobel-edge-detector" class="headerlink" title="Sobel edge detector"></a>Sobel edge detector</h4><p>Sobel operator 是两个 $3\times 3$ 的核去执行卷积并近似得到导数，其本质是 smooth 和求导的结合。<br>$$<br>\mathbf{G}_x&#x3D;\begin{pmatrix}+1 &amp; 0 &amp; -1\\ +2 &amp; 0 &amp; -2\\ +1 &amp; 0 &amp; -1\end{pmatrix}&#x3D;\begin{pmatrix}1\\2\\1\end{pmatrix}\begin{pmatrix}+1 &amp; 0 &amp; -1 \end{pmatrix},\\<br>\mathbf{G}_y&#x3D;\begin{pmatrix}+1 &amp; 0 &amp; -1\\ 0 &amp; 0 &amp; 0\\ 1 &amp; 2 &amp; 1\end{pmatrix}&#x3D;\begin{pmatrix}1\\2\\1\end{pmatrix}\begin{pmatrix}+1 &amp; 0 &amp; -1 \end{pmatrix}.<br>$$<br>这样的操作减少了噪声的影响。</p>
+<h4 id="Sobel-edge-detector"><a href="#Sobel-edge-detector" class="headerlink" title="Sobel edge detector"></a>Sobel edge detector</h4><p>Sobel operator 是两个 $3\times 3$ 的核去执行卷积并近似得到导数，其本质是 smooth 和求导的结合。<br>$$<br>\mathbf{G}_x&#x3D;\begin{pmatrix}+1 &amp; 0 &amp; -1\\ +2 &amp; 0 &amp; -2\\ +1 &amp; 0 &amp; -1\end{pmatrix}&#x3D;\begin{pmatrix}1\\2\\1\end{pmatrix}\begin{pmatrix}+1 &amp; 0 &amp; -1 \end{pmatrix},\\<br>\mathbf{G}_y&#x3D;\begin{pmatrix}+1 &amp; +2 &amp; +1\\ 0 &amp; 0 &amp; 0\\ -1 &amp; -2 &amp; -1\end{pmatrix}&#x3D;\begin{pmatrix}1\\0\\-1\end{pmatrix}\begin{pmatrix}1 &amp; 2 &amp; 1 \end{pmatrix}.<br>$$<br>这样的操作减少了噪声的影响。</p>
 <p><img src="https://s11.ax1x.com/2024/01/03/pijoEp6.jpg"></p>
 <p><strong>基于卷积的边缘检测缺点</strong>: Poor Localization (由于是相邻像素同时影响，导致很难接近最近的边)；只能维护垂直和水平，不容易察觉到斜边缘；没有充分利用边缘的梯度方向；最后输出的边缘二值图，只是简单地利用阈值进行处理，显然如果阈值过大，则会损失很多边缘信息；如果阈值过小，则会有很多噪声。</p>
 <p>类似于 Sobel 的算子还有：</p>
