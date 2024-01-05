@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>北京理工大学人工智能专业生存手册</title>
-    <url>/2023/10/08/2023-10-8-BITAI/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
-<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
-<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="形势与政策"><a href="#形势与政策" class="headerlink" title="形势与政策"></a>形势与政策</h3><h3 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h3><h3 id="公选"><a href="#公选" class="headerlink" title="公选"></a>公选</h3><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><h3 id="工程制图C"><a href="#工程制图C" class="headerlink" title="工程制图C"></a>工程制图C</h3><h3 id="大学计算机"><a href="#大学计算机" class="headerlink" title="大学计算机"></a>大学计算机</h3><h3 id="线性代数B"><a href="#线性代数B" class="headerlink" title="线性代数B"></a>线性代数B</h3><h3 id="工科数学分析-I"><a href="#工科数学分析-I" class="headerlink" title="工科数学分析 I"></a>工科数学分析 I</h3><h3 id="知识产权法基础"><a href="#知识产权法基础" class="headerlink" title="知识产权法基础"></a>知识产权法基础</h3><h3 id="学术用途英语一级"><a href="#学术用途英语一级" class="headerlink" title="学术用途英语一级"></a>学术用途英语一级</h3><h3 id="思想道德与法治"><a href="#思想道德与法治" class="headerlink" title="思想道德与法治"></a>思想道德与法治</h3><h3 id="大学生心理素质发展"><a href="#大学生心理素质发展" class="headerlink" title="大学生心理素质发展"></a>大学生心理素质发展</h3><h3 id="军事理论"><a href="#军事理论" class="headerlink" title="军事理论"></a>军事理论</h3><h3 id="军事技能"><a href="#军事技能" class="headerlink" title="军事技能"></a>军事技能</h3><h2 id="大二下"><a href="#大二下" class="headerlink" title="大二下"></a>大二下</h2><h3 id="电路分析基础"><a href="#电路分析基础" class="headerlink" title="电路分析基础"></a>电路分析基础</h3><h3 id="C语言程序设计"><a href="#C语言程序设计" class="headerlink" title="C语言程序设计"></a>C语言程序设计</h3><h3 id="工科数学分析-II"><a href="#工科数学分析-II" class="headerlink" title="工科数学分析 II"></a>工科数学分析 II</h3><h3 id="大学物理AⅠ"><a href="#大学物理AⅠ" class="headerlink" title="大学物理AⅠ"></a>大学物理AⅠ</h3><h3 id="物理实验BⅠ"><a href="#物理实验BⅠ" class="headerlink" title="物理实验BⅠ"></a>物理实验BⅠ</h3><h3 id="学术用途英语二级"><a href="#学术用途英语二级" class="headerlink" title="学术用途英语二级"></a>学术用途英语二级</h3>]]></content>
+    <title>Hello World!</title>
+    <url>/3000/06/14/2023-10-7-New-Start!/</url>
+    <content><![CDATA[<p>又搭了一个新博客。</p>
+<p>这里大概会成为某种自我介绍和导航。</p>
+<h3 id="生存手册"><a href="#生存手册" class="headerlink" title="生存手册"></a>生存手册</h3><ol>
+<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-CP(fake)/">算法竞赛生存手册(伪)</a></li>
+<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-BITAI/">北京理工大学人工智能专业生存手册</a></li>
+</ol>
+<h3 id="知识总结与整理"><a href="#知识总结与整理" class="headerlink" title="知识总结与整理"></a>知识总结与整理</h3><ol>
+<li><a href="http://foreverlasting.top/2023/11/06/2023-11-6-AI-math/">关于 AI 里的一些数学证明</a></li>
+<li><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">Review of Course: Computer Vision</a></li>
+</ol>
+<h3 id="论文阅读"><a href="#论文阅读" class="headerlink" title="论文阅读"></a>论文阅读</h3><ol>
+<li><a href="http://foreverlasting.top/2023/12/18/2023-12-18-2206.00501/">Benign Overfitting in classification provably counter label noise with larger models</a></li>
+<li><a href="http://foreverlasting.top/2023/12/19/2023-12-18-2205.01050/">Understanding the Unstable Convergence of Gradient Descent</a></li>
+</ol>
+<h3 id="精神状态"><a href="#精神状态" class="headerlink" title="精神状态"></a>精神状态</h3><ol>
+<li><a href="http://foreverlasting.top/2023/12/18/2023-12-18-thoughts/">12.18 精神状态</a></li>
+</ol>
+]]></content>
       <categories>
-        <category>生存手册</category>
+        <category>Something</category>
       </categories>
       <tags>
-        <tag>AI</tag>
+        <tag>Something</tag>
       </tags>
   </entry>
   <entry>
@@ -26,6 +39,21 @@
       </categories>
       <tags>
         <tag>CP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北京理工大学人工智能专业生存手册</title>
+    <url>/2023/10/08/2023-10-8-BITAI/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
+<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
+<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="形势与政策"><a href="#形势与政策" class="headerlink" title="形势与政策"></a>形势与政策</h3><h3 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h3><h3 id="公选"><a href="#公选" class="headerlink" title="公选"></a>公选</h3><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><h3 id="工程制图C"><a href="#工程制图C" class="headerlink" title="工程制图C"></a>工程制图C</h3><h3 id="大学计算机"><a href="#大学计算机" class="headerlink" title="大学计算机"></a>大学计算机</h3><h3 id="线性代数B"><a href="#线性代数B" class="headerlink" title="线性代数B"></a>线性代数B</h3><h3 id="工科数学分析-I"><a href="#工科数学分析-I" class="headerlink" title="工科数学分析 I"></a>工科数学分析 I</h3><h3 id="知识产权法基础"><a href="#知识产权法基础" class="headerlink" title="知识产权法基础"></a>知识产权法基础</h3><h3 id="学术用途英语一级"><a href="#学术用途英语一级" class="headerlink" title="学术用途英语一级"></a>学术用途英语一级</h3><h3 id="思想道德与法治"><a href="#思想道德与法治" class="headerlink" title="思想道德与法治"></a>思想道德与法治</h3><h3 id="大学生心理素质发展"><a href="#大学生心理素质发展" class="headerlink" title="大学生心理素质发展"></a>大学生心理素质发展</h3><h3 id="军事理论"><a href="#军事理论" class="headerlink" title="军事理论"></a>军事理论</h3><h3 id="军事技能"><a href="#军事技能" class="headerlink" title="军事技能"></a>军事技能</h3><h2 id="大二下"><a href="#大二下" class="headerlink" title="大二下"></a>大二下</h2><h3 id="电路分析基础"><a href="#电路分析基础" class="headerlink" title="电路分析基础"></a>电路分析基础</h3><h3 id="C语言程序设计"><a href="#C语言程序设计" class="headerlink" title="C语言程序设计"></a>C语言程序设计</h3><h3 id="工科数学分析-II"><a href="#工科数学分析-II" class="headerlink" title="工科数学分析 II"></a>工科数学分析 II</h3><h3 id="大学物理AⅠ"><a href="#大学物理AⅠ" class="headerlink" title="大学物理AⅠ"></a>大学物理AⅠ</h3><h3 id="物理实验BⅠ"><a href="#物理实验BⅠ" class="headerlink" title="物理实验BⅠ"></a>物理实验BⅠ</h3><h3 id="学术用途英语二级"><a href="#学术用途英语二级" class="headerlink" title="学术用途英语二级"></a>学术用途英语二级</h3>]]></content>
+      <categories>
+        <category>生存手册</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -86,6 +114,18 @@
       </tags>
   </entry>
   <entry>
+    <title>Benign Overfitting in classification provably counter label noise with larger models</title>
+    <url>/2023/12/18/2023-12-18-2206.00501/</url>
+    <content><![CDATA[<h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
+]]></content>
+      <categories>
+        <category>Thesis Reading</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>12.18 精神状态</title>
     <url>/2023/12/18/2023-12-18-thoughts/</url>
     <content><![CDATA[<p>总是活在一些畅想中…</p>
@@ -96,18 +136,6 @@
       </categories>
       <tags>
         <tag>Something</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Benign Overfitting in classification provably counter label noise with larger models</title>
-    <url>/2023/12/18/2023-12-18-2206.00501/</url>
-    <content><![CDATA[<h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
-]]></content>
-      <categories>
-        <category>Thesis Reading</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -165,34 +193,6 @@
       <tags>
         <tag>AI</tag>
         <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World!</title>
-    <url>/3000/06/14/2023-10-7-New-Start!/</url>
-    <content><![CDATA[<p>又搭了一个新博客。</p>
-<p>这里大概会成为某种自我介绍和导航。</p>
-<h3 id="生存手册"><a href="#生存手册" class="headerlink" title="生存手册"></a>生存手册</h3><ol>
-<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-CP(fake)/">算法竞赛生存手册(伪)</a></li>
-<li><a href="https://foreverlasting.top/2023/10/08/2023-10-8-BITAI/">北京理工大学人工智能专业生存手册</a></li>
-</ol>
-<h3 id="知识总结与整理"><a href="#知识总结与整理" class="headerlink" title="知识总结与整理"></a>知识总结与整理</h3><ol>
-<li><a href="http://foreverlasting.top/2023/11/06/2023-11-6-AI-math/">关于 AI 里的一些数学证明</a></li>
-<li><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">Review of Course: Computer Vision</a></li>
-</ol>
-<h3 id="论文阅读"><a href="#论文阅读" class="headerlink" title="论文阅读"></a>论文阅读</h3><ol>
-<li><a href="http://foreverlasting.top/2023/12/18/2023-12-18-2206.00501/">Benign Overfitting in classification provably counter label noise with larger models</a></li>
-<li><a href="http://foreverlasting.top/2023/12/19/2023-12-18-2205.01050/">Understanding the Unstable Convergence of Gradient Descent</a></li>
-</ol>
-<h3 id="精神状态"><a href="#精神状态" class="headerlink" title="精神状态"></a>精神状态</h3><ol>
-<li><a href="http://foreverlasting.top/2023/12/18/2023-12-18-thoughts/">12.18 精神状态</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Something</category>
-      </categories>
-      <tags>
-        <tag>Something</tag>
       </tags>
   </entry>
   <entry>
@@ -500,6 +500,38 @@
       </tags>
   </entry>
   <entry>
+    <title>Review of Course Computer Vision Lecture 11:Light and color</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-11/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-11-Light-and-color"><a href="#Lecture-11-Light-and-color" class="headerlink" title="Lecture 11: Light and color"></a>Lecture 11: Light and color</h3><p>像素值：像素的强度，$I(p)&#x3D;c(p)l(p)r(p)$，其中 $c(p)$ 为相机的光谱反应 (传感器特性)，$l(p)$ 为光强，$r(p)$ 为光从物体表面到相机的反射强度。</p>
+<p>光子的轨迹：Absorption (吸收，即光线被完全吸收)，Diffuse reflection (漫反射，即不平整平面导致向多个方向反射)，Specular reflection (镜面反射)，Transparency (透射，即穿过平面沿原轨迹传播)，Refraction (折射)，Fluorescence (某种漫反射，但改变了波长)，Subsurface scattering (次表面散射)，Phosphorescence (磷光)，Interreflection (内部反射)。</p>
+<h4 id="Diffuse-reflection"><a href="#Diffuse-reflection" class="headerlink" title="Diffuse reflection"></a>Diffuse reflection</h4><p>漫反射遵循 Lambert’s Law。</p>
+<p><img src="https://pic.imgdb.cn/item/6596ba4a871b83018a3b9ad8.jpg"></p>
+<p>其中，BRDF 为双向反射分布函数。</p>
+<h4 id="Specular-reflection"><a href="#Specular-reflection" class="headerlink" title="Specular reflection"></a>Specular reflection</h4><p><img src="https://pic.imgdb.cn/item/6596ba89871b83018a3cdeec.jpg"></p>
+<h4 id="Phong-illumination-model"><a href="#Phong-illumination-model" class="headerlink" title="Phong illumination model"></a>Phong illumination model</h4><p><img src="https://pic.imgdb.cn/item/6596bb0a871b83018a3f6a48.jpg"></p>
+<p>其中，Ambient 为背景亮度。</p>
+<h3 id="RGB-模型"><a href="#RGB-模型" class="headerlink" title="RGB 模型"></a>RGB 模型</h3><p>考虑一张图像是三维的，第三维表示通道，即 R, G, B 分别的强度是多少。</p>
+<h4 id="Eye-anatomy"><a href="#Eye-anatomy" class="headerlink" title="Eye anatomy"></a>Eye anatomy</h4><p>人的眼球是个相机。</p>
+<p><img src="https://pic.imgdb.cn/item/6596bc3c871b83018a458019.jpg"></p>
+<p>retina 是视网膜，optics of the eye 是晶状体。</p>
+<h4 id="Color-perception"><a href="#Color-perception" class="headerlink" title="Color perception"></a>Color perception</h4><p>人眼只能识别电磁波很少的一部分。在这部分里，人眼的敏感程度也是不同的，同时对光线的吸收程度也是不同的。</p>
+<p><img src="https://pic.imgdb.cn/item/6596cf25871b83018aa4f0e4.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596cfc1871b83018aa7e659.jpg"></p>
+<p>Tetrachromatism: 四色性</p>
+<p>Dichromat: 二色性</p>
+<p>Light response is nonlinear。人类的视觉系统在感知时是对数尺度，同时自适应，对弱光更敏感。</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Review of Course Computer Vision Lecture 12:Visual Recognition</title>
     <url>/2024/01/04/2024-1-4-cv-exam-12/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
@@ -605,38 +637,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Review of Course Computer Vision Lecture 11:Light and color</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-11/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-11-Light-and-color"><a href="#Lecture-11-Light-and-color" class="headerlink" title="Lecture 11: Light and color"></a>Lecture 11: Light and color</h3><p>像素值：像素的强度，$I(p)&#x3D;c(p)l(p)r(p)$，其中 $c(p)$ 为相机的光谱反应 (传感器特性)，$l(p)$ 为光强，$r(p)$ 为光从物体表面到相机的反射强度。</p>
-<p>光子的轨迹：Absorption (吸收，即光线被完全吸收)，Diffuse reflection (漫反射，即不平整平面导致向多个方向反射)，Specular reflection (镜面反射)，Transparency (透射，即穿过平面沿原轨迹传播)，Refraction (折射)，Fluorescence (某种漫反射，但改变了波长)，Subsurface scattering (次表面散射)，Phosphorescence (磷光)，Interreflection (内部反射)。</p>
-<h4 id="Diffuse-reflection"><a href="#Diffuse-reflection" class="headerlink" title="Diffuse reflection"></a>Diffuse reflection</h4><p>漫反射遵循 Lambert’s Law。</p>
-<p><img src="https://pic.imgdb.cn/item/6596ba4a871b83018a3b9ad8.jpg"></p>
-<p>其中，BRDF 为双向反射分布函数。</p>
-<h4 id="Specular-reflection"><a href="#Specular-reflection" class="headerlink" title="Specular reflection"></a>Specular reflection</h4><p><img src="https://pic.imgdb.cn/item/6596ba89871b83018a3cdeec.jpg"></p>
-<h4 id="Phong-illumination-model"><a href="#Phong-illumination-model" class="headerlink" title="Phong illumination model"></a>Phong illumination model</h4><p><img src="https://pic.imgdb.cn/item/6596bb0a871b83018a3f6a48.jpg"></p>
-<p>其中，Ambient 为背景亮度。</p>
-<h3 id="RGB-模型"><a href="#RGB-模型" class="headerlink" title="RGB 模型"></a>RGB 模型</h3><p>考虑一张图像是三维的，第三维表示通道，即 R, G, B 分别的强度是多少。</p>
-<h4 id="Eye-anatomy"><a href="#Eye-anatomy" class="headerlink" title="Eye anatomy"></a>Eye anatomy</h4><p>人的眼球是个相机。</p>
-<p><img src="https://pic.imgdb.cn/item/6596bc3c871b83018a458019.jpg"></p>
-<p>retina 是视网膜，optics of the eye 是晶状体。</p>
-<h4 id="Color-perception"><a href="#Color-perception" class="headerlink" title="Color perception"></a>Color perception</h4><p>人眼只能识别电磁波很少的一部分。在这部分里，人眼的敏感程度也是不同的，同时对光线的吸收程度也是不同的。</p>
-<p><img src="https://pic.imgdb.cn/item/6596cf25871b83018aa4f0e4.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596cfc1871b83018aa7e659.jpg"></p>
-<p>Tetrachromatism: 四色性</p>
-<p>Dichromat: 二色性</p>
-<p>Light response is nonlinear。人类的视觉系统在感知时是对数尺度，同时自适应，对弱光更敏感。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Review of Course Computer Vision Lecture 15:Motion</title>
     <url>/2024/01/04/2024-1-4-cv-exam-15/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
@@ -702,69 +702,6 @@
 </ol>
 <p><img src="https://pic.imgdb.cn/item/6596b5ff871b83018a25b4bb.jpg"></p>
 <p>Motion 的应用广泛，比如检测 3D 建筑，检测物体运动，移动物体的语义分割，合成动态纹理，一组图像更改成超分辨率，认知事件和活动。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 13:Object Detection</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-13/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-13-Object-Detection"><a href="#Lecture-13-Object-Detection" class="headerlink" title="Lecture 13: Object Detection"></a>Lecture 13: Object Detection</h3><p>目标检测就是检测并定位目标，且分类。</p>
-<p>几个难点：</p>
-<ol>
-<li>光照的不同。</li>
-<li>视角的不同。</li>
-<li>形状的畸变。</li>
-<li>相同种类但也形状各异。</li>
-</ol>
-<p>过去有许多目标检测的比赛，不过看起来现在都基本停办了。</p>
-<p>接下来给出一些标准的定义。</p>
-<p>True Positive: The overlap of the prediction with the ground truth is <strong>more</strong> than 0.5。</p>
-<p>False Positive: The overlap of the prediction with the ground truth is <strong>less</strong> than 0.5。</p>
-<p>False Negative: The objects that our model doesn’t find。</p>
-<p>True Negative: There is no object and our model doesn’t find。</p>
-<p><img src="https://pic.imgdb.cn/item/6596ec46871b83018a1f72e2.jpg"></p>
-<p>Precision: 多少个目标检测是正确的。</p>
-<p>Recall: 多少个目标被正确地检测了出来。</p>
-<p>我们的算法会对一个检测评分。而如果要认可这个检测，我们应设置阈值，大于该阈值时才认可该检测。若阈值过小，则 recall 会极高无比，precision 则会极低；若阈值过大，recall 会极低，但 precision 会极高。以下是不同的阈值 recall 和 precision 的图表。</p>
-<p><img src="https://pic.imgdb.cn/item/6596ed6b871b83018a22d4d5.jpg"></p>
-<h4 id="A-simple-object-detector"><a href="#A-simple-object-detector" class="headerlink" title="A simple object detector"></a>A simple object detector</h4><p>一个简单的思路是使用 HOG 和滤波器来检测。</p>
-<p>预先地，我们对每个目标会求出其的 HOG 特征图模板。</p>
-<p><img src="https://pic.imgdb.cn/item/6596eea4871b83018a268798.jpg"></p>
-<p>在这个基础上，我们使用滑动窗口，对每个窗口进行 HOG 来提取特征图，来比较特征图模板。若比较吻合，则认为找到了该目标。</p>
-<p>但实际上由于窗口大小被固定了，我们好像不好去找所有目标。所以需要多尺度窗口。</p>
-<p>一个比较容易想到的思路就是创建 HOG 金字塔。</p>
-<p><img src="https://pic.imgdb.cn/item/6596efb9871b83018a29a514.jpg"></p>
-<p>这种检测方法叫做 Dalal-Triggs Detector。</p>
-<h4 id="Deformable-parts-model"><a href="#Deformable-parts-model" class="headerlink" title="Deformable parts model"></a>Deformable parts model</h4><p>上文提到的检测方法是需要物体模板的，但很多时候物体会畸变，此时就没有特征模板能使用了。</p>
-<p>也就是说，整体性考虑物体已经不能处理畸变情况了，我们将考虑局部特征。</p>
-<p>Deformable parts model 的思路就是将一个目标看作多个部分的集合，每个部分都是局部特征。</p>
-<p>一般将这种模型构建成星型模型的形式，比如检测人，人有头有左手右手等等，此时星的根是整个人，头和其它部位都是叶子。</p>
-<p><img src="https://pic.imgdb.cn/item/6596f157871b83018a2e2cbf.jpg"></p>
-<p>于是，每个模型就有多种特征图，一种是全局特征图，也就是目标的整体特征图，一种是目标的各个部位的局部特征图。一般而言，局部特征图的分辨率会更高，这样就能检测到更多细节。</p>
-<p><img src="https://pic.imgdb.cn/item/6596f205871b83018a302a47.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596f21f871b83018a306d81.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596f247871b83018a30e253.jpg"></p>
-<p>一个模型可以被描述成这样一个向量 $(F_0,P_1,\cdots,P_n,b)$，其中 $F_0$ 是根滤波器 (全局滤波器)，$P_1,\cdots,P_n$ 分别是局部模型，$b$ 是偏差。$P_i$ 可以被描述成一个三维向量 $(F_i,v_i,d_i)$，其中 $F_i$ 是对应的局部滤波器；$v_i$ 是向量，表示目标位置 (不畸变时的位置) 与根位置的相对位置差；$d_i$ 表示目标位置 (不畸变时的位置) 所有可能的替换的畸变损失函数。</p>
-<p><img src="https://pic.imgdb.cn/item/6596f408871b83018a358df4.jpg"></p>
-<p>此时定义检测的评估分数为<br>$$<br>\mathrm{score}&#x3D;\sum_{i&#x3D;0}^n F_i\phi(p_i,H)-\sum_{i&#x3D;1}^n d_i(\Delta x_i,\Delta y_i,\Delta x_i^2, \Delta y_i^2).<br>$$<br>前半部分是容易理解的，即所有局部滤波器和全部滤波器的分数和。</p>
-<p>后半部分中，$\Delta x_i$ 表示在 $x$ 方向上，第 $i$ 个部分实际上应该在的位置和现在的位置之差，$\Delta y_i$ 定义类似，$d_i$ 是个设定的函数。</p>
-<h4 id="Detection-pipeline"><a href="#Detection-pipeline" class="headerlink" title="Detection pipeline"></a>Detection pipeline</h4><p>检测步骤如下：</p>
-<ol>
-<li>确定全局和局部滤波器 $F_i$。</li>
-<li>计算输入图像的 HOG 特征图。<img src="https://pic.imgdb.cn/item/6596f616871b83018a3ae47c.jpg"></li>
-<li>应用滤波器们 $F_i\phi(p_i,H),i&#x3D;0,1,\cdots,n$。<img src="https://pic.imgdb.cn/item/6596f659871b83018a3b96f4.jpg"></li>
-<li>计算畸变带来的损失，即上文中的 $v_i&#x3D;(\Delta x_i,\Delta y_i)$ 以及 $d_i(\Delta x_i,\Delta y_i, \Delta x_i^2, \Delta y_i^2)$。</li>
-<li>计算每个部分的分数，即 $\mathrm{score}&#x3D;F_i\phi(p_i,H)-d_i(\Delta x_i,\Delta y_i, \Delta x_i^2, \Delta y_i^2)$。<img src="https://pic.imgdb.cn/item/6596f723871b83018a3d7a51.jpg"></li>
-<li>求和，即 $\mathrm{score}&#x3D;\sum_{i&#x3D;0}^n F_i\phi(p_i,H)-\sum_{i&#x3D;1}^n d_i(\Delta x_i,\Delta y_i,\Delta x_i^2, \Delta y_i^2).$<img src="https://pic.imgdb.cn/item/6596f749871b83018a3dd529.jpg"></li>
-</ol>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -864,8 +801,8 @@
 <h4 id="Alignment"><a href="#Alignment" class="headerlink" title="Alignment"></a>Alignment</h4><p>Alignment 做的是图像配准的工作，即计算图像 A 经过什么样的变换可以得到图像 B。</p>
 <p>在完成关键点匹配后，我们很容易算出平移变换的向量。</p>
 <p><img src="https://pic.imgdb.cn/item/659698ee871b83018a9fd9e8.jpg"></p>
-<p>当然实际上存在损失，定义 $r_{\mathbf{x}_i}(\mathbf{x}_t)&#x3D;\mathbf{x}_i+\mathbf{x}_t-\mathbf{x}<em>i$，类似地 $r</em>{\mathbf{y}_i}(\mathbf{y}_t)$ 也有相同的定义。</p>
-<p>于是损失函数则是<br>$$<br>C(\mathbf{x}<em>t,\mathbf{y}<em>t)&#x3D;\sum</em>{i&#x3D;1}^n (r^2</em>{\mathbf{x}_i}(\mathbf{x}<em>t)+r^2</em>{\mathbf{y}_i}(\mathbf{y}_t)).<br>$$<br>等价于要去最小化该函数。</p>
+<p><img src="https://s11.ax1x.com/2024/01/05/pix2Rrd.jpg"></p>
+<p>等价于要去最小化该函数。</p>
 <p>实际上，写成矩阵形式后容易求出解析解，即</p>
 <p><img src="https://pic.imgdb.cn/item/659699ec871b83018aa37907.jpg"></p>
 <p>等价于最小化 $\Vert \mathbf{At-b}\Vert$，解出 $\mathbf{t&#x3D;(A^{T}A)^{-1}A^{T}b}$。</p>
@@ -874,6 +811,69 @@
 <p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb716.jpg"></p>
 <p>单应性变换也可以有类似的变换：</p>
 <p><img src="https://pic.imgdb.cn/item/65969d5f871b83018ab0cbfe.jpg"></p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 16:Tracking</title>
+    <url>/2024/01/05/2024-1-5-cv-exam-16/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-16-Tracking"><a href="#Lecture-16-Tracking" class="headerlink" title="Lecture 16: Tracking"></a>Lecture 16: Tracking</h3><p>Tracking 主要就是在视频中跟踪某些东西的运动轨迹，比如关键点跟踪，单目标跟踪，多目标跟踪，变换的相机跟踪，移动的相机跟踪，多相机跟踪等等。</p>
+<p>难度在于以下几点：</p>
+<ol>
+<li>需要确认哪些特征可以被跟踪。</li>
+<li>一些点会随着时间变化而改变。</li>
+<li>Drift：随着时间变化，小的误差会被积累形成大的误差 (Panorama 中也有类似的问题)。</li>
+<li>点可能突然出现或者突然消失，需要动态增删。</li>
+</ol>
+<p>检测的点肯定想要是比较特殊有特征性，比如 SIFT 中的特征点或者 Harris Corners 等等。同时 Optical flow 也可以帮助 Tracking。</p>
+<h4 id="Simple-KLT-tracker"><a href="#Simple-KLT-tracker" class="headerlink" title="Simple KLT tracker"></a>Simple KLT tracker</h4><p>步骤如下：</p>
+<ol>
+<li>找到好的点去跟踪，比如利用 Harris Corner。</li>
+<li>对于每个好点，计算它们在相邻图中的 motion 变换 (仿射变换等)。</li>
+<li>对于上面的那些 motion 变换，连接起来，获得了运动轨迹。</li>
+<li>每 $10&#x2F;15$ 张图像，引入新的 Harris Corner 点。</li>
+<li>跟踪新和旧的 Harris Corner 点，重复 1 2 3。</li>
+</ol>
+<h4 id="2D-transformations"><a href="#2D-transformations" class="headerlink" title="2D transformations"></a>2D transformations</h4><p>和之前章节定义的类似，我们定义平移变换为矩阵 $\begin{pmatrix}1 &amp; 0 &amp; b_1\\\ 0 &amp; 1 &amp; b_2\end{pmatrix}$，并且定义函数<br>$$<br>W(\mathbf{x};\mathbf{p})&#x3D;\begin{pmatrix}1 &amp; 0 &amp; b_1\\\ 0 &amp; 1 &amp; b_2\end{pmatrix}\begin{pmatrix}x\\ y \\ 1\end{pmatrix}.<br>$$<br>其中，$\mathbf{p}&#x3D;\begin{pmatrix}b_1\\ b_2\end{pmatrix}$，$\mathbf{x}&#x3D;\begin{pmatrix}x\\y\end{pmatrix}$。</p>
+<p>可以注意到 $\frac{\partial W}{\partial \mathbf{p}}&#x3D;\begin{pmatrix}1 &amp; 0\\0 &amp; 1\end{pmatrix}$，向量函数对向量求导的定义是 Jacobian (雅可比)，设一个向量函数为 $F(x_1,x_2,\cdots,x_n)&#x3D;(y_1,y_2,\cdots,y_m)$，则<br>$$<br>\frac{\partial F(x_1,x_2,\cdots,x_n)}{\partial (x_1,x_2,\cdots,x_n)}&#x3D;\begin{pmatrix}\frac{\partial y_1}{\partial x_1} &amp; \frac{\partial y_1}{\partial x_2} &amp; \cdots\\ \frac{\partial y_2}{\partial x_1} &amp; \ddots &amp; \vdots \\ \vdots &amp; \cdots &amp; \ddots\end{pmatrix}.<br>$$<br>定义相似变换的矩阵为 $\begin{pmatrix}a &amp; 0 &amp; b_1\\\ 0 &amp; a &amp; b_2\end{pmatrix}$，此时 $\mathbf{p}&#x3D;(a,b_1,b_2)^T$，则 $\frac{\partial W}{\partial \mathbf{p}}&#x3D;\begin{pmatrix}x &amp; 1 &amp; 0\\\ y &amp; 0 &amp; 1\end{pmatrix}$。</p>
+<p>仿射变换里实际上包含了上述的所有，也有旋转等变换，其矩阵为<br>$$<br>\begin{pmatrix}a_1 &amp; a_2 &amp; b_1\\\ a_3 &amp; a_4 &amp; b_2\end{pmatrix}.<br>$$<br>于是 $\mathbf{p}&#x3D;(a_1,a_2,b_1,a_3,a_4,b_2)^T$，则<br>$$<br>\frac{\partial W}{\partial \mathbf{p}}&#x3D;\begin{pmatrix}x &amp; y &amp; 1 &amp; 0 &amp; 0 &amp; 0\\\ 0 &amp; 0 &amp; 0 &amp; x &amp; y &amp; 1\end{pmatrix}.<br>$$</p>
+<h4 id="Iterative-KLT-tracker"><a href="#Iterative-KLT-tracker" class="headerlink" title="Iterative KLT tracker"></a>Iterative KLT tracker</h4><p>首先，用 Harris Corner Detection 找到特征点以及其位置 $\mathbf{x}&#x3D;(x,y)^T$。</p>
+<p>对于 $\mathbf{x}$，创建其初始的特征模板为 $T(\mathbf{x})$，一般选择它邻域内的像素信息。</p>
+<p>我们想要找到下一刻中 $\mathbf{x}$ 的变换，假设其作了某种 $\mathrm{p}$ 变换，则变换后的位置应该是 $W(\mathbf{x};\mathbf{p})$。</p>
+<p>我们肯定想要最小化这个变换的误差，即最小化<br>$$<br>\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p}))-T(\mathbf{x})]^2.<br>$$<br>由于 $\mathbf{p}$ 可能很大，我们这里会选择残差连接 $\mathbf{p}$，即<br>$$<br>\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0+\Delta p}))-T(\mathbf{x})]^2.<br>$$<br>一般我们会初始化 $\mathbf{p_0}$ 为我们最好的猜测结果，然后计算 $\mathbf{\Delta p}$。</p>
+<p>注意到 $\mathbf{\Delta p}$ 会是小量，考虑 Taylor 展开，有<br>$$<br>\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0+\Delta p}))-T(\mathbf{x})]^2\\<br>\approx\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0})+\frac{\partial W}{\partial \mathbf{p}}\mathbf{\Delta p})-T(\mathbf{x})]^2\\<br>\approx\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0}))+\nabla I \frac{\partial W}{\partial \mathbf{p}}\mathbf{\Delta p}-T(\mathbf{x})]^2.<br>$$<br>此时的计算只是二次多项式，会容易很多。</p>
+<p>求最小值，于是求导，即<br>$$<br>\arg\min \sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0}))+\nabla I \frac{\partial W}{\partial \mathbf{p}}\mathbf{\Delta p}-T(\mathbf{x})]^2\\<br>\implies \sum_{\mathbf{x}} (\nabla I \frac{\partial W}{\partial \mathbf{p}})^T[I(W(\mathbf{x};\mathbf{p_0}))+\nabla I \frac{\partial W}{\partial \mathbf{p}}\mathbf{\Delta p}-T(\mathbf{x})]&#x3D;0\\<br>\implies \mathbf{\Delta p}&#x3D;H^{-1}\sum_{\mathbf{x}} (\nabla I \frac{\partial W}{\partial \mathbf{p}})^T[-I(W(\mathbf{x};\mathbf{p_0}))+T(\mathbf{x})].<br>$$<br>其中 $H&#x3D;\sum_{\mathbf{x}} (\nabla I \frac{\partial W}{\partial \mathbf{p}})^T(\nabla I \frac{\partial W}{\partial \mathbf{p}})$，要求 $H$ 必须要可逆。</p>
+<p>如果是平移变换，$H$ 的表达式是我们熟知的类似 Hessian 矩阵，在 Harris Corner 以及其他地方都出现过，即<br>$$<br>H&#x3D;\sum_{\mathbf{x}} \begin{pmatrix}I_x^2 &amp; I_xI_y\\I_xI_y &amp; I_y^2\end{pmatrix}.<br>$$</p>
+<p>如果是最广泛的仿射变换，矩阵就比较巨大了。</p>
+<p><img src="https://pic.imgdb.cn/item/6597b95c871b83018a3b7ebf.jpg"></p>
+<p>在这里，我们给出 KLT tracker 的步骤，在 Harris Detection 检测了特征点后。</p>
+<ol>
+<li>初始化 $\mathbf{p_0}$。</li>
+<li>对于每个特征点 $\mathbf{x}$，计算初始模板 $T(\mathbf{x})$。</li>
+<li>对每个特征点 $\mathbf{x}$，计算 $W(\mathbf{x};\mathbf{p_0})$。</li>
+<li>测量误差 $I(W(\mathbf{x};\mathbf{p_0}))-T(mathbf{x})$。</li>
+<li>计算 $I$ 的梯度 $\nabla I&#x3D;(I_x,I_y)$。</li>
+<li>计算 Jacobian 矩阵 $\frac{\partial W}{\partial \mathbf{p}}$。</li>
+<li>计算 $\nabla I\frac{\partial W}{\partial \mathbf{p}}$。</li>
+<li>计算 Hessian 矩阵的逆矩阵 $H^{-1}$。</li>
+<li>根据前面的公式，算出 $\mathbf{\Delta p}$。</li>
+<li>更新参数 $\mathbf{p_0}\leftarrow \mathbf{p_0+\Delta p}$。</li>
+<li>重复 3~10，直到 $\mathrm{\Delta p}$ 足够小。</li>
+</ol>
+<p>这样我们能获得相邻两个图像之间的轨迹，对于多个图像，我们对每 $15\sim 20$ 个图像做一遍 Harris Detection。</p>
+<p>难点：</p>
+<ol>
+<li>设立初始模板 $T(\mathbf{x})$ 的邻域大小，太小不仅会纳入噪声，而且会错过大幅度的 motion；太大可能会遇到 occlusion (遮挡)，一般选择 $15\times 15$ 或 $31\times 31$。</li>
+<li>求 $T(\mathbf{x})$ 需要某种窗函数，比如汉明窗，高斯窗等。</li>
+</ol>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -1006,58 +1006,58 @@
       </tags>
   </entry>
   <entry>
-    <title>Review of Course Computer Vision Lecture 16:Tracking</title>
-    <url>/2024/01/05/2024-1-5-cv-exam-16/</url>
+    <title>Review of Course Computer Vision Lecture 13:Object Detection</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-13/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
 <p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-16-Tracking"><a href="#Lecture-16-Tracking" class="headerlink" title="Lecture 16: Tracking"></a>Lecture 16: Tracking</h3><p>Tracking 主要就是在视频中跟踪某些东西的运动轨迹，比如关键点跟踪，单目标跟踪，多目标跟踪，变换的相机跟踪，移动的相机跟踪，多相机跟踪等等。</p>
-<p>难度在于以下几点：</p>
+<h3 id="Lecture-13-Object-Detection"><a href="#Lecture-13-Object-Detection" class="headerlink" title="Lecture 13: Object Detection"></a>Lecture 13: Object Detection</h3><p>目标检测就是检测并定位目标，且分类。</p>
+<p>几个难点：</p>
 <ol>
-<li>需要确认哪些特征可以被跟踪。</li>
-<li>一些点会随着时间变化而改变。</li>
-<li>Drift：随着时间变化，小的误差会被积累形成大的误差 (Panorama 中也有类似的问题)。</li>
-<li>点可能突然出现或者突然消失，需要动态增删。</li>
+<li>光照的不同。</li>
+<li>视角的不同。</li>
+<li>形状的畸变。</li>
+<li>相同种类但也形状各异。</li>
 </ol>
-<p>检测的点肯定想要是比较特殊有特征性，比如 SIFT 中的特征点或者 Harris Corners 等等。同时 Optical flow 也可以帮助 Tracking。</p>
-<h4 id="Simple-KLT-tracker"><a href="#Simple-KLT-tracker" class="headerlink" title="Simple KLT tracker"></a>Simple KLT tracker</h4><p>步骤如下：</p>
+<p>过去有许多目标检测的比赛，不过看起来现在都基本停办了。</p>
+<p>接下来给出一些标准的定义。</p>
+<p>True Positive: The overlap of the prediction with the ground truth is <strong>more</strong> than 0.5。</p>
+<p>False Positive: The overlap of the prediction with the ground truth is <strong>less</strong> than 0.5。</p>
+<p>False Negative: The objects that our model doesn’t find。</p>
+<p>True Negative: There is no object and our model doesn’t find。</p>
+<p><img src="https://pic.imgdb.cn/item/6596ec46871b83018a1f72e2.jpg"></p>
+<p>Precision: 多少个目标检测是正确的。</p>
+<p>Recall: 多少个目标被正确地检测了出来。</p>
+<p>我们的算法会对一个检测评分。而如果要认可这个检测，我们应设置阈值，大于该阈值时才认可该检测。若阈值过小，则 recall 会极高无比，precision 则会极低；若阈值过大，recall 会极低，但 precision 会极高。以下是不同的阈值 recall 和 precision 的图表。</p>
+<p><img src="https://pic.imgdb.cn/item/6596ed6b871b83018a22d4d5.jpg"></p>
+<h4 id="A-simple-object-detector"><a href="#A-simple-object-detector" class="headerlink" title="A simple object detector"></a>A simple object detector</h4><p>一个简单的思路是使用 HOG 和滤波器来检测。</p>
+<p>预先地，我们对每个目标会求出其的 HOG 特征图模板。</p>
+<p><img src="https://pic.imgdb.cn/item/6596eea4871b83018a268798.jpg"></p>
+<p>在这个基础上，我们使用滑动窗口，对每个窗口进行 HOG 来提取特征图，来比较特征图模板。若比较吻合，则认为找到了该目标。</p>
+<p>但实际上由于窗口大小被固定了，我们好像不好去找所有目标。所以需要多尺度窗口。</p>
+<p>一个比较容易想到的思路就是创建 HOG 金字塔。</p>
+<p><img src="https://pic.imgdb.cn/item/6596efb9871b83018a29a514.jpg"></p>
+<p>这种检测方法叫做 Dalal-Triggs Detector。</p>
+<h4 id="Deformable-parts-model"><a href="#Deformable-parts-model" class="headerlink" title="Deformable parts model"></a>Deformable parts model</h4><p>上文提到的检测方法是需要物体模板的，但很多时候物体会畸变，此时就没有特征模板能使用了。</p>
+<p>也就是说，整体性考虑物体已经不能处理畸变情况了，我们将考虑局部特征。</p>
+<p>Deformable parts model 的思路就是将一个目标看作多个部分的集合，每个部分都是局部特征。</p>
+<p>一般将这种模型构建成星型模型的形式，比如检测人，人有头有左手右手等等，此时星的根是整个人，头和其它部位都是叶子。</p>
+<p><img src="https://pic.imgdb.cn/item/6596f157871b83018a2e2cbf.jpg"></p>
+<p>于是，每个模型就有多种特征图，一种是全局特征图，也就是目标的整体特征图，一种是目标的各个部位的局部特征图。一般而言，局部特征图的分辨率会更高，这样就能检测到更多细节。</p>
+<p><img src="https://pic.imgdb.cn/item/6596f205871b83018a302a47.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596f21f871b83018a306d81.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596f247871b83018a30e253.jpg"></p>
+<p>一个模型可以被描述成这样一个向量 $(F_0,P_1,\cdots,P_n,b)$，其中 $F_0$ 是根滤波器 (全局滤波器)，$P_1,\cdots,P_n$ 分别是局部模型，$b$ 是偏差。$P_i$ 可以被描述成一个三维向量 $(F_i,v_i,d_i)$，其中 $F_i$ 是对应的局部滤波器；$v_i$ 是向量，表示目标位置 (不畸变时的位置) 与根位置的相对位置差；$d_i$ 表示目标位置 (不畸变时的位置) 所有可能的替换的畸变损失函数。</p>
+<p><img src="https://pic.imgdb.cn/item/6596f408871b83018a358df4.jpg"></p>
+<p>此时定义检测的评估分数为<br>$$<br>\mathrm{score}&#x3D;\sum_{i&#x3D;0}^n F_i\phi(p_i,H)-\sum_{i&#x3D;1}^n d_i(\Delta x_i,\Delta y_i,\Delta x_i^2, \Delta y_i^2).<br>$$<br>前半部分是容易理解的，即所有局部滤波器和全部滤波器的分数和。</p>
+<p>后半部分中，$\Delta x_i$ 表示在 $x$ 方向上，第 $i$ 个部分实际上应该在的位置和现在的位置之差，$\Delta y_i$ 定义类似，$d_i$ 是个设定的函数。</p>
+<h4 id="Detection-pipeline"><a href="#Detection-pipeline" class="headerlink" title="Detection pipeline"></a>Detection pipeline</h4><p>检测步骤如下：</p>
 <ol>
-<li>找到好的点去跟踪，比如利用 Harris Corner。</li>
-<li>对于每个好点，计算它们在相邻图中的 motion 变换 (仿射变换等)。</li>
-<li>对于上面的那些 motion 变换，连接起来，获得了运动轨迹。</li>
-<li>每 $10&#x2F;15$ 张图像，引入新的 Harris Corner 点。</li>
-<li>跟踪新和旧的 Harris Corner 点，重复 1 2 3。</li>
-</ol>
-<h4 id="2D-transformations"><a href="#2D-transformations" class="headerlink" title="2D transformations"></a>2D transformations</h4><p>和之前章节定义的类似，我们定义平移变换为矩阵 $\begin{pmatrix}1 &amp; 0 &amp; b_1\\\ 0 &amp; 1 &amp; b_2\end{pmatrix}$，并且定义函数<br>$$<br>W(\mathbf{x};\mathbf{p})&#x3D;\begin{pmatrix}1 &amp; 0 &amp; b_1\\\ 0 &amp; 1 &amp; b_2\end{pmatrix}\begin{pmatrix}x\\ y \\ 1\end{pmatrix}.<br>$$<br>其中，$\mathbf{p}&#x3D;\begin{pmatrix}b_1\\ b_2\end{pmatrix}$，$\mathbf{x}&#x3D;\begin{pmatrix}x\\y\end{pmatrix}$。</p>
-<p>可以注意到 $\frac{\partial W}{\partial \mathbf{p}}&#x3D;\begin{pmatrix}1 &amp; 0\\0 &amp; 1\end{pmatrix}$，向量函数对向量求导的定义是 Jacobian (雅可比)，设一个向量函数为 $F(x_1,x_2,\cdots,x_n)&#x3D;(y_1,y_2,\cdots,y_m)$，则<br>$$<br>\frac{\partial F(x_1,x_2,\cdots,x_n)}{\partial (x_1,x_2,\cdots,x_n)}&#x3D;\begin{pmatrix}\frac{\partial y_1}{\partial x_1} &amp; \frac{\partial y_1}{\partial x_2} &amp; \cdots\\ \frac{\partial y_2}{\partial x_1} &amp; \ddots &amp; \vdots \\ \vdots &amp; \cdots &amp; \ddots\end{pmatrix}.<br>$$<br>定义相似变换的矩阵为 $\begin{pmatrix}a &amp; 0 &amp; b_1\\\ 0 &amp; a &amp; b_2\end{pmatrix}$，此时 $\mathbf{p}&#x3D;(a,b_1,b_2)^T$，则 $\frac{\partial W}{\partial \mathbf{p}}&#x3D;\begin{pmatrix}x &amp; 1 &amp; 0\\\ y &amp; 0 &amp; 1\end{pmatrix}$。</p>
-<p>仿射变换里实际上包含了上述的所有，也有旋转等变换，其矩阵为<br>$$<br>\begin{pmatrix}a_1 &amp; a_2 &amp; b_1\\\ a_3 &amp; a_4 &amp; b_2\end{pmatrix}.<br>$$<br>于是 $\mathbf{p}&#x3D;(a_1,a_2,b_1,a_3,a_4,b_2)^T$，则<br>$$<br>\frac{\partial W}{\partial \mathbf{p}}&#x3D;\begin{pmatrix}x &amp; y &amp; 1 &amp; 0 &amp; 0 &amp; 0\\\ 0 &amp; 0 &amp; 0 &amp; x &amp; y &amp; 1\end{pmatrix}.<br>$$</p>
-<h4 id="Iterative-KLT-tracker"><a href="#Iterative-KLT-tracker" class="headerlink" title="Iterative KLT tracker"></a>Iterative KLT tracker</h4><p>首先，用 Harris Corner Detection 找到特征点以及其位置 $\mathbf{x}&#x3D;(x,y)^T$。</p>
-<p>对于 $\mathbf{x}$，创建其初始的特征模板为 $T(\mathbf{x})$，一般选择它邻域内的像素信息。</p>
-<p>我们想要找到下一刻中 $\mathbf{x}$ 的变换，假设其作了某种 $\mathrm{p}$ 变换，则变换后的位置应该是 $W(\mathbf{x};\mathbf{p})$。</p>
-<p>我们肯定想要最小化这个变换的误差，即最小化<br>$$<br>\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p}))-T(\mathbf{x})]^2.<br>$$<br>由于 $\mathbf{p}$ 可能很大，我们这里会选择残差连接 $\mathbf{p}$，即<br>$$<br>\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0+\Delta p}))-T(\mathbf{x})]^2.<br>$$<br>一般我们会初始化 $\mathbf{p_0}$ 为我们最好的猜测结果，然后计算 $\mathbf{\Delta p}$。</p>
-<p>注意到 $\mathbf{\Delta p}$ 会是小量，考虑 Taylor 展开，有<br>$$<br>\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0+\Delta p}))-T(\mathbf{x})]^2\\<br>\approx\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0})+\frac{\partial W}{\partial \mathbf{p}}\mathbf{\Delta p})-T(\mathbf{x})]^2\\<br>\approx\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0}))+\nabla I \frac{\partial W}{\partial \mathbf{p}}\mathbf{\Delta p}-T(\mathbf{x})]^2.<br>$$<br>此时的计算只是二次多项式，会容易很多。</p>
-<p>求最小值，于是求导，即<br>$$<br>\arg\min \sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0}))+\nabla I \frac{\partial W}{\partial \mathbf{p}}\mathbf{\Delta p}-T(\mathbf{x})]^2\\<br>\implies \sum_{\mathbf{x}} (\nabla I \frac{\partial W}{\partial \mathbf{p}})^T[I(W(\mathbf{x};\mathbf{p_0}))+\nabla I \frac{\partial W}{\partial \mathbf{p}}\mathbf{\Delta p}-T(\mathbf{x})]&#x3D;0\\<br>\implies \mathbf{\Delta p}&#x3D;H^{-1}\sum_{\mathbf{x}} (\nabla I \frac{\partial W}{\partial \mathbf{p}})^T[-I(W(\mathbf{x};\mathbf{p_0}))+T(\mathbf{x})].<br>$$<br>其中 $H&#x3D;\sum_{\mathbf{x}} (\nabla I \frac{\partial W}{\partial \mathbf{p}})^T(\nabla I \frac{\partial W}{\partial \mathbf{p}})$，要求 $H$ 必须要可逆。</p>
-<p>如果是平移变换，$H$ 的表达式是我们熟知的类似 Hessian 矩阵，在 Harris Corner 以及其他地方都出现过，即<br>$$<br>H&#x3D;\sum_{\mathbf{x}} \begin{pmatrix}I_x^2 &amp; I_xI_y\\I_xI_y &amp; I_y^2\end{pmatrix}.<br>$$</p>
-<p>如果是最广泛的仿射变换，矩阵就比较巨大了。</p>
-<p><img src="https://pic.imgdb.cn/item/6597b95c871b83018a3b7ebf.jpg"></p>
-<p>在这里，我们给出 KLT tracker 的步骤，在 Harris Detection 检测了特征点后。</p>
-<ol>
-<li>初始化 $\mathbf{p_0}$。</li>
-<li>对于每个特征点 $\mathbf{x}$，计算初始模板 $T(\mathbf{x})$。</li>
-<li>对每个特征点 $\mathbf{x}$，计算 $W(\mathbf{x};\mathbf{p_0})$。</li>
-<li>测量误差 $I(W(\mathbf{x};\mathbf{p_0}))-T(mathbf{x})$。</li>
-<li>计算 $I$ 的梯度 $\nabla I&#x3D;(I_x,I_y)$。</li>
-<li>计算 Jacobian 矩阵 $\frac{\partial W}{\partial \mathbf{p}}$。</li>
-<li>计算 $\nabla I\frac{\partial W}{\partial \mathbf{p}}$。</li>
-<li>计算 Hessian 矩阵的逆矩阵 $H^{-1}$。</li>
-<li>根据前面的公式，算出 $\mathbf{\Delta p}$。</li>
-<li>更新参数 $\mathbf{p_0}\leftarrow \mathbf{p_0+\Delta p}$。</li>
-<li>重复 3~10，直到 $\mathrm{\Delta p}$ 足够小。</li>
-</ol>
-<p>这样我们能获得相邻两个图像之间的轨迹，对于多个图像，我们对每 $15\sim 20$ 个图像做一遍 Harris Detection。</p>
-<p>难点：</p>
-<ol>
-<li>设立初始模板 $T(\mathbf{x})$ 的邻域大小，太小不仅会纳入噪声，而且会错过大幅度的 motion；太大可能会遇到 occlusion (遮挡)，一般选择 $15\times 15$ 或 $31\times 31$。</li>
-<li>求 $T(\mathbf{x})$ 需要某种窗函数，比如汉明窗，高斯窗等。</li>
+<li>确定全局和局部滤波器 $F_i$。</li>
+<li>计算输入图像的 HOG 特征图。<img src="https://pic.imgdb.cn/item/6596f616871b83018a3ae47c.jpg"></li>
+<li>应用滤波器们 $F_i\phi(p_i,H),i&#x3D;0,1,\cdots,n$。<img src="https://pic.imgdb.cn/item/6596f659871b83018a3b96f4.jpg"></li>
+<li>计算畸变带来的损失，即上文中的 $v_i&#x3D;(\Delta x_i,\Delta y_i)$ 以及 $d_i(\Delta x_i,\Delta y_i, \Delta x_i^2, \Delta y_i^2)$。</li>
+<li>计算每个部分的分数，即 $\mathrm{score}&#x3D;F_i\phi(p_i,H)-d_i(\Delta x_i,\Delta y_i, \Delta x_i^2, \Delta y_i^2)$。<img src="https://pic.imgdb.cn/item/6596f723871b83018a3d7a51.jpg"></li>
+<li>求和，即 $\mathrm{score}&#x3D;\sum_{i&#x3D;0}^n F_i\phi(p_i,H)-\sum_{i&#x3D;1}^n d_i(\Delta x_i,\Delta y_i,\Delta x_i^2, \Delta y_i^2).$<img src="https://pic.imgdb.cn/item/6596f749871b83018a3dd529.jpg"></li>
 </ol>
 ]]></content>
       <categories>
