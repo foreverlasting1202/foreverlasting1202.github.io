@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Review of Course Computer Vision Lecture 16:Tracking - Foreverlasting&#39;s blog</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    
+    <meta name="description" content="为期末考试复习做个准备。
+总文章地址。
+Lecture 16: TrackingTracking 主要就是在视频中跟踪某些东西的运动轨迹，比如关键点跟踪，单目标跟踪，多目标跟踪，变换的相机跟踪，移动,"> 
+    <meta name="author" content="Foreverlating"> 
+    <link rel="alternative" href="atom.xml" title="Foreverlasting&#39;s blog" type="application/atom+xml"> 
+    <link rel="icon" href="/img/cov_moon.jpg"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Review of Course Computer Vision Lecture 16:Tracking - Foreverlasting&#39;s blog"/>
+    <meta name="twitter:description" content="为期末考试复习做个准备。
+总文章地址。
+Lecture 16: TrackingTracking 主要就是在视频中跟踪某些东西的运动轨迹，比如关键点跟踪，单目标跟踪，多目标跟踪，变换的相机跟踪，移动,"/>
+    
+    
+    
+    
+    <meta property="og:site_name" content="Foreverlasting&#39;s blog"/>
+    <meta property="og:type" content="object"/>
+    <meta property="og:title" content="Review of Course Computer Vision Lecture 16:Tracking - Foreverlasting&#39;s blog"/>
+    <meta property="og:description" content="为期末考试复习做个准备。
+总文章地址。
+Lecture 16: TrackingTracking 主要就是在视频中跟踪某些东西的运动轨迹，比如关键点跟踪，单目标跟踪，多目标跟踪，变换的相机跟踪，移动,"/>
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <script>window.searchDbPath = "/search.xml";</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Foreverlasting&#39;s blog</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://foreverlasting.top"></a>
+    <div title="Play/Pause" class="iconfont icon-play"></div>
+    <h3 class="subtitle">Review of Course Computer Vision Lecture 16:Tracking</h3>
+    <div class="social">
+        <div>
+        <!--
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        -->
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">Review of Course Computer Vision Lecture 16:Tracking</h1>
+        <div class="stuff">
+            <span>January 05, 2024</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/AI/" rel="tag">AI</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Computer-Vision/" rel="tag">Computer Vision</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-16-Tracking"><a href="#Lecture-16-Tracking" class="headerlink" title="Lecture 16: Tracking"></a>Lecture 16: Tracking</h3><p>Tracking 主要就是在视频中跟踪某些东西的运动轨迹，比如关键点跟踪，单目标跟踪，多目标跟踪，变换的相机跟踪，移动的相机跟踪，多相机跟踪等等。</p>
+<p>难度在于以下几点：</p>
+<ol>
+<li>需要确认哪些特征可以被跟踪。</li>
+<li>一些点会随着时间变化而改变。</li>
+<li>Drift：随着时间变化，小的误差会被积累形成大的误差 (Panorama 中也有类似的问题)。</li>
+<li>点可能突然出现或者突然消失，需要动态增删。</li>
+</ol>
+<p>检测的点肯定想要是比较特殊有特征性，比如 SIFT 中的特征点或者 Harris Corners 等等。同时 Optical flow 也可以帮助 Tracking。</p>
+<h4 id="Simple-KLT-tracker"><a href="#Simple-KLT-tracker" class="headerlink" title="Simple KLT tracker"></a>Simple KLT tracker</h4><p>步骤如下：</p>
+<ol>
+<li>找到好的点去跟踪，比如利用 Harris Corner。</li>
+<li>对于每个好点，计算它们在相邻图中的 motion 变换 (仿射变换等)。</li>
+<li>对于上面的那些 motion 变换，连接起来，获得了运动轨迹。</li>
+<li>每 $10&#x2F;15$ 张图像，引入新的 Harris Corner 点。</li>
+<li>跟踪新和旧的 Harris Corner 点，重复 1 2 3。</li>
+</ol>
+<h4 id="2D-transformations"><a href="#2D-transformations" class="headerlink" title="2D transformations"></a>2D transformations</h4><p>和之前章节定义的类似，我们定义平移变换为矩阵 $\begin{pmatrix}1 &amp; 0 &amp; b_1\\\ 0 &amp; 1 &amp; b_2\end{pmatrix}$，并且定义函数<br>$$<br>W(\mathbf{x};\mathbf{p})&#x3D;\begin{pmatrix}1 &amp; 0 &amp; b_1\\\ 0 &amp; 1 &amp; b_2\end{pmatrix}\begin{pmatrix}x\\ y \\ 1\end{pmatrix}.<br>$$<br>其中，$\mathbf{p}&#x3D;\begin{pmatrix}b_1\\ b_2\end{pmatrix}$，$\mathbf{x}&#x3D;\begin{pmatrix}x\\y\end{pmatrix}$。</p>
+<p>可以注意到 $\frac{\partial W}{\partial \mathbf{p}}&#x3D;\begin{pmatrix}1 &amp; 0\\0 &amp; 1\end{pmatrix}$，向量函数对向量求导的定义是 Jacobian (雅可比)，设一个向量函数为 $F(x_1,x_2,\cdots,x_n)&#x3D;(y_1,y_2,\cdots,y_m)$，则<br>$$<br>\frac{\partial F(x_1,x_2,\cdots,x_n)}{\partial (x_1,x_2,\cdots,x_n)}&#x3D;\begin{pmatrix}\frac{\partial y_1}{\partial x_1} &amp; \frac{\partial y_1}{\partial x_2} &amp; \cdots\\ \frac{\partial y_2}{\partial x_1} &amp; \ddots &amp; \vdots \\ \vdots &amp; \cdots &amp; \ddots\end{pmatrix}.<br>$$<br>定义相似变换的矩阵为 $\begin{pmatrix}a &amp; 0 &amp; b_1\\\ 0 &amp; a &amp; b_2\end{pmatrix}$，此时 $\mathbf{p}&#x3D;(a,b_1,b_2)^T$，则 $\frac{\partial W}{\partial \mathbf{p}}&#x3D;\begin{pmatrix}x &amp; 1 &amp; 0\\\ y &amp; 0 &amp; 1\end{pmatrix}$。</p>
+<p>仿射变换里实际上包含了上述的所有，也有旋转等变换，其矩阵为<br>$$<br>\begin{pmatrix}a_1 &amp; a_2 &amp; b_1\\\ a_3 &amp; a_4 &amp; b_2\end{pmatrix}.<br>$$<br>于是 $\mathbf{p}&#x3D;(a_1,a_2,b_1,a_3,a_4,b_2)^T$，则<br>$$<br>\frac{\partial W}{\partial \mathbf{p}}&#x3D;\begin{pmatrix}x &amp; y &amp; 1 &amp; 0 &amp; 0 &amp; 0\\\ 0 &amp; 0 &amp; 0 &amp; x &amp; y &amp; 1\end{pmatrix}.<br>$$</p>
+<h4 id="Iterative-KLT-tracker"><a href="#Iterative-KLT-tracker" class="headerlink" title="Iterative KLT tracker"></a>Iterative KLT tracker</h4><p>首先，用 Harris Corner Detection 找到特征点以及其位置 $\mathbf{x}&#x3D;(x,y)^T$。</p>
+<p>对于 $\mathbf{x}$，创建其初始的特征模板为 $T(\mathbf{x})$，一般选择它邻域内的像素信息。</p>
+<p>我们想要找到下一刻中 $\mathbf{x}$ 的变换，假设其作了某种 $\mathrm{p}$ 变换，则变换后的位置应该是 $W(\mathbf{x};\mathbf{p})$。</p>
+<p>我们肯定想要最小化这个变换的误差，即最小化<br>$$<br>\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p}))-T(\mathbf{x})]^2.<br>$$<br>由于 $\mathbf{p}$ 可能很大，我们这里会选择残差连接 $\mathbf{p}$，即<br>$$<br>\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0+\Delta p}))-T(\mathbf{x})]^2.<br>$$<br>一般我们会初始化 $\mathbf{p_0}$ 为我们最好的猜测结果，然后计算 $\mathbf{\Delta p}$。</p>
+<p>注意到 $\mathbf{\Delta p}$ 会是小量，考虑 Taylor 展开，有<br>$$<br>\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0+\Delta p}))-T(\mathbf{x})]^2\\<br>\approx\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0})+\frac{\partial W}{\partial \mathbf{p}}\mathbf{\Delta p})-T(\mathbf{x})]^2\\<br>\approx\sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0}))+\nabla I \frac{\partial W}{\partial \mathbf{p}}\mathbf{\Delta p}-T(\mathbf{x})]^2.<br>$$<br>此时的计算只是二次多项式，会容易很多。</p>
+<p>求最小值，于是求导，即<br>$$<br>\arg\min \sum_{\mathbf{x}} [I(W(\mathbf{x};\mathbf{p_0}))+\nabla I \frac{\partial W}{\partial \mathbf{p}}\mathbf{\Delta p}-T(\mathbf{x})]^2\\<br>\implies \sum_{\mathbf{x}} (\nabla I \frac{\partial W}{\partial \mathbf{p}})^T[I(W(\mathbf{x};\mathbf{p_0}))+\nabla I \frac{\partial W}{\partial \mathbf{p}}\mathbf{\Delta p}-T(\mathbf{x})]&#x3D;0\\<br>\implies \mathbf{\Delta p}&#x3D;H^{-1}\sum_{\mathbf{x}} (\nabla I \frac{\partial W}{\partial \mathbf{p}})^T[-I(W(\mathbf{x};\mathbf{p_0}))+T(\mathbf{x})].<br>$$<br>其中 $H&#x3D;\sum_{\mathbf{x}} (\nabla I \frac{\partial W}{\partial \mathbf{p}})^T(\nabla I \frac{\partial W}{\partial \mathbf{p}})$，要求 $H$ 必须要可逆。</p>
+<p>如果是平移变换，$H$ 的表达式是我们熟知的类似 Hessian 矩阵，在 Harris Corner 以及其他地方都出现过，即<br>$$<br>H&#x3D;\sum_{\mathbf{x}} \begin{pmatrix}I_x^2 &amp; I_xI_y\\I_xI_y &amp; I_y^2\end{pmatrix}.<br>$$</p>
+<p>如果是最广泛的仿射变换，矩阵就比较巨大了。</p>
+<p><img src="https://pic.imgdb.cn/item/6597b95c871b83018a3b7ebf.jpg"></p>
+<p>在这里，我们给出 KLT tracker 的步骤，在 Harris Detection 检测了特征点后。</p>
+<ol>
+<li>初始化 $\mathbf{p_0}$。</li>
+<li>对于每个特征点 $\mathbf{x}$，计算初始模板 $T(\mathbf{x})$。</li>
+<li>对每个特征点 $\mathbf{x}$，计算 $W(\mathbf{x};\mathbf{p_0})$。</li>
+<li>测量误差 $I(W(\mathbf{x};\mathbf{p_0}))-T(mathbf{x})$。</li>
+<li>计算 $I$ 的梯度 $\nabla I&#x3D;(I_x,I_y)$。</li>
+<li>计算 Jacobian 矩阵 $\frac{\partial W}{\partial \mathbf{p}}$。</li>
+<li>计算 $\nabla I\frac{\partial W}{\partial \mathbf{p}}$。</li>
+<li>计算 Hessian 矩阵的逆矩阵 $H^{-1}$。</li>
+<li>根据前面的公式，算出 $\mathbf{\Delta p}$。</li>
+<li>更新参数 $\mathbf{p_0}\leftarrow \mathbf{p_0+\Delta p}$。</li>
+<li>重复 3~10，直到 $\mathrm{\Delta p}$ 足够小。</li>
+</ol>
+<p>这样我们能获得相邻两个图像之间的轨迹，对于多个图像，我们对每 $15\sim 20$ 个图像做一遍 Harris Detection。</p>
+<p>难点：</p>
+<ol>
+<li>设立初始模板 $T(\mathbf{x})$ 的邻域大小，太小不仅会纳入噪声，而且会错过大幅度的 motion；太大可能会遇到 occlusion (遮挡)，一般选择 $15\times 15$ 或 $31\times 31$。</li>
+<li>求 $T(\mathbf{x})$ 需要某种窗函数，比如汉明窗，高斯窗等。</li>
+</ol>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title="0" data-url="/music.163.com/style/swf/widget.swf?sid=25729599&type=2&auto=1&width=320&height=66"></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+        
+    <div id="gitalk-container" class="comment link"
+		data-enable="true"
+        data-ae="true"
+        data-ci="d54c1ac5b5906c8278d9"
+        data-cs="36a0fdbc2fbb7c66a6067452269ef8171e8ff867"
+        data-r="blogtalk"
+        data-o="foreverlasting1202"
+        data-a="foreverlasting1202"
+        data-d="false"
+    >...</div>
+
+
+    </div>
+    
+        <div class="side">
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Lecture-16-Tracking"><span class="toc-number">1.</span> <span class="toc-text">Lecture 16: Tracking</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Simple-KLT-tracker"><span class="toc-number">1.1.</span> <span class="toc-text">Simple KLT tracker</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2D-transformations"><span class="toc-number">1.2.</span> <span class="toc-text">2D transformations</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Iterative-KLT-tracker"><span class="toc-number">1.3.</span> <span class="toc-text">Iterative KLT tracker</span></a></li></ol></li></ol>
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+
+</html>
