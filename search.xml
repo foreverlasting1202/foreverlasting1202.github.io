@@ -68,16 +68,26 @@
 <p>论文中给出了一个例子，可以明显看到是符合上述的数学证明的。</p>
 <p>在这里先给出一个关于 sharpness 的定义：</p>
 <h4 id="Definition-Sharpness"><a href="#Definition-Sharpness" class="headerlink" title="Definition (Sharpness)"></a>Definition (Sharpness)</h4><p>一个点 $\theta$ 处的 sharpness 被定义为<br>$$<br>\lambda_{\max}(\nabla^2 f(\theta^t)).<br>$$<br>这样来看，我们可以根据之前的信息有这样一个直觉猜测：</p>
-<h4 id="Intuition-1"><a href="#Intuition-1" class="headerlink" title="Intuition 1"></a>Intuition 1</h4><p>当一个驻点的 sharpness 大于 $\frac{2}{\eta}$ 时，GD 没法收敛导这个点。</p>
+<h4 id="Intuition-1"><a href="#Intuition-1" class="headerlink" title="Intuition 1"></a>Intuition 1</h4><p>当一个驻点的 sharpness 大于 $\frac{2}{\eta}$ 时，GD 没法收敛到这个点。</p>
 <p>接下来，我们能证明这个 Intuition 在某些假设下是能做到绝大多数成立的。</p>
 <h4 id="Assumption-1"><a href="#Assumption-1" class="headerlink" title="Assumption 1"></a>Assumption 1</h4><p>设 $F(\theta)&#x3D;\theta-\eta\nabla f(\theta)$，我们做出以下假设：</p>
 <p>对任意的零测度集合 $S$，$F^{-1}(S)$ 也一定是零测度的。</p>
 <p>更进一步，我们可以假设对任意一个驻点 $\mathbf{p}$，满足 $\frac{1}{\eta}\not\in \lambda(\nabla^2f(\mathbf{p}))$，其中 $\lambda(\nabla^2f(\mathbf{p}))$ 表示的是 $\mathbf{p}$ 处的 $f$ 的 Hessian 矩阵的特征值集合。</p>
 <p>这个假设的目的是为了接下来的定理证明，由此得到 Intuition 1 的合法性。</p>
+<p>接下来先介绍一个比较重要的引理：稳定流形定理 (Stable Manifold Theorem)。</p>
+<h4 id="Lemma-1-Stable-Manifold-Theorem"><a href="#Lemma-1-Stable-Manifold-Theorem" class="headerlink" title="Lemma 1 (Stable Manifold Theorem)"></a>Lemma 1 (Stable Manifold Theorem)</h4><p><strong>Description</strong>：设 $\mathbf{p}$ 是一个确定的点，$h:U\rightarrow \mathbb{R}^n$ 是一个 $C^r(r\geq 1)$ 的局部微分同胚，其中 $U$ 是 $\mathbf{p}$ 的一个开邻域。设 $E^s\oplus E^c\oplus E^u$ 是 $\mathbb{R}^n$ 的不变分解，分别对应 $Dh(\mathbf{p})$ 的绝对值小于 $1$ 或等于 $1$ 或大于 $1$ 的特征值的广义特征空间 (直和分解定理)。</p>
+<p>有引理如下：对于 $Dh(\mathbf{p})$ 不变子空间 $E^s\oplus E^c$，存在一个关联的局部 $h$ 不变且 $C^r$ 的嵌入盘 $W^{s\oplus c}<em>{\text{loc}}$，其维度为 $\dim(E^s\oplus E^c)$。如果对于某个 $\mathbf{x}$，$h^n(\mathbf{x})\in B,\forall n\geq 0$，其中 $B$ 是 $\mathbf{p}$ 附近的开球，则 $\mathbf{x}\in W^{s\oplus c}</em>{\text{loc}}$。</p>
+<p><strong>Understanding</strong>：这个引理揭示了一个比较重要的东西，就是若一个点的迭代变化是稳定或中性的，且它始终在某一个收敛点迭代，则它一定会在一个 $h$ 下不变的盘中。在 GD 中，将 $\mathbf{p}$ 理解成某个驻点，则可以进一步了解迭代收敛过程。</p>
 <h4 id="Theorem-1"><a href="#Theorem-1" class="headerlink" title="Theorem 1"></a>Theorem 1</h4><p><strong>Description</strong>：对于一个给定的 $\mathcal{X}$，它是参数 $\theta$ 的值域的子集，假设 $f$ 在 $\mathcal{X}$ 内是二阶可微的。假设对于 $\mathcal{X}$ 中的每个驻点 $\mathbf{p}$，满足要么 $\lambda_{\min}(\nabla^2 f(\mathbf{p}))&lt;0$，要么 $\lambda_{\max}(\nabla^2 f(\mathbf{p}))&gt;\frac{2}{\eta}$。那么在 Assumption 1 的前提下，一定存在一个零测度的子集 $\mathcal{N}$，满足对于所有初始点 $\theta_0\in \mathcal{X}\backslash \mathcal{N}$，GD 不能收敛到任何在 $\mathcal{X}$ 中的驻点。</p>
 <p><strong>Understanding</strong>：首先观察下这个 $\mathcal{X}$ 是什么，可以发现，$\lambda_{\min}$ 的条件是鞍点的意思，而 $\lambda_{\max}$ 的条件则就是我们所要的 sharpness。比对 <a href="https://arxiv.org/abs/1602.04915">Lee et al., 2016</a>，可以发现这里的改进就在于对 sharpness 的分析。另一方面，它表达了除了一个零测度集以外，其余情况都在 Assumption 1 下满足了我们的 Intuition 1，也就是绝大部分初始点都会满足 Intuition 1。</p>
-<p><strong>Proof Idea</strong>：证明这个定理的思路借鉴了 <a href="https://arxiv.org/abs/1602.04915">Lee et al., 2016</a>，仍然是考虑稳定流形定理 (Stable Manifold Theorem) 来导出我们想要的结果。</p>
-]]></content>
+<p><strong>Proof Idea</strong>：证明这个定理的思路借鉴了 <a href="https://arxiv.org/abs/1602.04915">Lee et al., 2016</a>，仍然是考虑 Lemma1(Stable Manifold Theorem) 来导出我们想要的结果。主要是利用 $W^{s\oplus c}_{\text{loc}}$ 的可数并来构造 $\mathcal N$。</p>
+<p><strong>Proof</strong>：要运用 Lemma 1，我们需要先证明 GD 中的 $F(\theta)&#x3D;\theta-\eta\nabla f(\theta)$ 在每一个满足 $\frac{1}{\eta}\in \lambda(\nabla^2 f(\mathbf{p}))$ 的驻点 $\mathbf{p}$ 处都是个局部微分同胚。这利用反函数定理，即考虑其 Jacobian 矩阵可逆情况。首先由于 $f$ 是 $C^2$，所以 $F$ 是 $C^1$，保证了可导；另一方面，$DF(\mathbf{p})&#x3D;I-\eta\nabla^2 f(\mathbf{p})$，又因为 $\frac{1}{\eta}\not\in \lambda(\nabla^2 f(\mathbf{p}))$，所以 $DF(\mathbf{p})$ 是可逆。这就证明了 $F$ 在 $\mathbf{p}$ 处是个局部微分同胚。</p>
+<p>这样就可以使用 Lemma 1 了。对于每个满足 $\frac{1}{\eta}\not\in \lambda(\nabla^2 f(\mathbf{p}))$ 驻点 $\mathbf{p}$ 考虑 Lemma 1。即设 $B_{\mathbf{p_i}}$ 是驻点 $\mathbf{p_i}$ 的开球，设一个 $\mathcal{S}&#x3D;\lbrace \mathbf{p}<em>i\rbrace$ 的开覆盖<br>$$<br>\mathcal{C}&#x3D;\bigcup</em>{p_i\in \mathcal{S}\wedge \frac{1}{\eta}\not\in \lambda(\nabla^2 f(\mathbf{p}))} B_{\mathbf{p}<em>i},<br>$$<br>利用 Assumption 1，可以知道 $\mathcal{C}$ 是 $\mathcal{S}$ 的一个开覆盖。利用 Lindelöf 定理 (第二可数空间的任意开覆盖都存在一个可数的子覆盖)，则 $\mathcal{C}$ 一定存在一个可数子覆盖，即 $\mathcal{C}&#x3D;\cup</em>{i&#x3D;1}^{\infty} B_{\mathbf{p}<em>i}$。如果初始点为 $\mathbf{\theta_0}$ 的 GD 收敛于一个驻点 $\mathbf{p}$，则一定存在一个 $t_0,i$ 满足 $F^t(\theta_0)\in B</em>{\mathbf{p}<em>i},\forall t\geq t_0$。根据 Lemma 1，我们有 $F^t(\theta_0)\in W^{s\oplus c}</em>{\text{loc}}(\mathbf{p}<em>i),\forall t\geq t_0$。于是我们就能构造出 $\mathcal{N}$ 了，即<br>$$<br>\mathcal{N}&#x3D;\bigcup</em>{i&#x3D;1}^{\infty}\bigcup_{t&#x3D;0}^{\infty} F^{-t}(W^{s\oplus c}_{\text{loc}}(\mathbf{p}_i)),<br>$$<br>其中 $\mathcal{N}$ 的一个子集中的所有点作为初始点时会收敛到驻点 $\mathbf{p}$。</p>
+<p>现在我们要证明 $\mathcal{N}$ 是零测度的。</p>
+<p>在这个定理的假设中，有假定 $\lambda_{\min}(\nabla^2 f(\mathbf{p}))&lt;0$ 或 $\lambda_{\max}(\nabla^2 f(\mathbf{p}))&gt;\frac{2}{\eta}$，于是就保证了 $I-\eta\nabla^2 f(\mathbf{p})$ 的特征值的绝对值大于 $1$。于是对于每个驻点 $\mathbf{p}$，$\dim(E^u)\geq 1$，于是 $\dim(E^s\oplus E^c)\leq n-1$，也即 $W^{s\oplus c}<em>{\text{loc}}$ 是零测度的，从 Assumption 1 中就又能知道 $F^{-1}(W^{s\oplus c}</em>{\text{loc}})$ 也是零测度，也就是说 $\mathcal{N}$ 是可数个零测度集的并，于是 $\mathcal{N}$ 也是零测度的。也就证明了 Theorem 1。</p>
+<h4 id="Remark-1"><a href="#Remark-1" class="headerlink" title="Remark 1"></a>Remark 1</h4><p>定理不要求驻点一定是孤立的，同时 $\frac{1}{\eta}\not\in \lambda(\nabla^2 f(\mathbf{p}))$ 的条件可以放宽，它实际上仅仅保证了 $\mathcal{C}$ 是 $\mathcal{S}$ 的开覆盖，如果有其他方面可以走到这一步也是可行的。</p>
+<p>接下来我们将探讨不稳定区域内要如何收敛的。</p>
+<h3 id="How-Can-Unstable-GD-“Converge”"><a href="#How-Can-Unstable-GD-“Converge”" class="headerlink" title="How Can Unstable GD “Converge”?"></a>How Can Unstable GD “Converge”?</h3>]]></content>
       <categories>
         <category>Thesis Reading</category>
       </categories>
@@ -1081,6 +1091,28 @@
       <tags>
         <tag>AI</tag>
         <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.2.12 精神状态(年度回望?)</title>
+    <url>/2024/02/12/2024-2-12-thoughts/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="181ff3533ba1364dd02d3a0e72a7fc6455344d0f15a3b6222fbed374ea5d3c7a">077fab05f623b222ec5c89f978cb4906ae4acde87a1a945d6967776a8167b5716ac36f66e91b888950634c62dbd7ff46859ed25f7156ed25e8e23a9675ffdf21dc59ef0ceb1977cbb2085d911f36454a9439f1403189e974a02e63d6d1f72c25ad08c13e86cf9fde1bd2fdbce3ba6a4c4cf0df3dc12e8377e3d35fdfaafbcda62584d38ff03361b560bbf754e9327f93cdd7bb406cfa9698bf665b128622de0804bd5f965e07eb3a05db2922fd83b8b693d9bd40631a9ab76f78f9940569ee69709495ad1168c03f120afa1a56da62f4adec05f897a1cba641429154f1f1257d0ecd785dbc0f2c881ea6d11ae1a86be0e240aef0bbde5dc82e47f999fd88750f97e6ee88d7b234381a91c175cb7c78ef1318f5d7e01c101a0d75d59301cc7a153ee246a11111dbd5454f9adaf9884bfbc90811d6c52284f600019cba8a2c17601357dc4b4babffaf5ea04b72b346c1d9241e1b0baa326a7aca62840c2f71c0cb416ea5545fade0d5b5ff7cced855a880101c4a9c684a497685cab77a381c75228bce4ff8c58f30a54b7b84611baa4ab53adb6309966922e97693cc030ec595b982c4c90d0eaceaf862911109c5a1de0dbe04134f9d7448f2fdd64105a8228cae486fe83f793aee068a7d62c996bb3febebbd69e25aa994de93b645c403cea12ecd7bbb399726f874412ce7031ed23dcbd8774393fcd4e14c4a2aa245823f48aeb36b02d2dba835b35337bb2ed76dd72e87bd66185fc7bb74930550061d9a0e2f281854fd186002f662ca64adc6bf207fd1e9831b4b17b7b991719896ed61546e2a72e4ce7f24fff05d1c31b5d8c6266a8e163d448a7b608fd8c0c76b0d2c13483836d5e825c982d2de253c3ad0f5c67b81919b6671b7727ea9f67e625eb3b980987f8292dbef2d633d305775f25d21c9a91334993cc78dafe722249da09f7e86a4c2ae594d0189fc40c6abea1fb3e024d7296d6e177d2cd7d6ce75031c97963e34cb64eaca948bb97bb4df973f6569ddbb5cac2ff5d6a41a4c1e2f9f008ee6971d595d1f97eeff66b7fb3d9e0b985ce20b99deb169fdf1ae518364d6c67be2432aefa2113fe9606b5b901fd85a5c0c21c81663c6fdfc484f6f44941b2afbf46f5ea39ff067fc60e7b8fb943c9a13997f59d8ab51f3ec91730d71ebb310a6bb8c4668eb60fc1863ba298bb41f3f63de63cf1e37a788ee7b2964d25e391eb1b5818ae5fcb4cc3bdab6d72a001586f86b4f4a3c69986fb24c1eb4443738dba748349df7034cc47363e2f7353620d41a155c00f619a03f4afd684487433268b9736595f30dcdcd61c976479ffda93e2d3ac7b728545c4e0b1ba45b3822b6f493c391648f19668911b05d3b6287eb1b17446110987c2099e3866784243fe2d9ed80798ff844cc7bd1dacfa26445cc370808a14a035f23203695e8af431943bf5c2edf79bd3277103dcc08bec6342db0c9be146e27492786e064e88d22cc3235f7043057288edcbe455d32bf838b18c7775d271caabddea0d2295cda468a9fd4a2615a0c784cfed02b4509560962304be5a5d680c138aa71190ce42d4ada36fa18b31c626ca342286041bf5089dd84d407073671c220164765060e4e46f8e598df828049e3c49083e1465b706001ca6433b4a9de2f29e529dd4e44341481d3fe3178f2531211ac8bf1da2acac3dac592dbfb6b4ca1bdeabcf4c2c7df9cef3bdaddce182999f07cba68e93da32d3118947d9aa33912e1c6c454e4faa242674a5d9139026aaf8282d66031bf4e9f35a7830a763f8c82592c40beb7b7caee5f0817d482e17c197250a6398b23cb48fbdf54957c7691fc353f94935f723f40704eb3d630eecc450e98a74dbfb5d06aa62b61b307db8bc938fdad83c9f028590851b2454760cbe5b9e75bb2417ee8c247dc35e4fa6b939e2c92711bf27e0585397db92e608cf070deacc5dc53dcdcdeb78332d5f64513cf48180e55622b0fa8696d37cc30852e2b49ca3878cdc7ec42148168708cb213d81528f217fc711cbcd902212180a51b85c424b9807a184a7858c4114e2423ac814ead91430f8b441011a1ad499278b662015e3758dbe4361747b64c7ad1a23aa240e8f1e7f876b16e3ed011bf3c54fb7869eb5b574c49748f2f39d9dbe816d40a0504dede704857bc0b0fffdf4f7702a544092873ff15f284025038f095dc0ffacc251b77dbfc7765def90cd735015a8d0b9a3a38f0644c8010a2fbce5653f3b74704ac4ce2fc683b428b1012f7bddee6671c4cdd8974159e42cabbe61bba5862bfeb87bb0021dc1662f67284bed1057ed23177eab996fb9d74532e3a361306d31ee60d19cdfcee99d2dd585c43f04794b35f1e49c8a512d71351019357bf0103dfefe37cf27a73cfe55420bf6d53f1649eda8789af8c1ea4db78582fcbd830dfcfb20d9b51bf35d4d24887e069b9e4bcd4a4d1a885a5fbf16947e574988e766f93b5cf341369f23a8d0ade1432386130f3f81a9636f88d6b7479a1721f045bc2eed5eec9541220cd16bd2375ec4536682cfc93b5ffc88f991cbca1b43a156f84f4ddb02f45ee56e301d217ca01c5</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Something</category>
+      </categories>
+      <tags>
+        <tag>Something</tag>
       </tags>
   </entry>
 </search>
