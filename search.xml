@@ -31,60 +31,6 @@
       </tags>
   </entry>
   <entry>
-    <title>北京理工大学人工智能专业生存手册</title>
-    <url>/2023/10/08/2023-10-8-BITAI/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
-<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
-<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="形势与政策"><a href="#形势与政策" class="headerlink" title="形势与政策"></a>形势与政策</h3><h3 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h3><h3 id="公选"><a href="#公选" class="headerlink" title="公选"></a>公选</h3><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><h3 id="工程制图C"><a href="#工程制图C" class="headerlink" title="工程制图C"></a>工程制图C</h3><h3 id="大学计算机"><a href="#大学计算机" class="headerlink" title="大学计算机"></a>大学计算机</h3><h3 id="线性代数B"><a href="#线性代数B" class="headerlink" title="线性代数B"></a>线性代数B</h3><h3 id="工科数学分析-I"><a href="#工科数学分析-I" class="headerlink" title="工科数学分析 I"></a>工科数学分析 I</h3><h3 id="知识产权法基础"><a href="#知识产权法基础" class="headerlink" title="知识产权法基础"></a>知识产权法基础</h3><h3 id="学术用途英语一级"><a href="#学术用途英语一级" class="headerlink" title="学术用途英语一级"></a>学术用途英语一级</h3><h3 id="思想道德与法治"><a href="#思想道德与法治" class="headerlink" title="思想道德与法治"></a>思想道德与法治</h3><h3 id="大学生心理素质发展"><a href="#大学生心理素质发展" class="headerlink" title="大学生心理素质发展"></a>大学生心理素质发展</h3><h3 id="军事理论"><a href="#军事理论" class="headerlink" title="军事理论"></a>军事理论</h3><h3 id="军事技能"><a href="#军事技能" class="headerlink" title="军事技能"></a>军事技能</h3><h2 id="大二下"><a href="#大二下" class="headerlink" title="大二下"></a>大二下</h2><h3 id="电路分析基础"><a href="#电路分析基础" class="headerlink" title="电路分析基础"></a>电路分析基础</h3><h3 id="C语言程序设计"><a href="#C语言程序设计" class="headerlink" title="C语言程序设计"></a>C语言程序设计</h3><h3 id="工科数学分析-II"><a href="#工科数学分析-II" class="headerlink" title="工科数学分析 II"></a>工科数学分析 II</h3><h3 id="大学物理AⅠ"><a href="#大学物理AⅠ" class="headerlink" title="大学物理AⅠ"></a>大学物理AⅠ</h3><h3 id="物理实验BⅠ"><a href="#物理实验BⅠ" class="headerlink" title="物理实验BⅠ"></a>物理实验BⅠ</h3><h3 id="学术用途英语二级"><a href="#学术用途英语二级" class="headerlink" title="学术用途英语二级"></a>学术用途英语二级</h3>]]></content>
-      <categories>
-        <category>生存手册</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>算法竞赛生存手册(伪)</title>
-    <url>/2023/10/08/2023-10-8-CP(fake)/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>说实话，写这个有点抽象的。主要是我毫无成绩吧，写的东西也没啥说服力。只能写出某些自己的心得体会，也可能会扔一些题单博客啥的，能帮到人就算成功。</p>
-]]></content>
-      <categories>
-        <category>生存手册</category>
-      </categories>
-      <tags>
-        <tag>CP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于 AI 里的一些数学证明</title>
-    <url>/2023/11/06/2023-11-6-AI-math/</url>
-    <content><![CDATA[<p>会更新吗？如更。</p>
-<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Benign Overfitting in classification provably counter label noise with larger models</title>
-    <url>/2023/12/18/2023-12-18-2206.00501/</url>
-    <content><![CDATA[<h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
-]]></content>
-      <categories>
-        <category>Thesis Reading</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Understanding the Unstable Convergence of Gradient Descent</title>
     <url>/2023/12/19/2023-12-18-2205.01050/</url>
     <content><![CDATA[<p>这篇论文的<a href="https://arxiv.org/abs/2204.01050">地址</a>，其主要思路和启发应该来自于 <a href="https://arxiv.org/abs/1602.04915">Lee et al., 2016</a>.</p>
@@ -135,7 +81,7 @@
 <p><strong>Proof Idea</strong>：正齐次参数有个很好的内积性质，基于该性质可以证明。</p>
 <p><strong>Proof</strong>：正齐次参数一个很好的性质就是<br>$$<br>\langle \nabla_{\zeta}f(\mathbf{x}_i,[\zeta,\xi],\xi)&#x3D;0.<br>$$<br>这个性质证明不难，考虑 $f(\mathbf{x}_i,[\xi,c\zeta])$ 在 $[\xi,\zeta]$ 处展开，因为正齐次性，所以意味着后面的每一项都得是 $0$，也就得证了。</p>
 <p>如果 $\nabla_{\zeta}\gamma\Vert\theta\Vert_2^2\neq 0$，又 $\langle \nabla_{\zeta}\gamma\Vert\theta\Vert_2^2,\theta\rangle\neq 0$，这是因为 $\xi\neq 0$，直接代入可以证明的，那么 $\nabla_{\zeta}(f(\mathbf{x}_i,[\xi,\zeta])+\gamma\Vert\theta\Vert_2^2)\neq 0$，于是就得证了。</p>
-<p>在 ResNet 或 Transformer 中，总有一些类似 $a_{L+1}&#x3D;a_L&#x2F;\Vert a_L\Vert$ 的层，这是正齐次化的，我们知道驻点事 $a_L&#x3D;0$，但这时分式无定义，所以一般使用 $a_{L+1}&#x3D;a_L&#x2F;(\epsilon+\Vert a_L\Vert)$，这样的驻点在 $\Vert a_L\Vert&#x3D;\epsilon$。但这时的 sharpness 的级别在 $\sim 1&#x2F;\epsilon$，这样的级别太大了。</p>
+<p>在 ResNet 或 Transformer 中，总有一些类似 $a_{L+1}&#x3D;a_L&#x2F;\Vert a_L\Vert$ 的层，这是正齐次化的，我们知道驻点是 $a_L&#x3D;0$，但这时分式无定义，所以一般使用 $a_{L+1}&#x3D;a_L&#x2F;(\epsilon+\Vert a_L\Vert)$，这样的驻点在 $\Vert a_L\Vert&#x3D;\epsilon$。但这时的 sharpness 的级别在 $\sim 1&#x2F;\epsilon$，这样的级别太大了。</p>
 <p>这也就导致了容易陷入不稳定区域，总结来说，就是过少的非平凡驻点导致容易陷入不稳定区域。</p>
 <p>但很神奇的是，在不稳定区域时，有时也会“收敛”，接下来来从 Fact 1 探讨这个现象。</p>
 <p><img src="https://pic.imgdb.cn/item/65cf0a839f345e8d038efcc9.jpg"></p>
@@ -194,6 +140,60 @@
       </tags>
   </entry>
   <entry>
+    <title>关于 AI 里的一些数学证明</title>
+    <url>/2023/11/06/2023-11-6-AI-math/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>这里大概会记录一下 AI 中能遇到的数学理论证明，比如 ML 里的或 GAN 等等。</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>算法竞赛生存手册(伪)</title>
+    <url>/2023/10/08/2023-10-8-CP(fake)/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>说实话，写这个有点抽象的。主要是我毫无成绩吧，写的东西也没啥说服力。只能写出某些自己的心得体会，也可能会扔一些题单博客啥的，能帮到人就算成功。</p>
+]]></content>
+      <categories>
+        <category>生存手册</category>
+      </categories>
+      <tags>
+        <tag>CP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Benign Overfitting in classification provably counter label noise with larger models</title>
+    <url>/2023/12/18/2023-12-18-2206.00501/</url>
+    <content><![CDATA[<h3 id="Definition-Benign-Overfitting"><a href="#Definition-Benign-Overfitting" class="headerlink" title="Definition(Benign Overfitting)"></a>Definition(Benign Overfitting)</h3><p>深度神经网络在含噪声的数据集上训练得很好（train loss 可以几乎达到 $0$），但它们同时也在测试集上表现得很好。</p>
+]]></content>
+      <categories>
+        <category>Thesis Reading</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北京理工大学人工智能专业生存手册</title>
+    <url>/2023/10/08/2023-10-8-BITAI/</url>
+    <content><![CDATA[<p>会更新吗？如更。</p>
+<p>大概会将从大一入学开始到现在对所有课程的指导都写一写？然后可能会持续更新。</p>
+<p>总的来说，BITAI 最抽象的在于各种老师，希望生存手册能救学弟学妹们于水火之中！</p>
+<p>不过毕竟我成绩也就中游，所以对顶尖高手可能也没啥参考价值倒是…</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="形势与政策"><a href="#形势与政策" class="headerlink" title="形势与政策"></a>形势与政策</h3><h3 id="体育"><a href="#体育" class="headerlink" title="体育"></a>体育</h3><h3 id="公选"><a href="#公选" class="headerlink" title="公选"></a>公选</h3><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><h3 id="工程制图C"><a href="#工程制图C" class="headerlink" title="工程制图C"></a>工程制图C</h3><h3 id="大学计算机"><a href="#大学计算机" class="headerlink" title="大学计算机"></a>大学计算机</h3><h3 id="线性代数B"><a href="#线性代数B" class="headerlink" title="线性代数B"></a>线性代数B</h3><h3 id="工科数学分析-I"><a href="#工科数学分析-I" class="headerlink" title="工科数学分析 I"></a>工科数学分析 I</h3><h3 id="知识产权法基础"><a href="#知识产权法基础" class="headerlink" title="知识产权法基础"></a>知识产权法基础</h3><h3 id="学术用途英语一级"><a href="#学术用途英语一级" class="headerlink" title="学术用途英语一级"></a>学术用途英语一级</h3><h3 id="思想道德与法治"><a href="#思想道德与法治" class="headerlink" title="思想道德与法治"></a>思想道德与法治</h3><h3 id="大学生心理素质发展"><a href="#大学生心理素质发展" class="headerlink" title="大学生心理素质发展"></a>大学生心理素质发展</h3><h3 id="军事理论"><a href="#军事理论" class="headerlink" title="军事理论"></a>军事理论</h3><h3 id="军事技能"><a href="#军事技能" class="headerlink" title="军事技能"></a>军事技能</h3><h2 id="大二下"><a href="#大二下" class="headerlink" title="大二下"></a>大二下</h2><h3 id="电路分析基础"><a href="#电路分析基础" class="headerlink" title="电路分析基础"></a>电路分析基础</h3><h3 id="C语言程序设计"><a href="#C语言程序设计" class="headerlink" title="C语言程序设计"></a>C语言程序设计</h3><h3 id="工科数学分析-II"><a href="#工科数学分析-II" class="headerlink" title="工科数学分析 II"></a>工科数学分析 II</h3><h3 id="大学物理AⅠ"><a href="#大学物理AⅠ" class="headerlink" title="大学物理AⅠ"></a>大学物理AⅠ</h3><h3 id="物理实验BⅠ"><a href="#物理实验BⅠ" class="headerlink" title="物理实验BⅠ"></a>物理实验BⅠ</h3><h3 id="学术用途英语二级"><a href="#学术用途英语二级" class="headerlink" title="学术用途英语二级"></a>学术用途英语二级</h3>]]></content>
+      <categories>
+        <category>生存手册</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2023.12.18 精神状态</title>
     <url>/2023/12/18/2023-12-18-thoughts/</url>
     <content><![CDATA[<p>总是活在一些畅想中…</p>
@@ -204,35 +204,6 @@
       </categories>
       <tags>
         <tag>Something</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision</title>
-    <url>/2023/12/22/2023-12-22-cv-exam/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-1/">Lecture 1: Introduction</a></p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-2/">Lecture 2: Filter</a></p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-3/">Lecture 3: Resampling and Interpolation</a></p>
-<p>Lecture 4: Programming Basics: Python 基础，有点简单，略。</p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-5/">Lecture 5: Edge Detection</a></p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-6/">Lecture 6: Line Detection</a></p>
-<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-7/">Lecture 7: Feature Detector</a></p>
-<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-8/">Lecture 8: Feature Descriptor</a></p>
-<p>Lecture 9: Panorama: 实际上是个复习章节，没有任何内容。</p>
-<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-10/">Lecture 10: Camera</a></p>
-<p>Lecture 11: Light and Color: 上课跳过了这一章，姑且不管。</p>
-<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-12/">Lecture 12: Visual recognition</a></p>
-<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-13/">Lecture 13: Detection</a></p>
-<p><a href="http://foreverlasting.top/2024/01/05/2024-1-5-cv-exam-14/">Lecture 14: Segmentation</a></p>
-<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-15/">Lecture 15: Motion</a></p>
-<p><a href="http://foreverlasting.top/2024/01/05/2024-1-5-cv-exam-16/">Lecture 16: Tracking</a></p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
       </tags>
   </entry>
   <entry>
@@ -384,6 +355,35 @@
       </tags>
   </entry>
   <entry>
+    <title>Review of Course Computer Vision</title>
+    <url>/2023/12/22/2023-12-22-cv-exam/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-1/">Lecture 1: Introduction</a></p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-2/">Lecture 2: Filter</a></p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-3/">Lecture 3: Resampling and Interpolation</a></p>
+<p>Lecture 4: Programming Basics: Python 基础，有点简单，略。</p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-5/">Lecture 5: Edge Detection</a></p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-6/">Lecture 6: Line Detection</a></p>
+<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-7/">Lecture 7: Feature Detector</a></p>
+<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-8/">Lecture 8: Feature Descriptor</a></p>
+<p>Lecture 9: Panorama: 实际上是个复习章节，没有任何内容。</p>
+<p><a href="http://foreverlasting.top/2024/01/03/2024-1-3-cv-exam-10/">Lecture 10: Camera</a></p>
+<p>Lecture 11: Light and Color: 上课跳过了这一章，姑且不管。</p>
+<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-12/">Lecture 12: Visual recognition</a></p>
+<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-13/">Lecture 13: Detection</a></p>
+<p><a href="http://foreverlasting.top/2024/01/05/2024-1-5-cv-exam-14/">Lecture 14: Segmentation</a></p>
+<p><a href="http://foreverlasting.top/2024/01/04/2024-1-4-cv-exam-15/">Lecture 15: Motion</a></p>
+<p><a href="http://foreverlasting.top/2024/01/05/2024-1-5-cv-exam-16/">Lecture 16: Tracking</a></p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Review of Course Computer Vision Lecture 3:Resampling and Interpolation</title>
     <url>/2024/01/03/2024-1-3-cv-exam-3/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
@@ -494,6 +494,38 @@
       </tags>
   </entry>
   <entry>
+    <title>Review of Course Computer Vision Lecture 11:Light and color</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-11/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-11-Light-and-color"><a href="#Lecture-11-Light-and-color" class="headerlink" title="Lecture 11: Light and color"></a>Lecture 11: Light and color</h3><p>像素值：像素的强度，$I(p)&#x3D;c(p)l(p)r(p)$，其中 $c(p)$ 为相机的光谱反应 (传感器特性)，$l(p)$ 为光强，$r(p)$ 为光从物体表面到相机的反射强度。</p>
+<p>光子的轨迹：Absorption (吸收，即光线被完全吸收)，Diffuse reflection (漫反射，即不平整平面导致向多个方向反射)，Specular reflection (镜面反射)，Transparency (透射，即穿过平面沿原轨迹传播)，Refraction (折射)，Fluorescence (某种漫反射，但改变了波长)，Subsurface scattering (次表面散射)，Phosphorescence (磷光)，Interreflection (内部反射)。</p>
+<h4 id="Diffuse-reflection"><a href="#Diffuse-reflection" class="headerlink" title="Diffuse reflection"></a>Diffuse reflection</h4><p>漫反射遵循 Lambert’s Law。</p>
+<p><img src="https://pic.imgdb.cn/item/6596ba4a871b83018a3b9ad8.jpg"></p>
+<p>其中，BRDF 为双向反射分布函数。</p>
+<h4 id="Specular-reflection"><a href="#Specular-reflection" class="headerlink" title="Specular reflection"></a>Specular reflection</h4><p><img src="https://pic.imgdb.cn/item/6596ba89871b83018a3cdeec.jpg"></p>
+<h4 id="Phong-illumination-model"><a href="#Phong-illumination-model" class="headerlink" title="Phong illumination model"></a>Phong illumination model</h4><p><img src="https://pic.imgdb.cn/item/6596bb0a871b83018a3f6a48.jpg"></p>
+<p>其中，Ambient 为背景亮度。</p>
+<h3 id="RGB-模型"><a href="#RGB-模型" class="headerlink" title="RGB 模型"></a>RGB 模型</h3><p>考虑一张图像是三维的，第三维表示通道，即 R, G, B 分别的强度是多少。</p>
+<h4 id="Eye-anatomy"><a href="#Eye-anatomy" class="headerlink" title="Eye anatomy"></a>Eye anatomy</h4><p>人的眼球是个相机。</p>
+<p><img src="https://pic.imgdb.cn/item/6596bc3c871b83018a458019.jpg"></p>
+<p>retina 是视网膜，optics of the eye 是晶状体。</p>
+<h4 id="Color-perception"><a href="#Color-perception" class="headerlink" title="Color perception"></a>Color perception</h4><p>人眼只能识别电磁波很少的一部分。在这部分里，人眼的敏感程度也是不同的，同时对光线的吸收程度也是不同的。</p>
+<p><img src="https://pic.imgdb.cn/item/6596cf25871b83018aa4f0e4.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/6596cfc1871b83018aa7e659.jpg"></p>
+<p>Tetrachromatism: 四色性</p>
+<p>Dichromat: 二色性</p>
+<p>Light response is nonlinear。人类的视觉系统在感知时是对数尺度，同时自适应，对弱光更敏感。</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Review of Course Computer Vision Lecture 6:Line Detection</title>
     <url>/2024/01/03/2024-1-3-cv-exam-6/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
@@ -558,38 +590,6 @@
 <li>只能处理预先估计 $w$ 的情况的数据，不然算法成本太大。</li>
 <li>现实中 $w$ 可能非常小（可能需要选择随机子集来解决）。</li>
 </ol>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 11:Light and color</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-11/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-11-Light-and-color"><a href="#Lecture-11-Light-and-color" class="headerlink" title="Lecture 11: Light and color"></a>Lecture 11: Light and color</h3><p>像素值：像素的强度，$I(p)&#x3D;c(p)l(p)r(p)$，其中 $c(p)$ 为相机的光谱反应 (传感器特性)，$l(p)$ 为光强，$r(p)$ 为光从物体表面到相机的反射强度。</p>
-<p>光子的轨迹：Absorption (吸收，即光线被完全吸收)，Diffuse reflection (漫反射，即不平整平面导致向多个方向反射)，Specular reflection (镜面反射)，Transparency (透射，即穿过平面沿原轨迹传播)，Refraction (折射)，Fluorescence (某种漫反射，但改变了波长)，Subsurface scattering (次表面散射)，Phosphorescence (磷光)，Interreflection (内部反射)。</p>
-<h4 id="Diffuse-reflection"><a href="#Diffuse-reflection" class="headerlink" title="Diffuse reflection"></a>Diffuse reflection</h4><p>漫反射遵循 Lambert’s Law。</p>
-<p><img src="https://pic.imgdb.cn/item/6596ba4a871b83018a3b9ad8.jpg"></p>
-<p>其中，BRDF 为双向反射分布函数。</p>
-<h4 id="Specular-reflection"><a href="#Specular-reflection" class="headerlink" title="Specular reflection"></a>Specular reflection</h4><p><img src="https://pic.imgdb.cn/item/6596ba89871b83018a3cdeec.jpg"></p>
-<h4 id="Phong-illumination-model"><a href="#Phong-illumination-model" class="headerlink" title="Phong illumination model"></a>Phong illumination model</h4><p><img src="https://pic.imgdb.cn/item/6596bb0a871b83018a3f6a48.jpg"></p>
-<p>其中，Ambient 为背景亮度。</p>
-<h3 id="RGB-模型"><a href="#RGB-模型" class="headerlink" title="RGB 模型"></a>RGB 模型</h3><p>考虑一张图像是三维的，第三维表示通道，即 R, G, B 分别的强度是多少。</p>
-<h4 id="Eye-anatomy"><a href="#Eye-anatomy" class="headerlink" title="Eye anatomy"></a>Eye anatomy</h4><p>人的眼球是个相机。</p>
-<p><img src="https://pic.imgdb.cn/item/6596bc3c871b83018a458019.jpg"></p>
-<p>retina 是视网膜，optics of the eye 是晶状体。</p>
-<h4 id="Color-perception"><a href="#Color-perception" class="headerlink" title="Color perception"></a>Color perception</h4><p>人眼只能识别电磁波很少的一部分。在这部分里，人眼的敏感程度也是不同的，同时对光线的吸收程度也是不同的。</p>
-<p><img src="https://pic.imgdb.cn/item/6596cf25871b83018aa4f0e4.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/6596cfc1871b83018aa7e659.jpg"></p>
-<p>Tetrachromatism: 四色性</p>
-<p>Dichromat: 二色性</p>
-<p>Light response is nonlinear。人类的视觉系统在感知时是对数尺度，同时自适应，对弱光更敏感。</p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -695,81 +695,6 @@
 <p>同时也可以对动作行为等进行检索。</p>
 <p><img src="https://pic.imgdb.cn/item/6596e6ad871b83018a0d71f7.jpg"></p>
 <p>另一方面，可以划分层次不同，多种划分方式合起来一起表达和检索，类似金字塔。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Review of Course Computer Vision Lecture 15:Motion</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-15/</url>
-    <content><![CDATA[<p>为期末考试复习做个准备。</p>
-<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-15-Motion"><a href="#Lecture-15-Motion" class="headerlink" title="Lecture 15: Motion"></a>Lecture 15: Motion</h3><p>视频中的每个像素等价于三维坐标 $(x,y,t)$，表示在图像的 $(x,y)$ 位置，时间为 $t$。</p>
-<p><strong>光流</strong>: 图像中带光图案的明显运动。</p>
-<p>光流不一定是物体运动，也可能是光的运动。</p>
-<p>我们想要基于光流，来恢复每个物体的运动情况。</p>
-<p>想要分析光流，我们一般基于以下三个假设：</p>
-<ol>
-<li>Small motion：点的移动幅度不会太大。</li>
-<li>Spatial coherence：空间上是一致的，每个点的移动会和它附近的点类似。</li>
-<li>Brightness constancy：每个点在不同时间的像素值是相同的。</li>
-</ol>
-<h4 id="Brightness-constancy"><a href="#Brightness-constancy" class="headerlink" title="Brightness constancy"></a>Brightness constancy</h4><p>第三个条件比较强硬，它带出了一个整体性的条件。利用 Taylor 展开，我们有<br>$$<br>I(x,y,t)&#x3D;I(x+u(x,y),y+v(x,y),t+1)\approx I(x,y,t)+[I_x,I_y,I_t][u,v,1]^T\\<br>\implies I_xu+I_yv+I_t\approx 0\\<br>\implies \nabla I(x,y) [u,v]^T+I_t\approx 0.<br>$$<br><img src="https://pic.imgdb.cn/item/6596a333871b83018ac809f4.jpg"></p>
-<p>可以发现方程的未知数有两个 $u,v$，但方程只有一条，这意味着会解出若干个解，那也就很难获得光流了。</p>
-<p>如何解决这个问题就是重中之重，我们想办法添加一些方程？</p>
-<h4 id="Spatial-coherence"><a href="#Spatial-coherence" class="headerlink" title="Spatial coherence"></a>Spatial coherence</h4><p>根据 Spatial coherence，我们可以假定像素邻域内所有点的光流都是相同的 $(u,v)$，于是能写出一条方程。</p>
-<p>假设我们使用的是 $5\times 5$ 的窗口，则有<br>$$<br>\nabla I(p_i) [u,v]^T+I_t(p_i)&#x3D;0.<br>$$<br>容易写成某种矩阵的形式，并尝试做出解析解，即</p>
-<p><img src="https://pic.imgdb.cn/item/6596a57d871b83018ad1796e.jpg"></p>
-<p>这条方程被称作 Lucas-Kanade equation，其若要有解则需要：</p>
-<ol>
-<li>$A^TA$ 要求可逆。</li>
-<li>$A^T A$ 不能太小，即两个特征值都不能太小，这是因为噪声所以必须要这一点。</li>
-<li>$A^TA$ 的特征值之比不能太大，这里的比值要求大的特征值作为分子。</li>
-</ol>
-<p>可以发现这个方程有点类似于 Harris Corner Detector 中的方程。</p>
-<p><img src="https://pic.imgdb.cn/item/6596a74b871b83018ad93d43.jpg"></p>
-<p>上图为 Harris Corner Detector 的 $\lambda_1,\lambda_2$ 要求的特征和 Corner 处的比较相似。</p>
-<h4 id="Small-motion"><a href="#Small-motion" class="headerlink" title="Small motion"></a>Small motion</h4><p>光流还有一个假设，即 Small motion，我们来分析一下这个假设。</p>
-<p>Small motion 也可以被写成一条方程，即<br>$$<br>0&#x3D;I(x+u,y+v)-I_t(x,y)\approx I(x,y)+I_xu+I_yv-I_t(x,y).<br>$$<br>牛顿迭代法可以解决这个问题，不过超出了课程内容，这里使用 Lucas-Kanade equation 姑且解决一下。</p>
-<p>Lucas-Kanade equation 可以被看作是只迭代了一轮的牛顿迭代法，步骤如下：</p>
-<ol>
-<li>利用 Lucas-Kanade equation 计算每个像素点的速度 $(u,v)$。</li>
-<li>利用上面算出的速度来进行图像扭转 (warping)，从 $I(t-1)$ 扭转到 $I(t)$。扭转到的像素利用 Small motion 得到。</li>
-<li>重复步骤，直到收敛。因为不一定整张图像同时成立，而且有损失。</li>
-</ol>
-<p>接下来讨论 Lucas-Kanade equation 的损失情况。</p>
-<p>产生损失的原因：</p>
-<ol>
-<li>我们假定了 $A^TA$ 是可逆的，但实际上不一定可逆。</li>
-<li>我们假定了没有噪声。</li>
-<li>光流的三大假设不一定都满足，比如 Spatial coherence 选取的窗口大小没法任意，需要调整以获得合适的大小。</li>
-</ol>
-<h4 id="Pyramids-for-large-motion"><a href="#Pyramids-for-large-motion" class="headerlink" title="Pyramids for large motion"></a>Pyramids for large motion</h4><p>我们先尝试解决 Small motion 失效的情况。</p>
-<p>很明显，所有的 Small 和 Large 是和分辨率相关的，所以有一个想法就是改变分辨率，于是会使用高斯金字塔。</p>
-<p><img src="https://pic.imgdb.cn/item/6596aed7871b83018afc33a9.jpg"></p>
-<h4 id="Horn-Schunk-method"><a href="#Horn-Schunk-method" class="headerlink" title="Horn-Schunk method"></a>Horn-Schunk method</h4><p>Horn-Schunk 的主要思路是引入了平滑性假设，然后最小化全局能量函数。定义全局能量函数为<br>$$<br>E&#x3D;\int\int [(I_xu+I_yv+I_t)^2+\alpha^2(\Vert \nabla u\Vert^2+\Vert \nabla u\Vert^2)]\mathrm{d}x\mathrm{d}y.<br>$$<br>第一部分是 Brightness constancy，第二部分是 smoothness constraint (平滑性假设)，$\alpha$ 是某一参数，来平衡二者的。</p>
-<p>平滑性假设的引入是考虑了 Spatial coherence 的思路，像素函数越简单就越会让 Spatial coherence 成立，那么根据 Taylor 展开，我们会想到让高阶导数尽量不存在，所以有了这样的假设。这里是让二阶导尽量小。</p>
-<p>最小化 $E$ 的方式显然是求导，最终得到<br>$$<br>I_x(I_xu+I_yv+I_t)&#x3D;\alpha^2 \nabla^2 u\\<br>I_y(I_xu+I_yv+I_t)&#x3D;\alpha^2 \nabla^2 v<br>$$<br>注意到又遇见了 $\nabla^2$ 这个拉普拉斯算子，离散情况下我们可以使用邻域的均值减去自己获得，即<br>$$<br>\nabla^2 u(x,y)&#x3D;\overline{u}(x,y)-u(x,y).<br>$$<br>代入后，得到最终表达式：<br>$$<br>(I^2_x+\alpha^2)u+I_xI_yv&#x3D;\alpha^2 \overline{u}-I_xI_t\\<br>I_xI_yu+(I^2_y+\alpha^2)v&#x3D;\alpha^2 \overline{v}-I_yI_t<br>$$<br>当然，因为 $\overline{u}$ 和 $u$ 之间互相限制，方便的解法是迭代（实际上可以做消元等等），于是有迭代方程：</p>
-<p><img src="https://pic.imgdb.cn/item/6596b21d871b83018a0fecf8.jpg"></p>
-<p>Michael Black method 在 Horn-Schunk method 的基础上，将 $\Vert \nabla u\Vert^2+\Vert \nabla u\Vert^2$ 更改成了另一个函数，这里不再赘述。</p>
-<h4 id="Motion-Segmentation"><a href="#Motion-Segmentation" class="headerlink" title="Motion Segmentation"></a>Motion Segmentation</h4><p>基于语义分割，我们重新考虑 motion。</p>
-<p><strong>Affine motion</strong>: 仿射运动给出了比较简单的公式：<br>$$<br>u(x,y)&#x3D;a_1+a_2x+a_3y\\<br>v(x,y)&#x3D;a_4+a_5x+a_6y<br>$$<br>代入 Brightness constancy，则有<br>$$<br>I_x(a_1+a_2x+a_3y)+I_y(a_4+a_5x+a_6y)+I_t&#x3D;0.<br>$$<br>于是能定义损失函数为<br>$$<br>E(\vec{a})&#x3D;\sum [I_x(a_1+a_2x+a_3y)+I_y(a_4+a_5x+a_6y)+I_t]^2.<br>$$<br>利用上述信息，我们考虑每个 layer 的 motion 情况：</p>
-<ol>
-<li>将图像分块，利用 $E$ 损失函数计算每个块的仿射运动情况，这样能排除高的残差损失。</li>
-<li>将每个 motion 映射到 motion 参数空间。<img src="https://pic.imgdb.cn/item/6596b559871b83018a2268a3.jpg"></li>
-<li>执行聚类算法 (K-means) 以完成语义分割工作。<img src="https://pic.imgdb.cn/item/6596b55a871b83018a226a39.jpg"></li>
-<li>让每个像素点归于最佳的物体。</li>
-<li>执行区域的滤波以满足 spatial constraints。</li>
-<li>重新每个区域的仿射运动。</li>
-<li>重新执行 4, 5, 6。</li>
-</ol>
-<p><img src="https://pic.imgdb.cn/item/6596b5ff871b83018a25b4bb.jpg"></p>
-<p>Motion 的应用广泛，比如检测 3D 建筑，检测物体运动，移动物体的语义分割，合成动态纹理，一组图像更改成超分辨率，认知事件和活动。</p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -899,49 +824,71 @@
       </tags>
   </entry>
   <entry>
-    <title>Review of Course Computer Vision Lecture 8:Feature Descriptor and Matching</title>
-    <url>/2024/01/04/2024-1-4-cv-exam-8/</url>
+    <title>Review of Course Computer Vision Lecture 15:Motion</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-15/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
 <p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
-<h3 id="Lecture-8-Feature-Descriptor-and-Matching"><a href="#Lecture-8-Feature-Descriptor-and-Matching" class="headerlink" title="Lecture 8: Feature Descriptor and Matching"></a>Lecture 8: Feature Descriptor and Matching</h3><p>在检测出关键点后，我们需要用一个向量去描述关键点，这样利用向量的相似性进行匹配。</p>
-<p>这个向量我们称之为描述符，其需要满足两个条件：</p>
+<h3 id="Lecture-15-Motion"><a href="#Lecture-15-Motion" class="headerlink" title="Lecture 15: Motion"></a>Lecture 15: Motion</h3><p>视频中的每个像素等价于三维坐标 $(x,y,t)$，表示在图像的 $(x,y)$ 位置，时间为 $t$。</p>
+<p><strong>光流</strong>: 图像中带光图案的明显运动。</p>
+<p>光流不一定是物体运动，也可能是光的运动。</p>
+<p>我们想要基于光流，来恢复每个物体的运动情况。</p>
+<p>想要分析光流，我们一般基于以下三个假设：</p>
 <ol>
-<li>Invariance：不会随着光照等条件的变换而变换。</li>
-<li>Discriminability：和不是该关键点的描述符相差较大。</li>
+<li>Small motion：点的移动幅度不会太大。</li>
+<li>Spatial coherence：空间上是一致的，每个点的移动会和它附近的点类似。</li>
+<li>Brightness constancy：每个点在不同时间的像素值是相同的。</li>
 </ol>
-<p>一些简单的想法，比如直接用这个像素点，或者用其邻域，但实际上这些也就只能保证平移不变性。</p>
-<h4 id="MOPS"><a href="#MOPS" class="headerlink" title="MOPS"></a>MOPS</h4><p>MOPS, Multiscale Oriented Patches descriptor。</p>
-<p>如何选取方向呢？</p>
-<p>一个思路是，选取特征点对应的 Hessian 矩阵中最大的特征值对应的特征向量方向；另一个思路是简化平滑后的梯度方向。</p>
-<p>根据这个方向，我们旋转该特征点相关的窗口，这样就能获得一个旋转不变性的窗口了。</p>
-<p>具体来说，以特征点为中心选择一个 $40\times 40$ 的窗口，根据上述的方向旋转到水平位置，然后利用滤波器采样成 $8\times 8$ 的窗口，再对窗口进行灰度化，即先全部减去均值，再除以标准差。这样就让窗口变成了零均值且方差为 $1$ 了，保证了仿射不变性。</p>
-<h4 id="SIFT"><a href="#SIFT" class="headerlink" title="SIFT"></a>SIFT</h4><p>SIFT, Scale Invariant Feature Transform。</p>
-<p>SIFT 以特征点为中心选取一个与尺度有关的窗口，同样通过上述的求角度方法旋转。然后划分成 $4\times 4$ 的部分，将 $360^{\circ}$ 划分成 $8$ 份，每个部分用直方图统计出每份的权重，这样就有 $128&#x3D;4\times 4\times 8$ 个维度，于是就得到了特征向量。但为了去除一些不可靠的光照因素，这些光照因素会导致梯度极大，所以我们先对特征向量归一化后，再将 $&gt;0.2$ 的部分取为 $0.2$，再做归一化而保证了光照不变性。</p>
-<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e03b5.jpg"></p>
-<p>具体实现上为了去除噪声的影响会复杂很多。</p>
-<h4 id="HoG"><a href="#HoG" class="headerlink" title="HoG"></a>HoG</h4><p>HoG, Histogram of Oriented Gradients。</p>
-<p>HoG 是一个描述整个图像的算法，它在一开始同样采取了灰度化，然后同样将窗口划分成若干个小块，每个小块利用梯度方向直方图进行统计，然后得到特征描述向量。</p>
-<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e040d.jpg"></p>
-<p>和 SIFT 基本相似，只不过它描述的是整个图像，而且它的归一化是提前的，直接根据图像归一化。</p>
-<h4 id="Matching"><a href="#Matching" class="headerlink" title="Matching"></a>Matching</h4><p>匹配方式一般是，对于每个关键点，找 $L_2$ 距离最近和次近的关键点，以这两个距离的比例来判断是否匹配。</p>
-<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e0304.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e04c9.jpg"></p>
-<p>如何评估匹配效果？计算匹配正确的点对中满足 ratio distance 限制的比例以及匹配错误的点对中满足 ratio distance 限制的比例，前者是 recall，后者是 1-specificity。</p>
-<p>ROC curve 是在改变 ratio distance 阈值下，上面两个值构成的曲线。</p>
-<p><img src="https://pic.imgdb.cn/item/65969843871b83018a9d5c28.jpg"></p>
-<h4 id="Alignment"><a href="#Alignment" class="headerlink" title="Alignment"></a>Alignment</h4><p>Alignment 做的是图像配准的工作，即计算图像 A 经过什么样的变换可以得到图像 B。</p>
-<p>在完成关键点匹配后，我们很容易算出平移变换的向量。</p>
-<p><img src="https://pic.imgdb.cn/item/659698ee871b83018a9fd9e8.jpg"></p>
-<p><img src="https://s11.ax1x.com/2024/01/05/pix2Rrd.jpg"></p>
-<p>等价于要去最小化该函数。</p>
-<p>实际上，写成矩阵形式后容易求出解析解，即</p>
-<p><img src="https://pic.imgdb.cn/item/659699ec871b83018aa37907.jpg"></p>
-<p>等价于最小化 $\Vert \mathbf{At-b}\Vert$，解出 $\mathbf{t&#x3D;(A^{T}A)^{-1}A^{T}b}$。</p>
-<p>类似地，可以完成对仿射变换的定义：</p>
-<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb686.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb716.jpg"></p>
-<p>单应性变换也可以有类似的变换：</p>
-<p><img src="https://pic.imgdb.cn/item/65969d5f871b83018ab0cbfe.jpg"></p>
+<h4 id="Brightness-constancy"><a href="#Brightness-constancy" class="headerlink" title="Brightness constancy"></a>Brightness constancy</h4><p>第三个条件比较强硬，它带出了一个整体性的条件。利用 Taylor 展开，我们有<br>$$<br>I(x,y,t)&#x3D;I(x+u(x,y),y+v(x,y),t+1)\approx I(x,y,t)+[I_x,I_y,I_t][u,v,1]^T\\<br>\implies I_xu+I_yv+I_t\approx 0\\<br>\implies \nabla I(x,y) [u,v]^T+I_t\approx 0.<br>$$<br><img src="https://pic.imgdb.cn/item/6596a333871b83018ac809f4.jpg"></p>
+<p>可以发现方程的未知数有两个 $u,v$，但方程只有一条，这意味着会解出若干个解，那也就很难获得光流了。</p>
+<p>如何解决这个问题就是重中之重，我们想办法添加一些方程？</p>
+<h4 id="Spatial-coherence"><a href="#Spatial-coherence" class="headerlink" title="Spatial coherence"></a>Spatial coherence</h4><p>根据 Spatial coherence，我们可以假定像素邻域内所有点的光流都是相同的 $(u,v)$，于是能写出一条方程。</p>
+<p>假设我们使用的是 $5\times 5$ 的窗口，则有<br>$$<br>\nabla I(p_i) [u,v]^T+I_t(p_i)&#x3D;0.<br>$$<br>容易写成某种矩阵的形式，并尝试做出解析解，即</p>
+<p><img src="https://pic.imgdb.cn/item/6596a57d871b83018ad1796e.jpg"></p>
+<p>这条方程被称作 Lucas-Kanade equation，其若要有解则需要：</p>
+<ol>
+<li>$A^TA$ 要求可逆。</li>
+<li>$A^T A$ 不能太小，即两个特征值都不能太小，这是因为噪声所以必须要这一点。</li>
+<li>$A^TA$ 的特征值之比不能太大，这里的比值要求大的特征值作为分子。</li>
+</ol>
+<p>可以发现这个方程有点类似于 Harris Corner Detector 中的方程。</p>
+<p><img src="https://pic.imgdb.cn/item/6596a74b871b83018ad93d43.jpg"></p>
+<p>上图为 Harris Corner Detector 的 $\lambda_1,\lambda_2$ 要求的特征和 Corner 处的比较相似。</p>
+<h4 id="Small-motion"><a href="#Small-motion" class="headerlink" title="Small motion"></a>Small motion</h4><p>光流还有一个假设，即 Small motion，我们来分析一下这个假设。</p>
+<p>Small motion 也可以被写成一条方程，即<br>$$<br>0&#x3D;I(x+u,y+v)-I_t(x,y)\approx I(x,y)+I_xu+I_yv-I_t(x,y).<br>$$<br>牛顿迭代法可以解决这个问题，不过超出了课程内容，这里使用 Lucas-Kanade equation 姑且解决一下。</p>
+<p>Lucas-Kanade equation 可以被看作是只迭代了一轮的牛顿迭代法，步骤如下：</p>
+<ol>
+<li>利用 Lucas-Kanade equation 计算每个像素点的速度 $(u,v)$。</li>
+<li>利用上面算出的速度来进行图像扭转 (warping)，从 $I(t-1)$ 扭转到 $I(t)$。扭转到的像素利用 Small motion 得到。</li>
+<li>重复步骤，直到收敛。因为不一定整张图像同时成立，而且有损失。</li>
+</ol>
+<p>接下来讨论 Lucas-Kanade equation 的损失情况。</p>
+<p>产生损失的原因：</p>
+<ol>
+<li>我们假定了 $A^TA$ 是可逆的，但实际上不一定可逆。</li>
+<li>我们假定了没有噪声。</li>
+<li>光流的三大假设不一定都满足，比如 Spatial coherence 选取的窗口大小没法任意，需要调整以获得合适的大小。</li>
+</ol>
+<h4 id="Pyramids-for-large-motion"><a href="#Pyramids-for-large-motion" class="headerlink" title="Pyramids for large motion"></a>Pyramids for large motion</h4><p>我们先尝试解决 Small motion 失效的情况。</p>
+<p>很明显，所有的 Small 和 Large 是和分辨率相关的，所以有一个想法就是改变分辨率，于是会使用高斯金字塔。</p>
+<p><img src="https://pic.imgdb.cn/item/6596aed7871b83018afc33a9.jpg"></p>
+<h4 id="Horn-Schunk-method"><a href="#Horn-Schunk-method" class="headerlink" title="Horn-Schunk method"></a>Horn-Schunk method</h4><p>Horn-Schunk 的主要思路是引入了平滑性假设，然后最小化全局能量函数。定义全局能量函数为<br>$$<br>E&#x3D;\int\int [(I_xu+I_yv+I_t)^2+\alpha^2(\Vert \nabla u\Vert^2+\Vert \nabla u\Vert^2)]\mathrm{d}x\mathrm{d}y.<br>$$<br>第一部分是 Brightness constancy，第二部分是 smoothness constraint (平滑性假设)，$\alpha$ 是某一参数，来平衡二者的。</p>
+<p>平滑性假设的引入是考虑了 Spatial coherence 的思路，像素函数越简单就越会让 Spatial coherence 成立，那么根据 Taylor 展开，我们会想到让高阶导数尽量不存在，所以有了这样的假设。这里是让二阶导尽量小。</p>
+<p>最小化 $E$ 的方式显然是求导，最终得到<br>$$<br>I_x(I_xu+I_yv+I_t)&#x3D;\alpha^2 \nabla^2 u\\<br>I_y(I_xu+I_yv+I_t)&#x3D;\alpha^2 \nabla^2 v<br>$$<br>注意到又遇见了 $\nabla^2$ 这个拉普拉斯算子，离散情况下我们可以使用邻域的均值减去自己获得，即<br>$$<br>\nabla^2 u(x,y)&#x3D;\overline{u}(x,y)-u(x,y).<br>$$<br>代入后，得到最终表达式：<br>$$<br>(I^2_x+\alpha^2)u+I_xI_yv&#x3D;\alpha^2 \overline{u}-I_xI_t\\<br>I_xI_yu+(I^2_y+\alpha^2)v&#x3D;\alpha^2 \overline{v}-I_yI_t<br>$$<br>当然，因为 $\overline{u}$ 和 $u$ 之间互相限制，方便的解法是迭代（实际上可以做消元等等），于是有迭代方程：</p>
+<p><img src="https://pic.imgdb.cn/item/6596b21d871b83018a0fecf8.jpg"></p>
+<p>Michael Black method 在 Horn-Schunk method 的基础上，将 $\Vert \nabla u\Vert^2+\Vert \nabla u\Vert^2$ 更改成了另一个函数，这里不再赘述。</p>
+<h4 id="Motion-Segmentation"><a href="#Motion-Segmentation" class="headerlink" title="Motion Segmentation"></a>Motion Segmentation</h4><p>基于语义分割，我们重新考虑 motion。</p>
+<p><strong>Affine motion</strong>: 仿射运动给出了比较简单的公式：<br>$$<br>u(x,y)&#x3D;a_1+a_2x+a_3y\\<br>v(x,y)&#x3D;a_4+a_5x+a_6y<br>$$<br>代入 Brightness constancy，则有<br>$$<br>I_x(a_1+a_2x+a_3y)+I_y(a_4+a_5x+a_6y)+I_t&#x3D;0.<br>$$<br>于是能定义损失函数为<br>$$<br>E(\vec{a})&#x3D;\sum [I_x(a_1+a_2x+a_3y)+I_y(a_4+a_5x+a_6y)+I_t]^2.<br>$$<br>利用上述信息，我们考虑每个 layer 的 motion 情况：</p>
+<ol>
+<li>将图像分块，利用 $E$ 损失函数计算每个块的仿射运动情况，这样能排除高的残差损失。</li>
+<li>将每个 motion 映射到 motion 参数空间。<img src="https://pic.imgdb.cn/item/6596b559871b83018a2268a3.jpg"></li>
+<li>执行聚类算法 (K-means) 以完成语义分割工作。<img src="https://pic.imgdb.cn/item/6596b55a871b83018a226a39.jpg"></li>
+<li>让每个像素点归于最佳的物体。</li>
+<li>执行区域的滤波以满足 spatial constraints。</li>
+<li>重新每个区域的仿射运动。</li>
+<li>重新执行 4, 5, 6。</li>
+</ol>
+<p><img src="https://pic.imgdb.cn/item/6596b5ff871b83018a25b4bb.jpg"></p>
+<p>Motion 的应用广泛，比如检测 3D 建筑，检测物体运动，移动物体的语义分割，合成动态纹理，一组图像更改成超分辨率，认知事件和活动。</p>
 ]]></content>
       <categories>
         <category>整理与总结</category>
@@ -1074,6 +1021,108 @@
       </tags>
   </entry>
   <entry>
+    <title>2024.1.8 精神状态</title>
+    <url>/2024/01/08/2024-1-8-thoughts/</url>
+    <content><![CDATA[<p>突然很明显地感觉到 gap year 的好处了……</p>
+<p>思来想去，发现自己还是很难做到通过内驱力来抵御走出舒适圈的惰性。这种惰性，从记忆中来看，更像是中国教育容易诞生的失败产物。广泛化的应试教育带来了极为统一的评价标准，这种标准促使着绝大部分像我一样的人迷失在这种系统性的舒适圈中，被动地学习，被动地完成了功课。</p>
+<p>仔细观察，可以发现这就是所谓舒适圈。只要我和绝大多数人做的事情相同，我就不会被淘汰——或许每个人都是如此思考的。这种惰性宛若附骨之疽，以极为强大的粘性附着在人的思想里。如何摆脱这种惰性呢？可能真的需要 gap 一年才能做到审慎并剖析自己吧，手术般精准地剔除了毒疮，走上极具信念的道路。</p>
+]]></content>
+      <categories>
+        <category>Something</category>
+      </categories>
+      <tags>
+        <tag>Something</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Review of Course Computer Vision Lecture 8:Feature Descriptor and Matching</title>
+    <url>/2024/01/04/2024-1-4-cv-exam-8/</url>
+    <content><![CDATA[<p>为期末考试复习做个准备。</p>
+<p><a href="http://foreverlasting.top/2023/12/22/2023-12-22-cv-exam/">总文章地址</a>。</p>
+<h3 id="Lecture-8-Feature-Descriptor-and-Matching"><a href="#Lecture-8-Feature-Descriptor-and-Matching" class="headerlink" title="Lecture 8: Feature Descriptor and Matching"></a>Lecture 8: Feature Descriptor and Matching</h3><p>在检测出关键点后，我们需要用一个向量去描述关键点，这样利用向量的相似性进行匹配。</p>
+<p>这个向量我们称之为描述符，其需要满足两个条件：</p>
+<ol>
+<li>Invariance：不会随着光照等条件的变换而变换。</li>
+<li>Discriminability：和不是该关键点的描述符相差较大。</li>
+</ol>
+<p>一些简单的想法，比如直接用这个像素点，或者用其邻域，但实际上这些也就只能保证平移不变性。</p>
+<h4 id="MOPS"><a href="#MOPS" class="headerlink" title="MOPS"></a>MOPS</h4><p>MOPS, Multiscale Oriented Patches descriptor。</p>
+<p>如何选取方向呢？</p>
+<p>一个思路是，选取特征点对应的 Hessian 矩阵中最大的特征值对应的特征向量方向；另一个思路是简化平滑后的梯度方向。</p>
+<p>根据这个方向，我们旋转该特征点相关的窗口，这样就能获得一个旋转不变性的窗口了。</p>
+<p>具体来说，以特征点为中心选择一个 $40\times 40$ 的窗口，根据上述的方向旋转到水平位置，然后利用滤波器采样成 $8\times 8$ 的窗口，再对窗口进行灰度化，即先全部减去均值，再除以标准差。这样就让窗口变成了零均值且方差为 $1$ 了，保证了仿射不变性。</p>
+<h4 id="SIFT"><a href="#SIFT" class="headerlink" title="SIFT"></a>SIFT</h4><p>SIFT, Scale Invariant Feature Transform。</p>
+<p>SIFT 以特征点为中心选取一个与尺度有关的窗口，同样通过上述的求角度方法旋转。然后划分成 $4\times 4$ 的部分，将 $360^{\circ}$ 划分成 $8$ 份，每个部分用直方图统计出每份的权重，这样就有 $128&#x3D;4\times 4\times 8$ 个维度，于是就得到了特征向量。但为了去除一些不可靠的光照因素，这些光照因素会导致梯度极大，所以我们先对特征向量归一化后，再将 $&gt;0.2$ 的部分取为 $0.2$，再做归一化而保证了光照不变性。</p>
+<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e03b5.jpg"></p>
+<p>具体实现上为了去除噪声的影响会复杂很多。</p>
+<h4 id="HoG"><a href="#HoG" class="headerlink" title="HoG"></a>HoG</h4><p>HoG, Histogram of Oriented Gradients。</p>
+<p>HoG 是一个描述整个图像的算法，它在一开始同样采取了灰度化，然后同样将窗口划分成若干个小块，每个小块利用梯度方向直方图进行统计，然后得到特征描述向量。</p>
+<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e040d.jpg"></p>
+<p>和 SIFT 基本相似，只不过它描述的是整个图像，而且它的归一化是提前的，直接根据图像归一化。</p>
+<h4 id="Matching"><a href="#Matching" class="headerlink" title="Matching"></a>Matching</h4><p>匹配方式一般是，对于每个关键点，找 $L_2$ 距离最近和次近的关键点，以这两个距离的比例来判断是否匹配。</p>
+<p><img src="https://pic.imgdb.cn/item/65967a07871b83018a3e0304.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65967a08871b83018a3e04c9.jpg"></p>
+<p>如何评估匹配效果？计算匹配正确的点对中满足 ratio distance 限制的比例以及匹配错误的点对中满足 ratio distance 限制的比例，前者是 recall，后者是 1-specificity。</p>
+<p>ROC curve 是在改变 ratio distance 阈值下，上面两个值构成的曲线。</p>
+<p><img src="https://pic.imgdb.cn/item/65969843871b83018a9d5c28.jpg"></p>
+<h4 id="Alignment"><a href="#Alignment" class="headerlink" title="Alignment"></a>Alignment</h4><p>Alignment 做的是图像配准的工作，即计算图像 A 经过什么样的变换可以得到图像 B。</p>
+<p>在完成关键点匹配后，我们很容易算出平移变换的向量。</p>
+<p><img src="https://pic.imgdb.cn/item/659698ee871b83018a9fd9e8.jpg"></p>
+<p><img src="https://s11.ax1x.com/2024/01/05/pix2Rrd.jpg"></p>
+<p>等价于要去最小化该函数。</p>
+<p>实际上，写成矩阵形式后容易求出解析解，即</p>
+<p><img src="https://pic.imgdb.cn/item/659699ec871b83018aa37907.jpg"></p>
+<p>等价于最小化 $\Vert \mathbf{At-b}\Vert$，解出 $\mathbf{t&#x3D;(A^{T}A)^{-1}A^{T}b}$。</p>
+<p>类似地，可以完成对仿射变换的定义：</p>
+<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb686.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/65969cd7871b83018aaeb716.jpg"></p>
+<p>单应性变换也可以有类似的变换：</p>
+<p><img src="https://pic.imgdb.cn/item/65969d5f871b83018ab0cbfe.jpg"></p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Computer Vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>UCB CS189:Introduction to Machine Learning Homework</title>
+    <url>/2024/02/13/2024-2-13-ucbcs189/</url>
+    <content><![CDATA[<p>紧急突击，选做一下作业。</p>
+]]></content>
+      <categories>
+        <category>整理与总结</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Machine Learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.2.12 精神状态(年度回望?)</title>
+    <url>/2024/02/12/2024-2-12-thoughts/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="181ff3533ba1364dd02d3a0e72a7fc6455344d0f15a3b6222fbed374ea5d3c7a">077fab05f623b222ec5c89f978cb4906ae4acde87a1a945d6967776a8167b5716ac36f66e91b888950634c62dbd7ff46859ed25f7156ed25e8e23a9675ffdf21dc59ef0ceb1977cbb2085d911f36454a9439f1403189e974a02e63d6d1f72c25ad08c13e86cf9fde1bd2fdbce3ba6a4c4cf0df3dc12e8377e3d35fdfaafbcda62584d38ff03361b560bbf754e9327f93cdd7bb406cfa9698bf665b128622de0804bd5f965e07eb3a05db2922fd83b8b693d9bd40631a9ab76f78f9940569ee69709495ad1168c03f120afa1a56da62f4adec05f897a1cba641429154f1f1257d0ecd785dbc0f2c881ea6d11ae1a86be0e240aef0bbde5dc82e47f999fd88750f97e6ee88d7b234381a91c175cb7c78ef1318f5d7e01c101a0d75d59301cc7a153ee246a11111dbd5454f9adaf9884bfbc90811d6c52284f600019cba8a2c17601357dc4b4babffaf5ea04b72b346c1d9241e1b0baa326a7aca62840c2f71c0cb416ea5545fade0d5b5ff7cced855a880101c4a9c684a497685cab77a381c75228bce4ff8c58f30a54b7b84611baa4ab53adb6309966922e97693cc030ec595b982c4c90d0eaceaf862911109c5a1de0dbe04134f9d7448f2fdd64105a8228cae486fe83f793aee068a7d62c996bb3febebbd69e25aa994de93b645c403cea12ecd7bbb399726f874412ce7031ed23dcbd8774393fcd4e14c4a2aa245823f48aeb36b02d2dba835b35337bb2ed76dd72e87bd66185fc7bb74930550061d9a0e2f281854fd186002f662ca64adc6bf207fd1e9831b4b17b7b991719896ed61546e2a72e4ce7f24fff05d1c31b5d8c6266a8e163d448a7b608fd8c0c76b0d2c13483836d5e825c982d2de253c3ad0f5c67b81919b6671b7727ea9f67e625eb3b980987f8292dbef2d633d305775f25d21c9a91334993cc78dafe722249da09f7e86a4c2ae594d0189fc40c6abea1fb3e024d7296d6e177d2cd7d6ce75031c97963e34cb64eaca948bb97bb4df973f6569ddbb5cac2ff5d6a41a4c1e2f9f008ee6971d595d1f97eeff66b7fb3d9e0b985ce20b99deb169fdf1ae518364d6c67be2432aefa2113fe9606b5b901fd85a5c0c21c81663c6fdfc484f6f44941b2afbf46f5ea39ff067fc60e7b8fb943c9a13997f59d8ab51f3ec91730d71ebb310a6bb8c4668eb60fc1863ba298bb41f3f63de63cf1e37a788ee7b2964d25e391eb1b5818ae5fcb4cc3bdab6d72a001586f86b4f4a3c69986fb24c1eb4443738dba748349df7034cc47363e2f7353620d41a155c00f619a03f4afd684487433268b9736595f30dcdcd61c976479ffda93e2d3ac7b728545c4e0b1ba45b3822b6f493c391648f19668911b05d3b6287eb1b17446110987c2099e3866784243fe2d9ed80798ff844cc7bd1dacfa26445cc370808a14a035f23203695e8af431943bf5c2edf79bd3277103dcc08bec6342db0c9be146e27492786e064e88d22cc3235f7043057288edcbe455d32bf838b18c7775d271caabddea0d2295cda468a9fd4a2615a0c784cfed02b4509560962304be5a5d680c138aa71190ce42d4ada36fa18b31c626ca342286041bf5089dd84d407073671c220164765060e4e46f8e598df828049e3c49083e1465b706001ca6433b4a9de2f29e529dd4e44341481d3fe3178f2531211ac8bf1da2acac3dac592dbfb6b4ca1bdeabcf4c2c7df9cef3bdaddce182999f07cba68e93da32d3118947d9aa33912e1c6c454e4faa242674a5d9139026aaf8282d66031bf4e9f35a7830a763f8c82592c40beb7b7caee5f0817d482e17c197250a6398b23cb48fbdf54957c7691fc353f94935f723f40704eb3d630eecc450e98a74dbfb5d06aa62b61b307db8bc938fdad83c9f028590851b2454760cbe5b9e75bb2417ee8c247dc35e4fa6b939e2c92711bf27e0585397db92e608cf070deacc5dc53dcdcdeb78332d5f64513cf48180e55622b0fa8696d37cc30852e2b49ca3878cdc7ec42148168708cb213d81528f217fc711cbcd902212180a51b85c424b9807a184a7858c4114e2423ac814ead91430f8b441011a1ad499278b662015e3758dbe4361747b64c7ad1a23aa240e8f1e7f876b16e3ed011bf3c54fb7869eb5b574c49748f2f39d9dbe816d40a0504dede704857bc0b0fffdf4f7702a544092873ff15f284025038f095dc0ffacc251b77dbfc7765def90cd735015a8d0b9a3a38f0644c8010a2fbce5653f3b74704ac4ce2fc683b428b1012f7bddee6671c4cdd8974159e42cabbe61bba5862bfeb87bb0021dc1662f67284bed1057ed23177eab996fb9d74532e3a361306d31ee60d19cdfcee99d2dd585c43f04794b35f1e49c8a512d71351019357bf0103dfefe37cf27a73cfe55420bf6d53f1649eda8789af8c1ea4db78582fcbd830dfcfb20d9b51bf35d4d24887e069b9e4bcd4a4d1a885a5fbf16947e574988e766f93b5cf341369f23a8d0ade1432386130f3f81a9636f88d6b7479a1721f045bc2eed5eec9541220cd16bd2375ec4536682cfc93b5ffc88f991cbca1b43a156f84f4ddb02f45ee56e301d217ca01c5</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Something</category>
+      </categories>
+      <tags>
+        <tag>Something</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Review of Course Computer Vision Lecture 16:Tracking</title>
     <url>/2024/01/05/2024-1-5-cv-exam-16/</url>
     <content><![CDATA[<p>为期末考试复习做个准备。</p>
@@ -1134,55 +1183,6 @@
       <tags>
         <tag>AI</tag>
         <tag>Computer Vision</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024.1.8 精神状态</title>
-    <url>/2024/01/08/2024-1-8-thoughts/</url>
-    <content><![CDATA[<p>突然很明显地感觉到 gap year 的好处了……</p>
-<p>思来想去，发现自己还是很难做到通过内驱力来抵御走出舒适圈的惰性。这种惰性，从记忆中来看，更像是中国教育容易诞生的失败产物。广泛化的应试教育带来了极为统一的评价标准，这种标准促使着绝大部分像我一样的人迷失在这种系统性的舒适圈中，被动地学习，被动地完成了功课。</p>
-<p>仔细观察，可以发现这就是所谓舒适圈。只要我和绝大多数人做的事情相同，我就不会被淘汰——或许每个人都是如此思考的。这种惰性宛若附骨之疽，以极为强大的粘性附着在人的思想里。如何摆脱这种惰性呢？可能真的需要 gap 一年才能做到审慎并剖析自己吧，手术般精准地剔除了毒疮，走上极具信念的道路。</p>
-]]></content>
-      <categories>
-        <category>Something</category>
-      </categories>
-      <tags>
-        <tag>Something</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024.2.12 精神状态(年度回望?)</title>
-    <url>/2024/02/12/2024-2-12-thoughts/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="181ff3533ba1364dd02d3a0e72a7fc6455344d0f15a3b6222fbed374ea5d3c7a">077fab05f623b222ec5c89f978cb4906ae4acde87a1a945d6967776a8167b5716ac36f66e91b888950634c62dbd7ff46859ed25f7156ed25e8e23a9675ffdf21dc59ef0ceb1977cbb2085d911f36454a9439f1403189e974a02e63d6d1f72c25ad08c13e86cf9fde1bd2fdbce3ba6a4c4cf0df3dc12e8377e3d35fdfaafbcda62584d38ff03361b560bbf754e9327f93cdd7bb406cfa9698bf665b128622de0804bd5f965e07eb3a05db2922fd83b8b693d9bd40631a9ab76f78f9940569ee69709495ad1168c03f120afa1a56da62f4adec05f897a1cba641429154f1f1257d0ecd785dbc0f2c881ea6d11ae1a86be0e240aef0bbde5dc82e47f999fd88750f97e6ee88d7b234381a91c175cb7c78ef1318f5d7e01c101a0d75d59301cc7a153ee246a11111dbd5454f9adaf9884bfbc90811d6c52284f600019cba8a2c17601357dc4b4babffaf5ea04b72b346c1d9241e1b0baa326a7aca62840c2f71c0cb416ea5545fade0d5b5ff7cced855a880101c4a9c684a497685cab77a381c75228bce4ff8c58f30a54b7b84611baa4ab53adb6309966922e97693cc030ec595b982c4c90d0eaceaf862911109c5a1de0dbe04134f9d7448f2fdd64105a8228cae486fe83f793aee068a7d62c996bb3febebbd69e25aa994de93b645c403cea12ecd7bbb399726f874412ce7031ed23dcbd8774393fcd4e14c4a2aa245823f48aeb36b02d2dba835b35337bb2ed76dd72e87bd66185fc7bb74930550061d9a0e2f281854fd186002f662ca64adc6bf207fd1e9831b4b17b7b991719896ed61546e2a72e4ce7f24fff05d1c31b5d8c6266a8e163d448a7b608fd8c0c76b0d2c13483836d5e825c982d2de253c3ad0f5c67b81919b6671b7727ea9f67e625eb3b980987f8292dbef2d633d305775f25d21c9a91334993cc78dafe722249da09f7e86a4c2ae594d0189fc40c6abea1fb3e024d7296d6e177d2cd7d6ce75031c97963e34cb64eaca948bb97bb4df973f6569ddbb5cac2ff5d6a41a4c1e2f9f008ee6971d595d1f97eeff66b7fb3d9e0b985ce20b99deb169fdf1ae518364d6c67be2432aefa2113fe9606b5b901fd85a5c0c21c81663c6fdfc484f6f44941b2afbf46f5ea39ff067fc60e7b8fb943c9a13997f59d8ab51f3ec91730d71ebb310a6bb8c4668eb60fc1863ba298bb41f3f63de63cf1e37a788ee7b2964d25e391eb1b5818ae5fcb4cc3bdab6d72a001586f86b4f4a3c69986fb24c1eb4443738dba748349df7034cc47363e2f7353620d41a155c00f619a03f4afd684487433268b9736595f30dcdcd61c976479ffda93e2d3ac7b728545c4e0b1ba45b3822b6f493c391648f19668911b05d3b6287eb1b17446110987c2099e3866784243fe2d9ed80798ff844cc7bd1dacfa26445cc370808a14a035f23203695e8af431943bf5c2edf79bd3277103dcc08bec6342db0c9be146e27492786e064e88d22cc3235f7043057288edcbe455d32bf838b18c7775d271caabddea0d2295cda468a9fd4a2615a0c784cfed02b4509560962304be5a5d680c138aa71190ce42d4ada36fa18b31c626ca342286041bf5089dd84d407073671c220164765060e4e46f8e598df828049e3c49083e1465b706001ca6433b4a9de2f29e529dd4e44341481d3fe3178f2531211ac8bf1da2acac3dac592dbfb6b4ca1bdeabcf4c2c7df9cef3bdaddce182999f07cba68e93da32d3118947d9aa33912e1c6c454e4faa242674a5d9139026aaf8282d66031bf4e9f35a7830a763f8c82592c40beb7b7caee5f0817d482e17c197250a6398b23cb48fbdf54957c7691fc353f94935f723f40704eb3d630eecc450e98a74dbfb5d06aa62b61b307db8bc938fdad83c9f028590851b2454760cbe5b9e75bb2417ee8c247dc35e4fa6b939e2c92711bf27e0585397db92e608cf070deacc5dc53dcdcdeb78332d5f64513cf48180e55622b0fa8696d37cc30852e2b49ca3878cdc7ec42148168708cb213d81528f217fc711cbcd902212180a51b85c424b9807a184a7858c4114e2423ac814ead91430f8b441011a1ad499278b662015e3758dbe4361747b64c7ad1a23aa240e8f1e7f876b16e3ed011bf3c54fb7869eb5b574c49748f2f39d9dbe816d40a0504dede704857bc0b0fffdf4f7702a544092873ff15f284025038f095dc0ffacc251b77dbfc7765def90cd735015a8d0b9a3a38f0644c8010a2fbce5653f3b74704ac4ce2fc683b428b1012f7bddee6671c4cdd8974159e42cabbe61bba5862bfeb87bb0021dc1662f67284bed1057ed23177eab996fb9d74532e3a361306d31ee60d19cdfcee99d2dd585c43f04794b35f1e49c8a512d71351019357bf0103dfefe37cf27a73cfe55420bf6d53f1649eda8789af8c1ea4db78582fcbd830dfcfb20d9b51bf35d4d24887e069b9e4bcd4a4d1a885a5fbf16947e574988e766f93b5cf341369f23a8d0ade1432386130f3f81a9636f88d6b7479a1721f045bc2eed5eec9541220cd16bd2375ec4536682cfc93b5ffc88f991cbca1b43a156f84f4ddb02f45ee56e301d217ca01c5</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Something</category>
-      </categories>
-      <tags>
-        <tag>Something</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>UCB CS189:Introduction to Machine Learning Homework</title>
-    <url>/2024/02/13/2024-2-13-ucbcs189/</url>
-    <content><![CDATA[<p>紧急突击，选做一下作业。</p>
-]]></content>
-      <categories>
-        <category>整理与总结</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>Machine Learning</tag>
       </tags>
   </entry>
 </search>
