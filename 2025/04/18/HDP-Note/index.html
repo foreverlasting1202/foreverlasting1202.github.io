@@ -1,0 +1,229 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>High-Dimensional Probability Course Homework | Foreverlasting's blog</title><meta name="author" content="Jiazheng Li"><meta name="copyright" content="Jiazheng Li"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Homework of High-Dimensional Probability Course">
+<meta property="og:type" content="article">
+<meta property="og:title" content="High-Dimensional Probability Course Homework">
+<meta property="og:url" content="https://foreverlasting1202.github.io/2025/04/18/HDP-Note/index.html">
+<meta property="og:site_name" content="Foreverlasting&#39;s blog">
+<meta property="og:description" content="Homework of High-Dimensional Probability Course">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://foreverlasting1202.github.io/img/ava.jpg">
+<meta property="article:published_time" content="2025-04-17T17:39:18.034Z">
+<meta property="article:modified_time" content="2025-04-27T10:22:20.202Z">
+<meta property="article:author" content="Jiazheng Li">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://foreverlasting1202.github.io/img/ava.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "High-Dimensional Probability Course Homework",
+  "url": "https://foreverlasting1202.github.io/2025/04/18/HDP-Note/",
+  "image": "https://foreverlasting1202.github.io/img/ava.jpg",
+  "datePublished": "2025-04-17T17:39:18.034Z",
+  "dateModified": "2025-04-27T10:22:20.202Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Jiazheng Li",
+      "url": "https://foreverlasting1202.github.io/"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/ava.jpg"><link rel="canonical" href="https://foreverlasting1202.github.io/2025/04/18/HDP-Note/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"No results found for: ${query}","hits_stats":"${hits} articles found"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'High-Dimensional Probability Course Homework',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Foreverlasting's blog</span></a><a class="nav-page-title" href="/"><span class="site-name">High-Dimensional Probability Course Homework</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></span></div></div></nav><div id="post-info"><h1 class="post-title">High-Dimensional Probability Course Homework</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2025-04-17T17:39:18.034Z" title="Created 2025-04-18 01:39:18">2025-04-18</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2025-04-27T10:22:20.202Z" title="Updated 2025-04-27 18:22:20">2025-04-27</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p><a target="_blank" rel="noopener" href="https://www.math.uci.edu/~rvershyn/teaching/hdp/hdp.html">Official website</a>. </p>
+<p>I chose to watch the course videos.</p>
+<p>Source: <a target="_blank" rel="noopener" href="https://www.math.uci.edu/~rvershyn/teaching/hdp/hw1.pdf">https://www.math.uci.edu/~rvershyn/teaching/hdp/hw1.pdf</a></p>
+<h2 id="Homework-1"><a href="#Homework-1" class="headerlink" title="Homework 1"></a>Homework 1</h2><h3 id="Problem-1-Expectation-as-the-optimal-estimator"><a href="#Problem-1-Expectation-as-the-optimal-estimator" class="headerlink" title="Problem 1 (Expectation as the optimal estimator)"></a>Problem 1 (Expectation as the optimal estimator)</h3><p>$$<br>\mathbb{E}(X-a)^2&#x3D;\mathbb{E}X^2-2a\mathbb{E}X+a^2&#x3D;(a-\mathbb{E}X)^2.<br>$$</p>
+<h3 id="Problem-2-Expectation-of-random-vectors"><a href="#Problem-2-Expectation-of-random-vectors" class="headerlink" title="Problem 2 (Expectation of random vectors)"></a>Problem 2 (Expectation of random vectors)</h3><p>$$<br>\mathbb{E}(aX+bY)&#x3D;(a\mathbb{E}(X_i)+b\mathbb{E}(Y_i))<em>{i&#x3D;1}^n&#x3D;a\mathbb{E}(X)+b\mathbb{E}(Y).<br>$$<br>$$<br>\mathbb{E}\langle X, Y\rangle&#x3D;\mathbb{E}(\sum</em>{i&#x3D;1}^n X_iY_i)&#x3D;\sum_{i&#x3D;1}^n \mathbb{E}X_i\mathbb{E}Y_i&#x3D;\langle \mathbb{E}X,\mathbb{E}Y\rangle.<br>$$</p>
+<h3 id="Problem-3-Expectation-as-optimal-estimator-random-vectors"><a href="#Problem-3-Expectation-as-optimal-estimator-random-vectors" class="headerlink" title="Problem 3 (Expectation as optimal estimator: random vectors)"></a>Problem 3 (Expectation as optimal estimator: random vectors)</h3><p>$$<br>\mathbb{E}\Vert X-a\Vert^2_2&#x3D;\mathbb{E}\langle X-a,X-a\rangle&#x3D;\sum_{i&#x3D;1}^n \mathbb{E}(X_i-a_i)^2\implies a&#x3D;\mathbb{E}X.<br>$$</p>
+<h3 id="Problem-4-A-variance-like-identity"><a href="#Problem-4-A-variance-like-identity" class="headerlink" title="Problem 4 (A variance-like identity)"></a>Problem 4 (A variance-like identity)</h3><h4 id="a"><a href="#a" class="headerlink" title="(a)"></a>(a)</h4><p>$$<br>\begin{align*}<br>V(X)&amp;&#x3D;\mathbb{E}\Vert X-\mathbb{E}X\Vert^2_2&#x3D;\mathbb{E}\langle X-\mathbb{E}X,X-\mathbb{E}X\rangle&#x3D;\mathbb{E}\sum_{i&#x3D;1}^n (X_i-\mathbb{E}X_i)^2\<br>&amp;&#x3D;\sum_{i&#x3D;1}^n \mathbb{E}X_i^2-(\mathbb{E}X_i)^2&#x3D;\mathbb{E}\Vert X\Vert^2_2-\Vert\mathbb{E}X\Vert_2^2.<br>\end{align*}<br>$$</p>
+<h4 id="b"><a href="#b" class="headerlink" title="(b)"></a>(b)</h4><p>$$<br>\frac{1}{2}\mathbb{E}\Vert X-X’\Vert_2^2&#x3D;\frac{1}{2}\sum_{i&#x3D;1}^n\mathbb{E}(X_i-X’<em>i)^2&#x3D;\sum</em>{i&#x3D;1}^n\mathbb{E}X_i^2-\mathbb{E}(X_iX’_i)&#x3D;\mathbb{E}\Vert X\Vert^2_2-\Vert\mathbb{E}X\Vert_2^2.<br>$$</p>
+<h3 id="Problem-5-Additivity-of-variance"><a href="#Problem-5-Additivity-of-variance" class="headerlink" title="Problem 5 (Additivity of variance)"></a>Problem 5 (Additivity of variance)</h3><h4 id="a-1"><a href="#a-1" class="headerlink" title="(a)"></a>(a)</h4><p>$$<br>\mathbb{E}\Vert X+Y\Vert^2_2&#x3D;\sum_{i&#x3D;1}^n \mathbb{E}(X_i+Y_i)^2&#x3D;\mathbb{E}\Vert X\Vert_2^2+\mathbb{E}\Vert Y\Vert_2^2.<br>$$</p>
+<h4 id="b-1"><a href="#b-1" class="headerlink" title="(b)"></a>(b)</h4><p>$$<br>\begin{align*}<br>V(X_1+X_2+\cdots+X_k)&amp;&#x3D;\mathbb{E}\Vert \sum_{i&#x3D;1}^k X_i\Vert_2^2-\Vert \mathbb{E}\sum_{i&#x3D;1}^k X_i\Vert_2^2\<br>&amp;&#x3D;\mathbb{E}\sum_{i&#x3D;1}^n (\sum_{j&#x3D;1}^k X_{j,i})^2-\sum_{i&#x3D;1}^n (\sum_{j&#x3D;1}^k \mathbb{E}X_{j,i})^2\<br>&amp;&#x3D;\sum_{i&#x3D;1}^n (\sum_{j&#x3D;1}^k\mathbb{E}X_{j,i}^2+2\sum_{j&#x3D;1}^k\sum_{l&#x3D;j+1}^k \mathbb{E}X_{j,i}\mathbb{E}X_{l,i}-\sum_{j&#x3D;1}^k \mathbb{E}^2X_{j,i}-2\sum_{j&#x3D;1}^k\sum_{l&#x3D;j+1}^k \mathbb{E}X_{j,i}\mathbb{E}X_{l,i})\<br>&amp;&#x3D;\sum_{j&#x3D;1}^k \sum_{i&#x3D;1}^n \mathbb{E}X_{j,i}^2-\mathbb{E}^2X_{j,i}&#x3D;\sum_{j&#x3D;1}^k V(X_j).<br>\end{align*}<br>$$</p>
+<h2 id="Homework-2"><a href="#Homework-2" class="headerlink" title="Homework 2"></a>Homework 2</h2><h3 id="Problem-1-Balancing-vectors"><a href="#Problem-1-Balancing-vectors" class="headerlink" title="Problem 1 (Balancing vectors)"></a>Problem 1 (Balancing vectors)</h3><p>Choose $\varepsilon_i\sim X$, where $\mathbb{P}[X&#x3D;1]&#x3D;\mathbb{P}[X&#x3D;-1]&#x3D;\frac{1}{2}$ and $\mathbb{E}[X]&#x3D;0$. Compute<br>$$<br>\mathbb{E}\Vert \sum_{i&#x3D;1}^n \varepsilon_ix_i\Vert_2^2&#x3D;\sum_{i&#x3D;1}^n \mathbb{E}\Vert\epsilon_ix_i\Vert_2^2&#x3D;n\<br>\implies \exists\ \varepsilon_i, \text{ s.t. }\Vert\sum_{i&#x3D;1}^n \varepsilon_ix_i\Vert_2^2\leq n,\text{ i.e. }\Vert\sum_{i&#x3D;1}^n \varepsilon_ix_i\Vert_2\leq \sqrt{n}.<br>$$</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://foreverlasting1202.github.io">Jiazheng Li</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://foreverlasting1202.github.io/2025/04/18/HDP-Note/">https://foreverlasting1202.github.io/2025/04/18/HDP-Note/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles on this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise stated.</span></div></div><div class="tag_share"><div class="post-share"><div class="social-share" data-image="/img/ava.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2025/04/14/2025-4-14/" title="2025.4.14, Why am I"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">Previous</div><div class="info-item-2">2025.4.14, Why am I</div></div><div class="info-2"><div class="info-item-1">I am terribly confused…   If my contribution to recent academic work isn’t truly indispensable, then what is my purpose? Anyone could replace me. Why do I even exist?   The solution I’ve come to now is to grow stronger…   I need to start reading HDP again and struggle to learn English. </div></div></div></a></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comments</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/ava.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Jiazheng Li</div><div class="author-info-description">Incoming PhD at Tsinghua University, College of Artificial Intelligence.</div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/foreverlasting1202"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Homework-1"><span class="toc-number">1.</span> <span class="toc-text">Homework 1</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Problem-1-Expectation-as-the-optimal-estimator"><span class="toc-number">1.1.</span> <span class="toc-text">Problem 1 (Expectation as the optimal estimator)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Problem-2-Expectation-of-random-vectors"><span class="toc-number">1.2.</span> <span class="toc-text">Problem 2 (Expectation of random vectors)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Problem-3-Expectation-as-optimal-estimator-random-vectors"><span class="toc-number">1.3.</span> <span class="toc-text">Problem 3 (Expectation as optimal estimator: random vectors)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Problem-4-A-variance-like-identity"><span class="toc-number">1.4.</span> <span class="toc-text">Problem 4 (A variance-like identity)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#a"><span class="toc-number">1.4.1.</span> <span class="toc-text">(a)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#b"><span class="toc-number">1.4.2.</span> <span class="toc-text">(b)</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Problem-5-Additivity-of-variance"><span class="toc-number">1.5.</span> <span class="toc-text">Problem 5 (Additivity of variance)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#a-1"><span class="toc-number">1.5.1.</span> <span class="toc-text">(a)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#b-1"><span class="toc-number">1.5.2.</span> <span class="toc-text">(b)</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Homework-2"><span class="toc-number">2.</span> <span class="toc-text">Homework 2</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Problem-1-Balancing-vectors"><span class="toc-number">2.1.</span> <span class="toc-text">Problem 1 (Balancing vectors)</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/04/18/HDP-Note/" title="High-Dimensional Probability Course Homework">High-Dimensional Probability Course Homework</a><time datetime="2025-04-17T17:39:18.034Z" title="Created 2025-04-18 01:39:18">2025-04-18</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/04/14/2025-4-14/" title="2025.4.14, Why am I">2025.4.14, Why am I</a><time datetime="2025-04-13T19:23:36.146Z" title="Created 2025-04-14 03:23:36">2025-04-14</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/04/04/2025-4-4/" title="2025.4.4, The terrifying iCloud">2025.4.4, The terrifying iCloud</a><time datetime="2025-04-04T12:28:49.285Z" title="Created 2025-04-04 20:28:49">2025-04-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/03/31/bachelor-capstone-project/" title="Bachelor Capstone Project">Bachelor Capstone Project</a><time datetime="2025-03-30T17:51:29.624Z" title="Created 2025-03-31 01:51:29">2025-03-31</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/03/31/hello-world/" title="First Post">First Post</a><time datetime="2025-03-30T17:51:29.624Z" title="Created 2025-03-31 01:51:29">2025-03-31</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By Jiazheng Li</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.5</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table of Contents"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="Scroll to Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const commentCount = n => {
+    const isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+    if (isCommentCount) {
+      isCommentCount.textContent= n
+    }
+  }
+
+  const initGitalk = (el, path) => {
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyGitalk = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+
+    const gitalk = new Gitalk({
+      clientID: 'd54c1ac5b5906c8278d9',
+      clientSecret: '36a0fdbc2fbb7c66a6067452269ef8171e8ff867',
+      repo: 'blogtalk',
+      owner: 'foreverlasting1202',
+      admin: ['foreverlasting1202'],
+      updateCountCallback: commentCount,
+      ...option,
+      id: isShuoshuo ? path : (option && option.id) || '34b5ec7cf91c4ebe4aa33728f91a4e87'
+    })
+
+    gitalk.render('gitalk-container')
+  }
+
+  const loadGitalk = async(el, path) => {
+    if (typeof Gitalk === 'function') initGitalk(el, path)
+    else {
+      await btf.getCSS('https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css')
+      await btf.getScript('https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js')
+      initGitalk(el, path)
+    }
+  }
+
+  if (isShuoshuo) {
+    'Gitalk' === 'Gitalk'
+      ? window.shuoshuoComment = { loadComment: loadGitalk }
+      : window.loadOtherComment = loadGitalk
+    return
+  }
+
+  if ('Gitalk' === 'Gitalk' || !false) {
+    if (false) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+    else loadGitalk()
+  } else {
+    window.loadOtherComment = loadGitalk
+  }
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
